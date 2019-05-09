@@ -23,14 +23,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private Gtk.ListBox listbox;
     private Category? category_filter;
 
-    // public IssueDialog () {
-    //     Object (
-    //         image_icon: new ThemedIcon (), 
-    //         primary_text: ,
-    //         secondary_text: ,
-    //     );
-    // }
-
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
