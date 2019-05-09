@@ -12,6 +12,7 @@ executable(
     'src/Widgets/CategoryRow.vala',
     'src/Widgets/RepoRow.vala',
     dependencies: [
+        dependency('appstream'),
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
         dependency('granite', version: '>=0.5'),

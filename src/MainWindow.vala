@@ -74,9 +74,26 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         foreach (var app in app_entries) {
-            var desktop_info = new DesktopAppInfo (app.app_id + ".desktop");
-            var repo_row = new RepoRow (desktop_info.get_display_name (), desktop_info.get_icon (), Category.DEFAULT_APPS, app.issues_url);
-            listbox.add (repo_row);
+            var desktop_info = new DesktopAppInfo (app + ".desktop");
+            var metadata = new AppStream.Metadata ();
+            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (app);
+
+            try {
+                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
+
+                var component = metadata.get_component ();
+                if (component != null) {
+                    var repo_row = new RepoRow (
+                        desktop_info.get_display_name (),
+                        desktop_info.get_icon (),
+                        Category.DEFAULT_APPS,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+                    listbox.add (repo_row);
+                }
+            } catch (Error e) {
+                critical (e.message);
+            }
         }
 
         foreach (var entry in system_entries) {
@@ -184,64 +201,20 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         return ((RepoRow) row1).title.collate (((RepoRow) row2).title);
     }
 
-    private struct AppEntry {
-        string app_id;
-        string issues_url;
-    }
-
-    static AppEntry[] app_entries = {
-        AppEntry () {
-            app_id = "io.elementary.appcenter",
-            issues_url = "https://github.com/elementary/appcenter/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.calculator",
-            issues_url = "https://github.com/elementary/calculator/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.calendar",
-            issues_url = "https://github.com/elementary/calendar/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.camera",
-            issues_url = "https://github.com/elementary/camera/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.code",
-            issues_url = "https://github.com/elementary/code/issues/new"
-        },
-        AppEntry () {
-            app_id = "org.gnome.Epiphany",
-            issues_url = "https://gitlab.gnome.org/GNOME/epiphany/blob/master/CONTRIBUTING.md"
-        },
-        AppEntry () {
-            app_id = "io.elementary.files",
-            issues_url = "https://github.com/elementary/files/issues/new"
-        },
-        AppEntry () {
-            app_id = "org.pantheon.mail",
-            issues_url = "https://github.com/elementary/mail/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.music",
-            issues_url = "https://github.com/elementary/music/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.photos",
-            issues_url = "https://github.com/elementary/photos/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.screenshot-tool",
-            issues_url = "https://github.com/elementary/screenshot/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.terminal",
-            issues_url = "https://github.com/elementary/terminal/issues/new"
-        },
-        AppEntry () {
-            app_id = "io.elementary.videos",
-            issues_url = "https://github.com/elementary/videos/issues/new"
-        }
+    static string[] app_entries = {
+         "io.elementary.appcenter",
+         "io.elementary.calculator",
+         "io.elementary.calendar",
+         "io.elementary.camera",
+         "io.elementary.code",
+         "org.gnome.Epiphany",
+         "io.elementary.files",
+         "org.pantheon.mail",
+         "io.elementary.music",
+         "io.elementary.photos",
+         "io.elementary.screenshot-tool",
+         "io.elementary.terminal",
+         "io.elementary.videos"
     };
 
     private struct SystemEntry {
