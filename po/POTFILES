@@ -1,2 +1,4 @@
 src/Application.vala
 src/MainWindow.vala
+src/Widgets/CategoryRow.vala
+src/Widgets/RepoRow.vala

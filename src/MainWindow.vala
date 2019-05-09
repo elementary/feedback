@@ -466,7 +466,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         }
     };
 
-    private enum Category {
+    public enum Category {
         DEFAULT_APPS,
         PANEL,
         SETTINGS,
@@ -483,76 +483,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 default:
                     return _("Default Apps");
             }
-        }
-    }
-
-    private class CategoryRow : Gtk.ListBoxRow {
-        public Category category { get; construct; }
-
-        public CategoryRow (Category category) {
-            Object (category: category);
-        }
-
-        construct {
-            var label = new Gtk.Label (category.to_string ());
-            label.hexpand = true;
-            label.xalign = 0;
-
-            var caret = new Gtk.Image.from_icon_name ("pan-end-symbolic", Gtk.IconSize.MENU);
-
-            var grid = new Gtk.Grid ();
-            grid.margin = 3;
-            grid.margin_start = grid.margin_end = 6;
-            grid.add (label);
-            grid.add (caret);
-
-            add (grid);
-        }
-    }
-
-    private class RepoRow : Gtk.ListBoxRow {
-        public bool selected { get; set; }
-        public Category category { get; construct; }
-        public GLib.Icon? icon { get; construct; }
-        public string title { get; construct; }
-        public string url { get; construct; }
-
-        public RepoRow (string title, GLib.Icon? icon, Category category, string url) {
-            Object (
-                category: category,
-                icon: icon,
-                title: title,
-                url: url
-            );
-        }
-
-        construct {
-            var label = new Gtk.Label (title);
-            label.hexpand = true;
-            label.xalign = 0;
-
-            var selection_icon = new Gtk.Image.from_icon_name ("object-select-symbolic", Gtk.IconSize.MENU);
-            selection_icon.no_show_all = true;
-            selection_icon.visible = false;
-
-            var grid = new Gtk.Grid ();
-            grid.column_spacing = 6;
-            grid.margin = 3;
-            grid.margin_start = grid.margin_end = 6;
-
-            if (icon != null) {
-                var icon = new Gtk.Image.from_gicon (icon, Gtk.IconSize.LARGE_TOOLBAR);
-                icon.pixel_size = 24;
-                grid.add (icon);
-            }
-            grid.add (label);
-            grid.add (selection_icon);
-
-            add (grid);
-
-            notify["selected"].connect (() => {
-                selection_icon.visible = selected;
-            });
         }
     }
 
