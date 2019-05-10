@@ -313,18 +313,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             id = "io.elementary.switchboard.mouse-touchpad"
         },
         SwitchboardEntry () {
-            name = "Power",
-            gettext_domain = "power-plug",
             icon = "preferences-system-power",
-            id = "io.elementary.switchboard.power",
-            issues_url = "https://github.com/elementary/switchboard-plug-power/issues/new"
+            id = "io.elementary.switchboard.power"
         },
         SwitchboardEntry () {
-            name = "Printers",
-            gettext_domain = "printers-plug",
             icon = "printer",
-            id = "io.elementary.switchboard.printers",
-            issues_url = "https://github.com/elementary/switchboard-plug-printers/issues/new"
+            id = "io.elementary.switchboard.printers"
         },
         SwitchboardEntry () {
             name = "Sound",
@@ -368,18 +362,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             id = "io.elementary.switchboard.parental-controls"
         },
         SwitchboardEntry () {
-            name = "Universal Access",
-            gettext_domain = "accessibility-plug",
             icon = "preferences-desktop-accessibility",
-            id = "io.elementary.switchboard.a11y",
-            issues_url = "https://github.com/elementary/switchboard-plug-a11y/issues/new"
+            id = "io.elementary.switchboard.a11y"
         },
         SwitchboardEntry () {
-            name = "User Accounts",
-            gettext_domain = "useraccounts-plug",
             icon = "system-users",
-            id = "io.elementary.switchboard.useraccounts",
-            issues_url = "https://github.com/elementary/switchboard-plug-useraccounts/issues/new"
+            id = "io.elementary.switchboard.useraccounts"
         }
     };
 
