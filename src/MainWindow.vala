@@ -102,7 +102,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         }
 
         foreach (var entry in switchboard_entries) {
-            var desktop_info = new DesktopAppInfo (entry.id + ".desktop");
             var metadata = new AppStream.Metadata ();
             var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
             RepoRow repo_row;
