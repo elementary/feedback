@@ -168,6 +168,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             } catch (Error e) {
                 critical (e.message);
             }
+            destroy ();
         });
     }
 
