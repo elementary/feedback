@@ -102,7 +102,34 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         }
 
         foreach (var entry in switchboard_entries) {
-            var repo_row = new RepoRow (dgettext (entry.gettext_domain, entry.name), new ThemedIcon (entry.icon), Category.SETTINGS, entry.issues_url);
+            var desktop_info = new DesktopAppInfo (entry.id + ".desktop");
+            var metadata = new AppStream.Metadata ();
+            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
+            RepoRow repo_row;
+
+            try {
+                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
+
+                var component = metadata.get_component ();
+                if (component != null) {
+                    repo_row = new RepoRow (
+                        component.name,
+                        new ThemedIcon (entry.icon),
+                        Category.SETTINGS,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+                }
+            } catch (Error e) {
+                critical (e.message);
+                repo_row = new RepoRow (
+                    dgettext (entry.gettext_domain, entry.name),
+                    new ThemedIcon (entry.icon),
+                    Category.SETTINGS,
+                    entry.issues_url
+                );
+            }
+
+
             listbox.add (repo_row);
         }
 
@@ -249,129 +276,111 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         string name;
         string gettext_domain;
         string icon;
+        string id;
         string issues_url;
     }
 
     static SwitchboardEntry[] switchboard_entries = {
         SwitchboardEntry () {
-            name = "Applications",
-            gettext_domain = "applications-plug",
             icon = "preferences-desktop-applications",
-            issues_url = "https://github.com/elementary/switchboard-plug-applications/issues/new"
+            id = "io.elementary.switchboard.applications"
         },
         SwitchboardEntry () {
-            name = "Desktop",
-            gettext_domain = "pantheon-desktop-plug",
             icon = "preferences-desktop-wallpaper",
-            issues_url = "https://github.com/elementary/switchboard-plug-pantheon-shell/issues/new"
+            id = "io.elementary.switchboard.pantheon-shell"
         },
         SwitchboardEntry () {
-            name = "Language & Region",
-            gettext_domain = "locale-plug",
             icon = "preferences-desktop-locale",
-            issues_url = "https://github.com/elementary/switchboard-plug-locale/issues/new"
+            id = "io.elementary.switchboard.locale"
         },
         SwitchboardEntry () {
-            name = "Notifications",
-            gettext_domain = "notifications-plug",
             icon = "preferences-system-notifications",
-            issues_url = "https://github.com/elementary/switchboard-plug-notifications/issues/new"
+            id = "io.elementary.switchboard-plug-notifications"
         },
         SwitchboardEntry () {
-            name = "Security & Privacy",
-            gettext_domain = "pantheon-security-privacy-plug",
             icon = "preferences-system-privacy",
-            issues_url = "https://github.com/elementary/switchboard-plug-security-privacy/issues/new"
+            id = "io.elementary.switchboard.security-privacy"
         },
         SwitchboardEntry () {
-            name = "Displays",
-            gettext_domain = "pantheon-display-plug",
             icon = "preferences-desktop-display",
-            issues_url = "https://github.com/elementary/switchboard-plug-display/issues/new"
+            id = "io.elementary.switchboard.display"
         },
         SwitchboardEntry () {
-            name = "Keyboard",
-            gettext_domain = "keyboard-plug",
             icon = "preferences-desktop-keyboard",
-            issues_url = "https://github.com/elementary/switchboard-plug-keyboard/issues/new"
+            id = "io.elementary.switchboard.keyboard"
         },
         SwitchboardEntry () {
-            name = "Mouse & Touchpad",
-            gettext_domain = "mouse-touchpad-plug",
             icon = "preferences-desktop-peripherals",
-            issues_url = "https://github.com/elementary/switchboard-plug-mouse-touchpad/issues/new"
+            id = "io.elementary.switchboard.mouse-touchpad"
         },
         SwitchboardEntry () {
             name = "Power",
             gettext_domain = "power-plug",
             icon = "preferences-system-power",
+            id = "io.elementary.switchboard.power",
             issues_url = "https://github.com/elementary/switchboard-plug-power/issues/new"
         },
         SwitchboardEntry () {
             name = "Printers",
             gettext_domain = "printers-plug",
             icon = "printer",
+            id = "io.elementary.switchboard.printers",
             issues_url = "https://github.com/elementary/switchboard-plug-printers/issues/new"
         },
         SwitchboardEntry () {
             name = "Sound",
             gettext_domain = "sound-plug",
             icon = "preferences-desktop-sound",
+            id = "io.elementary.switchboard.sound",
             issues_url = "https://github.com/elementary/switchboard-plug-sound/issues/new"
         },
         SwitchboardEntry () {
-            name = "Bluetooth",
-            gettext_domain = "bluetooth-plug",
             icon = "preferences-bluetooth",
-            issues_url = "https://github.com/elementary/switchboard-plug-bluetooth/issues/new"
+            id = "io.elementary.switchboard.bluetooth"
         },
         SwitchboardEntry () {
-            name = "Network",
-            gettext_domain = "networking-plug",
             icon = "preferences-system-network",
-            issues_url = "https://github.com/elementary/switchboard-plug-networking/issues/new"
+            id = "io.elementary.switchboard.network"
         },
         SwitchboardEntry () {
             name = "Online Accounts",
             gettext_domain = "pantheon-online-accounts",
             icon = "preferences-desktop-online-accounts",
-            issues_url = "https://github.com/elementary/switchboard-plug-online-accounts/issues/new"
+            id = "io.elementary.switchboard.online-accounts",
+            issues_url = "https://github.com/elementary/switchboard-plug-onlineaccounts/issues/new"
         },
         SwitchboardEntry () {
             name = "Sharing",
             gettext_domain = "sharing-plug",
             icon = "preferences-system-sharing",
+            id = "io.elementary.switchboard.sharing",
             issues_url = "https://github.com/elementary/switchboard-plug-sharing/issues/new"
         },
         SwitchboardEntry () {
-            name = "About",
-            gettext_domain = "about-plug",
             icon = "dialog-information",
-            issues_url = "https://github.com/elementary/switchboard-plug-about/issues/new"
+            id = "io.elementary.switchboard.about"
         },
         SwitchboardEntry () {
-            name = "Date & Time",
-            gettext_domain = "datetime-plug",
             icon = "preferences-system-time",
-            issues_url = "https://github.com/elementary/switchboard-plug-datetime/issues/new"
+            id = "io.elementary.switchboard-plug-datetime"
         },
         SwitchboardEntry () {
-            name = "Parental Control",
-            gettext_domain = "parental-controls-plug",
             icon = "preferences-system-parental-controls",
-            issues_url = "https://github.com/elementary/switchboard-plug-parental-controls/issues/new"
+            id = "io.elementary.switchboard.parental-controls"
         },
         SwitchboardEntry () {
             name = "Universal Access",
             gettext_domain = "accessibility-plug",
             icon = "preferences-desktop-accessibility",
+            id = "io.elementary.switchboard.a11y",
             issues_url = "https://github.com/elementary/switchboard-plug-a11y/issues/new"
         },
         SwitchboardEntry () {
             name = "User Accounts",
             gettext_domain = "useraccounts-plug",
             icon = "system-users",
-            issues_url = "https://github.com/elementary/switchboard-plug-accounts/issues/new"
+            id = "io.elementary.switchboard.useraccounts",
+            issues_url = "https://github.com/elementary/switchboard-plug-useraccounts/issues/new"
         }
     };
 
