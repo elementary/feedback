@@ -1,6 +1,8 @@
 # Feedback
 GitHub Issue Reporter
 
+![Feedback Screenshot](data/screenshot.png?raw=true)
+
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
