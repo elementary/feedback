@@ -1,0 +1,16 @@
+Source: io.elementary.feedback
+Section: x11
+Priority: extra
+Maintainer: elementary, Inc. <builds@elementary.io>
+Build-Depends: debhelper (>= 10.5.1),
+               libgranite-dev,
+               libgtk-3-dev,
+               meson,
+               valac
+Standards-Version: 4.1.1
+
+Package: io.elementary.feedback
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Submit and track issue reports
+ Feedback assists users in reporting issues against the correct GitHub repository.
