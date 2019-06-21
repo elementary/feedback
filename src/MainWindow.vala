@@ -40,6 +40,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var primary_label = new Gtk.Label (_("Which of the Following Are You Seeing an Issue With?"));
         primary_label.xalign = 0;
+        primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
         var secondary_label = new Gtk.Label (_("Please select a component from the list."));
         secondary_label.xalign = 0;
