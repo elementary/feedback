@@ -42,7 +42,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         primary_label.xalign = 0;
         primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
-        var secondary_label = new Gtk.Label (_("Reporting a problem will open your browser to finish the process."));
+        var secondary_label = new Gtk.Label (_("Reporting a problem will open your web browser to finish the process."));
         secondary_label.xalign = 0;
 
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
