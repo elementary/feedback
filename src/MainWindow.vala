@@ -38,11 +38,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var image_icon = new Gtk.Image.from_icon_name ("dialog-question", Gtk.IconSize.DIALOG);
 
-        var primary_label = new Gtk.Label (_("Which of the Following Are You Seeing an Issue With?"));
+        var primary_label = new Gtk.Label (_("Where Are You Seeing an Issue?"));
         primary_label.xalign = 0;
         primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
-        var secondary_label = new Gtk.Label (_("Please select a component from the list."));
+        var secondary_label = new Gtk.Label (_("Select a component from the list to report a problem from your web browser."));
         secondary_label.xalign = 0;
 
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
