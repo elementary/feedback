@@ -8,75 +8,80 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-07-06 10:46+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback/"
+"ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Informació de retorn"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "On veieu un problema?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Seleccioneu un component de la llista per informar d'un problema des del "
+"navegador web."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Categories"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel·la"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "Informeu d'un problema"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "Menú d'aplicacions"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Pantalla d'entrada o de bloqueig"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
-msgstr ""
+msgstr "Aspecte i sensació"
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Multitasca o gestió de finestres"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "Notificacions"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "Sessió"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indicadors del plafó"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "Paràmetres del sistema"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "Components de l'escriptori"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
-msgstr ""
+msgstr "Aplicacions per defecte"
