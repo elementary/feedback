@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-06-23 05:26+0000\n"
+"PO-Revision-Date: 2019-07-06 10:46+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/feedback/pt_BR/>\n"
@@ -25,61 +25,63 @@ msgstr "Opinião"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Onde você está vendo um problema?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Selecione um componente da lista para relatar um problema no seu navegador "
+"da web."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "Reportar problema"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "Menu de Aplicações"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Tela de Bloqueio ou de Login"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
-msgstr ""
+msgstr "Aparência e Sensação"
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Multitarefa ou Gerenciamento de Janelas"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "Notificações"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "Sessão"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indicadores de Painel"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "Configurações de Sistema"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "Componentes da Área de Trabalho"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
-msgstr ""
+msgstr "Apps padrão"
