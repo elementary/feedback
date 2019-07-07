@@ -8,75 +8,78 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-07-08 16:28+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
+"mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "अभिप्राय"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "आपण कुठे समस्या पहात आहात?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
-msgstr ""
+msgstr "आपल्या वेब ब्राउझरमधील समस्येची तक्रार करण्यासाठी सूचीमधील घटक निवडा."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "श्रेण्या"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करा"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "समस्या नोंदवा"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "अनुप्रयोग मेनू"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "लॉक किंवा लॉग इन स्क्रीन"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
-msgstr ""
+msgstr "दिसते आणि वाटते"
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "मल्टीटास्किंग किंवा विंडो व्यवस्थापन"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "अधिसूचना"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "सत्र"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "पॅनेल निर्देशक"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "प्रणाली संयोजना"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "डेस्कटॉप घटक"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
-msgstr ""
+msgstr "डीफॉल्ट अॅप्स"
