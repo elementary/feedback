@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-07-10 18:46+0000\n"
+"PO-Revision-Date: 2019-07-11 21:46+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
 "feedback/eo/>\n"
@@ -21,64 +21,64 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Prijuĝaĵoj"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Kie vi trovis problemon?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
-msgstr ""
+msgstr "Elektu elementon en la listo por raporti problemon per via foliumilo."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategorioj"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
-msgstr ""
+msgstr "Rezigni"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "Raporti problemon"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "Aplikaĵa menuo"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Ŝlosa aŭ ensaluta ekrano"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
-msgstr ""
+msgstr "Fasado"
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Taskbaskulo aŭ Fenestra Mastrumado"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "Avertoj"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "Seanco"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Panelaj indikiloj"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "Sistemaj agordoj"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "Labortablaj elementoj"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
