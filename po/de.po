@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
 "PO-Revision-Date: 2019-09-11 09:22+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Last-Translator: DerMuffin <piepmatz101999@gmail.com>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback/"
 "de/>\n"
 "Language: de\n"
@@ -68,7 +68,7 @@ msgstr "Benachrichtigungen"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "Sitzung"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
@@ -80,7 +80,7 @@ msgstr "Systemeinstellungen"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "Desktop Komponenten"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
