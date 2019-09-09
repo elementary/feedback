@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-09-11 09:22+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback/"
+"de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -29,14 +31,16 @@ msgstr ""
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Wählen sie einen Eintrag aus der Liste aus, um ein Problem in Ihrem "
+"Webbrowser zu melden."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategorien"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
@@ -44,11 +48,11 @@ msgstr ""
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "Start Menü"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Sperr- oder Loginbildschirm"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
@@ -56,11 +60,11 @@ msgstr ""
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Multitasking oder Fenster Management"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "Benachrichtigungen"
 
 #: src/MainWindow.vala:458
 msgid "Session"
@@ -68,11 +72,11 @@ msgstr ""
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Panel Benachrichtigungen"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "Systemeinstellungen"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
@@ -80,4 +84,4 @@ msgstr ""
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
-msgstr ""
+msgstr "Standard Apps"
