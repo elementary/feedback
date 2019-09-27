@@ -194,23 +194,23 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     static AppEntry[] app_entries = {
         AppEntry () {
             app_id = "io.elementary.appcenter",
-            issues_url = "https://github.com/elementary/appcenter/issues/new"
+            issues_url = "https://github.com/elementary/appcenter/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.calculator",
-            issues_url = "https://github.com/elementary/calculator/issues/new"
+            issues_url = "https://github.com/elementary/calculator/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.calendar",
-            issues_url = "https://github.com/elementary/calendar/issues/new"
+            issues_url = "https://github.com/elementary/calendar/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.camera",
-            issues_url = "https://github.com/elementary/camera/issues/new"
+            issues_url = "https://github.com/elementary/camera/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.code",
-            issues_url = "https://github.com/elementary/code/issues/new"
+            issues_url = "https://github.com/elementary/code/issues/new/choose"
         },
         AppEntry () {
             app_id = "org.gnome.Epiphany",
@@ -218,31 +218,31 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         },
         AppEntry () {
             app_id = "io.elementary.files",
-            issues_url = "https://github.com/elementary/files/issues/new"
+            issues_url = "https://github.com/elementary/files/issues/new/choose"
         },
         AppEntry () {
             app_id = "org.pantheon.mail",
-            issues_url = "https://github.com/elementary/mail/issues/new"
+            issues_url = "https://github.com/elementary/mail/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.music",
-            issues_url = "https://github.com/elementary/music/issues/new"
+            issues_url = "https://github.com/elementary/music/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.photos",
-            issues_url = "https://github.com/elementary/photos/issues/new"
+            issues_url = "https://github.com/elementary/photos/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.screenshot-tool",
-            issues_url = "https://github.com/elementary/screenshot/issues/new"
+            issues_url = "https://github.com/elementary/screenshot/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.terminal",
-            issues_url = "https://github.com/elementary/terminal/issues/new"
+            issues_url = "https://github.com/elementary/terminal/issues/new/choose"
         },
         AppEntry () {
             app_id = "io.elementary.videos",
-            issues_url = "https://github.com/elementary/videos/issues/new"
+            issues_url = "https://github.com/elementary/videos/issues/new/choose"
         }
     };
 
@@ -254,23 +254,23 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     static SystemEntry[] system_entries = {
         SystemEntry () {
             name = _("Applications Menu"),
-            issues_url = "https://github.com/elementary/applications-menu/issues/new"
+            issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
         },
         SystemEntry () {
             name = _("Lock or Login Screen"),
-            issues_url = "https://github.com/elementary/greeter/issues/new"
+            issues_url = "https://github.com/elementary/greeter/issues/new/choose"
         },
         SystemEntry () {
             name = _("Look & Feel"),
-            issues_url = "https://github.com/elementary/stylesheet/issues/new"
+            issues_url = "https://github.com/elementary/stylesheet/issues/new/choose"
         },
         SystemEntry () {
             name = _("Multitasking or Window Management"),
-            issues_url = "https://github.com/elementary/gala/issues/new"
+            issues_url = "https://github.com/elementary/gala/issues/new/choose"
         },
         SystemEntry () {
             name = _("Notifications"),
-            issues_url = "https://github.com/elementary/gala/issues/new"
+            issues_url = "https://github.com/elementary/gala/issues/new/choose"
         }
     };
 
@@ -286,121 +286,121 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             name = "Applications",
             gettext_domain = "applications-plug",
             icon = "preferences-desktop-applications",
-            issues_url = "https://github.com/elementary/switchboard-plug-applications/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-applications/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Desktop",
             gettext_domain = "pantheon-desktop-plug",
             icon = "preferences-desktop-wallpaper",
-            issues_url = "https://github.com/elementary/switchboard-plug-pantheon-shell/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-pantheon-shell/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Language & Region",
             gettext_domain = "locale-plug",
             icon = "preferences-desktop-locale",
-            issues_url = "https://github.com/elementary/switchboard-plug-locale/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-locale/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Notifications",
             gettext_domain = "notifications-plug",
             icon = "preferences-system-notifications",
-            issues_url = "https://github.com/elementary/switchboard-plug-notifications/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-notifications/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Security & Privacy",
             gettext_domain = "pantheon-security-privacy-plug",
             icon = "preferences-system-privacy",
-            issues_url = "https://github.com/elementary/switchboard-plug-security-privacy/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-security-privacy/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Displays",
             gettext_domain = "pantheon-display-plug",
             icon = "preferences-desktop-display",
-            issues_url = "https://github.com/elementary/switchboard-plug-display/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-display/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Keyboard",
             gettext_domain = "keyboard-plug",
             icon = "preferences-desktop-keyboard",
-            issues_url = "https://github.com/elementary/switchboard-plug-keyboard/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-keyboard/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Mouse & Touchpad",
             gettext_domain = "mouse-touchpad-plug",
             icon = "preferences-desktop-peripherals",
-            issues_url = "https://github.com/elementary/switchboard-plug-mouse-touchpad/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-mouse-touchpad/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Power",
             gettext_domain = "power-plug",
             icon = "preferences-system-power",
-            issues_url = "https://github.com/elementary/switchboard-plug-power/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-power/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Printers",
             gettext_domain = "printers-plug",
             icon = "printer",
-            issues_url = "https://github.com/elementary/switchboard-plug-printers/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-printers/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Sound",
             gettext_domain = "sound-plug",
             icon = "preferences-desktop-sound",
-            issues_url = "https://github.com/elementary/switchboard-plug-sound/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-sound/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Bluetooth",
             gettext_domain = "bluetooth-plug",
             icon = "preferences-bluetooth",
-            issues_url = "https://github.com/elementary/switchboard-plug-bluetooth/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-bluetooth/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Network",
             gettext_domain = "networking-plug",
             icon = "preferences-system-network",
-            issues_url = "https://github.com/elementary/switchboard-plug-networking/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-networking/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Online Accounts",
             gettext_domain = "pantheon-online-accounts",
             icon = "preferences-desktop-online-accounts",
-            issues_url = "https://github.com/elementary/switchboard-plug-online-accounts/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-online-accounts/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Sharing",
             gettext_domain = "sharing-plug",
             icon = "preferences-system-sharing",
-            issues_url = "https://github.com/elementary/switchboard-plug-sharing/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-sharing/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "About",
             gettext_domain = "about-plug",
             icon = "dialog-information",
-            issues_url = "https://github.com/elementary/switchboard-plug-about/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-about/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Date & Time",
             gettext_domain = "datetime-plug",
             icon = "preferences-system-time",
-            issues_url = "https://github.com/elementary/switchboard-plug-datetime/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-datetime/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Parental Control",
             gettext_domain = "parental-controls-plug",
             icon = "preferences-system-parental-controls",
-            issues_url = "https://github.com/elementary/switchboard-plug-parental-controls/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-parental-controls/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "Universal Access",
             gettext_domain = "accessibility-plug",
             icon = "preferences-desktop-accessibility",
-            issues_url = "https://github.com/elementary/switchboard-plug-a11y/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-a11y/issues/new/choose"
         },
         SwitchboardEntry () {
             name = "User Accounts",
             gettext_domain = "useraccounts-plug",
             icon = "system-users",
-            issues_url = "https://github.com/elementary/switchboard-plug-accounts/issues/new"
+            issues_url = "https://github.com/elementary/switchboard-plug-accounts/issues/new/choose"
         }
     };
 
@@ -416,55 +416,55 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             name = "Bluetooth",
             gettext_domain = "bluetooth-plug",
             icon = "bluetooth-active-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-bluetooth/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-bluetooth/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Date & Time",
             gettext_domain = "datetime-plug",
             icon = "appointment-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-datetime/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-datetime/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Keyboard",
             gettext_domain = "keyboard-plug",
             icon = "input-keyboard-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-keyboard/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-keyboard/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Network",
             gettext_domain = "pantheon-network-plug",
             icon = "network-wireless-signal-excellent-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-network/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-network/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Night Light",
             gettext_domain = "pantheon-display-plug",
             icon = "night-light-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-nightlight/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-nightlight/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Notifications",
             gettext_domain = "notifications-plug",
             icon = "notification-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-notifications/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-notifications/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Power",
             gettext_domain = "power-plug",
             icon = "battery-full-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-power/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-power/issues/new/choose"
         },
         WingpanelEntry () {
             name = N_("Session"),
             gettext_domain = "about-plug",
             icon = "system-shutdown-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-session/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-session/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Sound",
             gettext_domain = "sound-plug",
             icon = "audio-volume-high-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-sound/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-sound/issues/new/choose"
         }
     };
 
