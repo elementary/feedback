@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-10-04 02:54+0000\n"
-"Last-Translator: bar <1174418120@163.com>\n"
+"PO-Revision-Date: 2019-10-05 03:23+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/feedback/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -42,7 +42,7 @@ msgstr "取消"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr "提交问题"
+msgstr "报告问题"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
