@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
 "PO-Revision-Date: 2019-10-04 02:54+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"Last-Translator: bar <1174418120@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/feedback/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "反馈"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
@@ -42,7 +42,7 @@ msgstr "取消"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "提交问题"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
