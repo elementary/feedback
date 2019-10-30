@@ -14,7 +14,9 @@ executable(
     'src/Application.vala',
     'src/MainWindow.vala',
     'src/Widgets/CategoryRow.vala',
+    'src/Widgets/TextView.vala',
     'src/Widgets/RepoRow.vala',
+    'src/Dialogs/IssueReporter.vala',
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
