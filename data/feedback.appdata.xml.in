@@ -9,6 +9,15 @@
   <description>
     <p></p>
   </description>
+  <releases>
+    <release version="1.0.1" date="2019-11-04" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <provides>
     <binary>io.elementary.feedback</binary>
   </provides>
