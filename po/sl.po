@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:42+0200\n"
-"PO-Revision-Date: 2019-12-20 00:44+0000\n"
+"PO-Revision-Date: 2020-02-15 20:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
 "feedback/sl/>\n"
@@ -22,20 +22,22 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Povratne informacije"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Kje vidite težavo?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Izberite komponento iz seznama, da obvestite o problemu iz vašega spletnega "
+"brskalnika."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategorije"
 
 #: src/MainWindow.vala:117
 msgid "Cancel"
@@ -43,44 +45,44 @@ msgstr "Prekliči"
 
 #: src/MainWindow.vala:120
 msgid "Report Problem"
-msgstr ""
+msgstr "Obvestite o problemu"
 
 #: src/MainWindow.vala:256
 msgid "Applications Menu"
-msgstr ""
+msgstr "Aplikacijski meni"
 
 #: src/MainWindow.vala:260
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Zaklenjen ali prijavni zaslon"
 
 #: src/MainWindow.vala:264
 msgid "Look & Feel"
-msgstr ""
+msgstr "Videz in vtis"
 
 #: src/MainWindow.vala:268
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Večopravilnost ali upravljanje z okni"
 
 #: src/MainWindow.vala:272
 msgid "Notifications"
-msgstr ""
+msgstr "Obvestila"
 
 #: src/MainWindow.vala:458
 msgid "Session"
-msgstr ""
+msgstr "Seja"
 
 #: src/MainWindow.vala:480
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indikatorji v zgornji vrstici"
 
 #: src/MainWindow.vala:482
 msgid "System Settings"
-msgstr ""
+msgstr "Sistemske nastavitve"
 
 #: src/MainWindow.vala:484
 msgid "Desktop Components"
-msgstr ""
+msgstr "Namizne komponente"
 
 #: src/MainWindow.vala:486
 msgid "Default Apps"
-msgstr ""
+msgstr "Privzete aplikacije"
