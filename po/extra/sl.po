@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-16 11:12-0800\n"
-"PO-Revision-Date: 2020-01-08 00:07+0000\n"
-"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"PO-Revision-Date: 2020-02-15 20:08+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/sl/>\n"
 "Language: sl\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
-msgstr ""
+msgstr "Povratne informacije"
 
 #: data/feedback.appdata.xml.in:16
 msgid "Updated translations"
@@ -34,16 +34,16 @@ msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "Oddajte in sledite poročilom o težavah"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "Poročevalec težav"
 
 #: data/feedback.desktop.in:7
 msgid "bug"
-msgstr ""
+msgstr "bug"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "težava;poročilo;hrošč;issue;bug;"
