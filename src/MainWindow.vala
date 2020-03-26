@@ -26,7 +26,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: "bug",
+            icon_name: "io.elementary.feedback",
             title: _("Feedback")
         );
     }
@@ -36,7 +36,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         titlebar.set_custom_title (new Gtk.Grid ());
 
-        var image_icon = new Gtk.Image.from_icon_name ("dialog-question", Gtk.IconSize.DIALOG);
+        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG);
 
         var primary_label = new Gtk.Label (_("Where Are You Seeing an Issue?"));
         primary_label.xalign = 0;
