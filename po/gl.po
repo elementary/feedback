@@ -7,15 +7,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:18-0700\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"PO-Revision-Date: 2019-09-19 18:26+0000\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
+"feedback/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:30
 msgid "Feedback"
+msgstr "Observacións"
+
+#: src/MainWindow.vala:41
+msgid "Where Are You Seeing an Issue?"
+msgstr "Onde percibiu un problema?"
+
+#: src/MainWindow.vala:45
+msgid ""
+"Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Seleccione un compoñente da lista para informar dun problema desde o seu "
+"navegador."
+
+#: src/MainWindow.vala:61
+msgid "Categories"
+msgstr "Categorías"
+
+#: src/MainWindow.vala:117
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/MainWindow.vala:120
+msgid "Report Problem"
+msgstr "Informar dun problema"
+
+#: src/MainWindow.vala:256
+msgid "Applications Menu"
+msgstr "Menú de aplicativos"
+
+#: src/MainWindow.vala:260
+msgid "Lock or Login Screen"
+msgstr "Pantalla de bloqueo ou de acceso"
+
+#: src/MainWindow.vala:264
+msgid "Look & Feel"
+msgstr "Aspecto e comportamento"
+
+#: src/MainWindow.vala:268
+msgid "Multitasking or Window Management"
+msgstr "Multitarefa ou xestión de xanelas"
+
+#: src/MainWindow.vala:272
+msgid "Notifications"
+msgstr "Notificacións"
+
+#: src/MainWindow.vala:458
+msgid "Session"
+msgstr "Sesión"
+
+#: src/MainWindow.vala:480
+msgid "Panel Indicators"
+msgstr "Indicadores do panel"
+
+#: src/MainWindow.vala:482
+msgid "System Settings"
+msgstr "Configuración do sistema"
+
+#: src/MainWindow.vala:484
+msgid "Desktop Components"
+msgstr "Compoñentes do escritorio"
+
+#: src/MainWindow.vala:486
+msgid "Default Apps"
+msgstr "Aplicacións predeterminadas"

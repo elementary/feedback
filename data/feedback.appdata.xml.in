@@ -9,9 +9,23 @@
   <description>
     <p></p>
   </description>
+  <releases>
+    <release version="1.0.1" date="2019-11-04" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <provides>
     <binary>io.elementary.feedback</binary>
   </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/feedback/master/data/screenshot.png</image>
+    </screenshot>
+  </screenshots>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>

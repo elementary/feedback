@@ -7,23 +7,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:24-0700\n"
-"PO-Revision-Date: 2019-05-08 19:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-03-26 18:20+0000\n"
+"PO-Revision-Date: 2019-06-29 17:51+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:45
-msgid "elementary, Inc."
+#: data/feedback.appdata.xml.in:16
+msgid "Updated translations"
 msgstr ""
+
+#: data/feedback.appdata.xml.in:59
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
@@ -34,7 +40,7 @@ msgid "Issue Reporter"
 msgstr ""
 
 #: data/feedback.desktop.in:7
-msgid "bug"
+msgid "io.elementary.feedback"
 msgstr ""
 
 #: data/feedback.desktop.in:8

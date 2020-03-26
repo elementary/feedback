@@ -7,16 +7,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:18-0700\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"PO-Revision-Date: 2019-07-06 10:46+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"desktop/feedback/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:30
 msgid "Feedback"
+msgstr "Opinião"
+
+#: src/MainWindow.vala:41
+msgid "Where Are You Seeing an Issue?"
+msgstr "Onde você está vendo um problema?"
+
+#: src/MainWindow.vala:45
+msgid ""
+"Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Selecione um componente da lista para relatar um problema no seu navegador "
+"da web."
+
+#: src/MainWindow.vala:61
+msgid "Categories"
+msgstr "Categorias"
+
+#: src/MainWindow.vala:117
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/MainWindow.vala:120
+msgid "Report Problem"
+msgstr "Reportar problema"
+
+#: src/MainWindow.vala:256
+msgid "Applications Menu"
+msgstr "Menu de Aplicações"
+
+#: src/MainWindow.vala:260
+msgid "Lock or Login Screen"
+msgstr "Tela de Bloqueio ou de Login"
+
+#: src/MainWindow.vala:264
+msgid "Look & Feel"
+msgstr "Aparência e Sensação"
+
+#: src/MainWindow.vala:268
+msgid "Multitasking or Window Management"
+msgstr "Multitarefa ou Gerenciamento de Janelas"
+
+#: src/MainWindow.vala:272
+msgid "Notifications"
+msgstr "Notificações"
+
+#: src/MainWindow.vala:458
+msgid "Session"
+msgstr "Sessão"
+
+#: src/MainWindow.vala:480
+msgid "Panel Indicators"
+msgstr "Indicadores de Painel"
+
+#: src/MainWindow.vala:482
+msgid "System Settings"
+msgstr "Configurações de Sistema"
+
+#: src/MainWindow.vala:484
+msgid "Desktop Components"
+msgstr "Componentes da Área de Trabalho"
+
+#: src/MainWindow.vala:486
+msgid "Default Apps"
+msgstr "Apps padrão"

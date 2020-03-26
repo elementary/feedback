@@ -7,36 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:24-0700\n"
-"PO-Revision-Date: 2019-05-08 19:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-03-26 18:20+0000\n"
+"PO-Revision-Date: 2019-11-01 23:23+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
+msgstr "フィードバック"
+
+#: data/feedback.appdata.xml.in:16
+msgid "Updated translations"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:45
+#: data/feedback.appdata.xml.in:59
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "問題レポートを作成し追跡します"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "問題報告アプリ"
 
 #: data/feedback.desktop.in:7
-msgid "bug"
+msgid "io.elementary.feedback"
 msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "issue;report;bug;問題;報告;バグ;"
+
+#~ msgid "bug"
+#~ msgstr "bug"

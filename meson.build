@@ -1,4 +1,8 @@
-project('io.elementary.feedback', 'vala', 'c')
+project(
+    'io.elementary.feedback',
+    'vala', 'c',
+    version: '1.0'
+)
 
 gnome = import('gnome')
 i18n = import('i18n')

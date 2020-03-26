@@ -26,7 +26,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            icon_name: "bug",
+            icon_name: "io.elementary.feedback",
             title: _("Feedback")
         );
     }
@@ -36,12 +36,13 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         titlebar.set_custom_title (new Gtk.Grid ());
 
-        var image_icon = new Gtk.Image.from_icon_name ("dialog-question", Gtk.IconSize.DIALOG);
+        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG);
 
-        var primary_label = new Gtk.Label (_("Which of the Following Are You Seeing an Issue With?"));
+        var primary_label = new Gtk.Label (_("Where Are You Seeing an Issue?"));
         primary_label.xalign = 0;
+        primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
-        var secondary_label = new Gtk.Label (_("Please select a component from the list."));
+        var secondary_label = new Gtk.Label (_("Select a component from the list to report a problem from your web browser."));
         secondary_label.xalign = 0;
 
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
@@ -120,12 +121,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 }
             } catch (Error e) {
                 critical (e.message);
-                repo_row = new RepoRow (
-                    dgettext (entry.gettext_domain, entry.name),
-                    new ThemedIcon (entry.icon),
-                    Category.SETTINGS,
-                    entry.issues_url
-                );
             }
 
 
@@ -211,6 +206,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             } catch (Error e) {
                 critical (e.message);
             }
+            destroy ();
         });
     }
 
@@ -251,32 +247,29 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     static SystemEntry[] system_entries = {
         SystemEntry () {
             name = _("Applications Menu"),
-            issues_url = "https://github.com/elementary/applications-menu/issues/new"
+            issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
         },
         SystemEntry () {
             name = _("Lock or Login Screen"),
-            issues_url = "https://github.com/elementary/greeter/issues/new"
+            issues_url = "https://github.com/elementary/greeter/issues/new/choose"
         },
         SystemEntry () {
             name = _("Look & Feel"),
-            issues_url = "https://github.com/elementary/stylesheet/issues/new"
+            issues_url = "https://github.com/elementary/stylesheet/issues/new/choose"
         },
         SystemEntry () {
             name = _("Multitasking or Window Management"),
-            issues_url = "https://github.com/elementary/gala/issues/new"
+            issues_url = "https://github.com/elementary/gala/issues/new/choose"
         },
         SystemEntry () {
             name = _("Notifications"),
-            issues_url = "https://github.com/elementary/gala/issues/new"
+            issues_url = "https://github.com/elementary/gala/issues/new/choose"
         }
     };
 
     private struct SwitchboardEntry {
-        string name;
-        string gettext_domain;
         string icon;
         string id;
-        string issues_url;
     }
 
     static SwitchboardEntry[] switchboard_entries = {
@@ -294,7 +287,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         },
         SwitchboardEntry () {
             icon = "preferences-system-notifications",
-            id = "io.elementary.switchboard-plug-notifications"
+            id = "io.elementary.switchboard.notifications"
         },
         SwitchboardEntry () {
             icon = "preferences-system-privacy",
@@ -321,11 +314,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             id = "io.elementary.switchboard.printers"
         },
         SwitchboardEntry () {
-            name = "Sound",
-            gettext_domain = "sound-plug",
             icon = "preferences-desktop-sound",
-            id = "io.elementary.switchboard.sound",
-            issues_url = "https://github.com/elementary/switchboard-plug-sound/issues/new"
+            id = "io.elementary.switchboard.sound"
         },
         SwitchboardEntry () {
             icon = "preferences-bluetooth",
@@ -336,18 +326,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             id = "io.elementary.switchboard.network"
         },
         SwitchboardEntry () {
-            name = "Online Accounts",
-            gettext_domain = "pantheon-online-accounts",
             icon = "preferences-desktop-online-accounts",
-            id = "io.elementary.switchboard.online-accounts",
-            issues_url = "https://github.com/elementary/switchboard-plug-onlineaccounts/issues/new"
+            id = "io.elementary.switchboard.onlineaccounts"
         },
         SwitchboardEntry () {
-            name = "Sharing",
-            gettext_domain = "sharing-plug",
             icon = "preferences-system-sharing",
-            id = "io.elementary.switchboard.sharing",
-            issues_url = "https://github.com/elementary/switchboard-plug-sharing/issues/new"
+            id = "io.elementary.switchboard.sharing"
         },
         SwitchboardEntry () {
             icon = "dialog-information",
@@ -355,7 +339,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         },
         SwitchboardEntry () {
             icon = "preferences-system-time",
-            id = "io.elementary.switchboard-plug-datetime"
+            id = "io.elementary.switchboard.datetime"
         },
         SwitchboardEntry () {
             icon = "preferences-system-parental-controls",
@@ -383,55 +367,55 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             name = "Bluetooth",
             gettext_domain = "bluetooth-plug",
             icon = "bluetooth-active-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-bluetooth/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-bluetooth/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Date & Time",
             gettext_domain = "datetime-plug",
             icon = "appointment-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-datetime/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-datetime/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Keyboard",
             gettext_domain = "keyboard-plug",
             icon = "input-keyboard-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-keyboard/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-keyboard/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Network",
             gettext_domain = "pantheon-network-plug",
             icon = "network-wireless-signal-excellent-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-network/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-network/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Night Light",
             gettext_domain = "pantheon-display-plug",
             icon = "night-light-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-nightlight/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-nightlight/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Notifications",
             gettext_domain = "notifications-plug",
             icon = "notification-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-notifications/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-notifications/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Power",
             gettext_domain = "power-plug",
             icon = "battery-full-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-power/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-power/issues/new/choose"
         },
         WingpanelEntry () {
             name = N_("Session"),
             gettext_domain = "about-plug",
             icon = "system-shutdown-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-session/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-session/issues/new/choose"
         },
         WingpanelEntry () {
             name = "Sound",
             gettext_domain = "sound-plug",
             icon = "audio-volume-high-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-sound/issues/new"
+            issues_url = "https://github.com/elementary/wingpanel-indicator-sound/issues/new/choose"
         }
     };
 

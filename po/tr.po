@@ -7,16 +7,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:18-0700\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"PO-Revision-Date: 2019-10-01 23:23+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
+"tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:30
 msgid "Feedback"
+msgstr "Geri Bildirim"
+
+#: src/MainWindow.vala:41
+msgid "Where Are You Seeing an Issue?"
+msgstr "Sorunu Nerede Görüyorsunuz?"
+
+#: src/MainWindow.vala:45
+msgid ""
+"Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Web tarayıcınız aracılığı ile bir sorun bildirmek için listeden bir bileşen "
+"seçin."
+
+#: src/MainWindow.vala:61
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: src/MainWindow.vala:117
+msgid "Cancel"
+msgstr "İptal Et"
+
+#: src/MainWindow.vala:120
+msgid "Report Problem"
+msgstr "Sorun Bildir"
+
+#: src/MainWindow.vala:256
+msgid "Applications Menu"
+msgstr "Uygulamalar Menüsü"
+
+#: src/MainWindow.vala:260
+msgid "Lock or Login Screen"
+msgstr "Kilit veya Giriş Ekranı"
+
+#: src/MainWindow.vala:264
+msgid "Look & Feel"
+msgstr "Görünüm ve Kullanım"
+
+#: src/MainWindow.vala:268
+msgid "Multitasking or Window Management"
+msgstr "Çoklu Görev veya Pencere Yönetimi"
+
+#: src/MainWindow.vala:272
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: src/MainWindow.vala:458
+msgid "Session"
+msgstr "Oturum"
+
+#: src/MainWindow.vala:480
+msgid "Panel Indicators"
+msgstr "Panel Göstergeleri"
+
+#: src/MainWindow.vala:482
+msgid "System Settings"
+msgstr "Sistem Ayarları"
+
+#: src/MainWindow.vala:484
+msgid "Desktop Components"
+msgstr "Masaüstü Bileşenleri"
+
+#: src/MainWindow.vala:486
+msgid "Default Apps"
+msgstr "Varsayılan Uygulamalar"

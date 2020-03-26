@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 19:24-0700\n"
+"POT-Creation-Date: 2020-03-26 18:20+0000\n"
 "PO-Revision-Date: 2019-05-08 19:19-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -20,7 +20,11 @@ msgstr ""
 msgid "Feedback"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:45
+#: data/feedback.appdata.xml.in:16
+msgid "Updated translations"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:59
 msgid "elementary, Inc."
 msgstr ""
 
@@ -33,7 +37,7 @@ msgid "Issue Reporter"
 msgstr ""
 
 #: data/feedback.desktop.in:7
-msgid "bug"
+msgid "io.elementary.feedback"
 msgstr ""
 
 #: data/feedback.desktop.in:8

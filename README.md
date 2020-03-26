@@ -1,5 +1,9 @@
 # Feedback
+[![Translation status](https://l10n.elementary.io/widgets/desktop/-/feedback/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/?utm_source=widget)
+
 GitHub Issue Reporter
+
+![Feedback Screenshot](data/screenshot.png?raw=true)
 
 ## Building, Testing, and Installation
 
