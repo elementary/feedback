@@ -74,43 +74,34 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
-        foreach (var app in app_entries) {
-            var desktop_info = new DesktopAppInfo (app + ".desktop");
-            var metadata = new AppStream.Metadata ();
-            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (app);
+        var appstream_pool = new AppStream.Pool ();
+        try {
+            appstream_pool.load ();
+        } catch (Error e) {
+            critical (e.message);
+        } finally {
+            foreach (var app in app_entries) {
+                var desktop_info = new DesktopAppInfo (app + ".desktop");
 
-            try {
-                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
-
-                var component = metadata.get_component ();
-                if (component != null) {
+                appstream_pool.get_components_by_id (app).foreach ((component) => {
                     var repo_row = new RepoRow (
                         desktop_info.get_display_name (),
                         desktop_info.get_icon (),
                         Category.DEFAULT_APPS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
+
                     listbox.add (repo_row);
-                }
-            } catch (Error e) {
-                critical (e.message);
+                });
             }
-        }
 
-        foreach (var entry in system_entries) {
-            var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
-            listbox.add (repo_row);
-        }
+            foreach (var entry in system_entries) {
+                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
+                listbox.add (repo_row);
+            }
 
-        foreach (var entry in switchboard_entries) {
-            var metadata = new AppStream.Metadata ();
-            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
-
-            try {
-                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
-
-                var component = metadata.get_component ();
-                if (component != null) {
+            foreach (var entry in switchboard_entries) {
+                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
                     var repo_row = new RepoRow (
                         component.name,
                         new ThemedIcon (entry.icon),
@@ -119,21 +110,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     );
 
                     listbox.add (repo_row);
-                }
-            } catch (Error e) {
-                critical (e.message);
+                });
             }
-        }
 
-        foreach (var entry in wingpanel_entries) {
-            var metadata = new AppStream.Metadata ();
-            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
-
-            try {
-                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
-
-                var component = metadata.get_component ();
-                if (component != null) {
+            foreach (var entry in wingpanel_entries) {
+                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
                     var repo_row = new RepoRow (
                         component.name,
                         new ThemedIcon (entry.icon),
@@ -142,9 +123,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     );
 
                     listbox.add (repo_row);
-                }
-            } catch (Error e) {
-                critical (e.message);
+                });
             }
         }
 
