@@ -105,31 +105,47 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         foreach (var entry in switchboard_entries) {
             var metadata = new AppStream.Metadata ();
             var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
-            RepoRow repo_row;
 
             try {
                 metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
 
                 var component = metadata.get_component ();
                 if (component != null) {
-                    repo_row = new RepoRow (
+                    var repo_row = new RepoRow (
                         component.name,
                         new ThemedIcon (entry.icon),
                         Category.SETTINGS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
+
+                    listbox.add (repo_row);
                 }
             } catch (Error e) {
                 critical (e.message);
             }
-
-
-            listbox.add (repo_row);
         }
 
         foreach (var entry in wingpanel_entries) {
-            var repo_row = new RepoRow (dgettext (entry.gettext_domain, entry.name), new ThemedIcon (entry.icon), Category.PANEL, entry.issues_url);
-            listbox.add (repo_row);
+            var metadata = new AppStream.Metadata ();
+            var appdata_path = "/usr/share/metainfo/%s.appdata.xml".printf (entry.id);
+
+            try {
+                metadata.parse_file (GLib.File.new_for_path (appdata_path), AppStream.FormatKind.XML);
+
+                var component = metadata.get_component ();
+                if (component != null) {
+                    var repo_row = new RepoRow (
+                        component.name,
+                        new ThemedIcon (entry.icon),
+                        Category.PANEL,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+
+                    listbox.add (repo_row);
+                }
+            } catch (Error e) {
+                critical (e.message);
+            }
         }
 
         var scrolled = new Gtk.ScrolledWindow (null, null);
@@ -356,66 +372,46 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     };
 
     private struct WingpanelEntry {
-        string name;
-        string gettext_domain;
         string icon;
-        string issues_url;
+        string id;
     }
 
     static WingpanelEntry[] wingpanel_entries = {
         WingpanelEntry () {
-            name = "Bluetooth",
-            gettext_domain = "bluetooth-plug",
             icon = "bluetooth-active-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-bluetooth/issues/new/choose"
+            id="io.elementary.wingpanel.bluetooth"
         },
         WingpanelEntry () {
-            name = "Date & Time",
-            gettext_domain = "datetime-plug",
             icon = "appointment-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-datetime/issues/new/choose"
+            id="io.elementary.wingpanel.datetime"
         },
         WingpanelEntry () {
-            name = "Keyboard",
-            gettext_domain = "keyboard-plug",
             icon = "input-keyboard-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-keyboard/issues/new/choose"
+            id="io.elementary.wingpanel.keyboard"
         },
         WingpanelEntry () {
-            name = "Network",
-            gettext_domain = "pantheon-network-plug",
             icon = "network-wireless-signal-excellent-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-network/issues/new/choose"
+            id="io.elementary.wingpanel.network"
         },
         WingpanelEntry () {
-            name = "Night Light",
-            gettext_domain = "pantheon-display-plug",
             icon = "night-light-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-nightlight/issues/new/choose"
+            id="io.elementary.wingpanel.nightlight"
         },
         WingpanelEntry () {
-            name = "Notifications",
-            gettext_domain = "notifications-plug",
             icon = "notification-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-notifications/issues/new/choose"
+            id="io.elementary.wingpanel.notifications"
         },
         WingpanelEntry () {
-            name = "Power",
-            gettext_domain = "power-plug",
             icon = "battery-full-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-power/issues/new/choose"
+            id="io.elementary.wingpanel.power"
         },
         WingpanelEntry () {
-            name = N_("Session"),
-            gettext_domain = "about-plug",
             icon = "system-shutdown-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-session/issues/new/choose"
+            id="io.elementary.wingpanel.session"
         },
         WingpanelEntry () {
-            name = "Sound",
-            gettext_domain = "sound-plug",
             icon = "audio-volume-high-symbolic",
-            issues_url = "https://github.com/elementary/wingpanel-indicator-sound/issues/new/choose"
+            id="io.elementary.wingpanel.sound"
         }
     };
 
