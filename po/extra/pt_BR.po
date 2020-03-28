@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2019-09-11 09:22+0000\n"
-"Last-Translator: Michael Leocádio <leocadiomichael@outlook.com>\n"
+"PO-Revision-Date: 2020-03-29 20:04+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -25,7 +25,7 @@ msgstr "Opinião"
 
 #: data/feedback.appdata.xml.in:16
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduções atualizadas"
 
 #: data/feedback.appdata.xml.in:59
 msgid "elementary, Inc."
@@ -41,7 +41,7 @@ msgstr "Notificador de Problema"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
-msgstr ""
+msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
