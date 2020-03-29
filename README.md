@@ -8,6 +8,7 @@ GitHub Issue Reporter
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
+* libappstream-dev
 * libgranite-dev (>=5)
 * libgtk-3-dev
 * meson
