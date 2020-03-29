@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-06-29 17:51+0000\n"
+"PO-Revision-Date: 2020-03-30 21:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -25,57 +25,57 @@ msgstr "フィードバック"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "問題が発生している箇所を選択してください"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
-msgstr ""
+msgstr "お使いの Web ブラウザーから問題を報告するには、一覧からコンポーネントをお選びください。"
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "カテゴリー"
 
 #: src/MainWindow.vala:149
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: src/MainWindow.vala:152
 msgid "Report Problem"
-msgstr ""
+msgstr "問題を報告"
 
 #: src/MainWindow.vala:244
 msgid "Applications Menu"
-msgstr ""
+msgstr "アプリケーションメニュー"
 
 #: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "ロック画面およびログイン画面"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr ""
+msgstr "外観および操作感"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "マルチタスクおよびウィンドウ管理"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr ""
+msgstr "通知"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
-msgstr ""
+msgstr "パネルインジケーター"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
-msgstr ""
+msgstr "システム設定"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
-msgstr ""
+msgstr "デスクトップコンポーネント"
 
 #: src/MainWindow.vala:412
 msgid "Default Apps"
-msgstr ""
+msgstr "デフォルトのアプリ"
