@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"POT-Creation-Date: 2020-03-29 20:06+0000\n"
 "PO-Revision-Date: 2019-10-01 23:23+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -38,50 +38,49 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:149
 msgid "Cancel"
 msgstr "İptal Et"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:152
 msgid "Report Problem"
 msgstr "Sorun Bildir"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:244
 msgid "Applications Menu"
 msgstr "Uygulamalar Menüsü"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
 msgstr "Kilit veya Giriş Ekranı"
 
-#: src/MainWindow.vala:264
+#: src/MainWindow.vala:252
 msgid "Look & Feel"
 msgstr "Görünüm ve Kullanım"
 
-#: src/MainWindow.vala:268
+#: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
 msgstr "Çoklu Görev veya Pencere Yönetimi"
 
-#: src/MainWindow.vala:272
+#: src/MainWindow.vala:260
 msgid "Notifications"
 msgstr "Bildirimler"
 
-#: src/MainWindow.vala:458
-msgid "Session"
-msgstr "Oturum"
-
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:406
 msgid "Panel Indicators"
 msgstr "Panel Göstergeleri"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:408
 msgid "System Settings"
 msgstr "Sistem Ayarları"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:410
 msgid "Desktop Components"
 msgstr "Masaüstü Bileşenleri"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:412
 msgid "Default Apps"
 msgstr "Varsayılan Uygulamalar"
+
+#~ msgid "Session"
+#~ msgstr "Oturum"

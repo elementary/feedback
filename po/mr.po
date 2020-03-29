@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"POT-Creation-Date: 2020-03-29 20:06+0000\n"
 "PO-Revision-Date: 2019-07-08 16:28+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -36,50 +36,49 @@ msgstr "आपल्या वेब ब्राउझरमधील समस
 msgid "Categories"
 msgstr "श्रेण्या"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:149
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:152
 msgid "Report Problem"
 msgstr "समस्या नोंदवा"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:244
 msgid "Applications Menu"
 msgstr "अनुप्रयोग मेनू"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
 msgstr "लॉक किंवा लॉग इन स्क्रीन"
 
-#: src/MainWindow.vala:264
+#: src/MainWindow.vala:252
 msgid "Look & Feel"
 msgstr "दिसते आणि वाटते"
 
-#: src/MainWindow.vala:268
+#: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
 msgstr "मल्टीटास्किंग किंवा विंडो व्यवस्थापन"
 
-#: src/MainWindow.vala:272
+#: src/MainWindow.vala:260
 msgid "Notifications"
 msgstr "अधिसूचना"
 
-#: src/MainWindow.vala:458
-msgid "Session"
-msgstr "सत्र"
-
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:406
 msgid "Panel Indicators"
 msgstr "पॅनेल निर्देशक"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:408
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:410
 msgid "Desktop Components"
 msgstr "डेस्कटॉप घटक"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:412
 msgid "Default Apps"
 msgstr "डीफॉल्ट अॅप्स"
+
+#~ msgid "Session"
+#~ msgstr "सत्र"

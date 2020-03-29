@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:42+0200\n"
+"POT-Creation-Date: 2020-03-29 20:06+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -33,50 +33,49 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoryje"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:149
 msgid "Cancel"
 msgstr "Pociep"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:152
 msgid "Report Problem"
 msgstr "Zgłoś problym"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:244
 msgid "Applications Menu"
 msgstr "Myni programōw"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
 msgstr "Ekran blokady abo logowanio"
 
-#: src/MainWindow.vala:264
+#: src/MainWindow.vala:252
 msgid "Look & Feel"
 msgstr "Wyglōnd"
 
-#: src/MainWindow.vala:268
+#: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
 msgstr "Zarzōndzanie ôknami abo multitaskingym"
 
-#: src/MainWindow.vala:272
+#: src/MainWindow.vala:260
 msgid "Notifications"
 msgstr "Powiadōmiynia"
 
-#: src/MainWindow.vala:458
-msgid "Session"
-msgstr "Sesyjo"
-
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:406
 msgid "Panel Indicators"
 msgstr "Skaźniki ôkyn"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:408
 msgid "System Settings"
 msgstr "Sztelōnki systymu"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:410
 msgid "Desktop Components"
 msgstr "Kōmpōnynta biōrka"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:412
 msgid "Default Apps"
 msgstr "Wychodne programy"
+
+#~ msgid "Session"
+#~ msgstr "Sesyjo"
