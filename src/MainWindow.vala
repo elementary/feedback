@@ -74,6 +74,30 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
+        var default_icon_name = "extension";
+
+        var addon_icons = new Gee.HashMap<string, string> ();
+        addon_icons["io.elementary.switchboard.applications"] = "preferences-desktop-applications";
+        addon_icons["io.elementary.switchboard.pantheon-shell"] = "preferences-desktop-wallpaper";
+        addon_icons["io.elementary.switchboard.locale"] = "preferences-desktop-locale";
+        addon_icons["io.elementary.switchboard.notifications"] = "preferences-system-notifications";
+        addon_icons["io.elementary.switchboard.security-privacy"] = "preferences-system-privacy";
+        addon_icons["io.elementary.switchboard.display"] = "preferences-desktop-display";
+        addon_icons["io.elementary.switchboard.keyboard"] = "preferences-desktop-keyboard";
+        addon_icons["io.elementary.switchboard.mouse-touchpad"] = "preferences-desktop-peripherals";
+        addon_icons["io.elementary.switchboard.power"] = "preferences-system-power";
+        addon_icons["io.elementary.switchboard.printers"] = "printer";
+        addon_icons["io.elementary.switchboard.sound"] = "preferences-desktop-sound";
+        addon_icons["io.elementary.switchboard.bluetooth"] = "preferences-bluetooth";
+        addon_icons["io.elementary.switchboard.network"] = "preferences-system-network";
+        addon_icons["io.elementary.switchboard.onlineaccounts"] = "preferences-desktop-online-accounts";
+        addon_icons["io.elementary.switchboard.sharing"] = "preferences-system-sharing";
+        addon_icons["io.elementary.switchboard.about"] = "dialog-information";
+        addon_icons["io.elementary.switchboard.datetime"] = "preferences-system-time";
+        addon_icons["io.elementary.switchboard.parental-controls"] = "preferences-system-parental-controls";
+        addon_icons["io.elementary.switchboard.a11y"] = "preferences-desktop-accessibility";
+        addon_icons["io.elementary.switchboard.useraccounts"] = "system-users";
+
         var appstream_pool = new AppStream.Pool ();
         try {
             appstream_pool.load ();
@@ -100,18 +124,22 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 listbox.add (repo_row);
             }
 
-            foreach (var entry in switchboard_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
+            appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                component.get_addons ().foreach ((addon) => {
+                    if (addon_icons.has_key (addon.id)) {
+                        default_icon_name = addon_icons[addon.id];
+                    }
+
                     var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
+                        addon.name,
+                        new ThemedIcon (default_icon_name),
                         Category.SETTINGS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
 
                     listbox.add (repo_row);
                 });
-            }
+            });
 
             foreach (var entry in wingpanel_entries) {
                 appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
@@ -259,94 +287,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Notifications"),
             issues_url = "https://github.com/elementary/gala/issues/new/choose"
-        }
-    };
-
-    private struct SwitchboardEntry {
-        string icon;
-        string id;
-    }
-
-    static SwitchboardEntry[] switchboard_entries = {
-        SwitchboardEntry () {
-            icon = "preferences-desktop-applications",
-            id = "io.elementary.switchboard.applications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-wallpaper",
-            id = "io.elementary.switchboard.pantheon-shell"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-locale",
-            id = "io.elementary.switchboard.locale"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-notifications",
-            id = "io.elementary.switchboard.notifications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-privacy",
-            id = "io.elementary.switchboard.security-privacy"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-display",
-            id = "io.elementary.switchboard.display"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-keyboard",
-            id = "io.elementary.switchboard.keyboard"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-peripherals",
-            id = "io.elementary.switchboard.mouse-touchpad"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-power",
-            id = "io.elementary.switchboard.power"
-        },
-        SwitchboardEntry () {
-            icon = "printer",
-            id = "io.elementary.switchboard.printers"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-sound",
-            id = "io.elementary.switchboard.sound"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-bluetooth",
-            id = "io.elementary.switchboard.bluetooth"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-network",
-            id = "io.elementary.switchboard.network"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-online-accounts",
-            id = "io.elementary.switchboard.onlineaccounts"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-sharing",
-            id = "io.elementary.switchboard.sharing"
-        },
-        SwitchboardEntry () {
-            icon = "dialog-information",
-            id = "io.elementary.switchboard.about"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-time",
-            id = "io.elementary.switchboard.datetime"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-parental-controls",
-            id = "io.elementary.switchboard.parental-controls"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-accessibility",
-            id = "io.elementary.switchboard.a11y"
-        },
-        SwitchboardEntry () {
-            icon = "system-users",
-            id = "io.elementary.switchboard.useraccounts"
         }
     };
 
