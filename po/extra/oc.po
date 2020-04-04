@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-04-06 15:10+0000\n"
+"Last-Translator: Mejans <farga@mejans.fr>\n"
+"Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -22,11 +25,11 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:16
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduccions actualizadas"
 
 #: data/feedback.appdata.xml.in:59
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
