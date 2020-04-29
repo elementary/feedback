@@ -74,59 +74,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
-        var appstream_pool = new AppStream.Pool ();
-        try {
-            appstream_pool.load ();
-        } catch (Error e) {
-            critical (e.message);
-        } finally {
-            foreach (var app in app_entries) {
-                var desktop_info = new DesktopAppInfo (app + ".desktop");
-
-                appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        desktop_info.get_display_name (),
-                        desktop_info.get_icon (),
-                        Category.DEFAULT_APPS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
-
-                    listbox.add (repo_row);
-                });
-            }
-
-            foreach (var entry in system_entries) {
-                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
-                listbox.add (repo_row);
-            }
-
-            foreach (var entry in switchboard_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
-                        Category.SETTINGS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
-
-                    listbox.add (repo_row);
-                });
-            }
-
-            foreach (var entry in wingpanel_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
-                        Category.PANEL,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
-
-                    listbox.add (repo_row);
-                });
-            }
-        }
-
         var scrolled = new Gtk.ScrolledWindow (null, null);
         scrolled.add (listbox);
 
@@ -203,6 +150,63 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+
+        initialize_appstream_pool.begin ();
+    }
+
+    private async void initialize_appstream_pool () {
+        var appstream_pool = new AppStream.Pool ();
+        try {
+            appstream_pool.load ();
+        } catch (Error e) {
+            critical (e.message);
+        } finally {
+            foreach (var app in app_entries) {
+                var desktop_info = new DesktopAppInfo (app + ".desktop");
+
+                appstream_pool.get_components_by_id (app).foreach ((component) => {
+                    var repo_row = new RepoRow (
+                        desktop_info.get_display_name (),
+                        desktop_info.get_icon (),
+                        Category.DEFAULT_APPS,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+
+                    listbox.add (repo_row);
+                });
+            }
+
+            foreach (unowned SystemEntry entry in system_entries) {
+                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
+                listbox.add (repo_row);
+            }
+
+            foreach (unowned SwitchboardEntry switchboard_entry in switchboard_entries) {
+                appstream_pool.get_components_by_id (switchboard_entry.id).foreach ((component) => {
+                    var repo_row = new RepoRow (
+                        component.name,
+                        new ThemedIcon (switchboard_entry.icon),
+                        Category.SETTINGS,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+
+                    listbox.add (repo_row);
+                });
+            }
+
+            foreach (unowned WingpanelEntry wingpanel_entry in wingpanel_entries) {
+                appstream_pool.get_components_by_id (wingpanel_entry.id).foreach ((component) => {
+                    var repo_row = new RepoRow (
+                        component.name,
+                        new ThemedIcon (wingpanel_entry.icon),
+                        Category.PANEL,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
+
+                    listbox.add (repo_row);
+                });
+            }
+        }
     }
 
     [CCode (instance_pos = -1)]
@@ -218,7 +222,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         return ((RepoRow) row1).title.collate (((RepoRow) row2).title);
     }
 
-    static string[] app_entries = {
+    private static string[] app_entries = {
          "io.elementary.appcenter",
          "io.elementary.calculator",
          "io.elementary.calendar",
@@ -239,7 +243,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         string issues_url;
     }
 
-    static SystemEntry[] system_entries = {
+    private static SystemEntry[] system_entries = {
         SystemEntry () {
             name = _("Applications Menu"),
             issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
@@ -267,7 +271,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         string id;
     }
 
-    static SwitchboardEntry[] switchboard_entries = {
+    private static SwitchboardEntry[] switchboard_entries = {
         SwitchboardEntry () {
             icon = "preferences-desktop-applications",
             id = "io.elementary.switchboard.applications"
@@ -355,7 +359,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         string id;
     }
 
-    static WingpanelEntry[] wingpanel_entries = {
+    private static WingpanelEntry[] wingpanel_entries = {
         WingpanelEntry () {
             icon = "bluetooth-active-symbolic",
             id="io.elementary.wingpanel.bluetooth"
