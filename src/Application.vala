@@ -58,6 +58,8 @@ public class Feedback.Application : Gtk.Application {
         }
 
         main_window.show_all ();
+        var now = new DateTime.now_utc ();
+        critical ("%lld%i", now.to_unix(), now.get_microsecond ());
 
         var quit_action = new SimpleAction ("quit", null);
 
@@ -72,6 +74,8 @@ public class Feedback.Application : Gtk.Application {
     }
 
     public static int main (string[] args) {
+        var now = new DateTime.now_utc ();
+        critical ("%lld%i", now.to_unix(), now.get_microsecond ());
         var app = new Application ();
         return app.run (args);
     }
