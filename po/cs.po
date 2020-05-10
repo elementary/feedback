@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-05-07 22:10+0000\n"
+"PO-Revision-Date: 2020-05-11 19:10+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
 "cs/>\n"
@@ -56,7 +56,7 @@ msgstr "Zamykací nebo přihlašovací obrazovka"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr ""
+msgstr "Vzhled a přizpůsobení"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
@@ -64,7 +64,7 @@ msgstr "Multitasking nebo správa oken"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr "Notifikace"
+msgstr "Upozornění"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
