@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2020-04-12 14:10+0000\n"
+"PO-Revision-Date: 2020-05-03 15:10+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/tr/>\n"
@@ -45,7 +45,7 @@ msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr "sorun;bildir;hata;bug;"
+msgstr "sorun;bildir;hata;issue;report;bug;"
 
 #~ msgid "bug"
 #~ msgstr "hata"
