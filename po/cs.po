@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-05-29 13:11+0000\n"
+"PO-Revision-Date: 2020-06-07 13:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
 "cs/>\n"
@@ -25,13 +25,13 @@ msgstr "Zpětná vazba"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr "Všem jste našli chybu?"
+msgstr "V čem jste našli chybu?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
-"Vyberte komponentu ze seznamu a nahlaste problém prostřednictvím webového "
+"Vyberte součást ze seznamu a nahlaste problém prostřednictvím webového "
 "prohlížeče."
 
 #: src/MainWindow.vala:61
@@ -64,7 +64,7 @@ msgstr "Multitasking nebo správa oken"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr "Upozornění"
+msgstr "Upozorňování"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
@@ -72,7 +72,7 @@ msgstr "Indikátory na hlavním panelu"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
-msgstr "Systémová nastavení"
+msgstr "Nastavení systému"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
