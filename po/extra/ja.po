@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2020-03-28 19:09+0000\n"
+"PO-Revision-Date: 2020-06-07 13:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -33,11 +33,11 @@ msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr "問題レポートを作成し追跡します"
+msgstr "不具合レポートを作成し追跡します"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr "問題報告アプリ"
+msgstr "不具合報告アプリ"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -45,7 +45,7 @@ msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr "issue;report;bug;問題;報告;バグ;"
+msgstr "issue;report;bug;問題;不具合;イシュー;報告;レポート;バグ;"
 
 #~ msgid "bug"
 #~ msgstr "bug"

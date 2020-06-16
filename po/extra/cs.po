@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2020-05-11 19:10+0000\n"
+"PO-Revision-Date: 2020-05-29 13:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/cs/>\n"
@@ -41,7 +41,7 @@ msgstr "Nahlašování chyb"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
-msgstr ""
+msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
