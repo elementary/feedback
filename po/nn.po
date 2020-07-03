@@ -8,72 +8,76 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-07-04 10:12+0000\n"
+"Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
+"Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
+"desktop/feedback/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Tilbakemelding"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Kvar finn du problemet?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select a component from the list to report a problem from your web browser."
 msgstr ""
+"Velg ein komponent frå lista for å gje tilbakemelding om eit problem rett i "
+"nettlesaren din."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategoriar"
 
 #: src/MainWindow.vala:149
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/MainWindow.vala:152
 msgid "Report Problem"
-msgstr ""
+msgstr "Rapporter eit problem"
 
 #: src/MainWindow.vala:244
 msgid "Applications Menu"
-msgstr ""
+msgstr "Appmeny"
 
 #: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Låse- eller inloggingsskjerm"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr ""
+msgstr "Utsjånad og følelse"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Multitasking og handsaming av vindauge"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr ""
+msgstr "Varslingar"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indikatorar på panelet"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
-msgstr ""
+msgstr "Systeminstillingar"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
-msgstr ""
+msgstr "Komponentar på skrivebordet"
 
 #: src/MainWindow.vala:412
 msgid "Default Apps"
-msgstr ""
+msgstr "Standardappar"
