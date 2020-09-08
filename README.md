@@ -11,6 +11,7 @@ You'll need the following dependencies:
 * libappstream-dev
 * libgranite-dev (>=5)
 * libgtk-3-dev
+* libhandy-1-dev (>=0.90.0)
 * meson
 * valac
 
