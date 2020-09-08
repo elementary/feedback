@@ -74,38 +74,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
-        var addon_icons = new Gee.HashMap<string, string> ();
-
-        addon_icons["io.elementary.switchboard.a11y"] = "preferences-desktop-accessibility";
-        addon_icons["io.elementary.switchboard.about"] = "dialog-information";
-        addon_icons["io.elementary.switchboard.applications"] = "preferences-desktop-applications";
-        addon_icons["io.elementary.switchboard.bluetooth"] = "preferences-bluetooth";
-        addon_icons["io.elementary.switchboard.datetime"] = "preferences-system-time";
-        addon_icons["io.elementary.switchboard.display"] = "preferences-desktop-display";
-        addon_icons["io.elementary.switchboard.keyboard"] = "preferences-desktop-keyboard";
-        addon_icons["io.elementary.switchboard.locale"] = "preferences-desktop-locale";
-        addon_icons["io.elementary.switchboard.mouse-touchpad"] = "preferences-desktop-peripherals";
-        addon_icons["io.elementary.switchboard.network"] = "preferences-system-network";
-        addon_icons["io.elementary.switchboard.notifications"] = "preferences-system-notifications";
-        addon_icons["io.elementary.switchboard.onlineaccounts"] = "preferences-desktop-online-accounts";
-        addon_icons["io.elementary.switchboard.pantheon-shell"] = "preferences-desktop-wallpaper";
-        addon_icons["io.elementary.switchboard.parental-controls"] = "preferences-system-parental-controls";
-        addon_icons["io.elementary.switchboard.power"] = "preferences-system-power";
-        addon_icons["io.elementary.switchboard.printers"] = "printer";
-        addon_icons["io.elementary.switchboard.security-privacy"] = "preferences-system-privacy";
-        addon_icons["io.elementary.switchboard.sharing"] = "preferences-system-sharing";
-        addon_icons["io.elementary.switchboard.sound"] = "preferences-desktop-sound";
-        addon_icons["io.elementary.switchboard.useraccounts"] = "system-users";
-        addon_icons["io.elementary.wingpanel.bluetooth"] = "bluetooth-active-symbolic";
-        addon_icons["io.elementary.wingpanel.datetime"] = "appointment-symbolic";
-        addon_icons["io.elementary.wingpanel.keyboard"] = "input-keyboard-symbolic";
-        addon_icons["io.elementary.wingpanel.network"] = "network-wireless-signal-excellent-symbolic";
-        addon_icons["io.elementary.wingpanel.nightlight"] = "night-light-symbolic";
-        addon_icons["io.elementary.wingpanel.notifications"] = "notification-symbolic";
-        addon_icons["io.elementary.wingpanel.power"] = "battery-full-symbolic";
-        addon_icons["io.elementary.wingpanel.session"] = "system-shutdown-symbolic";
-        addon_icons["io.elementary.wingpanel.sound"] = "audio-volume-high-symbolic";
-
         var appstream_pool = new AppStream.Pool ();
         try {
             appstream_pool.load ();
@@ -134,14 +102,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
             appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
                 component.get_addons ().foreach ((addon) => {
-                    var default_icon_name = "extension";
-                    if (addon_icons.has_key (addon.id)) {
-                        default_icon_name = addon_icons[addon.id];
-                    }
-
                     var repo_row = new RepoRow (
                         addon.name,
-                        new ThemedIcon (default_icon_name),
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.SETTINGS,
                         addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
@@ -152,14 +115,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
             appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
                 component.get_addons ().foreach ((addon) => {
-                    var default_icon_name = "extension";
-                    if (addon_icons.has_key (addon.id)) {
-                        default_icon_name = addon_icons[addon.id];
-                    }
-
                     var repo_row = new RepoRow (
                         addon.name,
-                        new ThemedIcon (default_icon_name),
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.PANEL,
                         addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
@@ -245,6 +203,18 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+    }
+
+    private GLib.Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
+        if (appstream_icons.length > 0) {
+            for (int i = 0; i < appstream_icons.length; i++) {
+                if (appstream_icons[i].get_kind () == AppStream.IconKind.STOCK) {
+                    return new ThemedIcon (appstream_icons[i].get_name ());
+                }
+            }
+        }
+
+        return new ThemedIcon ("extension");
     }
 
     [CCode (instance_pos = -1)]
