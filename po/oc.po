@@ -8,21 +8,24 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-08-29 20:13+0000\n"
+"Last-Translator: Mejans <farga@mejans.fr>\n"
+"Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/feedback/"
+"oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Comentaris"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Ont vesètz un problèmas ?"
 
 #: src/MainWindow.vala:45
 msgid ""
@@ -31,27 +34,27 @@ msgstr ""
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: src/MainWindow.vala:149
 msgid "Cancel"
-msgstr ""
+msgstr "Anullar"
 
 #: src/MainWindow.vala:152
 msgid "Report Problem"
-msgstr ""
+msgstr "Senhalar un problèma"
 
 #: src/MainWindow.vala:244
 msgid "Applications Menu"
-msgstr ""
+msgstr "Menú de las aplicacions"
 
 #: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Ecran de verrolhatge o de connexion"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr ""
+msgstr "Aparéncia"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
@@ -59,20 +62,20 @@ msgstr ""
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr ""
+msgstr "Notificacions"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indicadors del panèls"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
-msgstr ""
+msgstr "Paramètres del sistèma"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
-msgstr ""
+msgstr "Compausant del burèu"
 
 #: src/MainWindow.vala:412
 msgid "Default Apps"
-msgstr ""
+msgstr "Aplicacions per defaut"

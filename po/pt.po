@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-05-03 15:10+0000\n"
+"PO-Revision-Date: 2020-08-27 17:13+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "feedback/pt/>\n"
@@ -72,7 +72,7 @@ msgstr "Indicadores do painel"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
-msgstr "Definições do sistema"
+msgstr "Definições do Sistema"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
