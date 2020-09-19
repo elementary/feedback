@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2020-09-12 22:14+0000\n"
+"PO-Revision-Date: 2020-09-20 20:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/uk/>\n"
@@ -34,7 +34,7 @@ msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "Надсилайте та відстежуйте звіти про проблеми"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
