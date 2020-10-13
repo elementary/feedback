@@ -137,14 +137,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         repo_list_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
         repo_list_grid.add (scrolled);
 
-        var stack = new Gtk.Stack ();
-        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-        stack.add (category_list);
-        stack.add (repo_list_grid);
+        var deck = new Hdy.Deck () {
+            can_swipe_back = true
+        };
+        deck.add (category_list);
+        deck.add (repo_list_grid);
 
         var frame = new Gtk.Frame (null);
         frame.margin_top = frame.margin_bottom = 24;
-        frame.add (stack);
+        frame.add (deck);
 
         var cancel_button = new Gtk.Button.with_label (_("Cancel"));
         cancel_button.action_name = "app.quit";
@@ -172,8 +173,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         get_style_context ().add_class ("rounded");
         set_titlebar (titlebar);
 
+        var granite_settings = Granite.Settings.get_default ();
+        var gtk_settings = Gtk.Settings.get_default ();
+
+        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+
+        granite_settings.notify["prefers-color-scheme"].connect (() => {
+            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        });
+
         category_list.row_activated.connect ((row) => {
-            stack.visible_child = repo_list_grid;
+            deck.visible_child = repo_list_grid;
             category_filter = ((CategoryRow) row).category;
             category_title.label = ((CategoryRow) row).category.to_string ();
             listbox.invalidate_filter ();
@@ -182,7 +192,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         back_button.clicked.connect (() => {
-            stack.visible_child = category_list;
+            deck.navigate (Hdy.NavigationDirection.BACK);
             report_button.sensitive = false;
         });
 
