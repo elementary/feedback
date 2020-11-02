@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-12-27 13:07+0000\n"
+"PO-Revision-Date: 2020-11-03 07:15+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
 "nl/>\n"
@@ -25,7 +25,7 @@ msgstr "Feedback"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr "Kunt u uw probleem beschrijven?"
+msgstr "Waar bevindt zich het probleem?"
 
 #: src/MainWindow.vala:45
 msgid ""
@@ -47,15 +47,15 @@ msgstr "Meld het probleem"
 
 #: src/MainWindow.vala:244
 msgid "Applications Menu"
-msgstr "Applicatie menu"
+msgstr "Applicatie Menu"
 
 #: src/MainWindow.vala:248
 msgid "Lock or Login Screen"
-msgstr "Het lock of login scherm"
+msgstr "Vergrendel- of Loginscherm"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr "De look & feel"
+msgstr "Vormgeving"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
@@ -63,11 +63,11 @@ msgstr "Multitasken of Vensterbeheer"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
-msgstr "Notificaties"
+msgstr "Meldingen"
 
 #: src/MainWindow.vala:406
 msgid "Panel Indicators"
-msgstr "Taakbalk indicatoren"
+msgstr "Vensterindicators"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
@@ -75,7 +75,7 @@ msgstr "Systeem instellingen"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
-msgstr "Desktop onderdelen"
+msgstr "Desktop Onderdelen"
 
 #: src/MainWindow.vala:412
 msgid "Default Apps"
