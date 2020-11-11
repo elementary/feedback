@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-03-14 13:09+0000\n"
-"Last-Translator: Tucan Holmes <tucan.web.swiss@gmail.com>\n"
+"PO-Revision-Date: 2020-11-12 19:15+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback/"
 "de/>\n"
 "Language: de\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Rückmeldung"
 
 #: src/MainWindow.vala:41
 msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgstr "Wo sind Sie auf ein Problem gestoßen?"
 
 #: src/MainWindow.vala:45
 msgid ""
@@ -44,31 +44,33 @@ msgstr "Abbrechen"
 
 #: src/MainWindow.vala:152
 msgid "Report Problem"
-msgstr "Ein Problem melden"
+msgstr "Problem melden"
 
 #: src/MainWindow.vala:244
 msgid "Applications Menu"
-msgstr "Start Menü"
+msgstr "Anwendungsmenü"
 
 #: src/MainWindow.vala:248
+#, fuzzy
 msgid "Lock or Login Screen"
-msgstr "Sperr- oder Loginbildschirm"
+msgstr "Sperr- oder Anmeldebildschirm"
 
 #: src/MainWindow.vala:252
 msgid "Look & Feel"
-msgstr ""
+msgstr "Aussehen & Handhabung"
 
 #: src/MainWindow.vala:256
 msgid "Multitasking or Window Management"
-msgstr "Multitasking oder Fenster Management"
+msgstr "Arbeitsflächen- oder Fensterverwaltung"
 
 #: src/MainWindow.vala:260
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
 #: src/MainWindow.vala:406
+#, fuzzy
 msgid "Panel Indicators"
-msgstr "Panel Benachrichtigungen"
+msgstr "Leistenindikatoren"
 
 #: src/MainWindow.vala:408
 msgid "System Settings"
@@ -76,11 +78,11 @@ msgstr "Systemeinstellungen"
 
 #: src/MainWindow.vala:410
 msgid "Desktop Components"
-msgstr "Desktop Komponenten"
+msgstr "Bestandteile der Arbeitsumgebung"
 
 #: src/MainWindow.vala:412
 msgid "Default Apps"
-msgstr "Standard Apps"
+msgstr "Standardanwendungen"
 
 #~ msgid "Session"
 #~ msgstr "Sitzung"
