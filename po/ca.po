@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
+"POT-Creation-Date: 2020-11-18 02:09+0000\n"
 "PO-Revision-Date: 2019-09-12 19:22+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -24,12 +24,17 @@ msgid "Feedback"
 msgstr "Informació de retorn"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "On veieu un problema?"
+msgid "Send feedback for which component?"
+msgstr ""
 
 #: src/MainWindow.vala:45
+#, fuzzy
+#| msgid ""
+#| "Select a component from the list to report a problem from your web "
+#| "browser."
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
 "Seleccioneu un component de la llista per informar d'un problema des del "
 "navegador web."
@@ -38,49 +43,52 @@ msgstr ""
 msgid "Categories"
 msgstr "Categories"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:150
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: src/MainWindow.vala:152
+#: src/MainWindow.vala:153
 msgid "Report Problem"
 msgstr "Informeu d'un problema"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:254
 msgid "Applications Menu"
 msgstr "Menú d'aplicacions"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:258
 msgid "Lock or Login Screen"
 msgstr "Pantalla d'entrada o de bloqueig"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:262
 msgid "Look & Feel"
 msgstr "Aspecte i sensació"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:266
 msgid "Multitasking or Window Management"
 msgstr "Multitasca o gestió de finestres"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:270
 msgid "Notifications"
 msgstr "Notificacions"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Indicadors del plafó"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Configuració del sistema"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Components de l'escriptori"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Aplicacions per defecte"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "On veieu un problema?"
 
 #~ msgid "Session"
 #~ msgstr "Sessió"

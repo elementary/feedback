@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
+"POT-Creation-Date: 2020-11-18 02:09+0000\n"
 "PO-Revision-Date: 2020-11-03 07:15+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -24,12 +24,17 @@ msgid "Feedback"
 msgstr "Feedback"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Waar bevindt zich het probleem?"
+msgid "Send feedback for which component?"
+msgstr ""
 
 #: src/MainWindow.vala:45
+#, fuzzy
+#| msgid ""
+#| "Select a component from the list to report a problem from your web "
+#| "browser."
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
 "Kies een onderdeel uit de lijst om via uw browser een probleem te melden."
 
@@ -37,49 +42,52 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorieën"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:150
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: src/MainWindow.vala:152
+#: src/MainWindow.vala:153
 msgid "Report Problem"
 msgstr "Meld het probleem"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:254
 msgid "Applications Menu"
 msgstr "Applicatie Menu"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:258
 msgid "Lock or Login Screen"
 msgstr "Vergrendel- of Loginscherm"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:262
 msgid "Look & Feel"
 msgstr "Vormgeving"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:266
 msgid "Multitasking or Window Management"
 msgstr "Multitasken of Vensterbeheer"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:270
 msgid "Notifications"
 msgstr "Meldingen"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Vensterindicators"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Systeem instellingen"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Desktop Onderdelen"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Standaard apps"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Waar bevindt zich het probleem?"
 
 #~ msgid "Session"
 #~ msgstr "Sessie"

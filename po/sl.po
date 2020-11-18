@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
+"POT-Creation-Date: 2020-11-18 02:09+0000\n"
 "PO-Revision-Date: 2020-02-15 20:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
@@ -25,12 +25,17 @@ msgid "Feedback"
 msgstr "Povratne informacije"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Kje vidite težavo?"
+msgid "Send feedback for which component?"
+msgstr ""
 
 #: src/MainWindow.vala:45
+#, fuzzy
+#| msgid ""
+#| "Select a component from the list to report a problem from your web "
+#| "browser."
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
 "Izberite komponento iz seznama, da obvestite o problemu iz vašega spletnega "
 "brskalnika."
@@ -39,49 +44,52 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorije"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:150
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: src/MainWindow.vala:152
+#: src/MainWindow.vala:153
 msgid "Report Problem"
 msgstr "Obvestite o problemu"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:254
 msgid "Applications Menu"
 msgstr "Aplikacijski meni"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:258
 msgid "Lock or Login Screen"
 msgstr "Zaklenjen ali prijavni zaslon"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:262
 msgid "Look & Feel"
 msgstr "Videz in vtis"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:266
 msgid "Multitasking or Window Management"
 msgstr "Večopravilnost ali upravljanje z okni"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:270
 msgid "Notifications"
 msgstr "Obvestila"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Indikatorji v zgornji vrstici"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Namizne komponente"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Privzete aplikacije"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Kje vidite težavo?"
 
 #~ msgid "Session"
 #~ msgstr "Seja"

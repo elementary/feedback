@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
+"POT-Creation-Date: 2020-11-18 02:09+0000\n"
 "PO-Revision-Date: 2020-05-14 14:10+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -25,58 +25,66 @@ msgid "Feedback"
 msgstr "مراجعة"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "أين تجد المشكلة؟"
+msgid "Send feedback for which component?"
+msgstr ""
 
 #: src/MainWindow.vala:45
+#, fuzzy
+#| msgid ""
+#| "Select a component from the list to report a problem from your web "
+#| "browser."
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr "اختر عنصرا من القائمة للإبلاغ عن مشكلة من المتصفح الخاص بك."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "القوائم"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:150
 msgid "Cancel"
 msgstr "الغاء"
 
-#: src/MainWindow.vala:152
+#: src/MainWindow.vala:153
 msgid "Report Problem"
 msgstr "ابلغ عن مشكلة"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:254
 msgid "Applications Menu"
 msgstr "قائمة التطبيقات"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:258
 msgid "Lock or Login Screen"
 msgstr "شاشة القفل أو تسجيل الدخول"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:262
 msgid "Look & Feel"
 msgstr "انظر واشعر"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:266
 msgid "Multitasking or Window Management"
 msgstr "تعدد المهام أو إدارة النوافذ"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:270
 msgid "Notifications"
 msgstr "الإشعارات"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "مؤشرات اللوحة"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "إعدادات النظام"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "مكونات سطح المكتب"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "التطبيقات الإفتراضية"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "أين تجد المشكلة؟"

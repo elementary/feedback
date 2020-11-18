@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
+"POT-Creation-Date: 2020-11-18 02:09+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -19,12 +19,17 @@ msgid "Feedback"
 msgstr "Ôpinijo zwrotno"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Kaj widzisz problym?"
+msgid "Send feedback for which component?"
+msgstr ""
 
 #: src/MainWindow.vala:45
+#, fuzzy
+#| msgid ""
+#| "Select a component from the list to report a problem from your web "
+#| "browser."
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
 "Ôbier kōmpōnynt ze listy, żeby zareportować problym ze swojij przeglōndarki "
 "internetowyj."
@@ -33,49 +38,52 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoryje"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:150
 msgid "Cancel"
 msgstr "Pociep"
 
-#: src/MainWindow.vala:152
+#: src/MainWindow.vala:153
 msgid "Report Problem"
 msgstr "Zgłoś problym"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:254
 msgid "Applications Menu"
 msgstr "Myni programōw"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:258
 msgid "Lock or Login Screen"
 msgstr "Ekran blokady abo logowanio"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:262
 msgid "Look & Feel"
 msgstr "Wyglōnd"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:266
 msgid "Multitasking or Window Management"
 msgstr "Zarzōndzanie ôknami abo multitaskingym"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:270
 msgid "Notifications"
 msgstr "Powiadōmiynia"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Skaźniki ôkyn"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Sztelōnki systymu"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Kōmpōnynta biōrka"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Wychodne programy"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Kaj widzisz problym?"
 
 #~ msgid "Session"
 #~ msgstr "Sesyjo"
