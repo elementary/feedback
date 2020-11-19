@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2019-07-08 16:28+0000\n"
+"PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
 "mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -25,17 +25,15 @@ msgstr "अभिप्राय"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "कोणत्या घटकासाठी अभिप्राय पाठवायचा?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
-msgstr "आपल्या वेब ब्राउझरमधील समस्येची तक्रार करण्यासाठी सूचीमधील घटक निवडा."
+msgstr ""
+"आपल्या वेब ब्राउझरमधून अभिप्राय पाठविण्यासाठी किंवा समस्येचा अहवाल देण्यासाठी"
+" सूचीमधून एखादा घटक निवडा."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
