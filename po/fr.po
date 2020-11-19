@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2019-07-08 16:28+0000\n"
+"PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
 "fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -25,19 +25,15 @@ msgstr "Commentaires"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Pour quel environnement souhaitez-vous envoyer des commentaires ?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Sélectionnez un composant dans la liste pour signaler un problème depuis "
-"votre navigateur Web."
+"Sélectionnez un élément dans la liste pour envoyer des commentaires ou "
+"signaler un problème depuis votre navigateur Web."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
