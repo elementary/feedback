@@ -16,6 +16,8 @@ finish-args:
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
 modules:
   - name: appstream
+    buildsystem: cmake
+    builddir: true
     no-autogen: true
     sources:
       - type: git
@@ -26,6 +28,11 @@ modules:
           - type: archive
             url: https://oligarchy.co.uk/xapian/1.4.17/xapian-core-1.4.17.tar.xz
             md5: 64cd582a4495c5cbda8e06e63f8ce4f4
+      - name: yaml
+        sources:
+          - type: git
+            url: https://github.com/yaml/libyaml
+            tag: '0.2.5'
 
   - name: feedback
     buildsystem: meson
