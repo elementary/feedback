@@ -16,12 +16,11 @@ finish-args:
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
 modules:
   - name: appstream
-    buildsystem: cmake
-    builddir: true
-    no-autogen: true
+    buildsystem: meson
     sources:
       - type: git
-        url: https://gitlab.com/appstream/appstream
+        url: https://github.com/ximion/appstream
+        tag: 'v0.12.11'
     modules:
       - name: xapian
         sources:
@@ -44,6 +43,16 @@ modules:
           - type: archive
             url: https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2
             md5: 93bab48d446c826399d130d959fe676f
+      - name: lmdb
+        buildsystem: simple
+        build-commands:
+          - 'make'
+          - 'make install prefix=/app'
+        subdir: 'libraries/liblmdb'
+        sources:
+          - type: git
+            url: https://git.openldap.org/openldap/openldap
+            tag: 'LMDB_0.9.27'
 
   - name: handy
     buildsystem: meson
