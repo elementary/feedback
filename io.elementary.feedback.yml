@@ -17,6 +17,8 @@ finish-args:
 modules:
   - name: appstream
     buildsystem: meson
+    config-opts:
+      - '-Dvapi=true'
     sources:
       - type: git
         url: https://github.com/ximion/appstream
