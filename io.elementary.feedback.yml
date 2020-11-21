@@ -1,4 +1,4 @@
-app-id: io.elementary.calculator
+app-id: io.elementary.feedback
 runtime: org.gnome.Platform
 runtime-version: '3.38'
 base: io.elementary.BaseApp
