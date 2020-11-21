@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2020-06-07 13:11+0000\n"
+"PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -25,19 +25,13 @@ msgstr "フィードバック"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "フィードバックを送信したいコンポーネントを選択してください"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
-msgstr ""
-"お使いの Web ブラウザーから不具合を報告するには、一覧からコンポーネントをお選"
-"びください。"
+msgstr "お使いの Web ブラウザーからフィードバックを送信したり不具合を報告したりするには、一覧から項目をお選びください。"
 
 #: src/MainWindow.vala:61
 msgid "Categories"
