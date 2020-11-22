@@ -29,6 +29,8 @@ modules:
     buildsystem: meson
     config-opts:
       - '-Dvapi=true'
+      - '-Dapidocs=false'
+      - '-Dinstall-docs=false'
     sources:
       - type: git
         url: https://github.com/ximion/appstream
