@@ -15,6 +15,15 @@ finish-args:
   - '--system-talk-name=org.freedesktop.Accounts'
 
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
+cleanup:
+  - '/include'
+  - '/lib/pkgconfig'
+  - '/lib/girepository-1.0'
+  - '/share/gir-1.0'
+  - '/share/man'
+  - '/share/vala'
+  - '*.la'
+  - '*.a'
 modules:
   - name: appstream
     buildsystem: meson
