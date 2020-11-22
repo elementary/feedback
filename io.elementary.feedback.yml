@@ -37,6 +37,10 @@ modules:
         tag: 'v0.12.11'
     modules:
       - name: xapian
+        cleanup:
+          - '/lib/cmake'
+          - '/share/alocal'
+          - '/share/doc'
         sources:
           - type: archive
             url: https://oligarchy.co.uk/xapian/1.4.17/xapian-core-1.4.17.tar.xz
