@@ -73,7 +73,7 @@ modules:
             url: https://git.openldap.org/openldap/openldap
             tag: 'LMDB_0.9.27'
       - name: stemmer
-        buildsystem: cmake
+        buildsystem: cmake-ninja
         sources:
           - type: git
             url: https://github.com/zvelo/libstemmer
