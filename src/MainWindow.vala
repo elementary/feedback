@@ -22,6 +22,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private uint configure_id;
     private Gtk.ListBox listbox;
     private Category? category_filter;
+    private bool sandboxed;
 
     public MainWindow (Gtk.Application application) {
         Object (
@@ -74,19 +75,32 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
+        sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
+
         var appstream_pool = new AppStream.Pool ();
         try {
+            if (sandboxed) {
+                appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
+            }
+
             appstream_pool.load ();
         } catch (Error e) {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                var desktop_info = new DesktopAppInfo (app + ".desktop");
-
                 appstream_pool.get_components_by_id (app).foreach ((component) => {
+                    Icon icon = null;
+
+                    if (sandboxed) {
+                        icon = icon_from_appstream_component (component);
+                    } else {
+                        var desktop_info = new DesktopAppInfo (app + ".desktop");
+                        icon = desktop_info.get_icon ();
+                    }
+
                     var repo_row = new RepoRow (
-                        desktop_info.get_display_name (),
-                        desktop_info.get_icon (),
+                        component.name,
+                        icon,
                         Category.DEFAULT_APPS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
@@ -213,6 +227,27 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+    }
+
+    private Icon icon_from_appstream_component (AppStream.Component component) {
+        var as_icons = component.get_icons ();
+        Icon icon;
+
+        if (as_icons.length == 0) {
+            // the appdata has no icons, fallback to id
+            icon = new ThemedIcon (component.id);
+        } else {
+            var name = as_icons[0].get_name ();
+
+            if (as_icons[0].get_kind () == AppStream.IconKind.STOCK) {
+                icon = new ThemedIcon (name);
+            } else {
+                // non-stock type icons has the extension in the name.
+                icon = new ThemedIcon (name.substring (0, name.length - 4));
+            }
+        }
+
+        return icon;
     }
 
     [CCode (instance_pos = -1)]
