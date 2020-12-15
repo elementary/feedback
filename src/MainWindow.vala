@@ -243,7 +243,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 icon = new ThemedIcon (name);
             } else {
                 // non-stock type icons has the extension in the name.
-                icon = new ThemedIcon (name.substring (0, name.length - 4));
+                icon = new ThemedIcon (name.substring (0, name.last_index_of (".")));
             }
         }
 
