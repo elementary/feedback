@@ -22,7 +22,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private uint configure_id;
     private Gtk.ListBox listbox;
     private Category? category_filter;
-    private bool sandboxed;
 
     public MainWindow (Gtk.Application application) {
         Object (
@@ -75,12 +74,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
-        sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
-
         var appstream_pool = new AppStream.Pool ();
         try {
+            bool sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
+
             if (sandboxed) {
                 appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
+            } else {
+                appstream_pool.set_flags (AppStream.PoolFlags.READ_METAINFO);
             }
 
             appstream_pool.load ();
@@ -89,18 +90,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         } finally {
             foreach (var app in app_entries) {
                 appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    Icon icon = null;
-
-                    if (sandboxed) {
-                        icon = icon_from_appstream_component (component);
-                    } else {
-                        var desktop_info = new DesktopAppInfo (app + ".desktop");
-                        icon = desktop_info.get_icon ();
-                    }
-
                     var repo_row = new RepoRow (
                         component.name,
-                        icon,
+                        icon_from_appstream_component (component),
                         Category.DEFAULT_APPS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
