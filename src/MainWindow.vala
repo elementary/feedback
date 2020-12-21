@@ -100,31 +100,31 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 listbox.add (repo_row);
             }
 
-            foreach (var entry in switchboard_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
+            appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                component.get_addons ().foreach ((addon) => {
                     var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
+                        addon.name,
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.SETTINGS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
 
                     listbox.add (repo_row);
                 });
-            }
+            });
 
-            foreach (var entry in wingpanel_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
+            appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
+                component.get_addons ().foreach ((addon) => {
                     var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
+                        addon.name,
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.PANEL,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
 
                     listbox.add (repo_row);
                 });
-            }
+            });
         }
 
         var scrolled = new Gtk.ScrolledWindow (null, null);
@@ -215,6 +215,18 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
     }
 
+    private GLib.Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
+        if (appstream_icons.length > 0) {
+            for (int i = 0; i < appstream_icons.length; i++) {
+                if (appstream_icons[i].get_kind () == AppStream.IconKind.STOCK) {
+                    return new ThemedIcon (appstream_icons[i].get_name ());
+                }
+            }
+        }
+
+        return new ThemedIcon ("extension");
+    }
+
     [CCode (instance_pos = -1)]
     private bool filter_function (Gtk.ListBoxRow row) {
         if (((RepoRow) row).category == category_filter) {
@@ -269,138 +281,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Notifications"),
             issues_url = "https://github.com/elementary/gala/issues/new/choose"
-        }
-    };
-
-    private struct SwitchboardEntry {
-        string icon;
-        string id;
-    }
-
-    static SwitchboardEntry[] switchboard_entries = {
-        SwitchboardEntry () {
-            icon = "preferences-desktop-applications",
-            id = "io.elementary.switchboard.applications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-wallpaper",
-            id = "io.elementary.switchboard.pantheon-shell"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-locale",
-            id = "io.elementary.switchboard.locale"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-notifications",
-            id = "io.elementary.switchboard.notifications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-privacy",
-            id = "io.elementary.switchboard.security-privacy"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-display",
-            id = "io.elementary.switchboard.display"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-keyboard",
-            id = "io.elementary.switchboard.keyboard"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-peripherals",
-            id = "io.elementary.switchboard.mouse-touchpad"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-power",
-            id = "io.elementary.switchboard.power"
-        },
-        SwitchboardEntry () {
-            icon = "printer",
-            id = "io.elementary.switchboard.printers"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-sound",
-            id = "io.elementary.switchboard.sound"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-bluetooth",
-            id = "io.elementary.switchboard.bluetooth"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-network",
-            id = "io.elementary.switchboard.network"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-online-accounts",
-            id = "io.elementary.switchboard.onlineaccounts"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-sharing",
-            id = "io.elementary.switchboard.sharing"
-        },
-        SwitchboardEntry () {
-            icon = "dialog-information",
-            id = "io.elementary.switchboard.about"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-time",
-            id = "io.elementary.switchboard.datetime"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-parental-controls",
-            id = "io.elementary.switchboard.parental-controls"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-accessibility",
-            id = "io.elementary.switchboard.a11y"
-        },
-        SwitchboardEntry () {
-            icon = "system-users",
-            id = "io.elementary.switchboard.useraccounts"
-        }
-    };
-
-    private struct WingpanelEntry {
-        string icon;
-        string id;
-    }
-
-    static WingpanelEntry[] wingpanel_entries = {
-        WingpanelEntry () {
-            icon = "bluetooth-active-symbolic",
-            id="io.elementary.wingpanel.bluetooth"
-        },
-        WingpanelEntry () {
-            icon = "appointment-symbolic",
-            id="io.elementary.wingpanel.datetime"
-        },
-        WingpanelEntry () {
-            icon = "input-keyboard-symbolic",
-            id="io.elementary.wingpanel.keyboard"
-        },
-        WingpanelEntry () {
-            icon = "network-wireless-signal-excellent-symbolic",
-            id="io.elementary.wingpanel.network"
-        },
-        WingpanelEntry () {
-            icon = "night-light-symbolic",
-            id="io.elementary.wingpanel.nightlight"
-        },
-        WingpanelEntry () {
-            icon = "notification-symbolic",
-            id="io.elementary.wingpanel.notifications"
-        },
-        WingpanelEntry () {
-            icon = "battery-full-symbolic",
-            id="io.elementary.wingpanel.power"
-        },
-        WingpanelEntry () {
-            icon = "system-shutdown-symbolic",
-            id="io.elementary.wingpanel.session"
-        },
-        WingpanelEntry () {
-            icon = "audio-volume-high-symbolic",
-            id="io.elementary.wingpanel.sound"
         }
     };
 
