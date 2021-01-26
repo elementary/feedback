@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2020-08-23 18:13+0000\n"
-"Last-Translator: Nils K <slx@nilsk.net>\n"
+"PO-Revision-Date: 2021-01-20 22:37+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
 "feedback/nb/>\n"
 "Language: nb\n"
@@ -17,49 +17,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
 #: src/MainWindow.vala:41
+#, fuzzy
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Hvilken komponent ønsker du å sende tilbakemelding om?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"Velg et element fra listen for å sende tilbakemelding eller innrapportere et "
+"problem fra din nettleser."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
 #: src/MainWindow.vala:150
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/MainWindow.vala:153
 msgid "Report Problem"
-msgstr ""
+msgstr "Innrapporter problem"
 
 #: src/MainWindow.vala:254
+#, fuzzy
 msgid "Applications Menu"
-msgstr ""
+msgstr "Programmeny"
 
 #: src/MainWindow.vala:258
+#, fuzzy
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Låsing- eller innloggingsskjerm"
 
 #: src/MainWindow.vala:262
+#, fuzzy
 msgid "Look & Feel"
-msgstr ""
+msgstr "Utseende og oppførsel"
 
 #: src/MainWindow.vala:266
+#, fuzzy
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Fleroppgavekjøring eller vindusbehandling"
 
 #: src/MainWindow.vala:270
 msgid "Notifications"
@@ -67,16 +74,16 @@ msgstr "Varsler"
 
 #: src/MainWindow.vala:416
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Panelindikatorer"
 
 #: src/MainWindow.vala:418
 msgid "System Settings"
-msgstr ""
+msgstr "Systeminnstillinger"
 
 #: src/MainWindow.vala:420
 msgid "Desktop Components"
-msgstr ""
+msgstr "Skrivebordskomponenter"
 
 #: src/MainWindow.vala:422
 msgid "Default Apps"
-msgstr ""
+msgstr "Forvalgte programmer"
