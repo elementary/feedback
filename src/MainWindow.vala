@@ -76,17 +76,23 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var appstream_pool = new AppStream.Pool ();
         try {
+            bool sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
+
+            if (sandboxed) {
+                appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
+            } else {
+                appstream_pool.set_flags (AppStream.PoolFlags.READ_METAINFO);
+            }
+
             appstream_pool.load ();
         } catch (Error e) {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                var desktop_info = new DesktopAppInfo (app + ".desktop");
-
                 appstream_pool.get_components_by_id (app).foreach ((component) => {
                     var repo_row = new RepoRow (
-                        desktop_info.get_display_name (),
-                        desktop_info.get_icon (),
+                        component.name,
+                        icon_from_appstream_component (component),
                         Category.DEFAULT_APPS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
@@ -213,6 +219,27 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+    }
+
+    private Icon icon_from_appstream_component (AppStream.Component component) {
+        var as_icons = component.get_icons ();
+        Icon icon;
+
+        if (as_icons.length == 0) {
+            // the appdata has no icons, fallback to id
+            icon = new ThemedIcon (component.id);
+        } else {
+            var name = as_icons[0].get_name ();
+
+            if (as_icons[0].get_kind () == AppStream.IconKind.STOCK) {
+                icon = new ThemedIcon (name);
+            } else {
+                // non-stock type icons has the extension in the name.
+                icon = new ThemedIcon (name.substring (0, name.last_index_of (".")));
+            }
+        }
+
+        return icon;
     }
 
     [CCode (instance_pos = -1)]
