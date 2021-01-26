@@ -14,6 +14,9 @@ finish-args:
   # needed for perfers-color-scheme
   - '--system-talk-name=org.freedesktop.Accounts'
 
+  # needed to read app metadata
+  - '--filesystem=host:ro'
+
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
 cleanup:
   - '/include'
