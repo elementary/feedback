@@ -21,6 +21,19 @@ jobs:
         meson build
         ninja -C build
 
+  flatpak:
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/bilelmoussaoui/flatpak-github-actions
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bilelmoussaoui/flatpak-github-actions@v2
+      with:
+        bundle: "feedback.flatpak"
+        manifest-path: "io.elementary.feedback.yml"
+        run-tests: "true"
+
   lint:
 
     runs-on: ubuntu-latest
