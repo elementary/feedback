@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2019-09-02 20:22+0000\n"
+"PO-Revision-Date: 2021-02-09 09:40+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
 "fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -25,17 +25,15 @@ msgstr "Palaute"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Mihin osaan liittyen haluat lähettää palautetta?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
-msgstr "Valitse luettelosta se osa, josta tehdään vikailmoitus selaimessa."
+msgstr ""
+"Valitse luettelosta se osa, josta haluat antaa palautetta. Voit myös tehdä "
+"vikailmoituksen selaimessa."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
