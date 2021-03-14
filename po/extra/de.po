@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-26 18:20+0000\n"
 "PO-Revision-Date: 2021-03-14 14:29+0000\n"
-"Last-Translator: DerMuffin <piepmatz101999@gmail.com>\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/de/>\n"
 "Language: de\n"
@@ -41,7 +41,7 @@ msgstr "Fehlermelder"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
-msgstr ""
+msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
