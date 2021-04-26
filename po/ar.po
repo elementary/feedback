@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 02:09+0000\n"
-"PO-Revision-Date: 2020-05-14 14:10+0000\n"
+"PO-Revision-Date: 2021-04-26 12:57+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
 "ar/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -29,14 +29,10 @@ msgid "Send feedback for which component?"
 msgstr ""
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
-msgstr "اختر عنصرا من القائمة للإبلاغ عن مشكلة من المتصفح الخاص بك."
+msgstr "اختر عنصراً من القائمة للتقيم أو للإبلاغ عن مشكلة من المتصفح الخاص بك."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
@@ -44,7 +40,7 @@ msgstr "القوائم"
 
 #: src/MainWindow.vala:150
 msgid "Cancel"
-msgstr "الغاء"
+msgstr "إلغاء"
 
 #: src/MainWindow.vala:153
 msgid "Report Problem"
