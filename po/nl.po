@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 02:09+0000\n"
+"POT-Creation-Date: 2021-04-28 16:27+0000\n"
 "PO-Revision-Date: 2020-11-03 07:15+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -42,49 +42,54 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorieën"
 
-#: src/MainWindow.vala:150
+#: src/MainWindow.vala:156
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: src/MainWindow.vala:153
-msgid "Report Problem"
-msgstr "Meld het probleem"
+#: src/MainWindow.vala:159
+#, fuzzy
+#| msgid "Feedback"
+msgid "Send Feedback…"
+msgstr "Feedback"
 
-#: src/MainWindow.vala:254
+#: src/MainWindow.vala:281
 msgid "Applications Menu"
 msgstr "Applicatie Menu"
 
-#: src/MainWindow.vala:258
+#: src/MainWindow.vala:285
 msgid "Lock or Login Screen"
 msgstr "Vergrendel- of Loginscherm"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:289
 msgid "Look & Feel"
 msgstr "Vormgeving"
 
-#: src/MainWindow.vala:266
+#: src/MainWindow.vala:293
 msgid "Multitasking or Window Management"
 msgstr "Multitasken of Vensterbeheer"
 
-#: src/MainWindow.vala:270
+#: src/MainWindow.vala:297
 msgid "Notifications"
 msgstr "Meldingen"
 
-#: src/MainWindow.vala:416
+#: src/MainWindow.vala:443
 msgid "Panel Indicators"
 msgstr "Vensterindicators"
 
-#: src/MainWindow.vala:418
+#: src/MainWindow.vala:445
 msgid "System Settings"
 msgstr "Systeem instellingen"
 
-#: src/MainWindow.vala:420
+#: src/MainWindow.vala:447
 msgid "Desktop Components"
 msgstr "Desktop Onderdelen"
 
-#: src/MainWindow.vala:422
+#: src/MainWindow.vala:449
 msgid "Default Apps"
 msgstr "Standaard apps"
+
+#~ msgid "Report Problem"
+#~ msgstr "Meld het probleem"
 
 #~ msgid "Where Are You Seeing an Issue?"
 #~ msgstr "Waar bevindt zich het probleem?"

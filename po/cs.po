@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 02:09+0000\n"
+"POT-Creation-Date: 2021-04-28 16:27+0000\n"
 "PO-Revision-Date: 2020-06-07 13:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -43,49 +43,54 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorie"
 
-#: src/MainWindow.vala:150
+#: src/MainWindow.vala:156
 msgid "Cancel"
 msgstr "Storno"
 
-#: src/MainWindow.vala:153
-msgid "Report Problem"
-msgstr "Nahlásit problém"
+#: src/MainWindow.vala:159
+#, fuzzy
+#| msgid "Feedback"
+msgid "Send Feedback…"
+msgstr "Zpětná vazba"
 
-#: src/MainWindow.vala:254
+#: src/MainWindow.vala:281
 msgid "Applications Menu"
 msgstr "Nabídka s aplikacemi"
 
-#: src/MainWindow.vala:258
+#: src/MainWindow.vala:285
 msgid "Lock or Login Screen"
 msgstr "Zamykací nebo přihlašovací obrazovka"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:289
 msgid "Look & Feel"
 msgstr "Vzhled a přizpůsobení"
 
-#: src/MainWindow.vala:266
+#: src/MainWindow.vala:293
 msgid "Multitasking or Window Management"
 msgstr "Multitasking nebo správa oken"
 
-#: src/MainWindow.vala:270
+#: src/MainWindow.vala:297
 msgid "Notifications"
 msgstr "Upozorňování"
 
-#: src/MainWindow.vala:416
+#: src/MainWindow.vala:443
 msgid "Panel Indicators"
 msgstr "Indikátory na hlavním panelu"
 
-#: src/MainWindow.vala:418
+#: src/MainWindow.vala:445
 msgid "System Settings"
 msgstr "Nastavení systému"
 
-#: src/MainWindow.vala:420
+#: src/MainWindow.vala:447
 msgid "Desktop Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:422
+#: src/MainWindow.vala:449
 msgid "Default Apps"
 msgstr "Výchozí aplikace"
+
+#~ msgid "Report Problem"
+#~ msgstr "Nahlásit problém"
 
 #~ msgid "Where Are You Seeing an Issue?"
 #~ msgstr "V čem jste našli chybu?"

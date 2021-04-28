@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 02:09+0000\n"
+"POT-Creation-Date: 2021-04-28 16:27+0000\n"
 "PO-Revision-Date: 2021-01-20 22:37+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -40,50 +40,55 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorier"
 
-#: src/MainWindow.vala:150
+#: src/MainWindow.vala:156
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:153
-msgid "Report Problem"
-msgstr "Innrapporter problem"
+#: src/MainWindow.vala:159
+#, fuzzy
+#| msgid "Feedback"
+msgid "Send Feedback…"
+msgstr "Tilbakemelding"
 
-#: src/MainWindow.vala:254
+#: src/MainWindow.vala:281
 #, fuzzy
 msgid "Applications Menu"
 msgstr "Programmeny"
 
-#: src/MainWindow.vala:258
+#: src/MainWindow.vala:285
 #, fuzzy
 msgid "Lock or Login Screen"
 msgstr "Låsing- eller innloggingsskjerm"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:289
 #, fuzzy
 msgid "Look & Feel"
 msgstr "Utseende og oppførsel"
 
-#: src/MainWindow.vala:266
+#: src/MainWindow.vala:293
 #, fuzzy
 msgid "Multitasking or Window Management"
 msgstr "Fleroppgavekjøring eller vindusbehandling"
 
-#: src/MainWindow.vala:270
+#: src/MainWindow.vala:297
 msgid "Notifications"
 msgstr "Varsler"
 
-#: src/MainWindow.vala:416
+#: src/MainWindow.vala:443
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:418
+#: src/MainWindow.vala:445
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:420
+#: src/MainWindow.vala:447
 msgid "Desktop Components"
 msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:422
+#: src/MainWindow.vala:449
 msgid "Default Apps"
 msgstr "Forvalgte programmer"
+
+#~ msgid "Report Problem"
+#~ msgstr "Innrapporter problem"

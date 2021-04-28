@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 02:09+0000\n"
+"POT-Creation-Date: 2021-04-28 16:27+0000\n"
 "PO-Revision-Date: 2021-04-26 12:57+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -38,49 +38,54 @@ msgstr "اختر عنصراً من القائمة للتقيم أو للإبلا
 msgid "Categories"
 msgstr "القوائم"
 
-#: src/MainWindow.vala:150
+#: src/MainWindow.vala:156
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: src/MainWindow.vala:153
-msgid "Report Problem"
-msgstr "ابلغ عن مشكلة"
+#: src/MainWindow.vala:159
+#, fuzzy
+#| msgid "Feedback"
+msgid "Send Feedback…"
+msgstr "مراجعة"
 
-#: src/MainWindow.vala:254
+#: src/MainWindow.vala:281
 msgid "Applications Menu"
 msgstr "قائمة التطبيقات"
 
-#: src/MainWindow.vala:258
+#: src/MainWindow.vala:285
 msgid "Lock or Login Screen"
 msgstr "شاشة القفل أو تسجيل الدخول"
 
-#: src/MainWindow.vala:262
+#: src/MainWindow.vala:289
 msgid "Look & Feel"
 msgstr "انظر واشعر"
 
-#: src/MainWindow.vala:266
+#: src/MainWindow.vala:293
 msgid "Multitasking or Window Management"
 msgstr "تعدد المهام أو إدارة النوافذ"
 
-#: src/MainWindow.vala:270
+#: src/MainWindow.vala:297
 msgid "Notifications"
 msgstr "الإشعارات"
 
-#: src/MainWindow.vala:416
+#: src/MainWindow.vala:443
 msgid "Panel Indicators"
 msgstr "مؤشرات اللوحة"
 
-#: src/MainWindow.vala:418
+#: src/MainWindow.vala:445
 msgid "System Settings"
 msgstr "إعدادات النظام"
 
-#: src/MainWindow.vala:420
+#: src/MainWindow.vala:447
 msgid "Desktop Components"
 msgstr "مكونات سطح المكتب"
 
-#: src/MainWindow.vala:422
+#: src/MainWindow.vala:449
 msgid "Default Apps"
 msgstr "التطبيقات الإفتراضية"
+
+#~ msgid "Report Problem"
+#~ msgstr "ابلغ عن مشكلة"
 
 #~ msgid "Where Are You Seeing an Issue?"
 #~ msgstr "أين تجد المشكلة؟"
