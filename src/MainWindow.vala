@@ -156,7 +156,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var cancel_button = new Gtk.Button.with_label (_("Cancel"));
         cancel_button.action_name = "app.quit";
 
-        var report_button = new Gtk.Button.with_label (_("Report Problem"));
+        var report_button = new Gtk.Button.with_label (_("Send Feedback…"));
         report_button.sensitive = false;
         report_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
 
