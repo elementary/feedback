@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-28 16:27+0000\n"
-"PO-Revision-Date: 2020-11-20 21:15+0000\n"
+"PO-Revision-Date: 2021-04-30 15:52+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -44,10 +44,8 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #: src/MainWindow.vala:159
-#, fuzzy
-#| msgid "Feedback"
 msgid "Send Feedback…"
-msgstr "フィードバック"
+msgstr "フィードバックを送る…"
 
 #: src/MainWindow.vala:281
 msgid "Applications Menu"
