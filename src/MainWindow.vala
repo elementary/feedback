@@ -295,7 +295,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         },
         SystemEntry () {
             name = _("Notifications"),
-            issues_url = "https://github.com/elementary/gala/issues/new/choose"
+            issues_url = "https://github.com/elementary/notifications/issues/new/choose"
         }
     };
 
