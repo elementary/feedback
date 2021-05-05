@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-28 16:27+0000\n"
-"PO-Revision-Date: 2021-01-20 22:37+0000\n"
+"PO-Revision-Date: 2021-05-06 01:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
 "feedback/nb/>\n"
@@ -45,10 +45,8 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: src/MainWindow.vala:159
-#, fuzzy
-#| msgid "Feedback"
 msgid "Send Feedback…"
-msgstr "Tilbakemelding"
+msgstr "Send tilbakemelding…"
 
 #: src/MainWindow.vala:281
 #, fuzzy
