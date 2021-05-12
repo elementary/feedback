@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-28 16:27+0000\n"
-"PO-Revision-Date: 2021-02-14 23:29+0000\n"
+"PO-Revision-Date: 2021-05-13 00:55+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "desktop/feedback/en_GB/>\n"
@@ -44,10 +44,8 @@ msgid "Cancel"
 msgstr "Cancel"
 
 #: src/MainWindow.vala:159
-#, fuzzy
-#| msgid "Feedback"
 msgid "Send Feedback…"
-msgstr "Feedback"
+msgstr "Send Feedback…"
 
 #: src/MainWindow.vala:281
 msgid "Applications Menu"
