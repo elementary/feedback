@@ -1,9 +1,13 @@
 app-id: io.elementary.feedback
 runtime: io.elementary.Platform
-runtime-version: '0.1.0'
+runtime-version: daily
 sdk: io.elementary.Sdk
 command: io.elementary.feedback
 finish-args:
+  # for host metadata, '--filesystem=/usr/share/metainfo:ro' won't work.
+  - '--filesystem=host:ro'
+  - '--filesystem=/var/lib/flatpak:ro' # for flatpak metadata
+
   - '--share=ipc'
   - '--share=network'
   - '--socket=fallback-x11'
@@ -12,8 +16,8 @@ finish-args:
   # needed for perfers-color-scheme
   - '--system-talk-name=org.freedesktop.Accounts'
 
-  # needed to read app metadata
-  - '--filesystem=host:ro'
+  # we need to add flatpak export to XDG_DATA_DIRS for icons
+  - '--env=XDG_DATA_DIRS=/app/share:/usr/share:/usr/share/runtime/share:/run/host/share:/var/lib/flatpak/exports/share'
 
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
 cleanup:
@@ -28,6 +32,8 @@ cleanup:
 modules:
   - name: appstream
     buildsystem: meson
+    cleanup:
+      - /bin
     config-opts:
       - '-Dvapi=true'
       - '-Dapidocs=false'
@@ -40,8 +46,9 @@ modules:
       - name: xapian
         cleanup:
           - '/lib/cmake'
-          - '/share/alocal'
+          - '/share/aclocal'
           - '/share/doc'
+          - '/bin'
         sources:
           - type: archive
             url: https://oligarchy.co.uk/xapian/1.4.17/xapian-core-1.4.17.tar.xz
@@ -59,11 +66,15 @@ modules:
             url: https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
             md5: 12e517cac2b57a0121cda351570f1e63
       - name: xmlto
+        cleanup:
+          - '/bin'
         sources:
           - type: archive
             url: https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2
             md5: 93bab48d446c826399d130d959fe676f
       - name: lmdb
+        cleanup:
+          - '/bin'
         no-autogen: true
         make-install-args:
           - 'prefix=/app'
