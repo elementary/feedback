@@ -274,7 +274,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "org.pantheon.mail",
          "io.elementary.music",
          "io.elementary.photos",
-         "io.elementary.screenshot-tool",
+         "io.elementary.screenshot",
          "io.elementary.terminal",
          "io.elementary.videos"
     };
