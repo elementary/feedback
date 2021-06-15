@@ -16,9 +16,6 @@ finish-args:
   # needed for perfers-color-scheme
   - '--system-talk-name=org.freedesktop.Accounts'
 
-  # we need to add flatpak export to XDG_DATA_DIRS for icons
-  - '--env=XDG_DATA_DIRS=/app/share:/usr/share:/usr/share/runtime/share:/run/host/share:/var/lib/flatpak/exports/share'
-
   - '--metadata=X-DConf=migrate-path=/io/elementary/feedback/'
 cleanup:
   - '/include'

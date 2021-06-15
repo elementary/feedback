@@ -78,9 +78,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         appstream_pool.set_flags (AppStream.PoolFlags.READ_COLLECTION);
         appstream_pool.clear_metadata_locations ();
         try {
-            bool sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
-
-            if (sandboxed) {
+            if (Application.sandboxed) {
                 appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
             } else {
                 appstream_pool.add_metadata_location ("/usr/share/metainfo/");
