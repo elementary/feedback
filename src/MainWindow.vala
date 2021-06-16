@@ -75,13 +75,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         var appstream_pool = new AppStream.Pool ();
-        appstream_pool.set_flags (AppStream.PoolFlags.READ_COLLECTION);
         appstream_pool.clear_metadata_locations ();
         try {
             if (Application.sandboxed) {
                 appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
-            } else {
-                appstream_pool.add_metadata_location ("/usr/share/metainfo/");
             }
 
             // flatpak's appstream files exists only inside they sandbox
