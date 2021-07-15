@@ -264,12 +264,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.calendar",
          "io.elementary.camera",
          "io.elementary.code",
+         "org.gnome.Evince",
          "org.gnome.Epiphany",
          "io.elementary.files",
-         "org.pantheon.mail",
+         "io.elementary.mail",
          "io.elementary.music",
          "io.elementary.photos",
          "io.elementary.screenshot",
+         "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
     };
