@@ -10,9 +10,13 @@
     <p></p>
   </description>
   <releases>
-    <release version="1.0.1" date="2019-11-04" urgency="medium">
+    <release version="6.0.0" date="2020-07-15" urgency="medium">
       <description>
         <ul>
+          <li>Show Flatpak Apps</li>
+          <li>Support dark style</li>
+          <li>Add multitouch navigation gestures</li>
+          <li>Ensure links are up-to-date</li>
           <li>Updated translations</li>
         </ul>
       </description>
