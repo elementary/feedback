@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-28 16:27+0000\n"
+"POT-Creation-Date: 2021-07-16 00:14+0000\n"
 "PO-Revision-Date: 2021-04-29 18:28+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,47 +39,47 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: src/MainWindow.vala:156
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "İptal Et"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:162
 msgid "Send Feedback…"
 msgstr "Geri Bildirim Gönder…"
 
-#: src/MainWindow.vala:281
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Uygulamalar Menüsü"
 
-#: src/MainWindow.vala:285
+#: src/MainWindow.vala:290
 msgid "Lock or Login Screen"
 msgstr "Kilit veya Giriş Ekranı"
 
-#: src/MainWindow.vala:289
+#: src/MainWindow.vala:294
 msgid "Look & Feel"
 msgstr "Görünüm ve Kullanım"
 
-#: src/MainWindow.vala:293
+#: src/MainWindow.vala:298
 msgid "Multitasking or Window Management"
 msgstr "Çoklu Görev veya Pencere Yönetimi"
 
-#: src/MainWindow.vala:297
+#: src/MainWindow.vala:302
 msgid "Notifications"
 msgstr "Bildirimler"
 
-#: src/MainWindow.vala:443
+#: src/MainWindow.vala:448
 msgid "Panel Indicators"
 msgstr "Panel Göstergeleri"
 
-#: src/MainWindow.vala:445
+#: src/MainWindow.vala:450
 msgid "System Settings"
 msgstr "Sistem Ayarları"
 
-#: src/MainWindow.vala:447
+#: src/MainWindow.vala:452
 msgid "Desktop Components"
 msgstr "Masaüstü Bileşenleri"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:454
 msgid "Default Apps"
 msgstr "Varsayılan Uygulamalar"
 

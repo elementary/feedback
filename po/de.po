@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-28 16:27+0000\n"
+"POT-Creation-Date: 2021-07-16 00:14+0000\n"
 "PO-Revision-Date: 2021-04-29 22:14+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,47 +39,47 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorien"
 
-#: src/MainWindow.vala:156
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:162
 msgid "Send Feedback…"
 msgstr "Rückmeldung senden …"
 
-#: src/MainWindow.vala:281
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Anwendungsmenü"
 
-#: src/MainWindow.vala:285
+#: src/MainWindow.vala:290
 msgid "Lock or Login Screen"
 msgstr "Sperr- oder Anmeldebildschirm"
 
-#: src/MainWindow.vala:289
+#: src/MainWindow.vala:294
 msgid "Look & Feel"
 msgstr "Aussehen & Handhabung"
 
-#: src/MainWindow.vala:293
+#: src/MainWindow.vala:298
 msgid "Multitasking or Window Management"
 msgstr "Arbeitsflächen- oder Fensterverwaltung"
 
-#: src/MainWindow.vala:297
+#: src/MainWindow.vala:302
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
-#: src/MainWindow.vala:443
+#: src/MainWindow.vala:448
 msgid "Panel Indicators"
 msgstr "Panel-Indikatoren"
 
-#: src/MainWindow.vala:445
+#: src/MainWindow.vala:450
 msgid "System Settings"
 msgstr "Systemeinstellungen"
 
-#: src/MainWindow.vala:447
+#: src/MainWindow.vala:452
 msgid "Desktop Components"
 msgstr "Bestandteile der Arbeitsumgebung"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:454
 msgid "Default Apps"
 msgstr "Standardanwendungen"
 
