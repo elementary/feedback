@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 00:14+0000\n"
-"PO-Revision-Date: 2020-09-22 14:23+0000\n"
+"PO-Revision-Date: 2021-07-16 20:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -26,27 +26,27 @@ msgstr "Відгук"
 
 #: data/feedback.appdata.xml.in:15
 msgid "Improvements:"
-msgstr ""
+msgstr "Вдосконалення:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "Показ застосунків Flatpak"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Support dark style"
-msgstr ""
+msgstr "Підтримка темного стилю"
 
 #: data/feedback.appdata.xml.in:19
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "Додано жести навігації"
 
 #: data/feedback.appdata.xml.in:21
 msgid "Minor updates:"
-msgstr ""
+msgstr "Незначні оновлення:"
 
 #: data/feedback.appdata.xml.in:23
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "Оновлювані посилання"
 
 #: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
