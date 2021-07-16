@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 00:14+0000\n"
-"PO-Revision-Date: 2020-04-09 06:10+0000\n"
+"PO-Revision-Date: 2021-07-16 09:45+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -25,27 +25,27 @@ msgstr "משוב"
 
 #: data/feedback.appdata.xml.in:15
 msgid "Improvements:"
-msgstr ""
+msgstr "שיפורים:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "יישומי Flatpak מופיעים"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Support dark style"
-msgstr ""
+msgstr "תמיכה בסגנון כהה"
 
 #: data/feedback.appdata.xml.in:19
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "נוספו מחוות ניווט בעזרת מגע במספר נקודות"
 
 #: data/feedback.appdata.xml.in:21
 msgid "Minor updates:"
-msgstr ""
+msgstr "עדכונים משניים:"
 
 #: data/feedback.appdata.xml.in:23
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "עדכניות הקישורים נבדקה"
 
 #: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
