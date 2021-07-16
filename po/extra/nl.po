@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-28 16:27+0000\n"
+"POT-Creation-Date: 2021-07-16 00:14+0000\n"
 "PO-Revision-Date: 2020-03-29 20:04+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -23,11 +23,35 @@ msgstr ""
 msgid "Feedback"
 msgstr "Feedback"
 
-#: data/feedback.appdata.xml.in:16
+#: data/feedback.appdata.xml.in:15
+msgid "Improvements:"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:17
+msgid "Show Flatpak Apps"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:18
+msgid "Support dark style"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:19
+msgid "Add multitouch navigation gestures"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:21
+msgid "Minor updates:"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:23
+msgid "Ensure links are up-to-date"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
-#: data/feedback.appdata.xml.in:59
+#: data/feedback.appdata.xml.in:70
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
