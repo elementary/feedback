@@ -1,3 +1,35 @@
+io.elementary.feedback (6.0.0) bionic; urgency=medium
+
+  * Release 6.0.0 (#42)
+  * MainWindow: update app IDs
+  * Read Appdata From Installed Flatpak Apps (#41)
+  * Change notifications link (#39)
+  * Update translation files
+  * Update translation template
+  * MainWindow: "Report Problem" → "Send Feedback…" (#37)
+  * Flatpak: use elementary runtime and Sdk (#36)
+  * Provide a Flatpak manifest (#34)
+  * read host /usr/metainfo and get the icon from component when
+    sandboxed (#35)
+  * LINGUAS: Sort and remove en
+  * MainWindow: Rework copy around feedback (#32)
+  * MainWindow: Replace stack with Deck (#28)
+  * Support dark style preference (#30)
+  * Use GitHub CI (#29)
+  * Get metadata from appstream (#2)
+  * Add a unique icon (#21)
+  * Add POT files
+  * Travis: Downgrade node to 10
+  * AppData: Add 1.0.1 release data
+  * Add Release to Actions
+  * Add Gettext Updates to Actions
+  * Update issue URLs to include /choose (#14)
+  * Add Lint to CI (#15)
+  * MainWindow: Fix double space
+  * Delete CODE_OF_CONDUCT.md
+
+ -- elementary, Inc. <builds@elementary.io>  Fri, 16 Jul 2021 00:14:24 +0000
+
 io.elementary.feedback (1.0.0) bionic; urgency=medium
 
   * Initial release
