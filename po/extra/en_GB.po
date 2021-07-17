@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 00:14+0000\n"
-"PO-Revision-Date: 2020-04-06 15:10+0000\n"
-"Last-Translator: Ciarán Ainsworth <ciaranainsworth@posteo.net>\n"
+"PO-Revision-Date: 2021-07-18 02:11+0000\n"
+"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -25,27 +25,27 @@ msgstr "Feedback"
 
 #: data/feedback.appdata.xml.in:15
 msgid "Improvements:"
-msgstr ""
+msgstr "Improvements:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "Show Flatpak Apps"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Support dark style"
-msgstr ""
+msgstr "Support dark style"
 
 #: data/feedback.appdata.xml.in:19
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "Add multitouch navigation gestures"
 
 #: data/feedback.appdata.xml.in:21
 msgid "Minor updates:"
-msgstr ""
+msgstr "Minor updates:"
 
 #: data/feedback.appdata.xml.in:23
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "Ensure links are up-to-date"
 
 #: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
