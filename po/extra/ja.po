@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 00:14+0000\n"
-"PO-Revision-Date: 2020-06-07 13:11+0000\n"
+"PO-Revision-Date: 2021-07-17 11:05+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -25,27 +25,27 @@ msgstr "フィードバック"
 
 #: data/feedback.appdata.xml.in:15
 msgid "Improvements:"
-msgstr ""
+msgstr "改善点:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "Flatpak アプリを表示するように修正"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Support dark style"
-msgstr ""
+msgstr "ダークモードに対応"
 
 #: data/feedback.appdata.xml.in:19
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "マルチタッチジェスチャーで画面遷移できるように変更"
 
 #: data/feedback.appdata.xml.in:21
 msgid "Minor updates:"
-msgstr ""
+msgstr "軽微なアップデート:"
 
 #: data/feedback.appdata.xml.in:23
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "リンクを最新の URL に更新"
 
 #: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
