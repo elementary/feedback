@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-16 00:14+0000\n"
-"PO-Revision-Date: 2020-01-10 14:07+0000\n"
-"Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/fi/>\n"
+"PO-Revision-Date: 2021-07-22 23:06+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -25,7 +25,7 @@ msgstr "Palaute"
 
 #: data/feedback.appdata.xml.in:15
 msgid "Improvements:"
-msgstr ""
+msgstr "Parannukset:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Show Flatpak Apps"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:21
 msgid "Minor updates:"
-msgstr ""
+msgstr "Pienet päivitykset:"
 
 #: data/feedback.appdata.xml.in:23
 msgid "Ensure links are up-to-date"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:24
 msgid "Updated translations"
-msgstr ""
+msgstr "Päivitetyt kielikäännökset"
 
 #: data/feedback.appdata.xml.in:70
 msgid "elementary, Inc."
