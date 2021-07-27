@@ -310,7 +310,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Panel"),
             issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
-        },
+        }
     };
 
     private struct SwitchboardEntry {
