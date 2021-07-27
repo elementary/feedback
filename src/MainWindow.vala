@@ -419,6 +419,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
     static WingpanelEntry[] wingpanel_entries = {
         WingpanelEntry () {
+            icon = "preferences-desktop-accessibility-symbolic",
+            id="io.elementary.wingpanel.a11y"
+        },
+        WingpanelEntry () {
             icon = "bluetooth-active-symbolic",
             id="io.elementary.wingpanel.bluetooth"
         },
