@@ -269,6 +269,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.files",
          "io.elementary.mail",
          "io.elementary.music",
+         "io.elementary.onboarding",
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.tasks",
@@ -285,6 +286,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Applications Menu"),
             issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Dock"),
+            issues_url = "https://github.com/elementary/dock/issues/new/choose"
         },
         SystemEntry () {
             name = _("Lock or Login Screen"),
