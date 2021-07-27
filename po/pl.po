@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 00:14+0000\n"
+"POT-Creation-Date: 2021-07-27 22:40+0000\n"
 "PO-Revision-Date: 2019-11-15 23:24+0000\n"
 "Last-Translator: DokiDokiMagikku <jakubekbugajski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -58,34 +58,50 @@ msgid "Applications Menu"
 msgstr "Menu programów"
 
 #: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr ""
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Ekran blokady lub logowania"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Wygląd i zachowanie"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Wielozadaniowość lub zarządzanie oknami"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Powiadomienia"
 
-#: src/MainWindow.vala:448
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Wskaźniki panelu"
 
-#: src/MainWindow.vala:450
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Ustawienia systemu"
 
-#: src/MainWindow.vala:452
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Komponenty pulpitu"
 
-#: src/MainWindow.vala:454
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Domyślne programy"
 

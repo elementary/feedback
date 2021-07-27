@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 00:14+0000\n"
+"POT-Creation-Date: 2021-07-27 22:40+0000\n"
 "PO-Revision-Date: 2021-04-29 18:28+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -53,34 +53,50 @@ msgid "Applications Menu"
 msgstr "Меню приложений"
 
 #: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr ""
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Экран блокировки или входа"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Внешний вид и поведение"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Многозадачность или управление окнами"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: src/MainWindow.vala:448
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Индикаторы панели"
 
-#: src/MainWindow.vala:450
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Параметры системы"
 
-#: src/MainWindow.vala:452
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Компоненты рабочего стола"
 
-#: src/MainWindow.vala:454
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Приложения по умолчанию"
 

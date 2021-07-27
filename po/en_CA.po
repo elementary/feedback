@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 00:14+0000\n"
+"POT-Creation-Date: 2021-07-27 22:40+0000\n"
 "PO-Revision-Date: 2020-01-18 01:07+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: English (Canada) <https://l10n.elementary.io/projects/desktop/"
@@ -52,33 +52,49 @@ msgid "Applications Menu"
 msgstr ""
 
 #: src/MainWindow.vala:290
-msgid "Lock or Login Screen"
+msgid "Captive Network Assistant"
 msgstr ""
 
 #: src/MainWindow.vala:294
-msgid "Look & Feel"
+msgid "Dock"
 msgstr ""
 
 #: src/MainWindow.vala:298
-msgid "Multitasking or Window Management"
+msgid "Lock or Login Screen"
 msgstr ""
 
 #: src/MainWindow.vala:302
+msgid "Look & Feel"
+msgstr ""
+
+#: src/MainWindow.vala:306
+msgid "Multitasking or Window Management"
+msgstr ""
+
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Notifications"
 
-#: src/MainWindow.vala:448
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr ""
 
-#: src/MainWindow.vala:450
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr ""
 
-#: src/MainWindow.vala:452
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr ""
 
-#: src/MainWindow.vala:454
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr ""

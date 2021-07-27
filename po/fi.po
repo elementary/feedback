@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 00:14+0000\n"
+"POT-Creation-Date: 2021-07-27 22:40+0000\n"
 "PO-Revision-Date: 2021-05-04 13:48+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -52,34 +52,50 @@ msgid "Applications Menu"
 msgstr "Sovellusvalikko"
 
 #: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr ""
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Lukitus- tai kirjautumisnäkymä"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Ulkoasu"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Moniajo tai ikkunahallinta"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Ilmoitukset"
 
-#: src/MainWindow.vala:448
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:450
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:452
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:454
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Oletussovellukset"
 
