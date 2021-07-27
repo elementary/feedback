@@ -269,7 +269,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.files",
          "io.elementary.mail",
          "io.elementary.music",
-         "io.elementary.onboarding",
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.tasks",
@@ -286,6 +285,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Applications Menu"),
             issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Captive Network Assistant"),
+            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
         },
         SystemEntry () {
             name = _("Dock"),
@@ -306,6 +309,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Notifications"),
             issues_url = "https://github.com/elementary/notifications/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Welcome & Onboarding"),
+            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
         },
         SystemEntry () {
             name = _("Panel"),
