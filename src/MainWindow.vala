@@ -287,6 +287,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
         },
         SystemEntry () {
+            name = _("Captive Network Assistant"),
+            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Dock"),
+            issues_url = "https://github.com/elementary/dock/issues/new/choose"
+        },
+        SystemEntry () {
             name = _("Lock or Login Screen"),
             issues_url = "https://github.com/elementary/greeter/issues/new/choose"
         },
@@ -301,6 +309,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Notifications"),
             issues_url = "https://github.com/elementary/notifications/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Welcome & Onboarding"),
+            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Panel"),
+            issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
         }
     };
 
@@ -389,6 +405,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SwitchboardEntry () {
             icon = "system-users",
             id = "io.elementary.switchboard.useraccounts"
+        },
+        SwitchboardEntry () {
+            icon = "input-tablet",
+            id = "io.elementary.switchboard.wacom"
         }
     };
 
@@ -398,6 +418,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     }
 
     static WingpanelEntry[] wingpanel_entries = {
+        WingpanelEntry () {
+            icon = "preferences-desktop-accessibility-symbolic",
+            id="io.elementary.wingpanel.a11y"
+        },
         WingpanelEntry () {
             icon = "bluetooth-active-symbolic",
             id="io.elementary.wingpanel.bluetooth"
