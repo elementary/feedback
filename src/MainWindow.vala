@@ -394,6 +394,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SwitchboardEntry () {
             icon = "system-users",
             id = "io.elementary.switchboard.useraccounts"
+        },
+        SwitchboardEntry () {
+            icon = "input-tablet",
+            id = "io.elementary.switchboard.wacom"
         }
     };
 
