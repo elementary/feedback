@@ -387,7 +387,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             id = "io.elementary.switchboard.sharing"
         },
         SwitchboardEntry () {
-            icon = "dialog-information",
+            icon = "application-x-firmware",
             id = "io.elementary.switchboard.about"
         },
         SwitchboardEntry () {
