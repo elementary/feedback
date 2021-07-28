@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 22:40+0000\n"
-"PO-Revision-Date: 2021-04-30 13:04+0000\n"
+"PO-Revision-Date: 2021-07-28 10:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback/"
 "ca/>\n"
@@ -53,11 +53,11 @@ msgstr "Menú d'aplicacions"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
-msgstr ""
+msgstr "Assistent de xarxa captiva"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "Acoblador"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
@@ -77,11 +77,11 @@ msgstr "Notificacions"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Benvinguda i incorporació"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Plafó"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
