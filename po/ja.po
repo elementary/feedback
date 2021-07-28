@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-27 22:40+0000\n"
-"PO-Revision-Date: 2021-04-30 15:52+0000\n"
+"PO-Revision-Date: 2021-07-28 02:20+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -53,11 +53,11 @@ msgstr "アプリケーションメニュー"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
-msgstr ""
+msgstr "キャプティブネットワークアシスタント"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "ドック"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
@@ -77,11 +77,11 @@ msgstr "通知"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "ようこそ画面と初期セットアップ"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "パネル"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
