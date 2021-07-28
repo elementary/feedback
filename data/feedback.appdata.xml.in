@@ -10,6 +10,18 @@
     <p></p>
   </description>
   <releases>
+    <release version="6.1.0" date="2021-07-26" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Add several missing components</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.0.0" date="2020-07-15" urgency="medium">
       <description>
         <p>Improvements:</p>
