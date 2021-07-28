@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 22:40+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-07-19 21:04+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -23,35 +23,39 @@ msgstr ""
 msgid "Feedback"
 msgstr "Informació de retorn"
 
-#: data/feedback.appdata.xml.in:15
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
 msgstr "Millores:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Show Flatpak Apps"
-msgstr "Es mostren les aplicacions de Flatpak."
+msgid "Add several missing components"
+msgstr ""
 
-#: data/feedback.appdata.xml.in:18
-msgid "Support dark style"
-msgstr "Admissió del tema fosc"
-
-#: data/feedback.appdata.xml.in:19
-msgid "Add multitouch navigation gestures"
-msgstr "Addició gests de navegació multitàctils"
-
-#: data/feedback.appdata.xml.in:21
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/feedback.appdata.xml.in:23
-msgid "Ensure links are up-to-date"
-msgstr "S'assegura que els enllaços estiguin actualitzats."
-
-#: data/feedback.appdata.xml.in:24
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/feedback.appdata.xml.in:70
+#: data/feedback.appdata.xml.in:29
+msgid "Show Flatpak Apps"
+msgstr "Es mostren les aplicacions de Flatpak."
+
+#: data/feedback.appdata.xml.in:30
+msgid "Support dark style"
+msgstr "Admissió del tema fosc"
+
+#: data/feedback.appdata.xml.in:31
+msgid "Add multitouch navigation gestures"
+msgstr "Addició gests de navegació multitàctils"
+
+#: data/feedback.appdata.xml.in:35
+msgid "Ensure links are up-to-date"
+msgstr "S'assegura que els enllaços estiguin actualitzats."
+
+#: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

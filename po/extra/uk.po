@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 22:40+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-07-16 20:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -24,35 +24,39 @@ msgstr ""
 msgid "Feedback"
 msgstr "Відгук"
 
-#: data/feedback.appdata.xml.in:15
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
 msgstr "Вдосконалення:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Show Flatpak Apps"
-msgstr "Показ застосунків Flatpak"
+msgid "Add several missing components"
+msgstr ""
 
-#: data/feedback.appdata.xml.in:18
-msgid "Support dark style"
-msgstr "Підтримка темного стилю"
-
-#: data/feedback.appdata.xml.in:19
-msgid "Add multitouch navigation gestures"
-msgstr "Додано жести навігації"
-
-#: data/feedback.appdata.xml.in:21
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
-#: data/feedback.appdata.xml.in:23
-msgid "Ensure links are up-to-date"
-msgstr "Оновлювані посилання"
-
-#: data/feedback.appdata.xml.in:24
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
 msgstr "Оновлено переклади"
 
-#: data/feedback.appdata.xml.in:70
+#: data/feedback.appdata.xml.in:29
+msgid "Show Flatpak Apps"
+msgstr "Показ застосунків Flatpak"
+
+#: data/feedback.appdata.xml.in:30
+msgid "Support dark style"
+msgstr "Підтримка темного стилю"
+
+#: data/feedback.appdata.xml.in:31
+msgid "Add multitouch navigation gestures"
+msgstr "Додано жести навігації"
+
+#: data/feedback.appdata.xml.in:35
+msgid "Ensure links are up-to-date"
+msgstr "Оновлювані посилання"
+
+#: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

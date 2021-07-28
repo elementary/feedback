@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-27 22:40+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-07-22 23:06+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -24,35 +24,39 @@ msgstr ""
 msgid "Feedback"
 msgstr "Отзыв"
 
-#: data/feedback.appdata.xml.in:15
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
 msgstr "Улучшения:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Show Flatpak Apps"
-msgstr "Отображение приложений Flatpak"
+msgid "Add several missing components"
+msgstr ""
 
-#: data/feedback.appdata.xml.in:18
-msgid "Support dark style"
-msgstr "Поддержка темного стиля"
-
-#: data/feedback.appdata.xml.in:19
-msgid "Add multitouch navigation gestures"
-msgstr "Добавлены навигационные мультитач-жесты"
-
-#: data/feedback.appdata.xml.in:21
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
 msgstr "Незначительные обновления:"
 
-#: data/feedback.appdata.xml.in:23
-msgid "Ensure links are up-to-date"
-msgstr "Обновляемые ссылки"
-
-#: data/feedback.appdata.xml.in:24
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/feedback.appdata.xml.in:70
+#: data/feedback.appdata.xml.in:29
+msgid "Show Flatpak Apps"
+msgstr "Отображение приложений Flatpak"
+
+#: data/feedback.appdata.xml.in:30
+msgid "Support dark style"
+msgstr "Поддержка темного стиля"
+
+#: data/feedback.appdata.xml.in:31
+msgid "Add multitouch navigation gestures"
+msgstr "Добавлены навигационные мультитач-жесты"
+
+#: data/feedback.appdata.xml.in:35
+msgid "Ensure links are up-to-date"
+msgstr "Обновляемые ссылки"
+
+#: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
