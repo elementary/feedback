@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-07-19 21:05+0000\n"
+"PO-Revision-Date: 2021-07-30 16:05+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
-"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/tr/>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr "İyileştirmeler:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr " "
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
