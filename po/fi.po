@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-05-04 13:48+0000\n"
+"PO-Revision-Date: 2021-08-04 08:31+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
 "fi/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "Telakka"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
@@ -77,11 +77,11 @@ msgstr "Ilmoitukset"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Tervetulonäkymä ja johdanto"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Paneeli"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
