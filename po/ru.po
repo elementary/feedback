@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-04-29 18:28+0000\n"
+"PO-Revision-Date: 2021-08-10 13:49+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
@@ -54,11 +54,11 @@ msgstr "Меню приложений"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
-msgstr ""
+msgstr "Помощник авторизации в сети"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "Док"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
@@ -78,11 +78,11 @@ msgstr "Уведомления"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Окно приветствия и начала работы"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Панель"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
