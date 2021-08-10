@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-07-22 23:06+0000\n"
+"PO-Revision-Date: 2021-08-10 13:49+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "Улучшения:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "Добавлено несколько недостающих компонентов"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
