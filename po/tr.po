@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-07-28 10:25+0000\n"
+"PO-Revision-Date: 2021-08-13 18:55+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
 "tr/>\n"
@@ -76,9 +76,8 @@ msgid "Notifications"
 msgstr "Bildirimler"
 
 #: src/MainWindow.vala:314
-#, fuzzy
 msgid "Welcome & Onboarding"
-msgstr "Hoş Geldiniz ve Onboarding"
+msgstr "Hoş Geldiniz ve Katılım"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
