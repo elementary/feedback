@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-08-24 12:06+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback/hu/>\n"
 "Language: hu\n"
@@ -65,7 +65,7 @@ msgstr "Lezárási vagy bejelentkezési képernyő"
 
 #: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr "Kinézet"
+msgstr "Megjelenés"
 
 #: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
