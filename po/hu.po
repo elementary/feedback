@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-08-24 12:06+0000\n"
-"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
+"PO-Revision-Date: 2021-08-24 18:33+0000\n"
+"Last-Translator: mateszabo2001 <mateszabo2001@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback/hu/>\n"
 "Language: hu\n"
@@ -69,7 +69,7 @@ msgstr "Megjelenés"
 
 #: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Feladat- és ablakkezelés"
 
 #: src/MainWindow.vala:310
 msgid "Notifications"
@@ -89,12 +89,12 @@ msgstr ""
 
 #: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "Rendszerbeállítások"
 
 #: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "Asztali elemek"
 
 #: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "Alapértelmezett alkalmazások"
