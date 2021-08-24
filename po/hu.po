@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-08-24 12:06+0000\n"
-"Last-Translator: mateszabo2001 <mateszabo2001@gmail.com>\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback/hu/>\n"
 "Language: hu\n"
@@ -61,7 +61,7 @@ msgstr "Dokk"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr "Zárolás vagy Bejelentkező képernyő"
+msgstr "Lezárási vagy bejelentkezési képernyő"
 
 #: src/MainWindow.vala:302
 msgid "Look & Feel"
