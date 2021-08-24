@@ -65,7 +65,7 @@ msgstr "Zárolás vagy Bejelentkező képernyő"
 
 #: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr "Kinézet és működés"
+msgstr "Kinézet"
 
 #: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
