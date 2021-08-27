@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-08-27 17:26+0000\n"
+"PO-Revision-Date: 2021-08-27 18:48+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback/hu/>\n"
@@ -85,7 +85,7 @@ msgstr "Állapotsor"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr "Panel ikonok"
+msgstr "Állapotsori indikátorok"
 
 #: src/MainWindow.vala:474
 msgid "System Settings"
