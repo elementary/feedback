@@ -8,65 +8,65 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2020-05-14 14:10+0000\n"
-"Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
-"Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ar/>\n"
+"PO-Revision-Date: 2021-08-27 18:48+0000\n"
+"Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
+"Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
-msgstr "مراجعة"
+msgstr "الملاحظات"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
-msgstr ""
+msgstr "التحسينات:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "إضافة عدة مكونات مفقودة"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
-msgstr ""
+msgstr "تحديثات طفيفة:"
 
 #: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
-msgstr "ترجمات محدثة"
+msgstr "تحديثات على الترجمة"
 
 #: data/feedback.appdata.xml.in:29
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "إظهار تطبيقات Flatpak"
 
 #: data/feedback.appdata.xml.in:30
 msgid "Support dark style"
-msgstr ""
+msgstr "دعم الواجهة المظلمة"
 
 #: data/feedback.appdata.xml.in:31
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "إضافة حركات التنقل متعددة اللمس"
 
 #: data/feedback.appdata.xml.in:35
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "التأكد من أن الروابط محدثة"
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
-msgstr "اليمينتري المتحدة."
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "إمكانية إرسال وتتبع تقارير المشاكل"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "مبلغ المشاكل"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -74,4 +74,4 @@ msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "issue;report;bug;"
