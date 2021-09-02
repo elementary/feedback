@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-09-02 21:40+0000\n"
+"PO-Revision-Date: 2021-09-02 21:42+0000\n"
 "Last-Translator: mateszabo2001 <mateszabo2001@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/hu/>\n"
@@ -61,11 +61,11 @@ msgstr "elementary, bejegyezve"
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "Hibajelentések küldése és követése"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "Hibajelentő"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -73,4 +73,4 @@ msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "hiba;jelentés;bug"
