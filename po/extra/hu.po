@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-09-02 21:42+0000\n"
-"Last-Translator: mateszabo2001 <mateszabo2001@gmail.com>\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/hu/>\n"
 "Language: hu\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
-msgstr "elementary, bejegyezve"
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
