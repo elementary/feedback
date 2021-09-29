@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-09-27 11:12+0000\n"
+"PO-Revision-Date: 2021-09-29 10:46+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/feedback/"
 "pl/>\n"
@@ -26,18 +26,15 @@ msgstr "Informacja zwrotna"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Dla którego komponentu chcesz wysłać opinię?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Wybierz składnik z listy, aby zgłosić problem w przeglądarce internetowej."
+"Wybierz składnik z listy, aby wysłać opinię lub zgłosić problem w "
+"przeglądarce internetowej."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
@@ -48,10 +45,8 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: src/MainWindow.vala:162
-#, fuzzy
-#| msgid "Feedback"
 msgid "Send Feedback…"
-msgstr "Informacja zwrotna"
+msgstr "Wyślij opinię…"
 
 #: src/MainWindow.vala:286
 msgid "Applications Menu"
@@ -59,7 +54,7 @@ msgstr "Menu programów"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
-msgstr ""
+msgstr "Asystent uwierzytelniania sieciowego"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
@@ -83,11 +78,11 @@ msgstr "Powiadomienia"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Powitanie oraz wstęp"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
