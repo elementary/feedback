@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-09-29 10:46+0000\n"
+"PO-Revision-Date: 2021-09-30 11:23+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/pl/>\n"
@@ -26,15 +26,15 @@ msgstr "Informacja zwrotna"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
-msgstr ""
+msgstr "Ulepszenia:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "Dodano kilka brakujących komponentów"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mniejsze aktualizacje:"
 
 #: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
@@ -42,19 +42,19 @@ msgstr "Zaktualizowano tłumaczenia"
 
 #: data/feedback.appdata.xml.in:29
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "Pokaż aplikację Flatpak"
 
 #: data/feedback.appdata.xml.in:30
 msgid "Support dark style"
-msgstr ""
+msgstr "Wsparcie dla ciemnego motywu"
 
 #: data/feedback.appdata.xml.in:31
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "Dodano wielodotykowe gesty nawigacji"
 
 #: data/feedback.appdata.xml.in:35
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "Upewniono się, że linki są aktualne"
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
@@ -74,4 +74,4 @@ msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "problem;zgłoszenie;bug;"
