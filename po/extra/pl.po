@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2021-09-30 11:23+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"Last-Translator: Szymon Klause <szymon.klause@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/pl/>\n"
 "Language: pl\n"
@@ -62,11 +62,11 @@ msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "Dodawanie i śledzenie zgłoszonych problemów"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "Zgłaszający problem"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
