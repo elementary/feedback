@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-11-01 02:19+0000\n"
+"PO-Revision-Date: 2021-11-01 02:39+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/feedback/zh_Hans/>\n"
@@ -51,7 +51,7 @@ msgstr "应用菜单"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
-msgstr ""
+msgstr "专属网络助理"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
@@ -75,11 +75,11 @@ msgstr "通知"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "欢迎和入职"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "面板"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
