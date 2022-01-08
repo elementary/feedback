@@ -39,24 +39,27 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
         label.hexpand = true;
         label.xalign = 0;
 
-        var selection_icon = new Gtk.Image.from_icon_name ("object-select-symbolic", Gtk.IconSize.MENU);
-        selection_icon.no_show_all = true;
-        selection_icon.visible = false;
+        var selection_icon = new Gtk.Image.from_icon_name ("object-select-symbolic") {
+            visible = false
+        };
 
-        var grid = new Gtk.Grid ();
-        grid.column_spacing = 6;
-        grid.margin = 3;
-        grid.margin_start = grid.margin_end = 6;
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+            margin_top = 3,
+            margin_end = 6,
+            margin_bottom = 3,
+            margin_start = 6
+        };
 
         if (icon != null) {
-            var icon = new Gtk.Image.from_gicon (icon, Gtk.IconSize.LARGE_TOOLBAR);
-            icon.pixel_size = 24;
-            grid.add (icon);
+            var icon = new Gtk.Image.from_gicon (icon) {
+                pixel_size = 24
+            };
+            box.append (icon);
         }
-        grid.add (label);
-        grid.add (selection_icon);
+        box.append (label);
+        box.append (selection_icon);
 
-        add (grid);
+        child = box;
 
         notify["selected"].connect (() => {
             selection_icon.visible = selected;

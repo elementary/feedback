@@ -46,28 +46,20 @@ public class Feedback.Application : Gtk.Application {
         }
 
         if (sandboxed) {
-            Gtk.IconTheme.get_default ().prepend_search_path ("/var/lib/flatpak/exports/share/icons");
+            // Gtk.IconTheme.get_default ().prepend_search_path ("/var/lib/flatpak/exports/share/icons");
         }
 
-        main_window = new MainWindow (this);
-
-        int window_x, window_y;
         var rect = Gtk.Allocation ();
-
-        settings.get ("window-position", "(ii)", out window_x, out window_y);
         settings.get ("window-size", "(ii)", out rect.width, out rect.height);
 
-        if (window_x != -1 || window_y != -1) {
-            main_window.move (window_x, window_y);
-        }
-
-        main_window.set_allocation (rect);
+        main_window = new MainWindow (this);
+        // main_window.set_allocation (rect);
 
         if (settings.get_boolean ("window-maximized")) {
             main_window.maximize ();
         }
 
-        main_window.show_all ();
+        main_window.present ();
 
         var quit_action = new SimpleAction ("quit", null);
 
