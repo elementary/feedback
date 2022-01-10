@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2022-01-10 17:55+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
 "cs/>\n"
@@ -57,7 +57,7 @@ msgstr "Pomocník pro uzavřené síťové portály (captive portal)"
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "Dok"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
@@ -77,11 +77,11 @@ msgstr "Upozorňování"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Uvítání a uvedení"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
