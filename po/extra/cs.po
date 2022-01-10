@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2022-01-10 02:34+0000\n"
+"PO-Revision-Date: 2022-01-10 17:55+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/cs/>\n"
@@ -29,7 +29,7 @@ msgstr "Vylepšení:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "Přidáno několik chybějících součástí"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
