@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2022-01-15 20:30+0000\n"
-"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
 "nl/>\n"
 "Language: nl\n"
@@ -25,18 +25,15 @@ msgstr "Feedback"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr "Voor welk onderdeel wil je feedback versturen?"
+msgstr "Voor welk onderdeel wilt u feedback versturen?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Kies een onderdeel uit de lijst om via uw browser een probleem te melden."
+"Kies een onderdeel uit de lijst om feedback the versturen of meld een "
+"probleem via uw webbrowser."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
