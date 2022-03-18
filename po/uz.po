@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-18 11:58+0000\n"
+"Last-Translator: Shukrullo Turgunov <shookrullo@gmail.com>\n"
+"Language-Team: Uzbek <https://l10n.elementary.io/projects/desktop/feedback/"
+"uz/>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -52,7 +55,7 @@ msgstr ""
 
 #: src/MainWindow.vala:294
 msgid "Dock"
-msgstr ""
+msgstr "Dok"
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
