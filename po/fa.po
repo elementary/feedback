@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2022-04-14 20:36+0000\n"
-"Last-Translator: amir mohammadi <amir123456789893@gmail.com>\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback/"
 "fa/>\n"
 "Language: fa\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "بازخورد"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
@@ -44,11 +44,11 @@ msgstr "لغو"
 
 #: src/MainWindow.vala:162
 msgid "Send Feedback…"
-msgstr ""
+msgstr "ارسال بازخورد…"
 
 #: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr ""
+msgstr "منو برنامه ها"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
