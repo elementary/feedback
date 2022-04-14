@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
 "PO-Revision-Date: 2022-04-14 22:02+0000\n"
-"Last-Translator: amir mohammadi <amir123456789893@gmail.com>\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback/"
 "fa/>\n"
 "Language: fa\n"
@@ -68,7 +68,7 @@ msgstr "ظاهر و حال و هوا"
 
 #: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr "چند محیط کار و مدیریت پنجره"
+msgstr "چند کارگی یا مدیریت پنجره"
 
 #: src/MainWindow.vala:310
 msgid "Notifications"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "پنل"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
