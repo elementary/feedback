@@ -216,7 +216,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         report_button.clicked.connect (() => {
             try {
                 var url = ((RepoRow) listbox.get_selected_row ()).url;
-                AppInfo.launch_default_for_uri ("%s".printf (url), null);
+                Gtk.show_uri_on_window (null, url, Gtk.get_current_event_time ());
             } catch (Error e) {
                 critical (e.message);
             }
