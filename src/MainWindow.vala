@@ -83,6 +83,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             hexpand = true,
             vexpand = true
         };
+        listbox.add_css_class ("rich-list");
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
 
@@ -197,6 +198,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         grid.attach (frame, 1, 2);
 
         var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        dialog_vbox.add_css_class ("dialog-vbox");
         dialog_vbox.append (grid);
         dialog_vbox.append (button_box);
 
@@ -451,43 +453,43 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
     static WingpanelEntry[] wingpanel_entries = {
         WingpanelEntry () {
-            icon = "preferences-desktop-accessibility-symbolic",
+            icon = "preferences-desktop-accessibility",
             id="io.elementary.wingpanel.a11y"
         },
         WingpanelEntry () {
-            icon = "bluetooth-active-symbolic",
+            icon = "preferences-bluetooth",
             id="io.elementary.wingpanel.bluetooth"
         },
         WingpanelEntry () {
-            icon = "appointment-symbolic",
+            icon = "preferences-system-time",
             id="io.elementary.wingpanel.datetime"
         },
         WingpanelEntry () {
-            icon = "input-keyboard-symbolic",
+            icon = "preferences-desktop-keyboard",
             id="io.elementary.wingpanel.keyboard"
         },
         WingpanelEntry () {
-            icon = "network-wireless-signal-excellent-symbolic",
+            icon = "preferences-system-network",
             id="io.elementary.wingpanel.network"
         },
         WingpanelEntry () {
-            icon = "night-light-symbolic",
+            icon = "preferences-desktop-display",
             id="io.elementary.wingpanel.nightlight"
         },
         WingpanelEntry () {
-            icon = "notification-symbolic",
+            icon = "preferences-system-notifications",
             id="io.elementary.wingpanel.notifications"
         },
         WingpanelEntry () {
-            icon = "battery-full-symbolic",
+            icon = "preferences-system-power",
             id="io.elementary.wingpanel.power"
         },
         WingpanelEntry () {
-            icon = "system-shutdown-symbolic",
+            icon = "system-users",
             id="io.elementary.wingpanel.session"
         },
         WingpanelEntry () {
-            icon = "audio-volume-high-symbolic",
+            icon = "preferences-desktop-sound",
             id="io.elementary.wingpanel.sound"
         }
     };

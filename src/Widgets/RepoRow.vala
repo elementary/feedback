@@ -43,16 +43,11 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
             visible = false
         };
 
-        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
-            margin_top = 3,
-            margin_end = 6,
-            margin_bottom = 3,
-            margin_start = 6
-        };
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
 
         if (icon != null) {
             var icon = new Gtk.Image.from_gicon (icon) {
-                pixel_size = 24
+                icon_size = Gtk.IconSize.LARGE
             };
             box.append (icon);
         }
