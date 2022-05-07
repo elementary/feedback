@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2022-05-07 14:55+0000\n"
+"PO-Revision-Date: 2022-05-07 15:04+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/feedback/"
 "sk/>\n"
@@ -73,28 +73,28 @@ msgstr "Zobrazenie úloh alebo správa okien"
 
 #: src/MainWindow.vala:310
 msgid "Notifications"
-msgstr "Notifikácie"
+msgstr "Oznámenia"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
-msgstr ""
+msgstr "Uvítanie a proces oboznámenia"
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Indikátory v paneli"
 
 #: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "Nastavenia systému"
 
 #: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "Súčasti pracovného prostredia"
 
 #: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "Predinštalované aplikácie"
