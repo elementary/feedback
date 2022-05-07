@@ -52,16 +52,19 @@ public class Feedback.Application : Gtk.Application {
         main_window = new MainWindow (this);
         main_window.present ();
 
-        var rect = Gtk.Allocation ();
-        settings.get ("window-size", "(ii)", out rect.width, out rect.height);
-
-        // Set size after present to prevent resizing
-        main_window.default_height = rect.height;
-        main_window.default_width = rect.width;
+        /*
+        * This is very finicky. Bind size after present else set_titlebar gives us bad sizes
+        * Set maximize after height/width else window is min size on unmaximize
+        * Bind maximize as SET else get get bad sizes
+        */
+        settings.bind ("window-height", main_window, "default-height", SettingsBindFlags.DEFAULT);
+        settings.bind ("window-width", main_window, "default-width", SettingsBindFlags.DEFAULT);
 
         if (settings.get_boolean ("window-maximized")) {
             main_window.maximize ();
         }
+
+        settings.bind ("window-maximized", main_window, "maximized", SettingsBindFlags.SET);
 
         var quit_action = new SimpleAction ("quit", null);
 
