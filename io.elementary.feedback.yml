@@ -1,6 +1,6 @@
 app-id: io.elementary.feedback
 runtime: io.elementary.Platform
-runtime-version: daily
+runtime-version: 7
 sdk: io.elementary.Sdk
 command: io.elementary.feedback
 finish-args:
