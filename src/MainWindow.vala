@@ -42,7 +42,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             wrap = true,
             xalign = 0
         };
-        primary_label.add_css_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
+        primary_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
 
         var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser.")) {
             selectable = true,
@@ -159,7 +159,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         repo_list_box.append (scrolled);
 
         var leaflet = new Adw.Leaflet () {
-            can_swipe_back = true,
+            can_navigate_back = true,
             can_unfold = false,
             hexpand = true,
             vexpand = true
@@ -236,10 +236,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         listbox.selected_rows_changed.connect (() => {
-            // foreach (var repo_row in listbox.get_children ()) {
-            //     ((RepoRow) repo_row).selected = false;
-            // }
-            ((RepoRow) listbox.get_selected_row ()).selected = true;
+            var row = (RepoRow) listbox.get_first_child ();
+            while (row != null) {
+                row.selected = row.is_selected ();
+                row = (RepoRow) row.get_next_sibling ();
+            }
+
             report_button.sensitive = true;
         });
 
