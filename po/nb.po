@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-08-23 18:13+0000\n"
-"Last-Translator: Nils K <slx@nilsk.net>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-08-15 13:18+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
 "feedback/nb/>\n"
 "Language: nb\n"
@@ -17,65 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr ""
+#, fuzzy
+msgid "Send feedback for which component?"
+msgstr "Hvilken komponent ønsker du å sende tilbakemelding om?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
+"Velg et element fra listen for å sende tilbakemelding eller innrapportere et "
+"problem fra din nettleser."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr ""
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Send tilbakemelding…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
+#, fuzzy
 msgid "Applications Menu"
-msgstr ""
+msgstr "Programmeny"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Assistent for fangstnettverk"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Dokk"
+
+#: src/MainWindow.vala:298
+#, fuzzy
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Låsing- eller innloggingsskjerm"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
+#, fuzzy
 msgid "Look & Feel"
-msgstr ""
+msgstr "Utseende og oppførsel"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
+#, fuzzy
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Fleroppgavekjøring eller vindusbehandling"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Varsler"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+#, fuzzy
+msgid "Welcome & Onboarding"
+msgstr "Velkomst og oppstartsveiledning"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Panel"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "Forvalgte programmer"
+
+#~ msgid "Report Problem"
+#~ msgstr "Innrapporter problem"

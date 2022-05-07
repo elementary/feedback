@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-05-14 14:10+0000\n"
-"Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-08-27 18:48+0000\n"
+"Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
 "ar/>\n"
 "Language: ar\n"
@@ -18,65 +18,90 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr "مراجعة"
+msgstr "الملاحظات"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "أين تجد المشكلة؟"
+msgid "Send feedback for which component?"
+msgstr "ما هو المكون الذي تود إرسال ملاحظات من أجله؟"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr "اختر عنصرا من القائمة للإبلاغ عن مشكلة من المتصفح الخاص بك."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr ""
+"اختر عنصراً من القائمة لإرسال ملاحظة عنه أو للإبلاغ عن مشكلة من المتصفح "
+"الخاص بك."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr "القوائم"
+msgstr "الفئات"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr "الغاء"
+msgstr "ألغ"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "ابلغ عن مشكلة"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "أرسل ملاحظتك…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "قائمة التطبيقات"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "مساعد بوابة الدخول الإلكترونية"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "المرسى"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "شاشة القفل أو تسجيل الدخول"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr "انظر واشعر"
+msgstr "المظهر"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "تعدد المهام أو إدارة النوافذ"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "الإشعارات"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "شاشة الترحيب لأول مرة"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "اللوحة"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "مؤشرات اللوحة"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "إعدادات النظام"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "مكونات سطح المكتب"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr "التطبيقات الإفتراضية"
+msgstr "التطبيقات الافتراضية"
+
+#~ msgid "Report Problem"
+#~ msgstr "ابلغ عن مشكلة"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "أين تجد المشكلة؟"

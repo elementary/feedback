@@ -38,11 +38,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG);
 
-        var primary_label = new Gtk.Label (_("Where Are You Seeing an Issue?"));
+        var primary_label = new Gtk.Label (_("Send feedback for which component?"));
         primary_label.xalign = 0;
         primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
-        var secondary_label = new Gtk.Label (_("Select a component from the list to report a problem from your web browser."));
+        var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser."));
         secondary_label.xalign = 0;
 
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
@@ -75,18 +75,27 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         var appstream_pool = new AppStream.Pool ();
+        appstream_pool.reset_extra_data_locations ();
         try {
+            if (Application.sandboxed) {
+                appstream_pool.add_extra_data_location ("/run/host/usr/share/metainfo/", AppStream.FormatStyle.METAINFO);
+            }
+
+            // flatpak's appstream files exists only inside they sandbox
+            var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
+            foreach (var app in app_entries) {
+                appstream_pool.add_extra_data_location (appdata_dir.printf (app), AppStream.FormatStyle.METAINFO);
+            }
+
             appstream_pool.load ();
         } catch (Error e) {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                var desktop_info = new DesktopAppInfo (app + ".desktop");
-
                 appstream_pool.get_components_by_id (app).foreach ((component) => {
                     var repo_row = new RepoRow (
-                        desktop_info.get_display_name (),
-                        desktop_info.get_icon (),
+                        component.name,
+                        icon_from_appstream_component (component),
                         Category.DEFAULT_APPS,
                         component.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
@@ -150,7 +159,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var cancel_button = new Gtk.Button.with_label (_("Cancel"));
         cancel_button.action_name = "app.quit";
 
-        var report_button = new Gtk.Button.with_label (_("Report Problem"));
+        var report_button = new Gtk.Button.with_label (_("Send Feedback…"));
         report_button.sensitive = false;
         report_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -207,7 +216,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         report_button.clicked.connect (() => {
             try {
                 var url = ((RepoRow) listbox.get_selected_row ()).url;
-                AppInfo.launch_default_for_uri ("%s".printf (url), null);
+                Gtk.show_uri_on_window (null, url, Gtk.get_current_event_time ());
             } catch (Error e) {
                 critical (e.message);
             }
@@ -215,7 +224,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
     }
 
-    private GLib.Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
+    private Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
         if (appstream_icons.length > 0) {
             for (int i = 0; i < appstream_icons.length; i++) {
                 if (appstream_icons[i].get_kind () == AppStream.IconKind.STOCK) {
@@ -225,6 +234,27 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         }
 
         return new ThemedIcon ("extension");
+    }
+
+    private Icon icon_from_appstream_component (AppStream.Component component) {
+        var as_icons = component.get_icons ();
+        Icon icon;
+
+        if (as_icons.length == 0) {
+            // the appdata has no icons, fallback to id
+            icon = new ThemedIcon (component.id);
+        } else {
+            var name = as_icons[0].get_name ();
+
+            if (as_icons[0].get_kind () == AppStream.IconKind.STOCK) {
+                icon = new ThemedIcon (name);
+            } else {
+                // non-stock type icons has the extension in the name.
+                icon = new ThemedIcon (name.substring (0, name.last_index_of (".")));
+            }
+        }
+
+        return icon;
     }
 
     [CCode (instance_pos = -1)]
@@ -246,12 +276,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.calendar",
          "io.elementary.camera",
          "io.elementary.code",
+         "org.gnome.Evince",
          "org.gnome.Epiphany",
          "io.elementary.files",
-         "org.pantheon.mail",
+         "io.elementary.mail",
          "io.elementary.music",
          "io.elementary.photos",
-         "io.elementary.screenshot-tool",
+         "io.elementary.screenshot",
+         "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
     };
@@ -267,6 +299,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
         },
         SystemEntry () {
+            name = _("Captive Network Assistant"),
+            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Dock"),
+            issues_url = "https://github.com/elementary/dock/issues/new/choose"
+        },
+        SystemEntry () {
             name = _("Lock or Login Screen"),
             issues_url = "https://github.com/elementary/greeter/issues/new/choose"
         },
@@ -280,7 +320,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         },
         SystemEntry () {
             name = _("Notifications"),
-            issues_url = "https://github.com/elementary/gala/issues/new/choose"
+            issues_url = "https://github.com/elementary/notifications/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Welcome & Onboarding"),
+            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
+        },
+        SystemEntry () {
+            name = _("Panel"),
+            issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
         }
     };
 

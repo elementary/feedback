@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-05-14 14:10+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-11-01 02:39+0000\n"
+"Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/feedback/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,65 +17,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "反馈"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "您在哪里发现的问题？"
+msgid "Send feedback for which component?"
+msgstr "您要发送的反馈与哪个组件有关？"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr "从列表中选择一个组件，以通过浏览器报告问题。"
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr "从列表中选择一个项目来发送反馈，或者通过网页浏览器报告问题。"
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "分类"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "取消"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "报告问题"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "发送反馈…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "应用菜单"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "专属网络助理"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "程序坞"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "锁屏或登录界面"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "外观"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "多任务或窗口管理"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "通知"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "欢迎和入职"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "面板"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "面板指示器"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "桌面组件"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "默认应用"
+
+#~ msgid "Report Problem"
+#~ msgstr "报告问题"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "您在哪里发现的问题？"

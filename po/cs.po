@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-06-07 13:11+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
 "cs/>\n"
@@ -17,67 +17,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "V čem jste našli chybu?"
+msgid "Send feedback for which component?"
+msgstr "Pro kterou součást odeslat zpětnou vazbu?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
-"Vyberte součást ze seznamu a nahlaste problém prostřednictvím webového "
-"prohlížeče."
+"Vyberte položku ze seznamu a odešlete zpětnou vazbu či hlášení problému "
+"prostřednictvím webového prohlížeče."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Kategorie"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "Nahlásit problém"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Odeslat zpětnou vazbu…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Nabídka s aplikacemi"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Pomocník pro uzavřené síťové portály (captive portal)"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Dok"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Zamykací nebo přihlašovací obrazovka"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Vzhled a přizpůsobení"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Multitasking nebo správa oken"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Upozorňování"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "Uvítání a uvedení"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Panel"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Indikátory na hlavním panelu"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Nastavení systému"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Výchozí aplikace"
+
+#~ msgid "Report Problem"
+#~ msgstr "Nahlásit problém"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "V čem jste našli chybu?"

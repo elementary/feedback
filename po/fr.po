@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-07-08 16:28+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-07-30 17:54+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
 "fr/>\n"
@@ -17,70 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Commentaires"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Où voyez-vous un problème ?"
+msgid "Send feedback for which component?"
+msgstr "Pour quel environnement souhaitez-vous envoyer des commentaires ?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
-"Sélectionnez un composant dans la liste pour signaler un problème depuis "
-"votre navigateur Web."
+"Sélectionnez un élément dans la liste pour envoyer des commentaires ou "
+"signaler un problème depuis votre navigateur Web."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Catégories"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "Signaler un problème"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Envoyer des commentaires…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Menu des applications"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Assistant au réseau captif"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Dock"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Écran de verrouillage ou de connexion"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Apparence et ressenti"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Multitâche ou gestion des fenêtres"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Notifications"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "Écran de bienvenue et de démarrage"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Panneau"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Indicateurs du panneau"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Paramètres du système"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Composants du bureau"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Applications par défaut"
+
+#~ msgid "Report Problem"
+#~ msgstr "Signaler un problème"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Où voyez-vous un problème ?"
 
 #~ msgid "Session"
 #~ msgstr "Session"

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-11-03 07:15+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2022-01-15 21:12+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
 "nl/>\n"
 "Language: nl\n"
@@ -17,69 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Feedback"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Waar bevindt zich het probleem?"
+msgid "Send feedback for which component?"
+msgstr "Voor welk onderdeel wilt u feedback versturen?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
-"Kies een onderdeel uit de lijst om via uw browser een probleem te melden."
+"Kies een onderdeel uit de lijst om feedback the versturen of meld een "
+"probleem via uw webbrowser."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Categorieën"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "Meld het probleem"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Stuur feedback…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr "Applicatie Menu"
+msgstr "Applicatiemenu"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Besloten netwerk assistent"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Dock"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr "Vergrendel- of Loginscherm"
+msgstr "Vergrendel- of loginscherm"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Vormgeving"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr "Multitasken of Vensterbeheer"
+msgstr "Multitasken of vensterbeheer"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Meldingen"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "Welkom & onboarding"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Paneel"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Vensterindicators"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr "Systeem instellingen"
+msgstr "Systeeminstellingen"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr "Desktop Onderdelen"
+msgstr "Desktop onderdelen"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Standaard apps"
+
+#~ msgid "Report Problem"
+#~ msgstr "Meld het probleem"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Waar bevindt zich het probleem?"
 
 #~ msgid "Session"
 #~ msgstr "Sessie"

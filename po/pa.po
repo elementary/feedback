@@ -7,72 +7,92 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-08-16 03:00+0000\n"
+"Last-Translator: elSolus <tumbleweed@tuta.io>\n"
+"Language-Team: Punjabi <https://l10n.elementary.io/projects/desktop/feedback/"
+"pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "ਹੁੰਗਾਰਾ"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgid "Send feedback for which component?"
+msgstr "ਕਿਸ ਚੀਜ਼ ਲਈ ਹੁੰਗਾਰਾ ਦੇਣਾ ਹੈ?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr ""
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr "ਹੁੰਗਾਰਾ ਭੇਜਣ ਲਈ ਸੂਚੀ ਵਿੱਚੋਂ ਨਗ ਚੁਣੋ ਜਾਂ ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ’ਚੋਂ ਰਿਪੋਰਟ ਕਰੋ।"
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "ਵਰਗ"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr ""
+msgstr "ਰੱਦ ਕਰੋ"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr ""
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "ਹੁੰਗਾਰਾ ਭੇਜੋ…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr ""
+msgstr "ਐਪ ਮੈਨਿਊ"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "ਕੈਪਟਿਵ ਨੈੱਟਵਰਕ ਅਸਿਸਟੈਂਟ"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "ਡੌਕ"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "ਤਾਲਾ ਜਾਂ ਲੌਗਇਨ ਸਕਰੀਨ"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr ""
+msgstr "ਦਿੱਖ ਅਤੇ ਅਹਿਸਾਸ"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "ਮਟਲੀਟਾਸਕਿੰਗ ਜਾਂ ਵਿੰਡੋ ਮੈਨੇਜੈਂਟ"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
-msgstr ""
+msgstr "ਇਤਲਾਹਾਂ"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "ਜੀ ਆਇਆ ਨੂੰ ਅਤੇ ਔਨਬੋਰਡਿੰਗ"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "ਪੈਨਲ"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "ਪੈਨਲ ਇਸ਼ਾਰੇ"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "ਡੈਸਕਾਪ ਕੰਪੋਨੈਂਟ"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "ਡਿਫ਼ਾਲਟ ਐਪਾਂ"

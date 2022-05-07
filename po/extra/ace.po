@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ace\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+msgid "Feedback"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+msgid "Improvements:"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:17
+msgid "Add several missing components"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+msgid "Minor updates:"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
+msgid "Updated translations"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:29
+msgid "Show Flatpak Apps"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:30
+msgid "Support dark style"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:31
+msgid "Add multitouch navigation gestures"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:35
+msgid "Ensure links are up-to-date"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:82
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/feedback.desktop.in:4
+msgid "Submit and track issue reports"
+msgstr ""
+
+#: data/feedback.desktop.in:5
+msgid "Issue Reporter"
+msgstr ""
+
+#: data/feedback.desktop.in:7
+msgid "io.elementary.feedback"
+msgstr ""
+
+#: data/feedback.desktop.in:8
+msgid "issue;report;bug;"
+msgstr ""

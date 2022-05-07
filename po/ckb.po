@@ -7,72 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2022-04-04 21:19+0000\n"
+"Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
+"Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
+"desktop/feedback/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "فیدباک"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgid "Send feedback for which component?"
+msgstr "ناردنی فیدباک بۆ کام پێکهێنەر؟"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
+"دانەیەک لە لیستەکە دیاریبکە بۆ ناردنی فیدباک دەربارەی یان کێشەیەک بنێرە لە "
+"وێبگەڕەکەتەوە."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "هاوپۆلەکان"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr ""
+msgstr "هەڵوەشاندنەوە"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr ""
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "ناردنی فیدباک…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr ""
+msgstr "لیستی ئەپڵیکەیشنەکان"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "یاریدەدەری تۆڕی کۆنتڕۆڵکراو"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "دۆک"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "داخستن یان شاشەی چوونەژورەوە"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr ""
+msgstr "سەر و سیما"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "مەڵتی تاسکینگ یان بەڕێوەبردنی پەنجەرە"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
-msgstr ""
+msgstr "ئاگادارکردنەوەکان"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "بەخێرهاتن & پێشوازی"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "پانێڵ"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "دەرخەرەکانی پانێڵ"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "ڕێکخستنەکانی سیستەم"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "پێکهێنەرەکانی ڕوومێز"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "ئەپە بنەڕەتییەکان"

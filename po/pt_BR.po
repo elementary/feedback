@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-07-06 10:46+0000\n"
-"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-07-11 21:09+0000\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/feedback/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,70 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Opinião"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Onde você está vendo um problema?"
+msgid "Send feedback for which component?"
+msgstr "Enviar feedback sobre qual componente?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
-"Selecione um componente da lista para relatar um problema no seu navegador "
-"da web."
+"Selecione um item da lista para enviar um feedback ou relatar um problema do "
+"seu navegador da web."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Categorias"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "Reportar problema"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Enviar Feedback…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Menu de Aplicações"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr ""
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Tela de Bloqueio ou de Login"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Aparência e Sensação"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Multitarefa ou Gerenciamento de Janelas"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Notificações"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Indicadores de Painel"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Configurações de Sistema"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Componentes da Área de Trabalho"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Apps padrão"
+
+#~ msgid "Report Problem"
+#~ msgstr "Reportar problema"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Onde você está vendo um problema?"
 
 #~ msgid "Session"
 #~ msgstr "Sessão"

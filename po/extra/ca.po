@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-26 18:20+0000\n"
-"PO-Revision-Date: 2020-03-28 19:09+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-07-29 17:30+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ca/>\n"
@@ -17,17 +17,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
 msgstr "Informació de retorn"
 
-#: data/feedback.appdata.xml.in:16
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+msgid "Improvements:"
+msgstr "Millores:"
+
+#: data/feedback.appdata.xml.in:17
+msgid "Add several missing components"
+msgstr "Addició de diversos components que mancaven"
+
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+msgid "Minor updates:"
+msgstr "Actualitzacions menors:"
+
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/feedback.appdata.xml.in:59
+#: data/feedback.appdata.xml.in:29
+msgid "Show Flatpak Apps"
+msgstr "Es mostren les aplicacions de Flatpak."
+
+#: data/feedback.appdata.xml.in:30
+msgid "Support dark style"
+msgstr "Admissió del tema fosc"
+
+#: data/feedback.appdata.xml.in:31
+msgid "Add multitouch navigation gestures"
+msgstr "Addició gests de navegació multitàctils"
+
+#: data/feedback.appdata.xml.in:35
+msgid "Ensure links are up-to-date"
+msgstr "S'assegura que els enllaços estiguin actualitzats."
+
+#: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

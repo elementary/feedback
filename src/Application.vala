@@ -20,6 +20,7 @@
 
 public class Feedback.Application : Gtk.Application {
     public static GLib.Settings settings;
+    public static bool sandboxed;
     private MainWindow main_window;
 
     public Application () {
@@ -31,12 +32,21 @@ public class Feedback.Application : Gtk.Application {
 
     static construct {
         settings = new Settings ("io.elementary.feedback");
+        sandboxed = FileUtils.test ("/.flatpak-info", FileTest.EXISTS);
+        GLib.Intl.setlocale (LocaleCategory.ALL, "");
+        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+        GLib.Intl.textdomain (GETTEXT_PACKAGE);
     }
 
     protected override void activate () {
         if (get_windows ().length () > 0) {
             get_windows ().data.present ();
             return;
+        }
+
+        if (sandboxed) {
+            Gtk.IconTheme.get_default ().prepend_search_path ("/var/lib/flatpak/exports/share/icons");
         }
 
         main_window = new MainWindow (this);

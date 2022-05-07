@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-01-18 01:07+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-08-10 13:49+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
 "Language: ru\n"
@@ -18,65 +18,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Отзыв"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr ""
+msgid "Send feedback for which component?"
+msgstr "О каком составляющем отправить отзыв?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
 msgstr ""
+"Выберите элемент в списке, чтобы отправить отзыв или отчет о проблеме с "
+"помощью вашего браузера."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr ""
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Отправить отзыв…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr ""
+msgstr "Меню приложений"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Помощник авторизации в сети"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Док"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "Экран блокировки или входа"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr ""
+msgstr "Внешний вид и поведение"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "Многозадачность или управление окнами"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "Окно приветствия и начала работы"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Панель"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Индикаторы панели"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "Параметры системы"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "Компоненты рабочего стола"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "Приложения по умолчанию"
+
+#~ msgid "Report Problem"
+#~ msgstr "Сообщить о проблеме"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-09-02 20:22+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-08-06 17:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
 "fi/>\n"
@@ -17,68 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Palaute"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "Missä huomasit ongelman?"
+msgid "Send feedback for which component?"
+msgstr "Mihin osaan liittyen haluat lähettää palautetta?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr "Valitse luettelosta se osa, josta tehdään vikailmoitus selaimessa."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr ""
+"Valitse luettelosta se osa, josta haluat antaa palautetta. Voit myös tehdä "
+"vikailmoituksen selaimessa."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Luokat"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "Ilmoita ongelmasta"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "Lähetä palautetta…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "Sovellusvalikko"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "Verkon kirjautumisportaalin avustin"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "Telakka"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "Lukitus- tai kirjautumisnäkymä"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "Ulkoasu"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "Moniajo tai ikkunahallinta"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "Ilmoitukset"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "Tervetulonäkymä ja johdanto"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "Paneeli"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "Oletussovellukset"
+
+#~ msgid "Report Problem"
+#~ msgstr "Ilmoita ongelmasta"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "Missä huomasit ongelman?"
 
 #~ msgid "Session"
 #~ msgstr "Istunto"

@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     container:
-      image: elementary/docker:odin-unstable
+      image: elementary/docker:next-unstable
     
     steps:
     - uses: actions/checkout@v1
@@ -20,6 +20,22 @@ jobs:
       run: |
         meson build
         ninja -C build
+
+  flatpak:
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/bilelmoussaoui/flatpak-github-actions
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bilelmoussaoui/flatpak-github-actions@master
+      with:
+        bundle: "feedback.flatpak"
+        manifest-path: "io.elementary.feedback.yml"
+        run-tests: "true"
+        repository-name: "elementary"
+        repository-url: "https://flatpak.elementary.io/elementary.flatpakrepo"
+        cache-key: "flatpak-builder-${{ github.sha }}"
 
   lint:
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2020-06-07 13:11+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2021-07-28 02:20+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -17,65 +17,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "フィードバック"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "不具合が発生している箇所を選択してください"
+msgid "Send feedback for which component?"
+msgstr "フィードバックを送信したいコンポーネントを選択してください"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr "お使いの Web ブラウザーから不具合を報告するには、一覧からコンポーネントをお選びください。"
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr ""
+"お使いの Web ブラウザーからフィードバックを送信したり不具合を報告したりするに"
+"は、一覧から項目をお選びください。"
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "カテゴリー"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "不具合を報告"
+#: src/MainWindow.vala:162
+msgid "Send Feedback…"
+msgstr "フィードバックを送る…"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "アプリケーションメニュー"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr "キャプティブネットワークアシスタント"
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr "ドック"
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "ロック画面およびログイン画面"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "外観および操作感"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "マルチタスクおよびウィンドウ管理"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "通知"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr "ようこそ画面と初期セットアップ"
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr "パネル"
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "パネルインジケーター"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "システム設定"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "デスクトップコンポーネント"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "デフォルトのアプリ"
+
+#~ msgid "Report Problem"
+#~ msgstr "不具合を報告"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "不具合が発生している箇所を選択してください"

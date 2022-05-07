@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 20:06+0000\n"
-"PO-Revision-Date: 2019-07-08 16:28+0000\n"
+"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
 "mr/>\n"
@@ -17,68 +17,95 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "अभिप्राय"
 
 #: src/MainWindow.vala:41
-msgid "Where Are You Seeing an Issue?"
-msgstr "आपण कुठे समस्या पहात आहात?"
+msgid "Send feedback for which component?"
+msgstr "कोणत्या घटकासाठी अभिप्राय पाठवायचा?"
 
 #: src/MainWindow.vala:45
 msgid ""
-"Select a component from the list to report a problem from your web browser."
-msgstr "आपल्या वेब ब्राउझरमधील समस्येची तक्रार करण्यासाठी सूचीमधील घटक निवडा."
+"Select an item from the list to send feedback or report a problem from your "
+"web browser."
+msgstr ""
+"आपल्या वेब ब्राउझरमधून अभिप्राय पाठविण्यासाठी किंवा समस्येचा अहवाल देण्यासाठी सूचीमधून "
+"एखादा घटक निवडा."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "श्रेण्या"
 
-#: src/MainWindow.vala:149
+#: src/MainWindow.vala:159
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:152
-msgid "Report Problem"
-msgstr "समस्या नोंदवा"
+#: src/MainWindow.vala:162
+#, fuzzy
+#| msgid "Feedback"
+msgid "Send Feedback…"
+msgstr "अभिप्राय"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:286
 msgid "Applications Menu"
 msgstr "अनुप्रयोग मेनू"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:290
+msgid "Captive Network Assistant"
+msgstr ""
+
+#: src/MainWindow.vala:294
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
 msgstr "लॉक किंवा लॉग इन स्क्रीन"
 
-#: src/MainWindow.vala:252
+#: src/MainWindow.vala:302
 msgid "Look & Feel"
 msgstr "दिसते आणि वाटते"
 
-#: src/MainWindow.vala:256
+#: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
 msgstr "मल्टीटास्किंग किंवा विंडो व्यवस्थापन"
 
-#: src/MainWindow.vala:260
+#: src/MainWindow.vala:310
 msgid "Notifications"
 msgstr "अधिसूचना"
 
-#: src/MainWindow.vala:406
+#: src/MainWindow.vala:314
+msgid "Welcome & Onboarding"
+msgstr ""
+
+#: src/MainWindow.vala:318
+msgid "Panel"
+msgstr ""
+
+#: src/MainWindow.vala:472
 msgid "Panel Indicators"
 msgstr "पॅनेल निर्देशक"
 
-#: src/MainWindow.vala:408
+#: src/MainWindow.vala:474
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
 
-#: src/MainWindow.vala:410
+#: src/MainWindow.vala:476
 msgid "Desktop Components"
 msgstr "डेस्कटॉप घटक"
 
-#: src/MainWindow.vala:412
+#: src/MainWindow.vala:478
 msgid "Default Apps"
 msgstr "डीफॉल्ट अॅप्स"
+
+#~ msgid "Report Problem"
+#~ msgstr "समस्या नोंदवा"
+
+#~ msgid "Where Are You Seeing an Issue?"
+#~ msgstr "आपण कुठे समस्या पहात आहात?"
 
 #~ msgid "Session"
 #~ msgstr "सत्र"
