@@ -226,9 +226,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
     private Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
         if (appstream_icons.length > 0) {
-            for (int i = 0; i < appstream_icons.length; i++) {
-                if (appstream_icons[i].get_kind () == AppStream.IconKind.STOCK) {
-                    return new ThemedIcon (appstream_icons[i].get_name ());
+            foreach (unowned AppStream.Icon appstream_icon in appstream_icons) {
+                if (appstream_icon.get_kind () == AppStream.IconKind.STOCK) {
+                    return new ThemedIcon (appstream_icon.get_name ());
                 }
             }
         }
