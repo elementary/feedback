@@ -541,28 +541,4 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
         }
     }
-
-    // public override bool configure_event (Gdk.EventConfigure event) {
-    //     if (configure_id != 0) {
-    //         GLib.Source.remove (configure_id);
-    //     }
-
-    //     configure_id = Timeout.add (100, () => {
-    //         configure_id = 0;
-
-    //         if (is_maximized) {
-    //             Feedback.Application.settings.set_boolean ("window-maximized", true);
-    //         } else {
-    //             Feedback.Application.settings.set_boolean ("window-maximized", false);
-
-    //             Gdk.Rectangle rect;
-    //             get_allocation (out rect);
-    //             Feedback.Application.settings.set ("window-size", "(ii)", rect.width, rect.height);
-    //         }
-
-    //         return false;
-    //     });
-
-    //     return base.configure_event (event);
-    // }
 }
