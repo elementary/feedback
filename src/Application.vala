@@ -46,7 +46,7 @@ public class Feedback.Application : Gtk.Application {
         }
 
         if (sandboxed) {
-            // Gtk.IconTheme.get_default ().prepend_search_path ("/var/lib/flatpak/exports/share/icons");
+            Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_search_path ("/var/lib/flatpak/exports/share/icons");
         }
 
         var rect = Gtk.Allocation ();
