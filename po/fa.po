@@ -8,43 +8,47 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-14 22:02+0000\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
+"Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback/"
+"fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "بازخورد"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "ارسال بازخورد برای کدام مولفه؟"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"موردی را از لیست برای ارسال بازخورد یا گزارش مشکل توسط مرورگرتان انتخاب کنید."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "دسته بندی ها"
 
 #: src/MainWindow.vala:159
 msgid "Cancel"
-msgstr ""
+msgstr "لغو"
 
 #: src/MainWindow.vala:162
 msgid "Send Feedback…"
-msgstr ""
+msgstr "ارسال بازخورد…"
 
 #: src/MainWindow.vala:286
 msgid "Applications Menu"
-msgstr ""
+msgstr "منو برنامه ها"
 
 #: src/MainWindow.vala:290
 msgid "Captive Network Assistant"
@@ -56,19 +60,19 @@ msgstr ""
 
 #: src/MainWindow.vala:298
 msgid "Lock or Login Screen"
-msgstr ""
+msgstr "قفل یا صفحه ورود"
 
 #: src/MainWindow.vala:302
 msgid "Look & Feel"
-msgstr ""
+msgstr "ظاهر و حال و هوا"
 
 #: src/MainWindow.vala:306
 msgid "Multitasking or Window Management"
-msgstr ""
+msgstr "چند کارگی یا مدیریت پنجره"
 
 #: src/MainWindow.vala:310
 msgid "Notifications"
-msgstr ""
+msgstr "اعلان ها"
 
 #: src/MainWindow.vala:314
 msgid "Welcome & Onboarding"
@@ -76,20 +80,20 @@ msgstr ""
 
 #: src/MainWindow.vala:318
 msgid "Panel"
-msgstr ""
+msgstr "پنل"
 
 #: src/MainWindow.vala:472
 msgid "Panel Indicators"
-msgstr ""
+msgstr "نشانگر های پنل"
 
 #: src/MainWindow.vala:474
 msgid "System Settings"
-msgstr ""
+msgstr "تنظیمات سیستمی"
 
 #: src/MainWindow.vala:476
 msgid "Desktop Components"
-msgstr ""
+msgstr "مولفه های دسکتاپ"
 
 #: src/MainWindow.vala:478
 msgid "Default Apps"
-msgstr ""
+msgstr "برنامه های پیشفرض"

@@ -8,61 +8,64 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2019-05-08 19:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-04 21:19+0000\n"
+"Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
+"Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
+"desktop/feedback-extra/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
-msgstr ""
+msgstr "فیدباک"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
-msgstr ""
+msgstr "پێشکەوتنەکان:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "زیادکردنی چەند پێکهێنەرێکی پێویست"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
-msgstr ""
+msgstr "نوێکارییە چکۆڵەکان:"
 
 #: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
-msgstr ""
+msgstr "وەرگێڕانەکان نوێکراونەوە"
 
 #: data/feedback.appdata.xml.in:29
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "پشاندانی ئەپەکانی فڵاتپاک"
 
 #: data/feedback.appdata.xml.in:30
 msgid "Support dark style"
-msgstr ""
+msgstr "پاڵپشتیکردنی دۆخی تاریک"
 
 #: data/feedback.appdata.xml.in:31
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "زیادکردنی جوڵەکانی multitouch navigation"
 
 #: data/feedback.appdata.xml.in:35
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "دڵنیابوونەوە لە کارکردنی بەستەرەکان"
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
-msgstr ""
+msgstr "کۆمپانیای ئێلەمێنتەری هاوپشک."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "ناردن و چاودێریکردنی ڕاپۆرتەکانی کێشە"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "ڕاپۆرتکاری کێشە"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -70,4 +73,4 @@ msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "کێشە؛ڕاپۆرت؛بەگ;"

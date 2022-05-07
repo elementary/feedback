@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-02-03 19:18+0000\n"
+"Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
+"Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -34,7 +37,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
-msgstr ""
+msgstr "അപ്ഡേറ്റ് ചെയ്ത വിവർത്തനങ്ങൾ"
 
 #: data/feedback.appdata.xml.in:29
 msgid "Show Flatpak Apps"
@@ -54,7 +57,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"

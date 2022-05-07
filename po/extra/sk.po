@@ -8,62 +8,64 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2019-05-08 19:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-07 15:04+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
-msgstr ""
+msgstr "Spätná väzba"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
 msgid "Improvements:"
-msgstr ""
+msgstr "Vylepšenia:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Add several missing components"
-msgstr ""
+msgstr "Pridané viaceré chýbajúce súčasti"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
 msgid "Minor updates:"
-msgstr ""
+msgstr "Menšie aktualizácie:"
 
 #: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
 msgid "Updated translations"
-msgstr ""
+msgstr "Aktualizované preklady"
 
 #: data/feedback.appdata.xml.in:29
 msgid "Show Flatpak Apps"
-msgstr ""
+msgstr "Zobrazovať aplikácie formátu Flatpak"
 
 #: data/feedback.appdata.xml.in:30
 msgid "Support dark style"
-msgstr ""
+msgstr "Podpora tmavého štýlu"
 
 #: data/feedback.appdata.xml.in:31
 msgid "Add multitouch navigation gestures"
-msgstr ""
+msgstr "Pridané viacdotykové navigačné gestá"
 
 #: data/feedback.appdata.xml.in:35
 msgid "Ensure links are up-to-date"
-msgstr ""
+msgstr "Zaistené, že odkazy sú aktuálne"
 
 #: data/feedback.appdata.xml.in:82
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:4
 msgid "Submit and track issue reports"
-msgstr ""
+msgstr "Odosielajte a sledujte hlásenia chýb"
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
+msgstr "Nahlasovanie chýb"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -71,4 +73,4 @@ msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr ""
+msgstr "problém;hlásenie;chyba;"
