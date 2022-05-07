@@ -49,17 +49,19 @@ public class Feedback.Application : Gtk.Application {
             Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_search_path ("/var/lib/flatpak/exports/share/icons");
         }
 
+        main_window = new MainWindow (this);
+        main_window.present ();
+
         var rect = Gtk.Allocation ();
         settings.get ("window-size", "(ii)", out rect.width, out rect.height);
 
-        main_window = new MainWindow (this);
-        // main_window.set_allocation (rect);
+        // Set size after present to prevent resizing
+        main_window.default_height = rect.height;
+        main_window.default_width = rect.width;
 
         if (settings.get_boolean ("window-maximized")) {
             main_window.maximize ();
         }
-
-        main_window.present ();
 
         var quit_action = new SimpleAction ("quit", null);
 

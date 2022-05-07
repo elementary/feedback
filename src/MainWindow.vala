@@ -19,7 +19,7 @@
 */
 
 public class Feedback.MainWindow : Gtk.ApplicationWindow {
-    private uint configure_id;
+    private uint layout_timeout;
     private Gtk.ListBox listbox;
     private Category? category_filter;
 
@@ -256,6 +256,34 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+
+        ((Gtk.Widget) this).realize.connect (() => {
+            var surface = get_surface ();
+            surface.notify ["height"].connect (() => {
+                save_window_size ();
+            });
+
+            surface.notify ["width"].connect (() => {
+                save_window_size ();
+            });
+        });
+    }
+
+    private void save_window_size () {
+        if (layout_timeout == 0) {
+            /* Avoid spamming the settings */
+            layout_timeout = Timeout.add (200, () => {
+                layout_timeout = 0;
+
+                Feedback.Application.settings.set_boolean ("window-maximized", maximized);
+
+                if (!maximized) {
+                    Feedback.Application.settings.set ("window-size", "(ii)", default_width, default_height);
+                }
+
+                return GLib.Source.REMOVE;
+            });
+        }
     }
 
     private Icon icon_from_appstream_component (AppStream.Component component) {
