@@ -237,8 +237,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             if (as_icons[0].get_kind () == AppStream.IconKind.STOCK) {
                 icon = new ThemedIcon (name);
             } else {
-                // non-stock type icons has the extension in the name.
-                icon = new ThemedIcon (name.substring (0, name.last_index_of (".")));
+                var underscore_index = name.index_of ("_");
+                underscore_index.clamp (0, name.length);
+
+                icon = new ThemedIcon (name.substring (
+                    // some icon names are prepended with the package name
+                    underscore_index + 1,
+                    // non-stock type icons has the extension in the name.
+                    name.last_index_of (".") - underscore_index - 1
+                ));
             }
         }
 
