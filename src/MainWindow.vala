@@ -105,9 +105,24 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
 
             foreach (var entry in system_entries) {
-                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
+                var repo_row = new RepoRow (entry.name, new ThemedIcon ("application-default-icon"), Category.SYSTEM, entry.issues_url);
                 listbox.add (repo_row);
             }
+
+            appstream_pool.get_components ().foreach ((component) => {
+                component.get_compulsory_for_desktops ().foreach ((desktop) => {
+                    if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.SYSTEM,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.add (repo_row);
+                    }
+                });
+            });
 
             foreach (var entry in switchboard_entries) {
                 appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
@@ -293,30 +308,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         SystemEntry () {
             name = _("Dock"),
             issues_url = "https://github.com/elementary/dock/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Lock or Login Screen"),
-            issues_url = "https://github.com/elementary/greeter/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Look & Feel"),
-            issues_url = "https://github.com/elementary/stylesheet/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Multitasking or Window Management"),
-            issues_url = "https://github.com/elementary/gala/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Notifications"),
-            issues_url = "https://github.com/elementary/notifications/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Welcome & Onboarding"),
-            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Panel"),
-            issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
         }
     };
 
