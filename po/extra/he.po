@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 16:44+0000\n"
-"PO-Revision-Date: 2022-04-07 22:05+0000\n"
+"PO-Revision-Date: 2022-05-18 22:50+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "שיפורים:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "נמנעה גניבת מיקוד בפתיחת דפדפן"
 
 #: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:31
 #: data/feedback.appdata.xml.in:45
