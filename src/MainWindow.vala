@@ -92,15 +92,21 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        component.name,
-                        icon_from_appstream_component (component),
-                        Category.DEFAULT_APPS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
+                var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
-                    listbox.add (repo_row);
+                appstream_pool.get_components_by_id (app).foreach ((component) => {
+                    if (component_table[component.id] == null) {
+                        component_table[component.id] = component;
+
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.DEFAULT_APPS,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.add (repo_row);
+                    }
                 });
             }
 
