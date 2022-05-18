@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2021-07-28 02:20+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -40,63 +40,63 @@ msgstr ""
 msgid "Categories"
 msgstr "Категорії"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:180
 msgid "Send Feedback…"
 msgstr "Надіслати відгук…"
 
-#: src/MainWindow.vala:286
+#: src/MainWindow.vala:304
 msgid "Applications Menu"
 msgstr "Меню застосунків"
 
-#: src/MainWindow.vala:290
+#: src/MainWindow.vala:308
 msgid "Captive Network Assistant"
 msgstr "Помічник автентифікації у мережі"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:312
 msgid "Dock"
 msgstr "Док"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:316
 msgid "Lock or Login Screen"
 msgstr "Екран блокування та входу"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:320
 msgid "Look & Feel"
 msgstr "Зовнішній вигляд та поведінка"
 
-#: src/MainWindow.vala:306
+#: src/MainWindow.vala:324
 msgid "Multitasking or Window Management"
 msgstr "Багатозадачний вигляд або керування вікнами"
 
-#: src/MainWindow.vala:310
+#: src/MainWindow.vala:328
 msgid "Notifications"
 msgstr "Сповіщення"
 
-#: src/MainWindow.vala:314
+#: src/MainWindow.vala:332
 msgid "Welcome & Onboarding"
 msgstr "Вікно привітання та початку роботи"
 
-#: src/MainWindow.vala:318
+#: src/MainWindow.vala:336
 msgid "Panel"
 msgstr "Панель"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:490
 msgid "Panel Indicators"
 msgstr "Панель індикаторів"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:492
 msgid "System Settings"
 msgstr "Налаштування системи"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:494
 msgid "Desktop Components"
 msgstr "Компоненти стільниці"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:496
 msgid "Default Apps"
 msgstr "Типові застосунки"
 
