@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2021-08-10 13:49+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -40,63 +40,63 @@ msgstr ""
 msgid "Categories"
 msgstr "Категории"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:180
 msgid "Send Feedback…"
 msgstr "Отправить отзыв…"
 
-#: src/MainWindow.vala:286
+#: src/MainWindow.vala:304
 msgid "Applications Menu"
 msgstr "Меню приложений"
 
-#: src/MainWindow.vala:290
+#: src/MainWindow.vala:308
 msgid "Captive Network Assistant"
 msgstr "Помощник авторизации в сети"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:312
 msgid "Dock"
 msgstr "Док"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:316
 msgid "Lock or Login Screen"
 msgstr "Экран блокировки или входа"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:320
 msgid "Look & Feel"
 msgstr "Внешний вид и поведение"
 
-#: src/MainWindow.vala:306
+#: src/MainWindow.vala:324
 msgid "Multitasking or Window Management"
 msgstr "Многозадачность или управление окнами"
 
-#: src/MainWindow.vala:310
+#: src/MainWindow.vala:328
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: src/MainWindow.vala:314
+#: src/MainWindow.vala:332
 msgid "Welcome & Onboarding"
 msgstr "Окно приветствия и начала работы"
 
-#: src/MainWindow.vala:318
+#: src/MainWindow.vala:336
 msgid "Panel"
 msgstr "Панель"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:490
 msgid "Panel Indicators"
 msgstr "Индикаторы панели"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:492
 msgid "System Settings"
 msgstr "Параметры системы"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:494
 msgid "Desktop Components"
 msgstr "Компоненты рабочего стола"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:496
 msgid "Default Apps"
 msgstr "Приложения по умолчанию"
 

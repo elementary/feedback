@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2021-07-28 10:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -37,63 +37,63 @@ msgstr "נא לבחור פריט מהרשימה כדי לשלוח משוב או 
 msgid "Categories"
 msgstr "קטגוריות"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "ביטול"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:180
 msgid "Send Feedback…"
 msgstr "שליחת משוב…"
 
-#: src/MainWindow.vala:286
+#: src/MainWindow.vala:304
 msgid "Applications Menu"
 msgstr "תפריט יישומים"
 
-#: src/MainWindow.vala:290
+#: src/MainWindow.vala:308
 msgid "Captive Network Assistant"
 msgstr "מסייע שובה רשת"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:312
 msgid "Dock"
 msgstr "מעגן"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:316
 msgid "Lock or Login Screen"
 msgstr "מסך כניסה או נעילה"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:320
 msgid "Look & Feel"
 msgstr "מראה ותחושה"
 
-#: src/MainWindow.vala:306
+#: src/MainWindow.vala:324
 msgid "Multitasking or Window Management"
 msgstr "ריבוי תהליכים או ניהול חלונות"
 
-#: src/MainWindow.vala:310
+#: src/MainWindow.vala:328
 msgid "Notifications"
 msgstr "התראות"
 
-#: src/MainWindow.vala:314
+#: src/MainWindow.vala:332
 msgid "Welcome & Onboarding"
 msgstr "קבלת פנים והיכרות"
 
-#: src/MainWindow.vala:318
+#: src/MainWindow.vala:336
 msgid "Panel"
 msgstr "לוח"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:490
 msgid "Panel Indicators"
 msgstr "מחוונים בלוחות"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:492
 msgid "System Settings"
 msgstr "הגדרות המערכת"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:494
 msgid "Desktop Components"
 msgstr "רכיבי שולחן העבודה"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:496
 msgid "Default Apps"
 msgstr "יישומי בררת המחדל"
 

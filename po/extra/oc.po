@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2020-08-29 20:13+0000\n"
 "Last-Translator: Mejans <farga@mejans.fr>\n"
 "Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -24,38 +24,45 @@ msgid "Feedback"
 msgstr "Comentaris"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+#: data/feedback.appdata.xml.in:39
 msgid "Improvements:"
 msgstr ""
 
 #: data/feedback.appdata.xml.in:17
-msgid "Add several missing components"
+msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:45
 msgid "Minor updates:"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:48
 msgid "Updated translations"
 msgstr "Traduccions actualizadas"
 
 #: data/feedback.appdata.xml.in:29
+msgid "Add several missing components"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:41
 msgid "Show Flatpak Apps"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:42
 msgid "Support dark style"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43
 msgid "Add multitouch navigation gestures"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:35
+#: data/feedback.appdata.xml.in:47
 msgid "Ensure links are up-to-date"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:82
+#: data/feedback.appdata.xml.in:94
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
