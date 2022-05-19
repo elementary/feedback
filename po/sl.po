@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2020-02-15 20:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
@@ -44,65 +44,65 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorije"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:180
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Povratne informacije"
 
-#: src/MainWindow.vala:286
+#: src/MainWindow.vala:304
 msgid "Applications Menu"
 msgstr "Aplikacijski meni"
 
-#: src/MainWindow.vala:290
+#: src/MainWindow.vala:308
 msgid "Captive Network Assistant"
 msgstr ""
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:312
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:316
 msgid "Lock or Login Screen"
 msgstr "Zaklenjen ali prijavni zaslon"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:320
 msgid "Look & Feel"
 msgstr "Videz in vtis"
 
-#: src/MainWindow.vala:306
+#: src/MainWindow.vala:324
 msgid "Multitasking or Window Management"
 msgstr "Večopravilnost ali upravljanje z okni"
 
-#: src/MainWindow.vala:310
+#: src/MainWindow.vala:328
 msgid "Notifications"
 msgstr "Obvestila"
 
-#: src/MainWindow.vala:314
+#: src/MainWindow.vala:332
 msgid "Welcome & Onboarding"
 msgstr ""
 
-#: src/MainWindow.vala:318
+#: src/MainWindow.vala:336
 msgid "Panel"
 msgstr ""
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:490
 msgid "Panel Indicators"
 msgstr "Indikatorji v zgornji vrstici"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:492
 msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:494
 msgid "Desktop Components"
 msgstr "Namizne komponente"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:496
 msgid "Default Apps"
 msgstr "Privzete aplikacije"
 

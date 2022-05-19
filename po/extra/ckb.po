@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -24,38 +24,45 @@ msgid "Feedback"
 msgstr "فیدباک"
 
 #: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+#: data/feedback.appdata.xml.in:39
 msgid "Improvements:"
 msgstr "پێشکەوتنەکان:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Add several missing components"
-msgstr "زیادکردنی چەند پێکهێنەرێکی پێویست"
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr ""
 
-#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:45
 msgid "Minor updates:"
 msgstr "نوێکارییە چکۆڵەکان:"
 
-#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
+#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:48
 msgid "Updated translations"
 msgstr "وەرگێڕانەکان نوێکراونەوە"
 
 #: data/feedback.appdata.xml.in:29
+msgid "Add several missing components"
+msgstr "زیادکردنی چەند پێکهێنەرێکی پێویست"
+
+#: data/feedback.appdata.xml.in:41
 msgid "Show Flatpak Apps"
 msgstr "پشاندانی ئەپەکانی فڵاتپاک"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:42
 msgid "Support dark style"
 msgstr "پاڵپشتیکردنی دۆخی تاریک"
 
-#: data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43
 msgid "Add multitouch navigation gestures"
 msgstr "زیادکردنی جوڵەکانی multitouch navigation"
 
-#: data/feedback.appdata.xml.in:35
+#: data/feedback.appdata.xml.in:47
 msgid "Ensure links are up-to-date"
 msgstr "دڵنیابوونەوە لە کارکردنی بەستەرەکان"
 
-#: data/feedback.appdata.xml.in:82
+#: data/feedback.appdata.xml.in:94
 msgid "elementary, Inc."
 msgstr "کۆمپانیای ئێلەمێنتەری هاوپشک."
 
