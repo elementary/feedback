@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-18 16:44+0000\n"
 "PO-Revision-Date: 2021-08-06 17:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,63 +39,63 @@ msgstr ""
 msgid "Categories"
 msgstr "Luokat"
 
-#: src/MainWindow.vala:159
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:180
 msgid "Send Feedback…"
 msgstr "Lähetä palautetta…"
 
-#: src/MainWindow.vala:286
+#: src/MainWindow.vala:304
 msgid "Applications Menu"
 msgstr "Sovellusvalikko"
 
-#: src/MainWindow.vala:290
+#: src/MainWindow.vala:308
 msgid "Captive Network Assistant"
 msgstr "Verkon kirjautumisportaalin avustin"
 
-#: src/MainWindow.vala:294
+#: src/MainWindow.vala:312
 msgid "Dock"
 msgstr "Telakka"
 
-#: src/MainWindow.vala:298
+#: src/MainWindow.vala:316
 msgid "Lock or Login Screen"
 msgstr "Lukitus- tai kirjautumisnäkymä"
 
-#: src/MainWindow.vala:302
+#: src/MainWindow.vala:320
 msgid "Look & Feel"
 msgstr "Ulkoasu"
 
-#: src/MainWindow.vala:306
+#: src/MainWindow.vala:324
 msgid "Multitasking or Window Management"
 msgstr "Moniajo tai ikkunahallinta"
 
-#: src/MainWindow.vala:310
+#: src/MainWindow.vala:328
 msgid "Notifications"
 msgstr "Ilmoitukset"
 
-#: src/MainWindow.vala:314
+#: src/MainWindow.vala:332
 msgid "Welcome & Onboarding"
 msgstr "Tervetulonäkymä ja johdanto"
 
-#: src/MainWindow.vala:318
+#: src/MainWindow.vala:336
 msgid "Panel"
 msgstr "Paneeli"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:490
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:492
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:494
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:496
 msgid "Default Apps"
 msgstr "Oletussovellukset"
 
