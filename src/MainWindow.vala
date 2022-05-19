@@ -87,16 +87,28 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         var appstream_pool = new AppStream.Pool ();
+#if HAS_APPSTREAM_0_15
         appstream_pool.reset_extra_data_locations ();
+#else
+        appstream_pool.clear_metadata_locations ();
+#endif
         try {
             if (Application.sandboxed) {
+#if HAS_APPSTREAM_0_15
                 appstream_pool.add_extra_data_location ("/run/host/usr/share/metainfo/", AppStream.FormatStyle.METAINFO);
+#else
+                appstream_pool.add_metadata_location ("/run/host/usr/share/metainfo/");
+#endif
             }
 
             // flatpak's appstream files exists only inside they sandbox
-            var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
+            unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
             foreach (var app in app_entries) {
+#if HAS_APPSTREAM_0_15
                 appstream_pool.add_extra_data_location (appdata_dir.printf (app), AppStream.FormatStyle.METAINFO);
+#else
+                appstream_pool.add_metadata_location (appdata_dir.printf (app));
+#endif
             }
 
             appstream_pool.load ();
@@ -104,15 +116,21 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        component.name,
-                        icon_from_appstream_component (component),
-                        Category.DEFAULT_APPS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
+                var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
-                    listbox.append (repo_row);
+                appstream_pool.get_components_by_id (app).foreach ((component) => {
+                    if (component_table[component.id] == null) {
+                        component_table[component.id] = component;
+
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.DEFAULT_APPS,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.append (repo_row);
+                    }
                 });
             }
 
