@@ -122,10 +122,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
             }
 
-            foreach (var entry in system_entries) {
-                var repo_row = new RepoRow (entry.name, new ThemedIcon ("application-default-icon"), Category.SYSTEM, entry.issues_url);
-                listbox.add (repo_row);
-            }
+            // FIXME: Dock should ship appdata
+            var dock_row = new RepoRow (
+                _("Dock"),
+                new ThemedIcon ("application-default-icon"),
+                Category.SYSTEM,
+                "https://github.com/elementary/dock/issues/new/choose"
+            );
+            listbox.add (dock_row);
 
             appstream_pool.get_components ().foreach ((component) => {
                 component.get_compulsory_for_desktops ().foreach ((desktop) => {
@@ -309,26 +313,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.videos"
     };
 
-    private struct SystemEntry {
-        string name;
-        string issues_url;
-    }
-
-    static SystemEntry[] system_entries = {
-        SystemEntry () {
-            name = _("Applications Menu"),
-            issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Captive Network Assistant"),
-            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Dock"),
-            issues_url = "https://github.com/elementary/dock/issues/new/choose"
-        }
-    };
-
     private struct SwitchboardEntry {
         string icon;
         string id;
@@ -430,6 +414,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         WingpanelEntry () {
             icon = "preferences-desktop-accessibility-symbolic",
             id="io.elementary.wingpanel.a11y"
+        },
+        WingpanelEntry () {
+            icon = "preferences-system-search-symbolic",
+            id="io.elementary.wingpanel.applications-menu"
         },
         WingpanelEntry () {
             icon = "bluetooth-active-symbolic",
