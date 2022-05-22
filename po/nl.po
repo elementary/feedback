@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2022-01-15 21:12+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,65 +39,58 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorieën"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "Annuleren"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "Stuur feedback…"
-
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "Applicatiemenu"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "Besloten netwerk assistent"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Dock"
 
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "Vergrendel- of loginscherm"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Annuleren"
 
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "Vormgeving"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Stuur feedback…"
 
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "Multitasken of vensterbeheer"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "Meldingen"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr "Welkom & onboarding"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "Paneel"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Vensterindicators"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Systeeminstellingen"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Desktop onderdelen"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Standaard apps"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Applicatiemenu"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Besloten netwerk assistent"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Vergrendel- of loginscherm"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Vormgeving"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Multitasken of vensterbeheer"
+
+#~ msgid "Notifications"
+#~ msgstr "Meldingen"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Welkom & onboarding"
+
+#~ msgid "Panel"
+#~ msgstr "Paneel"
 
 #~ msgid "Report Problem"
 #~ msgstr "Meld het probleem"

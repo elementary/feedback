@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-07-28 10:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -37,65 +37,58 @@ msgstr "נא לבחור פריט מהרשימה כדי לשלוח משוב או 
 msgid "Categories"
 msgstr "קטגוריות"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "ביטול"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "שליחת משוב…"
-
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "תפריט יישומים"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "מסייע שובה רשת"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "מעגן"
 
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "מסך כניסה או נעילה"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "ביטול"
 
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "מראה ותחושה"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "שליחת משוב…"
 
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "ריבוי תהליכים או ניהול חלונות"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "התראות"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr "קבלת פנים והיכרות"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "לוח"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "מחוונים בלוחות"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "הגדרות המערכת"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "רכיבי שולחן העבודה"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "יישומי בררת המחדל"
+
+#~ msgid "Applications Menu"
+#~ msgstr "תפריט יישומים"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "מסייע שובה רשת"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "מסך כניסה או נעילה"
+
+#~ msgid "Look & Feel"
+#~ msgstr "מראה ותחושה"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "ריבוי תהליכים או ניהול חלונות"
+
+#~ msgid "Notifications"
+#~ msgstr "התראות"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "קבלת פנים והיכרות"
+
+#~ msgid "Panel"
+#~ msgstr "לוח"
 
 #~ msgid "Report Problem"
 #~ msgstr "דיווח על בעיה"

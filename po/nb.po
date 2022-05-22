@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-08-15 13:18+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -40,70 +40,63 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorier"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "Send tilbakemelding…"
-
-#: src/MainWindow.vala:304
-#, fuzzy
-msgid "Applications Menu"
-msgstr "Programmeny"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "Assistent for fangstnettverk"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Dokk"
 
-#: src/MainWindow.vala:316
-#, fuzzy
-msgid "Lock or Login Screen"
-msgstr "Låsing- eller innloggingsskjerm"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Avbryt"
 
-#: src/MainWindow.vala:320
-#, fuzzy
-msgid "Look & Feel"
-msgstr "Utseende og oppførsel"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Send tilbakemelding…"
 
-#: src/MainWindow.vala:324
-#, fuzzy
-msgid "Multitasking or Window Management"
-msgstr "Fleroppgavekjøring eller vindusbehandling"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "Varsler"
-
-#: src/MainWindow.vala:332
-#, fuzzy
-msgid "Welcome & Onboarding"
-msgstr "Velkomst og oppstartsveiledning"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "Panel"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Forvalgte programmer"
+
+#, fuzzy
+#~ msgid "Applications Menu"
+#~ msgstr "Programmeny"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Assistent for fangstnettverk"
+
+#, fuzzy
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Låsing- eller innloggingsskjerm"
+
+#, fuzzy
+#~ msgid "Look & Feel"
+#~ msgstr "Utseende og oppførsel"
+
+#, fuzzy
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Fleroppgavekjøring eller vindusbehandling"
+
+#~ msgid "Notifications"
+#~ msgstr "Varsler"
+
+#, fuzzy
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Velkomst og oppstartsveiledning"
+
+#~ msgid "Panel"
+#~ msgstr "Panel"
 
 #~ msgid "Report Problem"
 #~ msgstr "Innrapporter problem"

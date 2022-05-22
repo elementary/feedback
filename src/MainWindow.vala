@@ -134,10 +134,29 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
             }
 
-            foreach (var entry in system_entries) {
-                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
-                listbox.append (repo_row);
-            }
+            // FIXME: Dock should ship appdata
+            var dock_row = new RepoRow (
+                _("Dock"),
+                new ThemedIcon ("application-default-icon"),
+                Category.SYSTEM,
+                "https://github.com/elementary/dock/issues/new/choose"
+            );
+            listbox.append (dock_row);
+
+            appstream_pool.get_components ().foreach ((component) => {
+                component.get_compulsory_for_desktops ().foreach ((desktop) => {
+                    if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.SYSTEM,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.append (repo_row);
+                    }
+                });
+            });
 
             foreach (var entry in switchboard_entries) {
                 appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
@@ -334,50 +353,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.videos"
     };
 
-    private struct SystemEntry {
-        string name;
-        string issues_url;
-    }
-
-    static SystemEntry[] system_entries = {
-        SystemEntry () {
-            name = _("Applications Menu"),
-            issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Captive Network Assistant"),
-            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Dock"),
-            issues_url = "https://github.com/elementary/dock/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Lock or Login Screen"),
-            issues_url = "https://github.com/elementary/greeter/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Look & Feel"),
-            issues_url = "https://github.com/elementary/stylesheet/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Multitasking or Window Management"),
-            issues_url = "https://github.com/elementary/gala/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Notifications"),
-            issues_url = "https://github.com/elementary/notifications/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Welcome & Onboarding"),
-            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Panel"),
-            issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
-        }
-    };
-
     private struct SwitchboardEntry {
         string icon;
         string id;
@@ -479,6 +454,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         WingpanelEntry () {
             icon = "preferences-desktop-accessibility",
             id="io.elementary.wingpanel.a11y"
+        },
+        WingpanelEntry () {
+            icon = "preferences-system-search",
+            id="io.elementary.wingpanel.applications-menu"
         },
         WingpanelEntry () {
             icon = "preferences-bluetooth",

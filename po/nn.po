@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2020-07-04 10:12+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -43,67 +43,51 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoriar"
 
-#: src/MainWindow.vala:177
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:180
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Tilbakemelding"
 
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "Appmeny"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:312
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "Låse- eller inloggingsskjerm"
-
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "Utsjånad og følelse"
-
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "Multitasking og handsaming av vindauge"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "Varslingar"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Indikatorar på panelet"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Systeminstillingar"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Komponentar på skrivebordet"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Standardappar"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Appmeny"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Låse- eller inloggingsskjerm"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Utsjånad og følelse"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Multitasking og handsaming av vindauge"
+
+#~ msgid "Notifications"
+#~ msgstr "Varslingar"
 
 #~ msgid "Report Problem"
 #~ msgstr "Rapporter eit problem"

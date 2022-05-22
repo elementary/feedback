@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-08-27 18:48+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -40,65 +40,58 @@ msgstr ""
 msgid "Categories"
 msgstr "الفئات"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "ألغ"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "أرسل ملاحظتك…"
-
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "قائمة التطبيقات"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "مساعد بوابة الدخول الإلكترونية"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "المرسى"
 
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "شاشة القفل أو تسجيل الدخول"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "ألغ"
 
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "المظهر"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "أرسل ملاحظتك…"
 
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "تعدد المهام أو إدارة النوافذ"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "الإشعارات"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr "شاشة الترحيب لأول مرة"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "اللوحة"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "مؤشرات اللوحة"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "إعدادات النظام"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "مكونات سطح المكتب"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "التطبيقات الافتراضية"
+
+#~ msgid "Applications Menu"
+#~ msgstr "قائمة التطبيقات"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "مساعد بوابة الدخول الإلكترونية"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "شاشة القفل أو تسجيل الدخول"
+
+#~ msgid "Look & Feel"
+#~ msgstr "المظهر"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "تعدد المهام أو إدارة النوافذ"
+
+#~ msgid "Notifications"
+#~ msgstr "الإشعارات"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "شاشة الترحيب لأول مرة"
+
+#~ msgid "Panel"
+#~ msgstr "اللوحة"
 
 #~ msgid "Report Problem"
 #~ msgstr "ابلغ عن مشكلة"
