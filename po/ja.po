@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-07-28 02:20+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -39,65 +39,58 @@ msgstr ""
 msgid "Categories"
 msgstr "カテゴリー"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "フィードバックを送る…"
-
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "アプリケーションメニュー"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "キャプティブネットワークアシスタント"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "ドック"
 
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "ロック画面およびログイン画面"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "キャンセル"
 
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "外観および操作感"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "フィードバックを送る…"
 
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "マルチタスクおよびウィンドウ管理"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "通知"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr "ようこそ画面と初期セットアップ"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "パネル"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "パネルインジケーター"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "システム設定"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "デスクトップコンポーネント"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "デフォルトのアプリ"
+
+#~ msgid "Applications Menu"
+#~ msgstr "アプリケーションメニュー"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "キャプティブネットワークアシスタント"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "ロック画面およびログイン画面"
+
+#~ msgid "Look & Feel"
+#~ msgstr "外観および操作感"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "マルチタスクおよびウィンドウ管理"
+
+#~ msgid "Notifications"
+#~ msgstr "通知"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "ようこそ画面と初期セットアップ"
+
+#~ msgid "Panel"
+#~ msgstr "パネル"
 
 #~ msgid "Report Problem"
 #~ msgstr "不具合を報告"

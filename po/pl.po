@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 16:44+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-09-29 10:46+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -40,65 +40,58 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorie"
 
-#: src/MainWindow.vala:177
-msgid "Cancel"
-msgstr "Anuluj"
-
-#: src/MainWindow.vala:180
-msgid "Send Feedback…"
-msgstr "Wyślij opinię…"
-
-#: src/MainWindow.vala:304
-msgid "Applications Menu"
-msgstr "Menu programów"
-
-#: src/MainWindow.vala:308
-msgid "Captive Network Assistant"
-msgstr "Asystent uwierzytelniania sieciowego"
-
-#: src/MainWindow.vala:312
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Dok"
 
-#: src/MainWindow.vala:316
-msgid "Lock or Login Screen"
-msgstr "Ekran blokady lub logowania"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Anuluj"
 
-#: src/MainWindow.vala:320
-msgid "Look & Feel"
-msgstr "Wygląd i zachowanie"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Wyślij opinię…"
 
-#: src/MainWindow.vala:324
-msgid "Multitasking or Window Management"
-msgstr "Wielozadaniowość lub zarządzanie oknami"
-
-#: src/MainWindow.vala:328
-msgid "Notifications"
-msgstr "Powiadomienia"
-
-#: src/MainWindow.vala:332
-msgid "Welcome & Onboarding"
-msgstr "Powitanie oraz wstęp"
-
-#: src/MainWindow.vala:336
-msgid "Panel"
-msgstr "Panel"
-
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Wskaźniki panelu"
 
-#: src/MainWindow.vala:492
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Ustawienia systemu"
 
-#: src/MainWindow.vala:494
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Komponenty pulpitu"
 
-#: src/MainWindow.vala:496
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Domyślne programy"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Menu programów"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Asystent uwierzytelniania sieciowego"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Ekran blokady lub logowania"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Wygląd i zachowanie"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Wielozadaniowość lub zarządzanie oknami"
+
+#~ msgid "Notifications"
+#~ msgstr "Powiadomienia"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Powitanie oraz wstęp"
+
+#~ msgid "Panel"
+#~ msgstr "Panel"
 
 #~ msgid "Report Problem"
 #~ msgstr "Zgłoś problem"
