@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-22 04:26+0000\n"
-"PO-Revision-Date: 2022-05-18 22:50+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"PO-Revision-Date: 2022-05-24 09:18+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgid "Feedback"
 msgstr "משוב"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
-#: data/feedback.appdata.xml.in:39
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
+#: data/feedback.appdata.xml.in:40
 msgid "Improvements:"
 msgstr "שיפורים:"
 
@@ -32,37 +32,41 @@ msgstr "שיפורים:"
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "נמנעה גניבת מיקוד בפתיחת דפדפן"
 
-#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:31
-#: data/feedback.appdata.xml.in:45
+#: data/feedback.appdata.xml.in:18
+msgid "Show more entries under Desktop Components"
+msgstr "הצגת רשומות נוספות תחת רכיבי שולחן העבודה"
+
+#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
+#: data/feedback.appdata.xml.in:46
 msgid "Minor updates:"
 msgstr "עדכונים משניים:"
 
-#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:33
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
+#: data/feedback.appdata.xml.in:49
 msgid "Updated translations"
 msgstr "תרגומים עדכניים"
 
-#: data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:30
 msgid "Add several missing components"
 msgstr "מספר רכיבים חסרים נוספו"
 
-#: data/feedback.appdata.xml.in:41
+#: data/feedback.appdata.xml.in:42
 msgid "Show Flatpak Apps"
 msgstr "יישומי Flatpak מופיעים"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:43
 msgid "Support dark style"
 msgstr "תמיכה בסגנון כהה"
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:44
 msgid "Add multitouch navigation gestures"
 msgstr "נוספו מחוות ניווט בעזרת מגע במספר נקודות"
 
-#: data/feedback.appdata.xml.in:47
+#: data/feedback.appdata.xml.in:48
 msgid "Ensure links are up-to-date"
 msgstr "עדכניות הקישורים נבדקה"
 
-#: data/feedback.appdata.xml.in:94
+#: data/feedback.appdata.xml.in:95
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
