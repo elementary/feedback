@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-10-22 20:43+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,65 +39,58 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "İptal"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "Geri Bildirim Gönder…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Uygulamalar Menüsü"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr "Giriş Portalı Yardımcısı"
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Dock"
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Kilit veya Giriş Ekranı"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "İptal"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Görünüm ve Kullanım"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Geri Bildirim Gönder…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Çoklu Görev veya Pencere Yönetimi"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Bildirimler"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr "Hoş Geldiniz ve Katılım"
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr "Panel"
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Panel Göstergeleri"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Sistem Ayarları"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Masaüstü Bileşenleri"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Varsayılan Uygulamalar"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Uygulamalar Menüsü"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Giriş Portalı Yardımcısı"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Kilit veya Giriş Ekranı"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Görünüm ve Kullanım"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Çoklu Görev veya Pencere Yönetimi"
+
+#~ msgid "Notifications"
+#~ msgstr "Bildirimler"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Hoş Geldiniz ve Katılım"
+
+#~ msgid "Panel"
+#~ msgstr "Panel"
 
 #~ msgid "Report Problem"
 #~ msgstr "Sorun Bildir"

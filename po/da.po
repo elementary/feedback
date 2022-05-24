@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2020-05-26 10:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -43,67 +43,51 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorier"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Annuller"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Feedback"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Applikations Menu"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Lås eller Login Skærm"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Udseende & Følelse"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Multitasking eller Vindues Administration"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Notifikationer"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Panel Indikatorer"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Systemindstillinger"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Skrivebords Komponenter"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Standard Applikationer"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Applikations Menu"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Lås eller Login Skærm"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Udseende & Følelse"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Multitasking eller Vindues Administration"
+
+#~ msgid "Notifications"
+#~ msgstr "Notifikationer"
 
 #~ msgid "Report Problem"
 #~ msgstr "Rapportér et Problem"

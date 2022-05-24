@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,67 +39,51 @@ msgstr ""
 msgid "Categories"
 msgstr "श्रेण्या"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "अभिप्राय"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "अनुप्रयोग मेनू"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "लॉक किंवा लॉग इन स्क्रीन"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "दिसते आणि वाटते"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "मल्टीटास्किंग किंवा विंडो व्यवस्थापन"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "अधिसूचना"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "पॅनेल निर्देशक"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "डेस्कटॉप घटक"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "डीफॉल्ट अॅप्स"
+
+#~ msgid "Applications Menu"
+#~ msgstr "अनुप्रयोग मेनू"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "लॉक किंवा लॉग इन स्क्रीन"
+
+#~ msgid "Look & Feel"
+#~ msgstr "दिसते आणि वाटते"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "मल्टीटास्किंग किंवा विंडो व्यवस्थापन"
+
+#~ msgid "Notifications"
+#~ msgstr "अधिसूचना"
 
 #~ msgid "Report Problem"
 #~ msgstr "समस्या नोंदवा"

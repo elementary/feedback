@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2020-08-29 20:13+0000\n"
 "Last-Translator: Mejans <farga@mejans.fr>\n"
 "Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -37,67 +37,48 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorias"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Anullar"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Comentaris"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Menú de las aplicacions"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Ecran de verrolhatge o de connexion"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Aparéncia"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr ""
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Notificacions"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Indicadors del panèls"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Paramètres del sistèma"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Compausant del burèu"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Aplicacions per defaut"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Menú de las aplicacions"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Ecran de verrolhatge o de connexion"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Aparéncia"
+
+#~ msgid "Notifications"
+#~ msgstr "Notificacions"
 
 #~ msgid "Report Problem"
 #~ msgstr "Senhalar un problèma"

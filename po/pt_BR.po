@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2021-07-11 21:09+0000\n"
 "Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -39,65 +39,49 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorias"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "Enviar Feedback…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Menu de Aplicações"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Tela de Bloqueio ou de Login"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Cancelar"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Aparência e Sensação"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Enviar Feedback…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Multitarefa ou Gerenciamento de Janelas"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Notificações"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Indicadores de Painel"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Configurações de Sistema"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Componentes da Área de Trabalho"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Apps padrão"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Menu de Aplicações"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Tela de Bloqueio ou de Login"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Aparência e Sensação"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Multitarefa ou Gerenciamento de Janelas"
+
+#~ msgid "Notifications"
+#~ msgstr "Notificações"
 
 #~ msgid "Report Problem"
 #~ msgstr "Reportar problema"

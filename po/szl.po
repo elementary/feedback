@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-22 04:26+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -38,67 +38,51 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategoryje"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Pociep"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Ôpinijo zwrotno"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Myni programōw"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Ekran blokady abo logowanio"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Wyglōnd"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Zarzōndzanie ôknami abo multitaskingym"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Powiadōmiynia"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Skaźniki ôkyn"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Sztelōnki systymu"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Kōmpōnynta biōrka"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Wychodne programy"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Myni programōw"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Ekran blokady abo logowanio"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Wyglōnd"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Zarzōndzanie ôknami abo multitaskingym"
+
+#~ msgid "Notifications"
+#~ msgstr "Powiadōmiynia"
 
 #~ msgid "Report Problem"
 #~ msgstr "Zgłoś problym"
