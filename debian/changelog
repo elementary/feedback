@@ -1,3 +1,19 @@
+io.elementary.feedback (6.1.1) bionic; urgency=medium
+
+  * Release 6.1.1 (#59)
+  * Update translation files
+  * Update translation template
+  * MainWindow: Get system entries from appstream (#64)
+  * MainWindow: get correct icon name for non-stock icons (#62)
+  * Restore compatibility with AppStream < 0.15 (#65)
+  * MainWindow: Create one app row per ID (#63)
+  * MainWindow: Use Gtk.show_uri (#57)
+  * Bump actions to OS 7
+  * MainWindow: use extra_data_location functions
+  * l10n: Correctly setup the locales (#48)
+
+ -- elementary, Inc. <builds@elementary.io>  Thu, 26 May 2022 16:46:51 +0000
+
 io.elementary.feedback (6.1.0) bionic; urgency=medium
 
   * Release 6.1.0 (#46)
