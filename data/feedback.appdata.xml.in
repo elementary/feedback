@@ -15,6 +15,7 @@
         <p>Improvements:</p>
         <ul>
           <li>Avoid focus stealing prevention when opening a web browser</li>
+          <li>Show more entries under Desktop Components</li>
         </ul>
         <p>Minor updates:</p>
         <ul>
