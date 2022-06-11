@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-08-02 18:46+0000\n"
+"PO-Revision-Date: 2022-06-11 23:34+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/pt/>\n"
@@ -30,11 +30,11 @@ msgstr "Melhorias:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Evita a prevenção do roubo de foco ao abrir um navegador web"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Mostrar mais entradas em Componentes do ambiente de trabalho"
 
 #: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
 #: data/feedback.appdata.xml.in:46
