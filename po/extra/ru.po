@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-08-10 13:49+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"PO-Revision-Date: 2022-07-24 16:43+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,11 +31,11 @@ msgstr "Улучшения:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Исправлено предотвращение потери фокуса при открытии веб-браузера"
 
 #: data/feedback.appdata.xml.in:18
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Отображение большего количества записей под элементами рабочего стола"
 
 #: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
 #: data/feedback.appdata.xml.in:46
