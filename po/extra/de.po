@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-07-28 22:59+0000\n"
-"Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
-"Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/de/>\n"
+"PO-Revision-Date: 2022-07-26 22:50+0000\n"
+"Last-Translator: Peter Jakubek <peter.jakubek@outlook.com>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: data/feedback.appdata.xml.in:18
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Weitere Einträge unter Desktop-Komponenten anzeigen"
 
 #: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
 #: data/feedback.appdata.xml.in:46
