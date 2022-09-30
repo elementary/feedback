@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2022-09-30 10:35+0000\n"
+"PO-Revision-Date: 2022-09-30 14:55+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ru/>\n"
@@ -65,7 +65,7 @@ msgstr "Добавлены навигационные мультитач-жес�
 
 #: data/feedback.appdata.xml.in:48
 msgid "Ensure links are up-to-date"
-msgstr "Обновляемые ссылки"
+msgstr "Обновлены ссылки"
 
 #: data/feedback.appdata.xml.in:95
 msgid "elementary, Inc."
@@ -77,7 +77,7 @@ msgstr "Отправить и отслеживать состояние жало
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr "Отправка отчетов"
+msgstr "Отправка отчётов"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
