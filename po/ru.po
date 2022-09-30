@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-08-10 13:49+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2022-09-30 14:55+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
 "Language: ru\n"
@@ -26,14 +26,14 @@ msgstr "Отзыв"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr "О каком составляющем отправить отзыв?"
+msgstr "О каком компоненте отправить отзыв?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Выберите элемент в списке, чтобы отправить отзыв или отчет о проблеме с "
+"Выберите элемент в списке, чтобы отправить отзыв или отчёт о проблеме с "
 "помощью вашего браузера."
 
 #: src/MainWindow.vala:61
