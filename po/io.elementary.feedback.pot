@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,30 +36,30 @@ msgid "Categories"
 msgstr ""
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:119
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:196
+#: src/MainWindow.vala:188
 msgid "Cancel"
 msgstr ""
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:191
 msgid "Send Feedback…"
 msgstr ""
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:468
 msgid "Panel Indicators"
 msgstr ""
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:470
 msgid "System Settings"
 msgstr ""
 
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:472
 msgid "Desktop Components"
 msgstr ""
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:474
 msgid "Default Apps"
 msgstr ""
