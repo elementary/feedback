@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2022-04-14 22:02+0000\n"
 "Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -38,62 +38,49 @@ msgstr ""
 msgid "Categories"
 msgstr "دسته بندی ها"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "لغو"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "ارسال بازخورد…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "منو برنامه ها"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "قفل یا صفحه ورود"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "لغو"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "ظاهر و حال و هوا"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "ارسال بازخورد…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "چند کارگی یا مدیریت پنجره"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "اعلان ها"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr "پنل"
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "نشانگر های پنل"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "تنظیمات سیستمی"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "مولفه های دسکتاپ"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "برنامه های پیشفرض"
+
+#~ msgid "Applications Menu"
+#~ msgstr "منو برنامه ها"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "قفل یا صفحه ورود"
+
+#~ msgid "Look & Feel"
+#~ msgstr "ظاهر و حال و هوا"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "چند کارگی یا مدیریت پنجره"
+
+#~ msgid "Notifications"
+#~ msgstr "اعلان ها"
+
+#~ msgid "Panel"
+#~ msgstr "پنل"

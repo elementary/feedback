@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-08-02 18:46+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"PO-Revision-Date: 2022-06-11 23:34+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/pt/>\n"
@@ -23,39 +23,50 @@ msgstr ""
 msgid "Feedback"
 msgstr "Opinião"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
+#: data/feedback.appdata.xml.in:40
 msgid "Improvements:"
 msgstr "Melhorias:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Add several missing components"
-msgstr "Adiciona vários componentes em falta"
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr "Evita a prevenção do roubo de foco ao abrir um navegador web"
 
-#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:18
+msgid "Show more entries under Desktop Components"
+msgstr "Mostrar mais entradas em Componentes do ambiente de trabalho"
+
+#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
+#: data/feedback.appdata.xml.in:46
 msgid "Minor updates:"
 msgstr "Pequenas atualizações:"
 
-#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
+#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
+#: data/feedback.appdata.xml.in:49
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:30
+msgid "Add several missing components"
+msgstr "Adiciona vários componentes em falta"
+
+#: data/feedback.appdata.xml.in:42
 msgid "Show Flatpak Apps"
 msgstr "Mostra aplicações Flatpak"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:43
 msgid "Support dark style"
 msgstr "Suporte ao estilo escuro"
 
-#: data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:44
 msgid "Add multitouch navigation gestures"
 msgstr "Adiciona gestos de navegação multi-toque"
 
-#: data/feedback.appdata.xml.in:35
+#: data/feedback.appdata.xml.in:48
 msgid "Ensure links are up-to-date"
 msgstr "Assegura que as ligações estão atualizadas"
 
-#: data/feedback.appdata.xml.in:82
+#: data/feedback.appdata.xml.in:95
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

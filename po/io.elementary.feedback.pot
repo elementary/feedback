@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,62 +35,31 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr ""
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr ""
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr ""
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:119
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
+#: src/MainWindow.vala:188
+msgid "Cancel"
 msgstr ""
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
+#: src/MainWindow.vala:191
+msgid "Send Feedback…"
 msgstr ""
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr ""
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr ""
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:468
 msgid "Panel Indicators"
 msgstr ""
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:470
 msgid "System Settings"
 msgstr ""
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:472
 msgid "Desktop Components"
 msgstr ""
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:474
 msgid "Default Apps"
 msgstr ""

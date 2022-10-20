@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2020-02-15 20:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
@@ -44,67 +44,51 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategorije"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Povratne informacije"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Aplikacijski meni"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Zaklenjen ali prijavni zaslon"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Videz in vtis"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Večopravilnost ali upravljanje z okni"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Obvestila"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Indikatorji v zgornji vrstici"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Namizne komponente"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Privzete aplikacije"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Aplikacijski meni"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Zaklenjen ali prijavni zaslon"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Videz in vtis"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Večopravilnost ali upravljanje z okni"
+
+#~ msgid "Notifications"
+#~ msgstr "Obvestila"
 
 #~ msgid "Report Problem"
 #~ msgstr "Obvestite o problemu"

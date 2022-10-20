@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2019-07-11 21:46+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
@@ -41,67 +41,51 @@ msgstr "Elektu elementon en la listo por raporti problemon per via foliumilo."
 msgid "Categories"
 msgstr "Kategorioj"
 
-#: src/MainWindow.vala:159
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
+msgid "Dock"
+msgstr ""
+
+#: src/MainWindow.vala:196
 msgid "Cancel"
 msgstr "Rezigni"
 
-#: src/MainWindow.vala:162
+#: src/MainWindow.vala:199
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Prijuĝaĵoj"
 
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Aplikaĵa menuo"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr ""
-
-#: src/MainWindow.vala:294
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Ŝlosa aŭ ensaluta ekrano"
-
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Fasado"
-
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Taskbaskulo aŭ Fenestra Mastrumado"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Avertoj"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr ""
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr ""
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Panelaj indikiloj"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Sistemaj agordoj"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Labortablaj elementoj"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Aprioraj aplikaĵoj"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Aplikaĵa menuo"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Ŝlosa aŭ ensaluta ekrano"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Fasado"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Taskbaskulo aŭ Fenestra Mastrumado"
+
+#~ msgid "Notifications"
+#~ msgstr "Avertoj"
 
 #~ msgid "Report Problem"
 #~ msgstr "Raporti problemon"

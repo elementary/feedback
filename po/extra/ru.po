@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
-"PO-Revision-Date: 2021-08-10 13:49+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"PO-Revision-Date: 2022-10-09 20:32+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ru/>\n"
 "Language: ru\n"
@@ -24,39 +24,50 @@ msgstr ""
 msgid "Feedback"
 msgstr "Отзыв"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:27
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
+#: data/feedback.appdata.xml.in:40
 msgid "Improvements:"
 msgstr "Улучшения:"
 
 #: data/feedback.appdata.xml.in:17
-msgid "Add several missing components"
-msgstr "Добавлено несколько недостающих компонентов"
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr "Исправлено предотвращение потери фокуса при открытии веб-браузера"
 
-#: data/feedback.appdata.xml.in:19 data/feedback.appdata.xml.in:33
+#: data/feedback.appdata.xml.in:18
+msgid "Show more entries under Desktop Components"
+msgstr "Отображение большего количества записей под элементами рабочего стола"
+
+#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
+#: data/feedback.appdata.xml.in:46
 msgid "Minor updates:"
 msgstr "Незначительные обновления:"
 
-#: data/feedback.appdata.xml.in:21 data/feedback.appdata.xml.in:36
+#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
+#: data/feedback.appdata.xml.in:49
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:30
+msgid "Add several missing components"
+msgstr "Добавлено несколько недостающих компонентов"
+
+#: data/feedback.appdata.xml.in:42
 msgid "Show Flatpak Apps"
 msgstr "Отображение приложений Flatpak"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:43
 msgid "Support dark style"
-msgstr "Поддержка темного стиля"
+msgstr "Поддержка тёмного стиля"
 
-#: data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:44
 msgid "Add multitouch navigation gestures"
 msgstr "Добавлены навигационные мультитач-жесты"
 
-#: data/feedback.appdata.xml.in:35
+#: data/feedback.appdata.xml.in:48
 msgid "Ensure links are up-to-date"
-msgstr "Обновляемые ссылки"
+msgstr "Обновлены ссылки"
 
-#: data/feedback.appdata.xml.in:82
+#: data/feedback.appdata.xml.in:95
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
@@ -66,7 +77,7 @@ msgstr "Отправить и отслеживать состояние жало
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr "Отправка отчетов"
+msgstr "Отправка отчётов"
 
 #: data/feedback.desktop.in:7
 msgid "io.elementary.feedback"
@@ -74,4 +85,4 @@ msgstr "io.elementary.feedback"
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
-msgstr "отчет;проблема;баг;"
+msgstr "issue;report;bug;отчет;проблема;баг;"

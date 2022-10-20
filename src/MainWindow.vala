@@ -75,16 +75,20 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         var appstream_pool = new AppStream.Pool ();
+#if HAS_APPSTREAM_0_15
         appstream_pool.reset_extra_data_locations ();
+#else
+        appstream_pool.clear_metadata_locations ();
+#endif
         try {
-            if (Application.sandboxed) {
-                appstream_pool.add_extra_data_location ("/run/host/usr/share/metainfo/", AppStream.FormatStyle.METAINFO);
-            }
-
             // flatpak's appstream files exists only inside they sandbox
-            var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
+            unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
             foreach (var app in app_entries) {
+#if HAS_APPSTREAM_0_15
                 appstream_pool.add_extra_data_location (appdata_dir.printf (app), AppStream.FormatStyle.METAINFO);
+#else
+                appstream_pool.add_metadata_location (appdata_dir.printf (app));
+#endif
             }
 
             appstream_pool.load ();
@@ -92,22 +96,47 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             critical (e.message);
         } finally {
             foreach (var app in app_entries) {
-                appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    var repo_row = new RepoRow (
-                        component.name,
-                        icon_from_appstream_component (component),
-                        Category.DEFAULT_APPS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
+                var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
-                    listbox.add (repo_row);
+                appstream_pool.get_components_by_id (app).foreach ((component) => {
+                    if (component_table[component.id] == null) {
+                        component_table[component.id] = component;
+
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.DEFAULT_APPS,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.add (repo_row);
+                    }
                 });
             }
 
-            foreach (var entry in system_entries) {
-                var repo_row = new RepoRow (entry.name, null, Category.SYSTEM, entry.issues_url);
-                listbox.add (repo_row);
-            }
+            // FIXME: Dock should ship appdata
+            var dock_row = new RepoRow (
+                _("Dock"),
+                new ThemedIcon ("application-default-icon"),
+                Category.SYSTEM,
+                "https://github.com/elementary/dock/issues/new/choose"
+            );
+            listbox.add (dock_row);
+
+            appstream_pool.get_components ().foreach ((component) => {
+                component.get_compulsory_for_desktops ().foreach ((desktop) => {
+                    if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
+                        var repo_row = new RepoRow (
+                            component.name,
+                            icon_from_appstream_component (component),
+                            Category.SYSTEM,
+                            component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
+
+                        listbox.add (repo_row);
+                    }
+                });
+            });
 
             appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
                 component.get_addons ().foreach ((addon) => {
@@ -247,8 +276,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             if (as_icons[0].get_kind () == AppStream.IconKind.STOCK) {
                 icon = new ThemedIcon (name);
             } else {
-                // non-stock type icons has the extension in the name.
-                icon = new ThemedIcon (name.substring (0, name.last_index_of (".")));
+                var underscore_index = name.index_of ("_");
+                underscore_index.clamp (0, name.length);
+
+                icon = new ThemedIcon (name.substring (
+                    // some icon names are prepended with the package name
+                    underscore_index + 1,
+                    // non-stock type icons has the extension in the name.
+                    name.last_index_of (".") - underscore_index - 1
+                ));
             }
         }
 
@@ -284,50 +320,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
-    };
-
-    private struct SystemEntry {
-        string name;
-        string issues_url;
-    }
-
-    static SystemEntry[] system_entries = {
-        SystemEntry () {
-            name = _("Applications Menu"),
-            issues_url = "https://github.com/elementary/applications-menu/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Captive Network Assistant"),
-            issues_url = "https://github.com/elementary/capnet-assist/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Dock"),
-            issues_url = "https://github.com/elementary/dock/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Lock or Login Screen"),
-            issues_url = "https://github.com/elementary/greeter/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Look & Feel"),
-            issues_url = "https://github.com/elementary/stylesheet/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Multitasking or Window Management"),
-            issues_url = "https://github.com/elementary/gala/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Notifications"),
-            issues_url = "https://github.com/elementary/notifications/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Welcome & Onboarding"),
-            issues_url = "https://github.com/elementary/onboarding/issues/new/choose"
-        },
-        SystemEntry () {
-            name = _("Panel"),
-            issues_url = "https://github.com/elementary/wingpanel/issues/new/choose"
-        }
     };
 
     public enum Category {

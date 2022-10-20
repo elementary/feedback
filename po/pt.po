@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2021-08-02 21:09+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
@@ -39,65 +39,58 @@ msgstr ""
 msgid "Categories"
 msgstr "Categorias"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "Enviar Feedback…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Menu de aplicações"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr "Assistente de rede cativa"
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Doca"
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Bloquear ou ecrã de início de sessão"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Cancelar"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Aspeto"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Enviar Feedback…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Multi-tarefa ou Gestão de Janelas"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Notificações"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr "Boas-vindas"
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr "Painel"
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Indicadores do painel"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Definições do Sistema"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Componentes do ambiente de trabalho"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Aplicações predefinidas"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Menu de aplicações"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Assistente de rede cativa"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Bloquear ou ecrã de início de sessão"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Aspeto"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Multi-tarefa ou Gestão de Janelas"
+
+#~ msgid "Notifications"
+#~ msgstr "Notificações"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Boas-vindas"
+
+#~ msgid "Panel"
+#~ msgstr "Painel"
 
 #~ msgid "Report Problem"
 #~ msgstr "Reportar problema"

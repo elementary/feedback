@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -39,62 +39,55 @@ msgstr ""
 msgid "Categories"
 msgstr "هاوپۆلەکان"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "هەڵوەشاندنەوە"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "ناردنی فیدباک…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "لیستی ئەپڵیکەیشنەکان"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr "یاریدەدەری تۆڕی کۆنتڕۆڵکراو"
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "دۆک"
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "داخستن یان شاشەی چوونەژورەوە"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "هەڵوەشاندنەوە"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "سەر و سیما"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "ناردنی فیدباک…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "مەڵتی تاسکینگ یان بەڕێوەبردنی پەنجەرە"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "ئاگادارکردنەوەکان"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr "بەخێرهاتن & پێشوازی"
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr "پانێڵ"
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "دەرخەرەکانی پانێڵ"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "ڕێکخستنەکانی سیستەم"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "پێکهێنەرەکانی ڕوومێز"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "ئەپە بنەڕەتییەکان"
+
+#~ msgid "Applications Menu"
+#~ msgstr "لیستی ئەپڵیکەیشنەکان"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "یاریدەدەری تۆڕی کۆنتڕۆڵکراو"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "داخستن یان شاشەی چوونەژورەوە"
+
+#~ msgid "Look & Feel"
+#~ msgstr "سەر و سیما"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "مەڵتی تاسکینگ یان بەڕێوەبردنی پەنجەرە"
+
+#~ msgid "Notifications"
+#~ msgstr "ئاگادارکردنەوەکان"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "بەخێرهاتن & پێشوازی"
+
+#~ msgid "Panel"
+#~ msgstr "پانێڵ"

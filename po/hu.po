@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-28 17:59+0000\n"
+"POT-Creation-Date: 2022-05-24 00:09+0000\n"
 "PO-Revision-Date: 2021-08-27 18:48+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -39,62 +39,55 @@ msgstr ""
 msgid "Categories"
 msgstr "Kategóriák"
 
-#: src/MainWindow.vala:159
-msgid "Cancel"
-msgstr "Mégse"
-
-#: src/MainWindow.vala:162
-msgid "Send Feedback…"
-msgstr "Visszajelzés küldése…"
-
-#: src/MainWindow.vala:286
-msgid "Applications Menu"
-msgstr "Alkalmazásmenü"
-
-#: src/MainWindow.vala:290
-msgid "Captive Network Assistant"
-msgstr "Rögzített portál asszisztens"
-
-#: src/MainWindow.vala:294
+#. FIXME: Dock should ship appdata
+#: src/MainWindow.vala:127
 msgid "Dock"
 msgstr "Dokk"
 
-#: src/MainWindow.vala:298
-msgid "Lock or Login Screen"
-msgstr "Lezárási vagy bejelentkezési képernyő"
+#: src/MainWindow.vala:196
+msgid "Cancel"
+msgstr "Mégse"
 
-#: src/MainWindow.vala:302
-msgid "Look & Feel"
-msgstr "Kinézet és működés"
+#: src/MainWindow.vala:199
+msgid "Send Feedback…"
+msgstr "Visszajelzés küldése…"
 
-#: src/MainWindow.vala:306
-msgid "Multitasking or Window Management"
-msgstr "Feladat- és ablakkezelés"
-
-#: src/MainWindow.vala:310
-msgid "Notifications"
-msgstr "Értesítések"
-
-#: src/MainWindow.vala:314
-msgid "Welcome & Onboarding"
-msgstr "Üdvözlés és kezdeti beállítások"
-
-#: src/MainWindow.vala:318
-msgid "Panel"
-msgstr "Állapotsor"
-
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:476
 msgid "Panel Indicators"
 msgstr "Állapotsori indikátorok"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:478
 msgid "System Settings"
 msgstr "Rendszerbeállítások"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:480
 msgid "Desktop Components"
 msgstr "Asztali elemek"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:482
 msgid "Default Apps"
 msgstr "Alapértelmezett alkalmazások"
+
+#~ msgid "Applications Menu"
+#~ msgstr "Alkalmazásmenü"
+
+#~ msgid "Captive Network Assistant"
+#~ msgstr "Rögzített portál asszisztens"
+
+#~ msgid "Lock or Login Screen"
+#~ msgstr "Lezárási vagy bejelentkezési képernyő"
+
+#~ msgid "Look & Feel"
+#~ msgstr "Kinézet és működés"
+
+#~ msgid "Multitasking or Window Management"
+#~ msgstr "Feladat- és ablakkezelés"
+
+#~ msgid "Notifications"
+#~ msgstr "Értesítések"
+
+#~ msgid "Welcome & Onboarding"
+#~ msgstr "Üdvözlés és kezdeti beállítások"
+
+#~ msgid "Panel"
+#~ msgstr "Állapotsor"
