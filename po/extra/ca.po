@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: 2022-05-25 02:40+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,51 +23,51 @@ msgstr ""
 msgid "Feedback"
 msgstr "Informació de retorn"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:41 data/feedback.appdata.xml.in:55
+msgid "Minor updates:"
+msgstr "Actualitzacions menors:"
+
+#: data/feedback.appdata.xml.in:17 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43 data/feedback.appdata.xml.in:58
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/feedback.appdata.xml.in:24 data/feedback.appdata.xml.in:37
+#: data/feedback.appdata.xml.in:49
 msgid "Improvements:"
 msgstr "Millores:"
 
-#: data/feedback.appdata.xml.in:17
+#: data/feedback.appdata.xml.in:26
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "S'evita la prevenció del robatori de focus quan s'obre un navegador web."
 
-#: data/feedback.appdata.xml.in:18
+#: data/feedback.appdata.xml.in:27
 msgid "Show more entries under Desktop Components"
 msgstr "Mostra més entrades a Components d'escriptori."
 
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
-msgid "Minor updates:"
-msgstr "Actualitzacions menors:"
-
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
-msgid "Updated translations"
-msgstr "Traduccions actualitzades"
-
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:39
 msgid "Add several missing components"
 msgstr "Addició de diversos components que mancaven"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:51
 msgid "Show Flatpak Apps"
 msgstr "Es mostren les aplicacions de Flatpak."
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:52
 msgid "Support dark style"
 msgstr "Admissió del tema fosc"
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:53
 msgid "Add multitouch navigation gestures"
 msgstr "Addició gests de navegació multitàctils"
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:57
 msgid "Ensure links are up-to-date"
 msgstr "S'assegura que els enllaços estiguin actualitzats."
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:104
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

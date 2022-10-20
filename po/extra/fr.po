@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: 2022-05-24 15:46+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/fr/>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,52 +23,52 @@ msgstr ""
 msgid "Feedback"
 msgstr "Commentaires"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:41 data/feedback.appdata.xml.in:55
+msgid "Minor updates:"
+msgstr "Mises à jour mineures :"
+
+#: data/feedback.appdata.xml.in:17 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43 data/feedback.appdata.xml.in:58
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/feedback.appdata.xml.in:24 data/feedback.appdata.xml.in:37
+#: data/feedback.appdata.xml.in:49
 msgid "Improvements:"
 msgstr "Améliorations :"
 
-#: data/feedback.appdata.xml.in:17
+#: data/feedback.appdata.xml.in:26
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "Nous avons fait en sorte d'empêcher la perte du focus lors de l'ouverture "
 "d'un navigateur Web"
 
-#: data/feedback.appdata.xml.in:18
+#: data/feedback.appdata.xml.in:27
 msgid "Show more entries under Desktop Components"
 msgstr "Affichage d'autres entrées sous Composants du bureau"
 
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
-msgid "Minor updates:"
-msgstr "Mises à jour mineures :"
-
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
-msgid "Updated translations"
-msgstr "Mise à jour des traductions"
-
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:39
 msgid "Add several missing components"
 msgstr "Ajout de plusieurs composants manquants"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:51
 msgid "Show Flatpak Apps"
 msgstr "Affichage des applications Flatpak"
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:52
 msgid "Support dark style"
 msgstr "Prise en charge du thème sombre"
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:53
 msgid "Add multitouch navigation gestures"
 msgstr "Ajout des gestes de navigation multi-touch"
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:57
 msgid "Ensure links are up-to-date"
 msgstr "Nous nous sommes assurés que les liens soient à jour"
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:104
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
