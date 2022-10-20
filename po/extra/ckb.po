@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -23,50 +23,50 @@ msgstr ""
 msgid "Feedback"
 msgstr "فیدباک"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
-msgid "Improvements:"
-msgstr "پێشکەوتنەکان:"
-
-#: data/feedback.appdata.xml.in:17
-msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:18
-msgid "Show more entries under Desktop Components"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:41 data/feedback.appdata.xml.in:55
 msgid "Minor updates:"
 msgstr "نوێکارییە چکۆڵەکان:"
 
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
+#: data/feedback.appdata.xml.in:17 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43 data/feedback.appdata.xml.in:58
 msgid "Updated translations"
 msgstr "وەرگێڕانەکان نوێکراونەوە"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:24 data/feedback.appdata.xml.in:37
+#: data/feedback.appdata.xml.in:49
+msgid "Improvements:"
+msgstr "پێشکەوتنەکان:"
+
+#: data/feedback.appdata.xml.in:26
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:27
+msgid "Show more entries under Desktop Components"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:39
 msgid "Add several missing components"
 msgstr "زیادکردنی چەند پێکهێنەرێکی پێویست"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:51
 msgid "Show Flatpak Apps"
 msgstr "پشاندانی ئەپەکانی فڵاتپاک"
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:52
 msgid "Support dark style"
 msgstr "پاڵپشتیکردنی دۆخی تاریک"
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:53
 msgid "Add multitouch navigation gestures"
 msgstr "زیادکردنی جوڵەکانی multitouch navigation"
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:57
 msgid "Ensure links are up-to-date"
 msgstr "دڵنیابوونەوە لە کارکردنی بەستەرەکان"
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:104
 msgid "elementary, Inc."
 msgstr "کۆمپانیای ئێلەمێنتەری هاوپشک."
 
