@@ -75,15 +75,22 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_sort_func (sort_function);
 
         var appstream_pool = new AppStream.Pool ();
+#if HAS_APPSTREAM_0_15
         appstream_pool.reset_extra_data_locations ();
-        appstream_pool.set_flags (
-            AppStream.PoolFlags.LOAD_FLATPAK |
-            AppStream.PoolFlags.LOAD_OS_COLLECTION |
-            AppStream.PoolFlags.LOAD_OS_DESKTOP_FILES |
-            AppStream.PoolFlags.RESOLVE_ADDONS
-        );
-
+#else
+        appstream_pool.clear_metadata_locations ();
+#endif
         try {
+            // flatpak's appstream files exists only inside they sandbox
+            unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
+            foreach (var app in app_entries) {
+#if HAS_APPSTREAM_0_15
+                appstream_pool.add_extra_data_location (appdata_dir.printf (app), AppStream.FormatStyle.METAINFO);
+#else
+                appstream_pool.add_metadata_location (appdata_dir.printf (app));
+#endif
+            }
+
             appstream_pool.load ();
         } catch (Error e) {
             critical (e.message);

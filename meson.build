@@ -7,7 +7,11 @@ project(
 gnome = import('gnome')
 i18n = import('i18n')
 
-appstream_dep = dependency ('appstream', version: '>=0.15')
+appstream_dep = dependency ('appstream', version: '>=0.12.10')
+
+if appstream_dep.version().version_compare('>=0.15')
+    add_project_arguments('--define=HAS_APPSTREAM_0_15', language:'vala')
+endif
 
 add_project_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')
 
