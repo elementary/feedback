@@ -77,20 +77,21 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var appstream_pool = new AppStream.Pool ();
 #if HAS_APPSTREAM_0_15
         appstream_pool.reset_extra_data_locations ();
+        appstream_pool.set_flags (
+            appstream_pool.get_flags () |
+            AppStream.PoolFlags.LOAD_FLATPAK |
+            AppStream.PoolFlags.RESOLVE_ADDONS
+        );
 #else
         appstream_pool.clear_metadata_locations ();
+        // flatpak's appstream files exists only inside they sandbox
+        unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
+        foreach (var app in app_entries) {
+            appstream_pool.add_metadata_location (appdata_dir.printf (app));
+        }
 #endif
-        try {
-            // flatpak's appstream files exists only inside they sandbox
-            unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
-            foreach (var app in app_entries) {
-#if HAS_APPSTREAM_0_15
-                appstream_pool.add_extra_data_location (appdata_dir.printf (app), AppStream.FormatStyle.METAINFO);
-#else
-                appstream_pool.add_metadata_location (appdata_dir.printf (app));
-#endif
-            }
 
+        try {
             appstream_pool.load ();
         } catch (Error e) {
             critical (e.message);
@@ -138,31 +139,31 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
             });
 
-            foreach (var entry in switchboard_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
+            appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                component.get_addons ().foreach ((addon) => {
                     var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
+                        addon.name,
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.SETTINGS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
 
                     listbox.add (repo_row);
                 });
-            }
+            });
 
-            foreach (var entry in wingpanel_entries) {
-                appstream_pool.get_components_by_id (entry.id).foreach ((component) => {
+            appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
+                component.get_addons ().foreach ((addon) => {
                     var repo_row = new RepoRow (
-                        component.name,
-                        new ThemedIcon (entry.icon),
+                        addon.name,
+                        get_extension_icon_from_appstream (addon.get_icons ()),
                         Category.PANEL,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
                     );
 
                     listbox.add (repo_row);
                 });
-            }
+            });
         }
 
         var scrolled = new Gtk.ScrolledWindow (null, null);
@@ -253,6 +254,16 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
     }
 
+    private Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
+        foreach (unowned AppStream.Icon appstream_icon in appstream_icons) {
+            if (appstream_icon.get_kind () == AppStream.IconKind.STOCK) {
+                return new ThemedIcon (appstream_icon.get_name ());
+            }
+        }
+
+        return new ThemedIcon ("extension");
+    }
+
     private Icon icon_from_appstream_component (AppStream.Component component) {
         var as_icons = component.get_icons ();
         Icon icon;
@@ -310,150 +321,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
-    };
-
-    private struct SwitchboardEntry {
-        string icon;
-        string id;
-    }
-
-    static SwitchboardEntry[] switchboard_entries = {
-        SwitchboardEntry () {
-            icon = "preferences-desktop-applications",
-            id = "io.elementary.switchboard.applications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-wallpaper",
-            id = "io.elementary.switchboard.pantheon-shell"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-locale",
-            id = "io.elementary.switchboard.locale"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-notifications",
-            id = "io.elementary.switchboard.notifications"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-privacy",
-            id = "io.elementary.switchboard.security-privacy"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-display",
-            id = "io.elementary.switchboard.display"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-keyboard",
-            id = "io.elementary.switchboard.keyboard"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-peripherals",
-            id = "io.elementary.switchboard.mouse-touchpad"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-power",
-            id = "io.elementary.switchboard.power"
-        },
-        SwitchboardEntry () {
-            icon = "printer",
-            id = "io.elementary.switchboard.printers"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-sound",
-            id = "io.elementary.switchboard.sound"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-bluetooth",
-            id = "io.elementary.switchboard.bluetooth"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-network",
-            id = "io.elementary.switchboard.network"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-online-accounts",
-            id = "io.elementary.switchboard.onlineaccounts"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-sharing",
-            id = "io.elementary.switchboard.sharing"
-        },
-        SwitchboardEntry () {
-            icon = "application-x-firmware",
-            id = "io.elementary.switchboard.about"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-time",
-            id = "io.elementary.switchboard.datetime"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-system-parental-controls",
-            id = "io.elementary.switchboard.parental-controls"
-        },
-        SwitchboardEntry () {
-            icon = "preferences-desktop-accessibility",
-            id = "io.elementary.switchboard.a11y"
-        },
-        SwitchboardEntry () {
-            icon = "system-users",
-            id = "io.elementary.switchboard.useraccounts"
-        },
-        SwitchboardEntry () {
-            icon = "input-tablet",
-            id = "io.elementary.switchboard.wacom"
-        }
-    };
-
-    private struct WingpanelEntry {
-        string icon;
-        string id;
-    }
-
-    static WingpanelEntry[] wingpanel_entries = {
-        WingpanelEntry () {
-            icon = "preferences-desktop-accessibility-symbolic",
-            id="io.elementary.wingpanel.a11y"
-        },
-        WingpanelEntry () {
-            icon = "preferences-system-search-symbolic",
-            id="io.elementary.wingpanel.applications-menu"
-        },
-        WingpanelEntry () {
-            icon = "bluetooth-active-symbolic",
-            id="io.elementary.wingpanel.bluetooth"
-        },
-        WingpanelEntry () {
-            icon = "appointment-symbolic",
-            id="io.elementary.wingpanel.datetime"
-        },
-        WingpanelEntry () {
-            icon = "input-keyboard-symbolic",
-            id="io.elementary.wingpanel.keyboard"
-        },
-        WingpanelEntry () {
-            icon = "network-wireless-signal-excellent-symbolic",
-            id="io.elementary.wingpanel.network"
-        },
-        WingpanelEntry () {
-            icon = "night-light-symbolic",
-            id="io.elementary.wingpanel.nightlight"
-        },
-        WingpanelEntry () {
-            icon = "notification-symbolic",
-            id="io.elementary.wingpanel.notifications"
-        },
-        WingpanelEntry () {
-            icon = "battery-full-symbolic",
-            id="io.elementary.wingpanel.power"
-        },
-        WingpanelEntry () {
-            icon = "system-shutdown-symbolic",
-            id="io.elementary.wingpanel.session"
-        },
-        WingpanelEntry () {
-            icon = "audio-volume-high-symbolic",
-            id="io.elementary.wingpanel.sound"
-        }
     };
 
     public enum Category {
