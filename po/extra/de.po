@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-10-20 17:56+0000\n"
 "PO-Revision-Date: 2022-07-26 22:50+0000\n"
 "Last-Translator: Tucan Holmes <tucan.web.swiss@gmail.com>\n"
-"Language-Team: German <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/de/>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,50 +23,50 @@ msgstr ""
 msgid "Feedback"
 msgstr "Rückmeldungen/Feedback"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
-msgid "Improvements:"
-msgstr "Verbesserungen:"
-
-#: data/feedback.appdata.xml.in:17
-msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:18
-msgid "Show more entries under Desktop Components"
-msgstr "Weitere Einträge unter Desktop-Komponenten anzeigen"
-
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:29
+#: data/feedback.appdata.xml.in:41 data/feedback.appdata.xml.in:55
 msgid "Minor updates:"
 msgstr "Kleinere Aktualisierungen:"
 
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
+#: data/feedback.appdata.xml.in:17 data/feedback.appdata.xml.in:31
+#: data/feedback.appdata.xml.in:43 data/feedback.appdata.xml.in:58
 msgid "Updated translations"
 msgstr "Aktualisierte Übersetzungen"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:24 data/feedback.appdata.xml.in:37
+#: data/feedback.appdata.xml.in:49
+msgid "Improvements:"
+msgstr "Verbesserungen:"
+
+#: data/feedback.appdata.xml.in:26
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:27
+msgid "Show more entries under Desktop Components"
+msgstr "Weitere Einträge unter Desktop-Komponenten anzeigen"
+
+#: data/feedback.appdata.xml.in:39
 msgid "Add several missing components"
 msgstr "Einige fehlende Komponenten hinzugefügt"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:51
 msgid "Show Flatpak Apps"
 msgstr "Flatpak Apps anzeigen"
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:52
 msgid "Support dark style"
 msgstr "Unterstützung für Dark Mode"
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:53
 msgid "Add multitouch navigation gestures"
 msgstr "Multitouch-Gesten hinzugefügt"
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:57
 msgid "Ensure links are up-to-date"
 msgstr "Sicherstellen, dass Links aktuell sind"
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:104
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
