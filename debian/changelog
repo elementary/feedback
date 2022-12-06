@@ -1,3 +1,13 @@
+io.elementary.feedback (6.1.2) bionic; urgency=medium
+
+  * Release 6.1.2 (#70)
+  * Update translation files
+  * Update translation template
+  * Fetch all addons for settings and panel (#23)
+  * Remove Flatpak (#69)
+
+ -- elementary, Inc. <builds@elementary.io>  Tue, 06 Dec 2022 16:32:37 +0000
+
 io.elementary.feedback (6.1.1) bionic; urgency=medium
 
   * Release 6.1.1 (#59)
