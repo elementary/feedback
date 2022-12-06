@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -40,33 +40,33 @@ msgid "Categories"
 msgstr "श्रेण्या"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:119
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:188
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:192
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "अभिप्राय"
 
-#: src/MainWindow.vala:468
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "पॅनेल निर्देशक"
 
-#: src/MainWindow.vala:470
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "डेस्कटॉप घटक"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "डीफॉल्ट अॅप्स"
 
