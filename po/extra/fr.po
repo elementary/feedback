@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2022-05-24 15:46+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -80,13 +80,12 @@ msgstr "Soumettez et suivez des rapports de bugs"
 msgid "Issue Reporter"
 msgstr "Signaler un problème"
 
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr "io.elementary.feedback"
-
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
 msgstr "problème;signalement;bug;"
+
+#~ msgid "io.elementary.feedback"
+#~ msgstr "io.elementary.feedback"
 
 #~ msgid "bug"
 #~ msgstr "bug"

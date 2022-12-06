@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2020-04-06 15:10+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -78,13 +78,12 @@ msgstr "सबमिट करा आणि समस्या अहवाल �
 msgid "Issue Reporter"
 msgstr "इश्यु रिपोर्टर"
 
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr "io.elementary.feedback"
-
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
 msgstr "issue;report;bug;"
+
+#~ msgid "io.elementary.feedback"
+#~ msgstr "io.elementary.feedback"
 
 #~ msgid "bug"
 #~ msgstr "दोष"
