@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-06 00:13+0000\n"
-"PO-Revision-Date: 2022-10-26 16:15+0000\n"
+"PO-Revision-Date: 2022-12-06 15:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
 msgid "Feedback"
@@ -30,7 +30,7 @@ msgstr "עדכונים משניים:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr ""
+msgstr "מתבצע וידוא שאנחנו מושכים את כל התוספים להגדרות המערכת והלוח"
 
 #: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
 #: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
