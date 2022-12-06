@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2022-08-07 23:06+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -77,10 +77,6 @@ msgstr "이슈 리포트 제출 및 추적"
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
 msgstr "이슈 리포터"
-
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"

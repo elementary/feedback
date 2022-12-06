@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2019-12-15 23:07+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Bosnian <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -77,10 +77,6 @@ msgstr ""
 
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
-msgstr ""
-
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
 msgstr ""
 
 #: data/feedback.desktop.in:8

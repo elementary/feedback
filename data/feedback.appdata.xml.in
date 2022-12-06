@@ -14,6 +14,7 @@
       <description>
         <p>Minor updates:</p>
         <ul>
+          <li>Make sure we fetch all addons for System Settings and the Panel</li>
           <li>Updated translations</li>
         </ul>
       </description>

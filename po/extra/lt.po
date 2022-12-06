@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2019-08-29 16:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/desktop/"
@@ -79,10 +79,6 @@ msgstr "Pateikti ir sekti pranešimus apie klaidas"
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
 msgstr "Klaidų pranešyklė"
-
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"

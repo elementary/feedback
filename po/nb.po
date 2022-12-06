@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2021-08-15 13:18+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -41,31 +41,31 @@ msgid "Categories"
 msgstr "Kategorier"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:119
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr "Dokk"
 
-#: src/MainWindow.vala:188
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:192
 msgid "Send Feedback…"
 msgstr "Send tilbakemelding…"
 
-#: src/MainWindow.vala:468
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:470
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "Forvalgte programmer"
 

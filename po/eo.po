@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 17:56+0000\n"
+"POT-Creation-Date: 2022-12-06 00:12+0000\n"
 "PO-Revision-Date: 2019-07-11 21:46+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
@@ -42,33 +42,33 @@ msgid "Categories"
 msgstr "Kategorioj"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:119
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:188
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "Rezigni"
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:192
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Prijuĝaĵoj"
 
-#: src/MainWindow.vala:468
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "Panelaj indikiloj"
 
-#: src/MainWindow.vala:470
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "Sistemaj agordoj"
 
-#: src/MainWindow.vala:472
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "Labortablaj elementoj"
 
-#: src/MainWindow.vala:474
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "Aprioraj aplikaĵoj"
 
