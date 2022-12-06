@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-06 00:13+0000\n"
-"PO-Revision-Date: 2022-12-06 15:09+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"PO-Revision-Date: 2022-12-08 22:25+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ru/>\n"
 "Language: ru\n"
@@ -31,7 +31,7 @@ msgstr "Незначительные обновления:"
 
 #: data/feedback.appdata.xml.in:17
 msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr "Улучшено получение аддонов для Параметров системы и Панели"
+msgstr "Улучшено получение дополнений для Параметров системы и Панели"
 
 #: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
 #: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
