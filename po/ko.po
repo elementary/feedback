@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-10-07 17:05+0000\n"
-"Last-Translator: harrylim05 <harry_lim@naver.com>\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"PO-Revision-Date: 2022-08-06 23:36+0000\n"
+"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/feedback/"
 "ko/>\n"
 "Language: ko\n"
@@ -25,51 +25,45 @@ msgstr "피드백"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "어떤 항목에 대한 피드백을 보내시겠습니까?"
 
 #: src/MainWindow.vala:45
-#, fuzzy
-#| msgid ""
-#| "Select a component from the list to report a problem from your web "
-#| "browser."
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"사용하시는 웹 브라우저의 목록에서 구성 요소를 확인하시고 문제를 알려주세요."
+"목록에서 항목을 선택하여 웹 브라우저에서 피드백을 보내거나 문제를 보고합니다."
 
 #: src/MainWindow.vala:61
 msgid "Categories"
 msgstr "카테고리"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr "도크"
 
-#: src/MainWindow.vala:196
+#: src/MainWindow.vala:189
 msgid "Cancel"
-msgstr "뒤로"
+msgstr "취소"
 
-#: src/MainWindow.vala:199
-#, fuzzy
-#| msgid "Feedback"
+#: src/MainWindow.vala:192
 msgid "Send Feedback…"
-msgstr "피드백"
+msgstr "피드백 보내기…"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "패널 인디케이터"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "시스템 설정"
 
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "바탕화면 구성 요소"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "기본 앱"
 

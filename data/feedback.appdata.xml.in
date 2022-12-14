@@ -10,7 +10,17 @@
     <p></p>
   </description>
   <releases>
-    <release version="6.1.1" date="2022-05-15" urgency="medium">
+    <release version="6.1.2" date="2022-12-05" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Make sure we fetch all addons for System Settings and the Panel</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.1" date="2022-05-23" urgency="medium">
       <description>
         <p>Improvements:</p>
         <ul>

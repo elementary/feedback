@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
 "PO-Revision-Date: 2021-12-14 21:26+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -23,50 +23,54 @@ msgstr ""
 msgid "Feedback"
 msgstr "Geri Bildirim"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
-msgid "Improvements:"
-msgstr "İyileştirmeler:"
-
-#: data/feedback.appdata.xml.in:17
-msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:18
-msgid "Show more entries under Desktop Components"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:42 data/feedback.appdata.xml.in:56
 msgid "Minor updates:"
 msgstr "Küçük güncellemeler:"
 
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
+#: data/feedback.appdata.xml.in:17
+msgid "Make sure we fetch all addons for System Settings and the Panel"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
+#: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:25 data/feedback.appdata.xml.in:38
+#: data/feedback.appdata.xml.in:50
+msgid "Improvements:"
+msgstr "İyileştirmeler:"
+
+#: data/feedback.appdata.xml.in:27
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:28
+msgid "Show more entries under Desktop Components"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:40
 msgid "Add several missing components"
 msgstr "Birkaç eksik bileşen eklendi"
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:52
 msgid "Show Flatpak Apps"
 msgstr "Flatpak Uygulamalarını Göster"
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:53
 msgid "Support dark style"
 msgstr "Koyu renk tema desteği eklendi"
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:54
 msgid "Add multitouch navigation gestures"
 msgstr "Çok noktalı dokunma ile gezinme hareketleri eklendi"
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:58
 msgid "Ensure links are up-to-date"
 msgstr "Bağlantıların güncel olduğundan emin olundu"
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:105
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
@@ -78,13 +82,12 @@ msgstr "Sorun raporları gönderin ve takip edin"
 msgid "Issue Reporter"
 msgstr "Sorun Bildirici"
 
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr "io.elementary.feedback"
-
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
 msgstr "sorun;bildir;hata;issue;report;bug;"
+
+#~ msgid "io.elementary.feedback"
+#~ msgstr "io.elementary.feedback"
 
 #~ msgid "bug"
 #~ msgstr "hata"

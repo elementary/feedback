@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -40,31 +40,31 @@ msgid "Categories"
 msgstr "هاوپۆلەکان"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr "دۆک"
 
-#: src/MainWindow.vala:196
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:192
 msgid "Send Feedback…"
 msgstr "ناردنی فیدباک…"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "دەرخەرەکانی پانێڵ"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "ڕێکخستنەکانی سیستەم"
 
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "پێکهێنەرەکانی ڕوومێز"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "ئەپە بنەڕەتییەکان"
 

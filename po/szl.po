@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -39,33 +39,33 @@ msgid "Categories"
 msgstr "Kategoryje"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:196
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "Pociep"
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:192
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Ôpinijo zwrotno"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "Skaźniki ôkyn"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "Sztelōnki systymu"
 
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "Kōmpōnynta biōrka"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "Wychodne programy"
 

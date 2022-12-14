@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
-"PO-Revision-Date: 2021-08-10 13:49+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"PO-Revision-Date: 2022-09-30 14:55+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
 "Language: ru\n"
@@ -26,14 +26,14 @@ msgstr "Отзыв"
 
 #: src/MainWindow.vala:41
 msgid "Send feedback for which component?"
-msgstr "О каком составляющем отправить отзыв?"
+msgstr "О каком компоненте отправить отзыв?"
 
 #: src/MainWindow.vala:45
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Выберите элемент в списке, чтобы отправить отзыв или отчет о проблеме с "
+"Выберите элемент в списке, чтобы отправить отзыв или отчёт о проблеме с "
 "помощью вашего браузера."
 
 #: src/MainWindow.vala:61
@@ -41,31 +41,31 @@ msgid "Categories"
 msgstr "Категории"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:120
 msgid "Dock"
 msgstr "Док"
 
-#: src/MainWindow.vala:196
+#: src/MainWindow.vala:189
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:192
 msgid "Send Feedback…"
 msgstr "Отправить отзыв…"
 
-#: src/MainWindow.vala:476
+#: src/MainWindow.vala:335
 msgid "Panel Indicators"
 msgstr "Индикаторы панели"
 
-#: src/MainWindow.vala:478
+#: src/MainWindow.vala:337
 msgid "System Settings"
 msgstr "Параметры системы"
 
-#: src/MainWindow.vala:480
+#: src/MainWindow.vala:339
 msgid "Desktop Components"
 msgstr "Компоненты рабочего стола"
 
-#: src/MainWindow.vala:482
+#: src/MainWindow.vala:341
 msgid "Default Apps"
 msgstr "Приложения по умолчанию"
 

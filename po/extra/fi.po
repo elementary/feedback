@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 00:09+0000\n"
+"POT-Creation-Date: 2022-12-06 00:13+0000\n"
 "PO-Revision-Date: 2021-07-22 23:06+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -23,50 +23,54 @@ msgstr ""
 msgid "Feedback"
 msgstr "Palaute"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:28
-#: data/feedback.appdata.xml.in:40
-msgid "Improvements:"
-msgstr "Parannukset:"
-
-#: data/feedback.appdata.xml.in:17
-msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:18
-msgid "Show more entries under Desktop Components"
-msgstr ""
-
-#: data/feedback.appdata.xml.in:20 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:46
+#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:42 data/feedback.appdata.xml.in:56
 msgid "Minor updates:"
 msgstr "Pienet päivitykset:"
 
-#: data/feedback.appdata.xml.in:22 data/feedback.appdata.xml.in:34
-#: data/feedback.appdata.xml.in:49
+#: data/feedback.appdata.xml.in:17
+msgid "Make sure we fetch all addons for System Settings and the Panel"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
+#: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
 msgid "Updated translations"
 msgstr "Päivitetyt kielikäännökset"
 
-#: data/feedback.appdata.xml.in:30
+#: data/feedback.appdata.xml.in:25 data/feedback.appdata.xml.in:38
+#: data/feedback.appdata.xml.in:50
+msgid "Improvements:"
+msgstr "Parannukset:"
+
+#: data/feedback.appdata.xml.in:27
+msgid "Avoid focus stealing prevention when opening a web browser"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:28
+msgid "Show more entries under Desktop Components"
+msgstr ""
+
+#: data/feedback.appdata.xml.in:40
 msgid "Add several missing components"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:42
+#: data/feedback.appdata.xml.in:52
 msgid "Show Flatpak Apps"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:43
+#: data/feedback.appdata.xml.in:53
 msgid "Support dark style"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:44
+#: data/feedback.appdata.xml.in:54
 msgid "Add multitouch navigation gestures"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:48
+#: data/feedback.appdata.xml.in:58
 msgid "Ensure links are up-to-date"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:95
+#: data/feedback.appdata.xml.in:105
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
@@ -77,10 +81,6 @@ msgstr "Lähetä ja seuraa vikailmoituksia"
 #: data/feedback.desktop.in:5
 msgid "Issue Reporter"
 msgstr "Vikailmoitin"
-
-#: data/feedback.desktop.in:7
-msgid "io.elementary.feedback"
-msgstr ""
 
 #: data/feedback.desktop.in:8
 msgid "issue;report;bug;"
