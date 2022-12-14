@@ -322,6 +322,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
         }
 
+        if (!Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).has_gicon (icon)) {
+            icon = new ThemedIcon ("application-default-icon");
+        }
+
         return icon;
     }
 
