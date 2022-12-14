@@ -69,10 +69,18 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         category_header.pack_start (back_button);
         category_header.set_center_widget (category_title);
 
+        var spinner = new Gtk.Spinner () {
+            halign = Gtk.Align.CENTER,
+            valign = Gtk.Align.CENTER
+        };
+        spinner.start ();
+        spinner.show ();
+
         listbox = new Gtk.ListBox ();
         listbox.expand = true;
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
+        listbox.set_placeholder (spinner);
 
         var appstream_pool = new AppStream.Pool ();
 #if HAS_APPSTREAM_0_15
@@ -91,42 +99,41 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         }
 #endif
 
-        try {
-            appstream_pool.load ();
-        } catch (Error e) {
-            critical (e.message);
-        } finally {
-            foreach (var app in app_entries) {
-                var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
+        appstream_pool.load_async.begin (null, (obj, res) => {
+            try {
+                var loaded = appstream_pool.load_async.end (res);
 
-                appstream_pool.get_components_by_id (app).foreach ((component) => {
-                    if (component_table[component.id] == null) {
-                        component_table[component.id] = component;
+                foreach (var app in app_entries) {
+                    var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
-                        var repo_row = new RepoRow (
-                            component.name,
-                            icon_from_appstream_component (component),
-                            Category.DEFAULT_APPS,
-                            component.get_url (AppStream.UrlKind.BUGTRACKER)
-                        );
+                    appstream_pool.get_components_by_id (app).foreach ((component) => {
+                        if (component_table[component.id] == null) {
+                            component_table[component.id] = component;
 
-                        listbox.add (repo_row);
-                    }
-                });
-            }
+                            var repo_row = new RepoRow (
+                                component.name,
+                                icon_from_appstream_component (component),
+                                Category.DEFAULT_APPS,
+                                component.get_url (AppStream.UrlKind.BUGTRACKER)
+                            );
 
-            // FIXME: Dock should ship appdata
-            var dock_row = new RepoRow (
-                _("Dock"),
-                new ThemedIcon ("application-default-icon"),
-                Category.SYSTEM,
-                "https://github.com/elementary/dock/issues/new/choose"
-            );
-            listbox.add (dock_row);
+                            listbox.add (repo_row);
+                        }
+                    });
+                }
 
-            appstream_pool.get_components ().foreach ((component) => {
-                component.get_compulsory_for_desktops ().foreach ((desktop) => {
-                    if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
+                // FIXME: Dock should ship appdata
+                var dock_row = new RepoRow (
+                    _("Dock"),
+                    new ThemedIcon ("application-default-icon"),
+                    Category.SYSTEM,
+                    "https://github.com/elementary/dock/issues/new/choose"
+                );
+                listbox.add (dock_row);
+
+                get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
+                    var components = get_compulsory_for_desktop.end (res);
+                    components.foreach ((component) => {
                         var repo_row = new RepoRow (
                             component.name,
                             icon_from_appstream_component (component),
@@ -135,36 +142,40 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                         );
 
                         listbox.add (repo_row);
-                    }
+                    });
+
+                    listbox.show_all ();
                 });
-            });
 
-            appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
-                component.get_addons ().foreach ((addon) => {
-                    var repo_row = new RepoRow (
-                        addon.name,
-                        get_extension_icon_from_appstream (addon.get_icons ()),
-                        Category.SETTINGS,
-                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
+                appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                    component.get_addons ().foreach ((addon) => {
+                        var repo_row = new RepoRow (
+                            addon.name,
+                            get_extension_icon_from_appstream (addon.get_icons ()),
+                            Category.SETTINGS,
+                            addon.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
 
-                    listbox.add (repo_row);
+                        listbox.add (repo_row);
+                    });
                 });
-            });
 
-            appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
-                component.get_addons ().foreach ((addon) => {
-                    var repo_row = new RepoRow (
-                        addon.name,
-                        get_extension_icon_from_appstream (addon.get_icons ()),
-                        Category.PANEL,
-                        addon.get_url (AppStream.UrlKind.BUGTRACKER)
-                    );
+                appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
+                    component.get_addons ().foreach ((addon) => {
+                        var repo_row = new RepoRow (
+                            addon.name,
+                            get_extension_icon_from_appstream (addon.get_icons ()),
+                            Category.PANEL,
+                            addon.get_url (AppStream.UrlKind.BUGTRACKER)
+                        );
 
-                    listbox.add (repo_row);
+                        listbox.add (repo_row);
+                    });
                 });
-            });
-        }
+            } catch (Error e) {
+                critical (e.message);
+            }
+        });
 
         var scrolled = new Gtk.ScrolledWindow (null, null);
         scrolled.add (listbox);
@@ -252,6 +263,26 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
             destroy ();
         });
+    }
+
+    private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
+        SourceFunc callback = get_compulsory_for_desktop.callback;
+
+        var components = new GenericArray<AppStream.Component> ();
+        new Thread<void> ("get_compulsory_for_desktop", () => {
+            appstream_pool.get_components ().foreach ((component) => {
+                component.get_compulsory_for_desktops ().foreach ((desktop) => {
+                    if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
+                        components.add (component);
+                    }
+                });
+            });
+
+            Idle.add ((owned) callback);
+        });
+
+        yield;
+        return components;
     }
 
     private Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
