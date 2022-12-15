@@ -68,7 +68,6 @@ public class Feedback.Application : Gtk.Application {
             }
 
             main_window.show_all ();
-            add_window (main_window);
         }
 
         active_window.present_with_time (Gdk.CURRENT_TIME);
