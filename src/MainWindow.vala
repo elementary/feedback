@@ -55,9 +55,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var settings_category = new CategoryRow (Category.SETTINGS);
         var system_category = new CategoryRow (Category.SYSTEM);
 
-        var category_list = new Gtk.ListBox ();
-        category_list.activate_on_single_click = true;
-        category_list.selection_mode = Gtk.SelectionMode.NONE;
+        var category_list = new Gtk.ListBox () {
+            activate_on_single_click = true,
+            selection_mode = Gtk.SelectionMode.NONE
+        };
         category_list.append (apps_category);
         category_list.append (panel_category);
         category_list.append (settings_category);
@@ -206,15 +207,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         leaflet.append (repo_list_box);
 
         var frame = new Gtk.Frame (null) {
-            child = leaflet
+            child = leaflet,
+            margin_top = 24
         };
-        frame.margin_top = 24;
 
-        var cancel_button = new Gtk.Button.with_label (_("Cancel"));
-        cancel_button.action_name = "app.quit";
+        var cancel_button = new Gtk.Button.with_label (_("Cancel")) {
+            action_name = "app.quit"
+        };
 
-        var report_button = new Gtk.Button.with_label (_("Send Feedback…"));
-        report_button.sensitive = false;
+        var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
+            sensitive = false
+        };
         report_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
         var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {

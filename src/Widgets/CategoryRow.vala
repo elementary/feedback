@@ -26,9 +26,10 @@ public class Feedback.CategoryRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var label = new Gtk.Label (category.to_string ());
-        label.hexpand = true;
-        label.xalign = 0;
+        var label = new Gtk.Label (category.to_string ()) {
+            hexpand = true,
+            xalign = 0
+        };
 
         var caret = new Gtk.Image.from_icon_name ("pan-end-symbolic");
 

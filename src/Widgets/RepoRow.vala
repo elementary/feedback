@@ -35,9 +35,10 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var label = new Gtk.Label (title);
-        label.hexpand = true;
-        label.xalign = 0;
+        var label = new Gtk.Label (title) {
+            hexpand = true,
+            xalign = 0
+        };
 
         var selection_icon = new Gtk.Image.from_icon_name ("object-select-symbolic") {
             visible = false
