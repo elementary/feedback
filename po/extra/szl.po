@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -14,7 +14,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Ôpinijo zwrotno"
 
@@ -69,14 +69,10 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/feedback.desktop.in:4
+#: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
 msgstr ""
 
-#: data/feedback.desktop.in:5
-msgid "Issue Reporter"
-msgstr ""
-
-#: data/feedback.desktop.in:8
+#: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr ""
