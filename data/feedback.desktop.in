@@ -1,12 +1,13 @@
 [Desktop Entry]
+Version=1.0
+Type=Application
+
 Name=Feedback
 Comment=Submit and track issue reports
-GenericName=Issue Reporter
-Exec=io.elementary.feedback
-Icon=io.elementary.feedback
+Categories=Development;Utility;
 Keywords=issue;report;bug;
+
+Icon=io.elementary.feedback
+Exec=io.elementary.feedback
 Terminal=false
-Type=Application
 StartupNotify=true
-Categories=Development;
-NoDisplay=true
