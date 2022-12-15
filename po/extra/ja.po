@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2022-12-08 22:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "フィードバック"
 
@@ -76,17 +76,16 @@ msgstr "リンクを最新の URL に更新"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.desktop.in:4
+#: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
 msgstr "不具合レポートを作成し追跡します"
 
-#: data/feedback.desktop.in:5
-msgid "Issue Reporter"
-msgstr "不具合報告アプリ"
-
-#: data/feedback.desktop.in:8
+#: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "issue;report;bug;問題;不具合;イシュー;報告;レポート;バグ;"
+
+#~ msgid "Issue Reporter"
+#~ msgstr "不具合報告アプリ"
 
 #~ msgid "io.elementary.feedback"
 #~ msgstr "io.elementary.feedback"

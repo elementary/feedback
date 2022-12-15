@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2020-04-06 15:10+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "अभिप्राय"
 
@@ -74,17 +74,16 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "एलिमेंटरी,Inc."
 
-#: data/feedback.desktop.in:4
+#: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
 msgstr "सबमिट करा आणि समस्या अहवाल ट्रॅक करा"
 
-#: data/feedback.desktop.in:5
-msgid "Issue Reporter"
-msgstr "इश्यु रिपोर्टर"
-
-#: data/feedback.desktop.in:8
+#: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "issue;report;bug;"
+
+#~ msgid "Issue Reporter"
+#~ msgstr "इश्यु रिपोर्टर"
 
 #~ msgid "io.elementary.feedback"
 #~ msgstr "io.elementary.feedback"
