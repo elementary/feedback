@@ -70,7 +70,7 @@ public class Feedback.Application : Gtk.Application {
             main_window.show_all ();
         }
 
-        active_window.present_with_time (Gdk.CURRENT_TIME);
+        active_window.present ();
     }
 
     public static int main (string[] args) {
