@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2020-11-20 21:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Feedback"
 msgstr "अभिप्राय"
 
-#: src/MainWindow.vala:41
+#: src/MainWindow.vala:45
 msgid "Send feedback for which component?"
 msgstr "कोणत्या घटकासाठी अभिप्राय पाठवायचा?"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:53
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,38 +35,38 @@ msgstr ""
 "आपल्या वेब ब्राउझरमधून अभिप्राय पाठविण्यासाठी किंवा समस्येचा अहवाल देण्यासाठी सूचीमधून "
 "एखादा घटक निवडा."
 
-#: src/MainWindow.vala:61
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "श्रेण्या"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:189
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/MainWindow.vala:192
+#: src/MainWindow.vala:224
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "अभिप्राय"
 
-#: src/MainWindow.vala:335
+#: src/MainWindow.vala:394
 msgid "Panel Indicators"
 msgstr "पॅनेल निर्देशक"
 
-#: src/MainWindow.vala:337
+#: src/MainWindow.vala:396
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
 
-#: src/MainWindow.vala:339
+#: src/MainWindow.vala:398
 msgid "Desktop Components"
 msgstr "डेस्कटॉप घटक"
 
-#: src/MainWindow.vala:341
+#: src/MainWindow.vala:400
 msgid "Default Apps"
 msgstr "डीफॉल्ट अॅप्स"
 

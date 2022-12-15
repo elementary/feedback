@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2021-08-06 17:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Feedback"
 msgstr "Palaute"
 
-#: src/MainWindow.vala:41
+#: src/MainWindow.vala:45
 msgid "Send feedback for which component?"
 msgstr "Mihin osaan liittyen haluat lähettää palautetta?"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:53
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,36 @@ msgstr ""
 "Valitse luettelosta se osa, josta haluat antaa palautetta. Voit myös tehdä "
 "vikailmoituksen selaimessa."
 
-#: src/MainWindow.vala:61
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "Luokat"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr "Telakka"
 
-#: src/MainWindow.vala:189
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:192
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "Lähetä palautetta…"
 
-#: src/MainWindow.vala:335
+#: src/MainWindow.vala:394
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:337
+#: src/MainWindow.vala:396
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:339
+#: src/MainWindow.vala:398
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:341
+#: src/MainWindow.vala:400
 msgid "Default Apps"
 msgstr "Oletussovellukset"
 
