@@ -128,7 +128,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                                 component.get_url (AppStream.UrlKind.BUGTRACKER)
                             );
 
-                            listbox.add (repo_row);
+                            listbox.append (repo_row);
                         }
                     });
                 }
@@ -140,7 +140,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     Category.SYSTEM,
                     "https://github.com/elementary/dock/issues/new/choose"
                 );
-                listbox.add (dock_row);
+                listbox.append (dock_row);
 
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
