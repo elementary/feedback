@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2019-08-29 16:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/desktop/"
@@ -21,7 +21,7 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Atsiliepimai"
 
@@ -76,17 +76,16 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.desktop.in:4
+#: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
 msgstr "Pateikti ir sekti pranešimus apie klaidas"
 
-#: data/feedback.desktop.in:5
-msgid "Issue Reporter"
-msgstr "Klaidų pranešyklė"
-
-#: data/feedback.desktop.in:8
+#: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "problema;pranešti;pranešimas;klaida;"
+
+#~ msgid "Issue Reporter"
+#~ msgstr "Klaidų pranešyklė"
 
 #~ msgid "bug"
 #~ msgstr "klaida"

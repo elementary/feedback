@@ -1,5 +1,5 @@
 /*
-* Copyright 2019 elementary, Inc. (https://elementary.io)
+* Copyright 2019-2022 elementary, Inc. (https://elementary.io)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -20,7 +20,6 @@
 
 public class Feedback.Application : Gtk.Application {
     public static GLib.Settings settings;
-    private MainWindow main_window;
 
     public Application () {
         Object (
@@ -37,39 +36,37 @@ public class Feedback.Application : Gtk.Application {
         GLib.Intl.textdomain (GETTEXT_PACKAGE);
     }
 
-    protected override void activate () {
-        if (get_windows ().length () > 0) {
-            get_windows ().data.present ();
-            return;
-        }
-
-        main_window = new MainWindow (this);
-        main_window.present ();
-
-        /*
-        * This is very finicky. Bind size after present else set_titlebar gives us bad sizes
-        * Set maximize after height/width else window is min size on unmaximize
-        * Bind maximize as SET else get get bad sizes
-        */
-        settings.bind ("window-height", main_window, "default-height", SettingsBindFlags.DEFAULT);
-        settings.bind ("window-width", main_window, "default-width", SettingsBindFlags.DEFAULT);
-
-        if (settings.get_boolean ("window-maximized")) {
-            main_window.maximize ();
-        }
-
-        settings.bind ("window-maximized", main_window, "maximized", SettingsBindFlags.SET);
+    protected override void startup () {
+        base.startup ();
 
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
         set_accels_for_action ("app.quit", {"<Control>q"});
 
-        quit_action.activate.connect (() => {
-            if (main_window != null) {
-                main_window.destroy ();
+        quit_action.activate.connect (quit);
+    }
+
+    protected override void activate () {
+        if (active_window == null) {
+            var main_window = new MainWindow (this);
+
+            /*
+            * This is very finicky. Bind size after present else set_titlebar gives us bad sizes
+            * Set maximize after height/width else window is min size on unmaximize
+            * Bind maximize as SET else get get bad sizes
+            */
+            settings.bind ("window-height", main_window, "default-height", SettingsBindFlags.DEFAULT);
+            settings.bind ("window-width", main_window, "default-width", SettingsBindFlags.DEFAULT);
+
+            if (settings.get_boolean ("window-maximized")) {
+                main_window.maximize ();
             }
-        });
+
+            settings.bind ("window-maximized", main_window, "maximized", SettingsBindFlags.SET);
+        }
+
+        active_window.present ();
     }
 
     public static int main (string[] args) {

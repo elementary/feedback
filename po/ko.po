@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2022-08-06 23:36+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -23,47 +23,47 @@ msgstr ""
 msgid "Feedback"
 msgstr "피드백"
 
-#: src/MainWindow.vala:41
+#: src/MainWindow.vala:45
 msgid "Send feedback for which component?"
 msgstr "어떤 항목에 대한 피드백을 보내시겠습니까?"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:53
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
 "목록에서 항목을 선택하여 웹 브라우저에서 피드백을 보내거나 문제를 보고합니다."
 
-#: src/MainWindow.vala:61
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "카테고리"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr "도크"
 
-#: src/MainWindow.vala:189
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "취소"
 
-#: src/MainWindow.vala:192
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "피드백 보내기…"
 
-#: src/MainWindow.vala:335
+#: src/MainWindow.vala:394
 msgid "Panel Indicators"
 msgstr "패널 인디케이터"
 
-#: src/MainWindow.vala:337
+#: src/MainWindow.vala:396
 msgid "System Settings"
 msgstr "시스템 설정"
 
-#: src/MainWindow.vala:339
+#: src/MainWindow.vala:398
 msgid "Desktop Components"
 msgstr "바탕화면 구성 요소"
 
-#: src/MainWindow.vala:341
+#: src/MainWindow.vala:400
 msgid "Default Apps"
 msgstr "기본 앱"
 
