@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-06 00:13+0000\n"
+"POT-Creation-Date: 2022-12-15 22:46+0000\n"
 "PO-Revision-Date: 2021-12-14 21:26+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:3
+#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Geri Bildirim"
 
@@ -74,17 +74,16 @@ msgstr "Bağlantıların güncel olduğundan emin olundu"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.desktop.in:4
+#: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
 msgstr "Sorun raporları gönderin ve takip edin"
 
-#: data/feedback.desktop.in:5
-msgid "Issue Reporter"
-msgstr "Sorun Bildirici"
-
-#: data/feedback.desktop.in:8
+#: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "sorun;bildir;hata;issue;report;bug;"
+
+#~ msgid "Issue Reporter"
+#~ msgstr "Sorun Bildirici"
 
 #~ msgid "io.elementary.feedback"
 #~ msgstr "io.elementary.feedback"
