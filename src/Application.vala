@@ -52,7 +52,7 @@ public class Feedback.Application : Gtk.Application {
             var main_window = new MainWindow (this);
 
             /*
-            * This is very finicky. Bind size after present else set_titlebar gives us bad sizes
+            * This is very finicky.
             * Set maximize after height/width else window is min size on unmaximize
             * Bind maximize as SET else get get bad sizes
             */
