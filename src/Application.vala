@@ -28,6 +28,14 @@ public class Feedback.Application : Gtk.Application {
         );
     }
 
+    static construct {
+        settings = new Settings ("io.elementary.feedback");
+        GLib.Intl.setlocale (LocaleCategory.ALL, "");
+        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+        GLib.Intl.textdomain (GETTEXT_PACKAGE);
+    }
+
     protected override void startup () {
         base.startup ();
 
@@ -37,14 +45,6 @@ public class Feedback.Application : Gtk.Application {
         set_accels_for_action ("app.quit", {"<Control>q"});
 
         quit_action.activate.connect (quit);
-    }
-
-    static construct {
-        settings = new Settings ("io.elementary.feedback");
-        GLib.Intl.setlocale (LocaleCategory.ALL, "");
-        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
-        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-        GLib.Intl.textdomain (GETTEXT_PACKAGE);
     }
 
     protected override void activate () {
