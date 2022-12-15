@@ -31,6 +31,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         );
     }
 
+    class construct {
+        set_css_name ("dialog");
+    }
+
     construct {
         var titlebar = new Gtk.HeaderBar ();
         titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
@@ -38,29 +42,42 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG);
 
-        var primary_label = new Gtk.Label (_("Send feedback for which component?"));
-        primary_label.xalign = 0;
+        var primary_label = new Gtk.Label (_("Send feedback for which component?")) {
+            selectable = true,
+            max_width_chars = 50,
+            wrap = true,
+            xalign = 0
+        };
         primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
 
-        var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser."));
-        secondary_label.xalign = 0;
+        var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser.")) {
+            selectable = true,
+            max_width_chars = 50,
+            wrap = true,
+            xalign = 0
+        };
 
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
         var panel_category = new CategoryRow (Category.PANEL);
         var settings_category = new CategoryRow (Category.SETTINGS);
         var system_category = new CategoryRow (Category.SYSTEM);
 
-        var category_list = new Gtk.ListBox ();
-        category_list.activate_on_single_click = true;
-        category_list.selection_mode = Gtk.SelectionMode.NONE;
+        var category_list = new Gtk.ListBox () {
+            activate_on_single_click = true,
+            selection_mode = Gtk.SelectionMode.NONE
+        };
         category_list.add (apps_category);
         category_list.add (panel_category);
         category_list.add (settings_category);
         category_list.add (system_category);
 
-        var back_button = new Gtk.Button.with_label (_("Categories"));
-        back_button.halign = Gtk.Align.START;
-        back_button.margin = 6;
+        var back_button = new Gtk.Button.with_label (_("Categories")) {
+            halign = Gtk.Align.START,
+            margin_top = 6,
+            margin_end = 6,
+            margin_bottom = 6,
+            margin_start = 6
+        };
         back_button.get_style_context ().add_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         var category_title = new Gtk.Label ("");
@@ -76,8 +93,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         spinner.start ();
         spinner.show ();
 
-        listbox = new Gtk.ListBox ();
-        listbox.expand = true;
+        listbox = new Gtk.ListBox () {
+            hexpand = true,
+            vexpand = true
+        };
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
         listbox.set_placeholder (spinner);
@@ -180,47 +199,56 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var scrolled = new Gtk.ScrolledWindow (null, null);
         scrolled.add (listbox);
 
-        var repo_list_grid = new Gtk.Grid ();
-        repo_list_grid.orientation = Gtk.Orientation.VERTICAL;
-        repo_list_grid.get_style_context ().add_class (Gtk.STYLE_CLASS_VIEW);
-        repo_list_grid.add (category_header);
-        repo_list_grid.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-        repo_list_grid.add (scrolled);
+        var repo_list_box = new Gtk.Box (Gtk.Orientation.VERTICAL ,0);
+        repo_list_box.get_style_context ().add_class (Gtk.STYLE_CLASS_VIEW);
+        repo_list_box.add (category_header);
+        repo_list_box.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
+        repo_list_box.add (scrolled);
 
         var deck = new Hdy.Deck () {
             can_swipe_back = true
         };
         deck.add (category_list);
-        deck.add (repo_list_grid);
+        deck.add (repo_list_box);
 
-        var frame = new Gtk.Frame (null);
-        frame.margin_top = frame.margin_bottom = 24;
+        var frame = new Gtk.Frame (null) {
+            margin_top = 24,
+            margin_bottom = 24
+        };
         frame.add (deck);
 
-        var cancel_button = new Gtk.Button.with_label (_("Cancel"));
-        cancel_button.action_name = "app.quit";
+        var cancel_button = new Gtk.Button.with_label (_("Cancel")) {
+            action_name = "app.quit"
+        };
 
-        var report_button = new Gtk.Button.with_label (_("Send Feedback…"));
-        report_button.sensitive = false;
+        var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
+            sensitive = false
+        };
         report_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
 
-        var button_box = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
-        button_box.layout_style = Gtk.ButtonBoxStyle.END;
-        button_box.spacing = 6;
+        var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+            halign = Gtk.Align.END,
+            homogeneous = true
+        };
         button_box.add (cancel_button);
         button_box.add (report_button);
 
-        var grid = new Gtk.Grid ();
-        grid.margin = 12;
-        grid.column_spacing = 12;
+        var grid = new Gtk.Grid () {
+            column_spacing = 12
+        };
         grid.attach (image_icon, 0, 0, 1, 2);
         grid.attach (primary_label, 1, 0);
         grid.attach (secondary_label, 1, 1);
         grid.attach (frame, 1, 2);
-        grid.attach (button_box, 0, 3, 2);
 
-        add (grid);
-        get_style_context ().add_class ("rounded");
+        var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
+            margin = 12,
+            margin_top = 0
+        };
+        dialog_vbox.add (grid);
+        dialog_vbox.add (button_box);
+
+        add (dialog_vbox);
         set_titlebar (titlebar);
 
         var granite_settings = Granite.Settings.get_default ();
@@ -233,7 +261,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         category_list.row_activated.connect ((row) => {
-            deck.visible_child = repo_list_grid;
+            deck.visible_child = repo_list_box;
             category_filter = ((CategoryRow) row).category;
             category_title.label = ((CategoryRow) row).category.to_string ();
             listbox.invalidate_filter ();

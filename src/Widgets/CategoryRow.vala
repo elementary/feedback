@@ -26,15 +26,19 @@ public class Feedback.CategoryRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var label = new Gtk.Label (category.to_string ());
-        label.hexpand = true;
-        label.xalign = 0;
+        var label = new Gtk.Label (category.to_string ()) {
+            hexpand = true,
+            xalign = 0
+        };
 
         var caret = new Gtk.Image.from_icon_name ("pan-end-symbolic", Gtk.IconSize.MENU);
 
-        var grid = new Gtk.Grid ();
-        grid.margin = 3;
-        grid.margin_start = grid.margin_end = 6;
+        var grid = new Gtk.Grid () {
+            margin_top = 3,
+            margin_end = 6,
+            margin_bottom = 3,
+            margin_start = 6
+        };
         grid.add (label);
         grid.add (caret);
 
