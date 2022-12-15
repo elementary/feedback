@@ -63,7 +63,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var system_category = new CategoryRow (Category.SYSTEM);
 
         var category_list = new Gtk.ListBox () {
-            activate_on_single_click = true,
             selection_mode = Gtk.SelectionMode.NONE
         };
         category_list.add (apps_category);
@@ -94,6 +93,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         spinner.show ();
 
         listbox = new Gtk.ListBox () {
+            activate_on_single_click = false,
             hexpand = true,
             vexpand = true
         };
@@ -222,7 +222,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
-            sensitive = false
+            sensitive = false,
+            can_default = true
         };
         report_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -250,6 +251,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         add (dialog_vbox);
         set_titlebar (titlebar);
+        set_default (report_button);
 
         var granite_settings = Granite.Settings.get_default ();
         var gtk_settings = Gtk.Settings.get_default ();
@@ -282,6 +284,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             report_button.sensitive = true;
         });
 
+        listbox.row_activated.connect (() => {
+            activate_default ();
+        });
+
         report_button.clicked.connect (() => {
             try {
                 var url = ((RepoRow) listbox.get_selected_row ()).url;
@@ -289,7 +295,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             } catch (Error e) {
                 critical (e.message);
             }
-            destroy ();
+            close ();
         });
     }
 
