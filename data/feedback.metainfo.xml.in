@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019–2022 elementary, Inc. <contact@elementary.io> -->
+<component type="desktop-application">
+  <id>io.elementary.feedback</id>
+  <launchable type="desktop-id">io.elementary.feedback.desktop</launchable>
+  <translation type="gettext">io.elementary.feedback</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <name>Feedback</name>
+  <summary>File issue reports</summary>
+  <description>
+    <p>Browse installed components by category and quickly find their online issue trackers.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Filter components by category</caption>
+      <image>https://raw.githubusercontent.com/elementary/feedback/6.1.2/data/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Select from a list with icons</caption>
+      <image>https://raw.githubusercontent.com/elementary/feedback/6.1.2/data/screenshot-settings.png</image>
+    </screenshot>
+  </screenshots>
+
+  <branding>
+    <color type="primary">#68b723</color>
+    <color type="primary" scheme_preference="light">#3a9104</color>
+    <color type="primary" scheme_preference="dark">#9bdb4d</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <provides>
+    <binary>io.elementary.feedback</binary>
+  </provides>
+
+  <recommends>
+    <display_length compare="ge">672</display_length>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <url type="homepage">https://elementary.io/</url>
+  <url type="bugtracker">https://github.com/elementary/feedback/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/feedback/discussions</url>
+  <url type="translate">https://l10n.elementary.io/projects/feedback</url>
+
+  <developer_name>elementary, Inc.</developer_name>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
+
+  <releases>
+    <release version="6.1.2" date="2022-12-05" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Make sure we fetch all addons for System Settings and the Panel</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.1" date="2022-05-23" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Avoid focus stealing prevention when opening a web browser</li>
+          <li>Show more entries under Desktop Components</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.0" date="2021-07-26" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Add several missing components</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.0" date="2020-07-15" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Show Flatpak Apps</li>
+          <li>Support dark style</li>
+          <li>Add multitouch navigation gestures</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Ensure links are up-to-date</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
