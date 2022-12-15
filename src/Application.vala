@@ -1,5 +1,5 @@
 /*
-* Copyright 2019 elementary, Inc. (https://elementary.io)
+* Copyright 2019-2022 elementary, Inc. (https://elementary.io)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -20,13 +20,23 @@
 
 public class Feedback.Application : Gtk.Application {
     public static GLib.Settings settings;
-    private MainWindow main_window;
 
     public Application () {
         Object (
             application_id: "io.elementary.feedback",
             flags: ApplicationFlags.FLAGS_NONE
         );
+    }
+
+    protected override void startup () {
+        base.startup ();
+
+        var quit_action = new SimpleAction ("quit", null);
+
+        add_action (quit_action);
+        set_accels_for_action ("app.quit", {"<Control>q"});
+
+        quit_action.activate.connect (quit);
     }
 
     static construct {
@@ -38,41 +48,30 @@ public class Feedback.Application : Gtk.Application {
     }
 
     protected override void activate () {
-        if (get_windows ().length () > 0) {
-            get_windows ().data.present ();
-            return;
-        }
+        if (active_window == null) {
+            var main_window = new MainWindow (this);
 
-        main_window = new MainWindow (this);
+            int window_x, window_y;
+            var rect = Gtk.Allocation ();
 
-        int window_x, window_y;
-        var rect = Gtk.Allocation ();
+            settings.get ("window-position", "(ii)", out window_x, out window_y);
+            settings.get ("window-size", "(ii)", out rect.width, out rect.height);
 
-        settings.get ("window-position", "(ii)", out window_x, out window_y);
-        settings.get ("window-size", "(ii)", out rect.width, out rect.height);
-
-        if (window_x != -1 || window_y != -1) {
-            main_window.move (window_x, window_y);
-        }
-
-        main_window.set_allocation (rect);
-
-        if (settings.get_boolean ("window-maximized")) {
-            main_window.maximize ();
-        }
-
-        main_window.show_all ();
-
-        var quit_action = new SimpleAction ("quit", null);
-
-        add_action (quit_action);
-        set_accels_for_action ("app.quit", {"<Control>q"});
-
-        quit_action.activate.connect (() => {
-            if (main_window != null) {
-                main_window.destroy ();
+            if (window_x != -1 || window_y != -1) {
+                main_window.move (window_x, window_y);
             }
-        });
+
+            main_window.set_allocation (rect);
+
+            if (settings.get_boolean ("window-maximized")) {
+                main_window.maximize ();
+            }
+
+            main_window.show_all ();
+            add_window (main_window);
+        }
+
+        active_window.present_with_time (Gdk.CURRENT_TIME);
     }
 
     public static int main (string[] args) {
