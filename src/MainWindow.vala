@@ -284,20 +284,23 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             report_button.sensitive = true;
         });
 
-        listbox.row_activated.connect (() => {
-            activate_default ();
+        listbox.row_activated.connect ((row) => {
+            launch_from_row ((RepoRow) row);
         });
 
         report_button.clicked.connect (() => {
-            try {
-                var url = ((RepoRow) listbox.get_selected_row ()).url;
-                Gtk.show_uri_on_window (null, url, Gtk.get_current_event_time ());
-            } catch (Error e) {
-                critical (e.message);
-            }
-
-            close ();
+            launch_from_row ((RepoRow) listbox.get_selected_row ());
         });
+    }
+
+    private void launch_from_row (RepoRow row) {
+        try {
+            Gtk.show_uri_on_window (null, row.url, Gtk.get_current_event_time ());
+        } catch (Error e) {
+            critical (e.message);
+        }
+
+        close ();
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
