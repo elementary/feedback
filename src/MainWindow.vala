@@ -296,11 +296,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private void launch_from_row (RepoRow row) {
         try {
             Gtk.show_uri_on_window (null, row.url, Gtk.get_current_event_time ());
+            close ();
         } catch (Error e) {
             critical (e.message);
         }
-
-        close ();
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
