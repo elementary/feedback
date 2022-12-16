@@ -277,17 +277,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             report_button.sensitive = false;
         });
 
-        listbox.selected_rows_changed.connect (() => {
-            var row = listbox.get_first_child ();
-            while (row != null) {
-                if (row is RepoRow) {
-                    row.selected = ((RepoRow) row).is_selected ();
-                }
-
-                row = row.get_next_sibling ();
-            }
-
-            report_button.sensitive = true;
+        listbox.row_selected.connect ((row) => {
+            report_button.sensitive = row != null;
         });
 
         report_button.clicked.connect (() => {

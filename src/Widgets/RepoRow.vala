@@ -19,11 +19,33 @@
 */
 
 public class Feedback.RepoRow : Gtk.ListBoxRow {
-    public bool selected { get; set; }
     public Feedback.MainWindow.Category category { get; construct; }
     public GLib.Icon? icon { get; construct; }
     public string title { get; construct; }
     public string url { get; construct; }
+
+    private static Gtk.CssProvider css_provider;
+    private const string css = """
+        row image {
+            background-color: @theme_selected_bg_color;
+            color: @theme_selected_fg_color;
+            border-radius: calc(8rem / 9);
+            -gtk-icon-size: calc(12rem / 9);
+            margin: 0 calc(3rem / 9);
+            min-height: calc(16rem / 9);
+            min-width: calc(16rem / 9);
+            opacity: 0;
+        }
+
+        row:selected image {
+            opacity: 1;
+        }
+
+        row:selected image:backdrop {
+            background-color: @theme_unfocused_selected_bg_color;
+            color: @theme_unfocused_selected_fg_color;
+        }
+    """;
 
     public RepoRow (string title, GLib.Icon? icon, Feedback.MainWindow.Category category, string url) {
         Object (
@@ -34,6 +56,11 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
         );
     }
 
+    static construct {
+        css_provider = new Gtk.CssProvider ();
+        css_provider.load_from_data (css.data);
+    }
+
     construct {
         var label = new Gtk.Label (title) {
             hexpand = true,
@@ -41,8 +68,9 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
         };
 
         var selection_icon = new Gtk.Image.from_icon_name ("object-select-symbolic") {
-            visible = false
+            valign = Gtk.Align.CENTER
         };
+        selection_icon.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
 
@@ -56,9 +84,5 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
         box.append (selection_icon);
 
         child = box;
-
-        notify["selected"].connect (() => {
-            selection_icon.visible = selected;
-        });
     }
 }
