@@ -19,7 +19,6 @@
 */
 
 public class Feedback.RepoRow : Gtk.ListBoxRow {
-    public bool selected { get; set; }
     public Feedback.MainWindow.Category category { get; construct; }
     public GLib.Icon? icon { get; construct; }
     public string title { get; construct; }
@@ -64,8 +63,8 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
 
         add (box);
 
-        notify["selected"].connect (() => {
-            selection_icon.visible = selected;
+        state_flags_changed.connect ((flags) => {
+            selection_icon.visible = Gtk.StateFlags.SELECTED in flags;
         });
     }
 }
