@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 22:46+0000\n"
+"POT-Creation-Date: 2022-12-17 05:30+0000\n"
 "PO-Revision-Date: 2019-05-08 19:18-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,18 +47,18 @@ msgstr ""
 msgid "Send Feedback…"
 msgstr ""
 
-#: src/MainWindow.vala:394
+#: src/MainWindow.vala:397
 msgid "Panel Indicators"
 msgstr ""
 
-#: src/MainWindow.vala:396
+#: src/MainWindow.vala:399
 msgid "System Settings"
 msgstr ""
 
-#: src/MainWindow.vala:398
+#: src/MainWindow.vala:401
 msgid "Desktop Components"
 msgstr ""
 
-#: src/MainWindow.vala:400
+#: src/MainWindow.vala:403
 msgid "Default Apps"
 msgstr ""
