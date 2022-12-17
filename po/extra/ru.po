@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-17 05:30+0000\n"
-"PO-Revision-Date: 2022-12-08 22:25+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"PO-Revision-Date: 2022-12-19 12:25+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,24 +25,24 @@ msgid "Feedback"
 msgstr "Отзыв"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "issue;report;bug;отчет;проблема;баг;"
+msgstr "Заполняйте отчёты об ошибках"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Просматривайте установленные компоненты по категориям и быстро находите их "
+"онлайн системы по отслеживанию проблем."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Фильтр компонентов по категориям"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Выбор из списка с иконками"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
