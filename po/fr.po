@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 22:46+0000\n"
+"POT-Creation-Date: 2022-12-17 05:30+0000\n"
 "PO-Revision-Date: 2021-07-30 17:54+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -52,19 +52,19 @@ msgstr "Annuler"
 msgid "Send Feedback…"
 msgstr "Envoyer des commentaires…"
 
-#: src/MainWindow.vala:394
+#: src/MainWindow.vala:397
 msgid "Panel Indicators"
 msgstr "Indicateurs du panneau"
 
-#: src/MainWindow.vala:396
+#: src/MainWindow.vala:399
 msgid "System Settings"
 msgstr "Paramètres du système"
 
-#: src/MainWindow.vala:398
+#: src/MainWindow.vala:401
 msgid "Desktop Components"
 msgstr "Composants du bureau"
 
-#: src/MainWindow.vala:400
+#: src/MainWindow.vala:403
 msgid "Default Apps"
 msgstr "Applications par défaut"
 
