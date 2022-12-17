@@ -45,6 +45,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         var primary_label = new Gtk.Label (_("Send feedback for which component?")) {
+            hexpand = true,
             selectable = true,
             max_width_chars = 50,
             wrap = true,
@@ -81,6 +82,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         back_button.get_style_context ().add_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         var category_title = new Gtk.Label ("") {
+            justify = Gtk.Justification.CENTER,
             margin_start = 6,
             margin_end = 6,
             wrap = true
