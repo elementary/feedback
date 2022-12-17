@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 22:46+0000\n"
+"POT-Creation-Date: 2022-12-17 05:30+0000\n"
 "PO-Revision-Date: 2021-08-16 03:00+0000\n"
 "Last-Translator: elSolus <tumbleweed@tuta.io>\n"
 "Language-Team: Punjabi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -50,19 +50,19 @@ msgstr "ਰੱਦ ਕਰੋ"
 msgid "Send Feedback…"
 msgstr "ਹੁੰਗਾਰਾ ਭੇਜੋ…"
 
-#: src/MainWindow.vala:394
+#: src/MainWindow.vala:397
 msgid "Panel Indicators"
 msgstr "ਪੈਨਲ ਇਸ਼ਾਰੇ"
 
-#: src/MainWindow.vala:396
+#: src/MainWindow.vala:399
 msgid "System Settings"
 msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
 
-#: src/MainWindow.vala:398
+#: src/MainWindow.vala:401
 msgid "Desktop Components"
 msgstr "ਡੈਸਕਾਪ ਕੰਪੋਨੈਂਟ"
 
-#: src/MainWindow.vala:400
+#: src/MainWindow.vala:403
 msgid "Default Apps"
 msgstr "ਡਿਫ਼ਾਲਟ ਐਪਾਂ"
 
