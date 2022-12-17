@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-17 05:30+0000\n"
-"PO-Revision-Date: 2022-12-08 22:25+0000\n"
+"PO-Revision-Date: 2022-12-19 12:25+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/uk/>\n"
@@ -25,24 +25,24 @@ msgid "Feedback"
 msgstr "Відгук"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "звіт;вада;баг;issue;report;bug;"
+msgstr "Звіти про проблими з файлами"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Переглядайте встановлені компоненти за категоріями та швидко знаходьте їхні "
+"онлайн-трекери проблем."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Фільтруйте компоненти за категоріями"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Вибирайте зі списку з піктограмами"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
