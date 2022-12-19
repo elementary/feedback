@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-17 05:30+0000\n"
-"PO-Revision-Date: 2022-12-08 22:25+0000\n"
+"PO-Revision-Date: 2022-12-20 18:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,24 +24,24 @@ msgid "Feedback"
 msgstr "Informació de retorn"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "problema;informació;error;"
+msgstr "Informes d'incidències"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Exploreu els components instal·lats per categoria i trobeu ràpidament els "
+"seus rastrejadors de problemes en línia."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Filtra els components per categoria"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Seleccioneu d'una llista amb icones"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
