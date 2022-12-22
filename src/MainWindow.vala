@@ -223,8 +223,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
-            sensitive = false,
-            can_default = true
+            sensitive = false
         };
         report_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -259,7 +258,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         child = window_handle;
-        set_default (report_button);
+        set_default_widget (report_button);
         set_titlebar (fake_title);
         add_css_class ("dialog");
 
@@ -309,12 +308,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     }
 
     private void launch_from_row (RepoRow row) {
-        try {
-            Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
-            close ();
-        } catch (Error e) {
-            critical (e.message);
-        }
+        Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
+        close ();
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
