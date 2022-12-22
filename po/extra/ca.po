@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 22:46+0000\n"
-"PO-Revision-Date: 2022-12-08 22:25+0000\n"
+"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"PO-Revision-Date: 2022-12-20 18:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,63 +19,83 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
+#: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Informació de retorn"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:30
-#: data/feedback.appdata.xml.in:42 data/feedback.appdata.xml.in:56
+#: data/feedback.metainfo.xml.in:11
+msgid "File issue reports"
+msgstr "Informes d'incidències"
+
+#: data/feedback.metainfo.xml.in:13
+msgid ""
+"Browse installed components by category and quickly find their online issue "
+"trackers."
+msgstr ""
+"Exploreu els components instal·lats per categoria i trobeu ràpidament els "
+"seus rastrejadors de problemes en línia."
+
+#: data/feedback.metainfo.xml.in:18
+msgid "Filter components by category"
+msgstr "Filtra els components per categoria"
+
+#: data/feedback.metainfo.xml.in:22
+msgid "Select from a list with icons"
+msgstr "Seleccioneu d'una llista amb icones"
+
+#: data/feedback.metainfo.xml.in:54
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:89 data/feedback.metainfo.xml.in:104
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/feedback.appdata.xml.in:17
+#: data/feedback.metainfo.xml.in:63
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "S'assegura que obtinguem tots els complements per a la configuració del "
 "sistema i el plafó."
 
-#: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:78
+#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:107
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/feedback.appdata.xml.in:25 data/feedback.appdata.xml.in:38
-#: data/feedback.appdata.xml.in:50
+#: data/feedback.metainfo.xml.in:71 data/feedback.metainfo.xml.in:85
+#: data/feedback.metainfo.xml.in:98
 msgid "Improvements:"
 msgstr "Millores:"
 
-#: data/feedback.appdata.xml.in:27
+#: data/feedback.metainfo.xml.in:73
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "S'evita la prevenció del robatori de focus quan s'obre un navegador web."
 
-#: data/feedback.appdata.xml.in:28
+#: data/feedback.metainfo.xml.in:74
 msgid "Show more entries under Desktop Components"
 msgstr "Mostra més entrades a Components d'escriptori."
 
-#: data/feedback.appdata.xml.in:40
+#: data/feedback.metainfo.xml.in:87
 msgid "Add several missing components"
 msgstr "Addició de diversos components que mancaven"
 
-#: data/feedback.appdata.xml.in:52
+#: data/feedback.metainfo.xml.in:100
 msgid "Show Flatpak Apps"
 msgstr "Es mostren les aplicacions de Flatpak."
 
-#: data/feedback.appdata.xml.in:53
+#: data/feedback.metainfo.xml.in:101
 msgid "Support dark style"
 msgstr "Admissió del tema fosc"
 
-#: data/feedback.appdata.xml.in:54
+#: data/feedback.metainfo.xml.in:102
 msgid "Add multitouch navigation gestures"
 msgstr "Addició gests de navegació multitàctils"
 
-#: data/feedback.appdata.xml.in:58
+#: data/feedback.metainfo.xml.in:106
 msgid "Ensure links are up-to-date"
 msgstr "S'assegura que els enllaços estiguin actualitzats."
-
-#: data/feedback.appdata.xml.in:105
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"

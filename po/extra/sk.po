@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 22:46+0000\n"
+"POT-Creation-Date: 2022-12-17 05:30+0000\n"
 "PO-Revision-Date: 2022-05-07 15:04+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -19,60 +19,80 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/feedback.appdata.xml.in:7 data/feedback.desktop.in:6
+#: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Spätná väzba"
 
-#: data/feedback.appdata.xml.in:15 data/feedback.appdata.xml.in:30
-#: data/feedback.appdata.xml.in:42 data/feedback.appdata.xml.in:56
+#: data/feedback.metainfo.xml.in:11
+#, fuzzy
+#| msgid "issue;report;bug;"
+msgid "File issue reports"
+msgstr "problém;hlásenie;chyba;"
+
+#: data/feedback.metainfo.xml.in:13
+msgid ""
+"Browse installed components by category and quickly find their online issue "
+"trackers."
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:18
+msgid "Filter components by category"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:22
+msgid "Select from a list with icons"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:54
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:89 data/feedback.metainfo.xml.in:104
 msgid "Minor updates:"
 msgstr "Menšie aktualizácie:"
 
-#: data/feedback.appdata.xml.in:17
+#: data/feedback.metainfo.xml.in:63
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:18 data/feedback.appdata.xml.in:32
-#: data/feedback.appdata.xml.in:44 data/feedback.appdata.xml.in:59
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:78
+#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:107
 msgid "Updated translations"
 msgstr "Aktualizované preklady"
 
-#: data/feedback.appdata.xml.in:25 data/feedback.appdata.xml.in:38
-#: data/feedback.appdata.xml.in:50
+#: data/feedback.metainfo.xml.in:71 data/feedback.metainfo.xml.in:85
+#: data/feedback.metainfo.xml.in:98
 msgid "Improvements:"
 msgstr "Vylepšenia:"
 
-#: data/feedback.appdata.xml.in:27
+#: data/feedback.metainfo.xml.in:73
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:28
+#: data/feedback.metainfo.xml.in:74
 msgid "Show more entries under Desktop Components"
 msgstr ""
 
-#: data/feedback.appdata.xml.in:40
+#: data/feedback.metainfo.xml.in:87
 msgid "Add several missing components"
 msgstr "Pridané viaceré chýbajúce súčasti"
 
-#: data/feedback.appdata.xml.in:52
+#: data/feedback.metainfo.xml.in:100
 msgid "Show Flatpak Apps"
 msgstr "Zobrazovať aplikácie formátu Flatpak"
 
-#: data/feedback.appdata.xml.in:53
+#: data/feedback.metainfo.xml.in:101
 msgid "Support dark style"
 msgstr "Podpora tmavého štýlu"
 
-#: data/feedback.appdata.xml.in:54
+#: data/feedback.metainfo.xml.in:102
 msgid "Add multitouch navigation gestures"
 msgstr "Pridané viacdotykové navigačné gestá"
 
-#: data/feedback.appdata.xml.in:58
+#: data/feedback.metainfo.xml.in:106
 msgid "Ensure links are up-to-date"
 msgstr "Zaistené, že odkazy sú aktuálne"
-
-#: data/feedback.appdata.xml.in:105
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
 
 #: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"

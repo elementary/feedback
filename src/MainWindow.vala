@@ -32,10 +32,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
     construct {
         var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback") {
-            pixel_size = 48
+            pixel_size = 48,
+            valign = Gtk.Align.START
         };
 
         var primary_label = new Gtk.Label (_("Send feedback for which component?")) {
+            hexpand = true,
             selectable = true,
             max_width_chars = 50,
             wrap = true,
@@ -56,7 +58,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var system_category = new CategoryRow (Category.SYSTEM);
 
         var category_list = new Gtk.ListBox () {
-            activate_on_single_click = true,
             selection_mode = Gtk.SelectionMode.NONE
         };
         category_list.append (apps_category);
@@ -67,13 +68,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var back_button = new Gtk.Button.with_label (_("Categories")) {
             halign = Gtk.Align.START,
             margin_top = 6,
-            margin_end = 6,
             margin_bottom = 6,
             margin_start = 6
         };
         back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
-        var category_title = new Gtk.Label ("");
+        var category_title = new Gtk.Label ("") {
+            justify = Gtk.Justification.CENTER,
+            margin_start = 6,
+            margin_end = 6,
+            wrap = true
+        };
 
         var category_header = new Gtk.CenterBox ();
         category_header.set_start_widget (back_button);
@@ -86,6 +91,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         spinner.start ();
 
         listbox = new Gtk.ListBox () {
+            activate_on_single_click = false,
             hexpand = true,
             vexpand = true
         };
@@ -188,7 +194,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         var scrolled = new Gtk.ScrolledWindow () {
-            child = listbox
+            child = listbox,
+            hscrollbar_policy = Gtk.PolicyType.NEVER
         };
 
         var repo_list_box = new Gtk.Box (Gtk.Orientation.VERTICAL ,0);
@@ -216,7 +223,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
-            sensitive = false
+            sensitive = false,
+            can_default = true
         };
         report_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -235,7 +243,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         grid.attach (image_icon, 0, 0, 1, 2);
         grid.attach (primary_label, 1, 0);
         grid.attach (secondary_label, 1, 1);
-        grid.attach (frame, 1, 2);
+        grid.attach (frame, 0, 2, 2);
 
         var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         dialog_vbox.add_css_class ("dialog-vbox");
@@ -251,6 +259,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
 
         child = window_handle;
+        set_default (report_button);
         set_titlebar (fake_title);
         add_css_class ("dialog");
 
@@ -290,15 +299,22 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             report_button.sensitive = true;
         });
 
-        report_button.clicked.connect (() => {
-            try {
-                var url = ((RepoRow) listbox.get_selected_row ()).url;
-                Gtk.show_uri (null, url, Gdk.CURRENT_TIME);
-            } catch (Error e) {
-                critical (e.message);
-            }
-            destroy ();
+        listbox.row_activated.connect ((row) => {
+            launch_from_row ((RepoRow) row);
         });
+
+        report_button.clicked.connect (() => {
+            launch_from_row ((RepoRow) listbox.get_selected_row ());
+        });
+    }
+
+    private void launch_from_row (RepoRow row) {
+        try {
+            Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
+            close ();
+        } catch (Error e) {
+            critical (e.message);
+        }
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
@@ -382,13 +398,16 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.calendar",
          "io.elementary.camera",
          "io.elementary.code",
+         "io.elementary.feedback",
          "org.gnome.Evince",
          "org.gnome.Epiphany",
+         "org.gnome.font-viewer.desktop",
          "io.elementary.files",
          "io.elementary.mail",
          "io.elementary.music",
          "io.elementary.photos",
          "io.elementary.screenshot",
+         "io.elementary.shortcut-overlay",
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
