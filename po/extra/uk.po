@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2022-12-19 12:25+0000\n"
+"PO-Revision-Date: 2023-01-04 08:07+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/uk/>\n"
@@ -55,15 +55,17 @@ msgstr "Удосконалення:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
-msgstr ""
+msgstr "Миттєвий запуск"
 
 #: data/feedback.metainfo.xml.in:64
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
+"Поліпшено навігацію за допомогою клавіатури та додано запуск подвійним "
+"клацанням миші"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Поліпшення адаптивності для невеликих дисплеїв"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
