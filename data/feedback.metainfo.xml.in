@@ -56,6 +56,22 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="7.0.0" date="2023-01-03" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Launch instantly</li>
+          <li>Improved keyboard navigation and add double-click launch</li>
+          <li>Improve responsiveness for small displays</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/feedback/issues/1">Show in the Applications Menu</issue>
+        <issue url="https://github.com/elementary/feedback/issues/52">Include Feedback, Fonts, and Shortcuts in apps</issue>
+      </issues>
+    </release>
+
     <release version="6.1.2" date="2022-12-05" urgency="medium">
       <description>
         <p>Minor updates:</p>
