@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2022-12-19 12:25+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/ru/>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,50 +48,63 @@ msgstr "Выбор из списка с иконками"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:89 data/feedback.metainfo.xml.in:104
-msgid "Minor updates:"
-msgstr "Незначительные обновления:"
-
-#: data/feedback.metainfo.xml.in:63
-msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr "Улучшено получение дополнений для Параметров системы и Панели"
-
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:78
-#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:107
-msgid "Updated translations"
-msgstr "Обновлены переводы"
-
-#: data/feedback.metainfo.xml.in:71 data/feedback.metainfo.xml.in:85
-#: data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
 msgid "Improvements:"
 msgstr "Улучшения:"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:63
+msgid "Launch instantly"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:64
+msgid "Improved keyboard navigation and add double-click launch"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:65
+msgid "Improve responsiveness for small displays"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
+#: data/feedback.metainfo.xml.in:123
+msgid "Updated translations"
+msgstr "Обновлены переводы"
+
+#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
+#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+msgid "Minor updates:"
+msgstr "Незначительные обновления:"
+
+#: data/feedback.metainfo.xml.in:79
+msgid "Make sure we fetch all addons for System Settings and the Panel"
+msgstr "Улучшено получение дополнений для Параметров системы и Панели"
+
+#: data/feedback.metainfo.xml.in:89
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Исправлено предотвращение потери фокуса при открытии веб-браузера"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:90
 msgid "Show more entries under Desktop Components"
 msgstr "Отображение большего количества записей под элементами рабочего стола"
 
-#: data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:103
 msgid "Add several missing components"
 msgstr "Добавлено несколько недостающих компонентов"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:116
 msgid "Show Flatpak Apps"
 msgstr "Отображение приложений Flatpak"
 
-#: data/feedback.metainfo.xml.in:101
+#: data/feedback.metainfo.xml.in:117
 msgid "Support dark style"
 msgstr "Поддержка тёмного стиля"
 
-#: data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:118
 msgid "Add multitouch navigation gestures"
 msgstr "Добавлены навигационные мультитач-жесты"
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:122
 msgid "Ensure links are up-to-date"
 msgstr "Обновлены ссылки"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2022-12-23 12:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -31,8 +31,9 @@ msgstr "不具合を報告します"
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
-msgstr "インストールされたコンポーネントをカテゴリー別で表示して、オンライン上のイシ"
-"ュートラッカーを素早く見つけられます。"
+msgstr ""
+"インストールされたコンポーネントをカテゴリー別で表示して、オンライン上のイ"
+"シュートラッカーを素早く見つけられます。"
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
@@ -46,52 +47,65 @@ msgstr "アイコン付きのリストから選択します"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:89 data/feedback.metainfo.xml.in:104
-msgid "Minor updates:"
-msgstr "そのほかのアップデート:"
-
-#: data/feedback.metainfo.xml.in:63
-msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr "システム設定およびパネルの全拡張機能を確実に取得するように修正"
-
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:78
-#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:107
-msgid "Updated translations"
-msgstr "翻訳の更新"
-
-#: data/feedback.metainfo.xml.in:71 data/feedback.metainfo.xml.in:85
-#: data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
 msgid "Improvements:"
 msgstr "改善点:"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:63
+msgid "Launch instantly"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:64
+msgid "Improved keyboard navigation and add double-click launch"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:65
+msgid "Improve responsiveness for small displays"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
+#: data/feedback.metainfo.xml.in:123
+msgid "Updated translations"
+msgstr "翻訳の更新"
+
+#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
+#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+msgid "Minor updates:"
+msgstr "そのほかのアップデート:"
+
+#: data/feedback.metainfo.xml.in:79
+msgid "Make sure we fetch all addons for System Settings and the Panel"
+msgstr "システム設定およびパネルの全拡張機能を確実に取得するように修正"
+
+#: data/feedback.metainfo.xml.in:89
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "Web ブラウザーを開くと、フォーカスが“フィードバック”から遷移してしまう不具合"
 "を修正"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:90
 msgid "Show more entries under Desktop Components"
 msgstr "“デスクトップコンポーネント”の項目にエントリーを追加"
 
-#: data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:103
 msgid "Add several missing components"
 msgstr "一覧になかったコンポーネントを追加"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:116
 msgid "Show Flatpak Apps"
 msgstr "Flatpak アプリを表示するように修正"
 
-#: data/feedback.metainfo.xml.in:101
+#: data/feedback.metainfo.xml.in:117
 msgid "Support dark style"
 msgstr "ダークスタイルに対応"
 
-#: data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:118
 msgid "Add multitouch navigation gestures"
 msgstr "マルチタッチジェスチャーで画面遷移できるように変更"
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:122
 msgid "Ensure links are up-to-date"
 msgstr "リンクを最新の URL に更新"
 
