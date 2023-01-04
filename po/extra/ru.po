@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2022-12-19 12:25+0000\n"
+"PO-Revision-Date: 2023-01-04 08:07+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
-msgstr "Отзыв"
+msgstr "Обратная Связь"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
