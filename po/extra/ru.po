@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2023-01-04 08:07+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ru/>\n"
 "Language: ru\n"
@@ -55,15 +55,15 @@ msgstr "Улучшения:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
-msgstr ""
+msgstr "Мгновенный запуск"
 
 #: data/feedback.metainfo.xml.in:64
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Улучшена навигация с клавиатуры, добавлен запуск двойным щелчком мыши"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Улучшена адаптивность для маленьких экранов"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
