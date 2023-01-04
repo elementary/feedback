@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2023-01-04 08:07+0000\n"
+"PO-Revision-Date: 2023-01-05 08:25+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr "Обратная Связь"
+msgstr "Обратная связь"
 
 #: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
