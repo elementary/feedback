@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2022-12-19 12:25+0000\n"
+"PO-Revision-Date: 2023-01-05 08:25+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/pl/>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,15 +55,16 @@ msgstr "Ulepszenia:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
-msgstr ""
+msgstr "Natychmiastowe włączenie"
 
 #: data/feedback.metainfo.xml.in:64
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
+"Poprawiono nawigację klawiaturą i dodano włączenie podwójnym kliknięciem"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Poprawiono responsywność na małych ekranach"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
