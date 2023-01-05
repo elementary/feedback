@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2021-08-27 18:48+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Feedback"
 msgstr "Visszajelzés"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
 msgstr "Melyik komponensről küld visszajelzést?"
 
-#: src/MainWindow.vala:53
+#: src/MainWindow.vala:56
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,36 @@ msgstr ""
 "Válasszon egy elemet a listából, hogy visszajelzést küldhessen a "
 "webböngészőjéből."
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:76
 msgid "Categories"
 msgstr "Kategóriák"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:153
 msgid "Dock"
 msgstr "Dokk"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:229
 msgid "Cancel"
 msgstr "Mégse"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:233
 msgid "Send Feedback…"
 msgstr "Visszajelzés küldése…"
 
-#: src/MainWindow.vala:397
+#: src/MainWindow.vala:415
 msgid "Panel Indicators"
 msgstr "Állapotsori indikátorok"
 
-#: src/MainWindow.vala:399
+#: src/MainWindow.vala:417
 msgid "System Settings"
 msgstr "Rendszerbeállítások"
 
-#: src/MainWindow.vala:401
+#: src/MainWindow.vala:419
 msgid "Desktop Components"
 msgstr "Asztali elemek"
 
-#: src/MainWindow.vala:403
+#: src/MainWindow.vala:421
 msgid "Default Apps"
 msgstr "Alapértelmezett alkalmazások"
 

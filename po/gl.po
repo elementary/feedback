@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2019-09-19 18:26+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Feedback"
 msgstr "Observacións"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
 msgstr ""
 
-#: src/MainWindow.vala:53
+#: src/MainWindow.vala:56
 #, fuzzy
 #| msgid ""
 #| "Select a component from the list to report a problem from your web "
@@ -39,38 +39,38 @@ msgstr ""
 "Seleccione un compoñente da lista para informar dun problema desde o seu "
 "navegador."
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:76
 msgid "Categories"
 msgstr "Categorías"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:153
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:229
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:233
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Observacións"
 
-#: src/MainWindow.vala:397
+#: src/MainWindow.vala:415
 msgid "Panel Indicators"
 msgstr "Indicadores do panel"
 
-#: src/MainWindow.vala:399
+#: src/MainWindow.vala:417
 msgid "System Settings"
 msgstr "Configuración do sistema"
 
-#: src/MainWindow.vala:401
+#: src/MainWindow.vala:419
 msgid "Desktop Components"
 msgstr "Compoñentes do escritorio"
 
-#: src/MainWindow.vala:403
+#: src/MainWindow.vala:421
 msgid "Default Apps"
 msgstr "Aplicacións predeterminadas"
 
