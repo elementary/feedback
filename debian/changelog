@@ -1,3 +1,9 @@
+io.elementary.feedback (7.0.0) jammy; urgency=medium
+
+  * New upstream release
+
+ -- Danielle Foré <danielle@elementary.io>  Thu, 05 Jan 2023 09:37:45 -0800
+
 io.elementary.feedback (6.1.2) bionic; urgency=medium
 
   * Release 6.1.2 (#70)
