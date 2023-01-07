@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2023-01-05 08:25+0000\n"
+"PO-Revision-Date: 2023-01-08 03:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -62,7 +62,7 @@ msgstr "キーボードでの操作を改善し、ダブルクリックで起動
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "画面が小さい環境での表示を最適化"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
