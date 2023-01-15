@@ -36,6 +36,7 @@ public class Feedback.RepoRow : Gtk.ListBoxRow {
     construct {
         var label = new Gtk.Label (title) {
             hexpand = true,
+            wrap = true,
             xalign = 0
         };
 

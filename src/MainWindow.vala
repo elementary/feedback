@@ -40,9 +40,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
         titlebar.set_custom_title (new Gtk.Grid ());
 
-        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG);
+        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG) {
+            valign = Gtk.Align.START
+        };
 
         var primary_label = new Gtk.Label (_("Send feedback for which component?")) {
+            hexpand = true,
             selectable = true,
             max_width_chars = 50,
             wrap = true,
@@ -73,13 +76,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var back_button = new Gtk.Button.with_label (_("Categories")) {
             halign = Gtk.Align.START,
             margin_top = 6,
-            margin_end = 6,
             margin_bottom = 6,
             margin_start = 6
         };
         back_button.get_style_context ().add_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
-        var category_title = new Gtk.Label ("");
+        var category_title = new Gtk.Label ("") {
+            justify = Gtk.Justification.CENTER,
+            margin_start = 6,
+            margin_end = 6,
+            wrap = true
+        };
 
         var category_header = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         category_header.pack_start (back_button);
@@ -196,7 +203,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
         });
 
-        var scrolled = new Gtk.ScrolledWindow (null, null);
+        var scrolled = new Gtk.ScrolledWindow (null, null) {
+            hscrollbar_policy = Gtk.PolicyType.NEVER
+        };
         scrolled.add (listbox);
 
         var repo_list_box = new Gtk.Box (Gtk.Orientation.VERTICAL ,0);
@@ -240,7 +249,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         grid.attach (image_icon, 0, 0, 1, 2);
         grid.attach (primary_label, 1, 0);
         grid.attach (secondary_label, 1, 1);
-        grid.attach (frame, 1, 2);
+        grid.attach (frame, 0, 2, 2);
 
         var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
             margin = 12,
