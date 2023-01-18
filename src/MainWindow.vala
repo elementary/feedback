@@ -74,6 +74,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         var category_title = new Gtk.Label ("") {
+            hexpand = true,
             justify = Gtk.Justification.CENTER,
             margin_start = 6,
             margin_end = 6,
@@ -253,13 +254,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             child = dialog_vbox
         };
 
-        var fake_title = new Gtk.Label ("") {
+        titlebar = new Gtk.Label ("") {
             visible = false
         };
 
         child = window_handle;
         set_default_widget (report_button);
-        set_titlebar (fake_title);
         add_css_class ("dialog");
 
         var granite_settings = Granite.Settings.get_default ();
