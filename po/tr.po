@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2021-10-22 20:43+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -23,11 +23,11 @@ msgstr ""
 msgid "Feedback"
 msgstr "Geri Bildirim"
 
-#: src/MainWindow.vala:45
+#: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
 msgstr "Hangi bileşen için geri bildirim gönderilsin?"
 
-#: src/MainWindow.vala:53
+#: src/MainWindow.vala:56
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,36 @@ msgstr ""
 "Geri bildirim göndermek veya web tarayıcınızdan bir sorunu bildirmek için "
 "listeden bir öğe seçin."
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:76
 msgid "Categories"
 msgstr "Kategoriler"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:153
 msgid "Dock"
 msgstr "Dock"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:229
 msgid "Cancel"
 msgstr "İptal"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:233
 msgid "Send Feedback…"
 msgstr "Geri Bildirim Gönder…"
 
-#: src/MainWindow.vala:397
+#: src/MainWindow.vala:415
 msgid "Panel Indicators"
 msgstr "Panel Göstergeleri"
 
-#: src/MainWindow.vala:399
+#: src/MainWindow.vala:417
 msgid "System Settings"
 msgstr "Sistem Ayarları"
 
-#: src/MainWindow.vala:401
+#: src/MainWindow.vala:419
 msgid "Desktop Components"
 msgstr "Masaüstü Bileşenleri"
 
-#: src/MainWindow.vala:403
+#: src/MainWindow.vala:421
 msgid "Default Apps"
 msgstr "Varsayılan Uygulamalar"
 

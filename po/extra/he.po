@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-17 05:30+0000\n"
-"PO-Revision-Date: 2022-12-19 12:25+0000\n"
+"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"PO-Revision-Date: 2023-01-05 08:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/he/>\n"
@@ -46,50 +46,63 @@ msgstr "בחירה מרשימה עם סמלים"
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:89 data/feedback.metainfo.xml.in:104
-msgid "Minor updates:"
-msgstr "עדכונים משניים:"
-
-#: data/feedback.metainfo.xml.in:63
-msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr "מתבצע וידוא שאנחנו מושכים את כל התוספים להגדרות המערכת והלוח"
-
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:78
-#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:107
-msgid "Updated translations"
-msgstr "התרגומים עודכנו"
-
-#: data/feedback.metainfo.xml.in:71 data/feedback.metainfo.xml.in:85
-#: data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
 msgid "Improvements:"
 msgstr "שיפורים:"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:63
+msgid "Launch instantly"
+msgstr "טעינה מיידית"
+
+#: data/feedback.metainfo.xml.in:64
+msgid "Improved keyboard navigation and add double-click launch"
+msgstr "ניווט בעזרת המקלדת השתפרה והפעלה בלחיצה כפולה"
+
+#: data/feedback.metainfo.xml.in:65
+msgid "Improve responsiveness for small displays"
+msgstr "השתפרה התגובתיות למסכים קטנים"
+
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
+#: data/feedback.metainfo.xml.in:123
+msgid "Updated translations"
+msgstr "התרגומים עודכנו"
+
+#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
+#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+msgid "Minor updates:"
+msgstr "עדכונים משניים:"
+
+#: data/feedback.metainfo.xml.in:79
+msgid "Make sure we fetch all addons for System Settings and the Panel"
+msgstr "מתבצע וידוא שאנחנו מושכים את כל התוספים להגדרות המערכת והלוח"
+
+#: data/feedback.metainfo.xml.in:89
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "נמנעה גניבת מיקוד בפתיחת דפדפן"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:90
 msgid "Show more entries under Desktop Components"
 msgstr "הצגת רשומות נוספות תחת רכיבי שולחן העבודה"
 
-#: data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:103
 msgid "Add several missing components"
 msgstr "מספר רכיבים חסרים נוספו"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:116
 msgid "Show Flatpak Apps"
 msgstr "יישומי Flatpak מופיעים"
 
-#: data/feedback.metainfo.xml.in:101
+#: data/feedback.metainfo.xml.in:117
 msgid "Support dark style"
 msgstr "תמיכה בסגנון כהה"
 
-#: data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:118
 msgid "Add multitouch navigation gestures"
 msgstr "נוספו מחוות ניווט בעזרת מגע במספר נקודות"
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:122
 msgid "Ensure links are up-to-date"
 msgstr "עדכניות הקישורים נבדקה"
 
