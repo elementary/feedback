@@ -51,23 +51,19 @@ public class Feedback.Application : Gtk.Application {
         if (active_window == null) {
             var main_window = new MainWindow (this);
 
-            int window_x, window_y;
-            var rect = Gtk.Allocation ();
-
-            settings.get ("window-position", "(ii)", out window_x, out window_y);
-            settings.get ("window-size", "(ii)", out rect.width, out rect.height);
-
-            if (window_x != -1 || window_y != -1) {
-                main_window.move (window_x, window_y);
-            }
-
-            main_window.set_allocation (rect);
+            /*
+            * This is very finicky.
+            * Set maximize after height/width else window is min size on unmaximize
+            * Bind maximize as SET else get get bad sizes
+            */
+            settings.bind ("window-height", main_window, "default-height", SettingsBindFlags.DEFAULT);
+            settings.bind ("window-width", main_window, "default-width", SettingsBindFlags.DEFAULT);
 
             if (settings.get_boolean ("window-maximized")) {
                 main_window.maximize ();
             }
 
-            main_window.show_all ();
+            settings.bind ("window-maximized", main_window, "maximized", SettingsBindFlags.SET);
         }
 
         active_window.present ();

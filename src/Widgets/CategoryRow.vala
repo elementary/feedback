@@ -31,17 +31,17 @@ public class Feedback.CategoryRow : Gtk.ListBoxRow {
             xalign = 0
         };
 
-        var caret = new Gtk.Image.from_icon_name ("pan-end-symbolic", Gtk.IconSize.MENU);
+        var caret = new Gtk.Image.from_icon_name ("pan-end-symbolic");
 
-        var grid = new Gtk.Grid () {
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             margin_top = 3,
             margin_end = 6,
             margin_bottom = 3,
             margin_start = 6
         };
-        grid.add (label);
-        grid.add (caret);
+        box.append (label);
+        box.append (caret);
 
-        add (grid);
+        child = box;
     }
 }

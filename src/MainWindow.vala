@@ -19,7 +19,6 @@
 */
 
 public class Feedback.MainWindow : Gtk.ApplicationWindow {
-    private uint configure_id;
     private Gtk.ListBox listbox;
     private Category? category_filter;
 
@@ -31,16 +30,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         );
     }
 
-    class construct {
-        set_css_name ("dialog");
-    }
-
     construct {
-        var titlebar = new Gtk.HeaderBar ();
-        titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-        titlebar.set_custom_title (new Gtk.Grid ());
-
-        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback", Gtk.IconSize.DIALOG) {
+        var image_icon = new Gtk.Image.from_icon_name ("io.elementary.feedback") {
+            pixel_size = 48,
             valign = Gtk.Align.START
         };
 
@@ -51,7 +43,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             wrap = true,
             xalign = 0
         };
-        primary_label.get_style_context ().add_class (Granite.STYLE_CLASS_PRIMARY_LABEL);
+        primary_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
 
         var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser.")) {
             selectable = true,
@@ -68,10 +60,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var category_list = new Gtk.ListBox () {
             selection_mode = Gtk.SelectionMode.NONE
         };
-        category_list.add (apps_category);
-        category_list.add (panel_category);
-        category_list.add (settings_category);
-        category_list.add (system_category);
+        category_list.append (apps_category);
+        category_list.append (panel_category);
+        category_list.append (settings_category);
+        category_list.append (system_category);
 
         var back_button = new Gtk.Button.with_label (_("Categories")) {
             halign = Gtk.Align.START,
@@ -79,17 +71,18 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             margin_bottom = 6,
             margin_start = 6
         };
-        back_button.get_style_context ().add_class (Granite.STYLE_CLASS_BACK_BUTTON);
+        back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         var category_title = new Gtk.Label ("") {
+            hexpand = true,
             justify = Gtk.Justification.CENTER,
             margin_start = 6,
             margin_end = 6,
             wrap = true
         };
 
-        var category_header = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
-        category_header.pack_start (back_button);
+        var category_header = new Gtk.CenterBox ();
+        category_header.set_start_widget (back_button);
         category_header.set_center_widget (category_title);
 
         var spinner = new Gtk.Spinner () {
@@ -97,13 +90,13 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             valign = Gtk.Align.CENTER
         };
         spinner.start ();
-        spinner.show ();
 
         listbox = new Gtk.ListBox () {
             activate_on_single_click = false,
             hexpand = true,
             vexpand = true
         };
+        listbox.add_css_class ("rich-list");
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
         listbox.set_placeholder (spinner);
@@ -143,7 +136,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                                 component.get_url (AppStream.UrlKind.BUGTRACKER)
                             );
 
-                            listbox.add (repo_row);
+                            listbox.append (repo_row);
                         }
                     });
                 }
@@ -155,7 +148,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     Category.SYSTEM,
                     "https://github.com/elementary/dock/issues/new/choose"
                 );
-                listbox.add (dock_row);
+                listbox.append (dock_row);
 
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
@@ -167,10 +160,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                             component.get_url (AppStream.UrlKind.BUGTRACKER)
                         );
 
-                        listbox.add (repo_row);
+                        listbox.append (repo_row);
                     });
-
-                    listbox.show_all ();
                 });
 
                 appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
@@ -182,7 +173,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                             addon.get_url (AppStream.UrlKind.BUGTRACKER)
                         );
 
-                        listbox.add (repo_row);
+                        listbox.append (repo_row);
                     });
                 });
 
@@ -195,7 +186,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                             addon.get_url (AppStream.UrlKind.BUGTRACKER)
                         );
 
-                        listbox.add (repo_row);
+                        listbox.append (repo_row);
                     });
                 });
             } catch (Error e) {
@@ -203,64 +194,73 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
         });
 
-        var scrolled = new Gtk.ScrolledWindow (null, null) {
+        var scrolled = new Gtk.ScrolledWindow () {
+            child = listbox,
             hscrollbar_policy = Gtk.PolicyType.NEVER
         };
-        scrolled.add (listbox);
 
         var repo_list_box = new Gtk.Box (Gtk.Orientation.VERTICAL ,0);
-        repo_list_box.get_style_context ().add_class (Gtk.STYLE_CLASS_VIEW);
-        repo_list_box.add (category_header);
-        repo_list_box.add (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-        repo_list_box.add (scrolled);
+        repo_list_box.add_css_class (Granite.STYLE_CLASS_VIEW);
+        repo_list_box.append (category_header);
+        repo_list_box.append (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
+        repo_list_box.append (scrolled);
 
-        var deck = new Hdy.Deck () {
-            can_swipe_back = true
+        var leaflet = new Adw.Leaflet () {
+            can_navigate_back = true,
+            can_unfold = false,
+            hexpand = true,
+            vexpand = true
         };
-        deck.add (category_list);
-        deck.add (repo_list_box);
+        leaflet.append (category_list);
+        leaflet.append (repo_list_box);
 
         var frame = new Gtk.Frame (null) {
-            margin_top = 24,
-            margin_bottom = 24
+            child = leaflet,
+            margin_top = 24
         };
-        frame.add (deck);
 
         var cancel_button = new Gtk.Button.with_label (_("Cancel")) {
             action_name = "app.quit"
         };
 
         var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
-            sensitive = false,
-            can_default = true
+            sensitive = false
         };
-        report_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        report_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
-        var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+        var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             halign = Gtk.Align.END,
             homogeneous = true
         };
-        button_box.add (cancel_button);
-        button_box.add (report_button);
+        button_box.add_css_class ("dialog-action-area");
+        button_box.append (cancel_button);
+        button_box.append (report_button);
 
         var grid = new Gtk.Grid () {
             column_spacing = 12
         };
+        grid.add_css_class ("dialog-content-area");
         grid.attach (image_icon, 0, 0, 1, 2);
         grid.attach (primary_label, 1, 0);
         grid.attach (secondary_label, 1, 1);
         grid.attach (frame, 0, 2, 2);
 
-        var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
-            margin = 12,
-            margin_top = 0
-        };
-        dialog_vbox.add (grid);
-        dialog_vbox.add (button_box);
+        var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+        dialog_vbox.add_css_class ("dialog-vbox");
+        dialog_vbox.append (grid);
+        dialog_vbox.append (button_box);
 
-        add (dialog_vbox);
-        set_titlebar (titlebar);
-        set_default (report_button);
+        var window_handle = new Gtk.WindowHandle () {
+            child = dialog_vbox
+        };
+
+        titlebar = new Gtk.Label ("") {
+            visible = false
+        };
+
+        child = window_handle;
+        set_default_widget (report_button);
+        add_css_class ("dialog");
 
         var granite_settings = Granite.Settings.get_default ();
         var gtk_settings = Gtk.Settings.get_default ();
@@ -272,7 +272,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         category_list.row_activated.connect ((row) => {
-            deck.visible_child = repo_list_box;
+            leaflet.visible_child = repo_list_box;
             category_filter = ((CategoryRow) row).category;
             category_title.label = ((CategoryRow) row).category.to_string ();
             listbox.invalidate_filter ();
@@ -281,15 +281,20 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         back_button.clicked.connect (() => {
-            deck.navigate (Hdy.NavigationDirection.BACK);
+            leaflet.navigate (Adw.NavigationDirection.BACK);
             report_button.sensitive = false;
         });
 
         listbox.selected_rows_changed.connect (() => {
-            foreach (var repo_row in listbox.get_children ()) {
-                ((RepoRow) repo_row).selected = false;
+            var row = listbox.get_first_child ();
+            while (row != null) {
+                if (row is RepoRow) {
+                    row.selected = ((RepoRow) row).is_selected ();
+                }
+
+                row = row.get_next_sibling ();
             }
-            ((RepoRow) listbox.get_selected_row ()).selected = true;
+
             report_button.sensitive = true;
         });
 
@@ -303,12 +308,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     }
 
     private void launch_from_row (RepoRow row) {
-        try {
-            Gtk.show_uri_on_window (null, row.url, Gtk.get_current_event_time ());
-            close ();
-        } catch (Error e) {
-            critical (e.message);
-        }
+        Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
+        close ();
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
@@ -366,6 +367,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
         }
 
+        if (!Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).has_gicon (icon)) {
+            icon = new ThemedIcon ("application-default-icon");
+        }
+
         return icon;
     }
 
@@ -421,33 +426,5 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     return _("Default Apps");
             }
         }
-    }
-
-    public override bool configure_event (Gdk.EventConfigure event) {
-        if (configure_id != 0) {
-            GLib.Source.remove (configure_id);
-        }
-
-        configure_id = Timeout.add (100, () => {
-            configure_id = 0;
-
-            if (is_maximized) {
-                Feedback.Application.settings.set_boolean ("window-maximized", true);
-            } else {
-                Feedback.Application.settings.set_boolean ("window-maximized", false);
-
-                Gdk.Rectangle rect;
-                get_allocation (out rect);
-                Feedback.Application.settings.set ("window-size", "(ii)", rect.width, rect.height);
-
-                int root_x, root_y;
-                get_position (out root_x, out root_y);
-                Feedback.Application.settings.set ("window-position", "(ii)", root_x, root_y);
-            }
-
-            return false;
-        });
-
-        return base.configure_event (event);
     }
 }
