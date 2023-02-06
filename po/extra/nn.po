@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2020-07-24 23:12+0000\n"
+"PO-Revision-Date: 2023-02-07 10:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/nn/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -34,14 +34,16 @@ msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Sjå gjennom kva komponentar som er installerte etter kategori, og raskt sjå "
+"kjende feil på nett."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Skil komponentar etter kategori"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Vel frå ei liste med ikon"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
@@ -50,11 +52,11 @@ msgstr "elementary, Inc."
 #: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
 #: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
 msgid "Improvements:"
-msgstr ""
+msgstr "Forbetringar:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
-msgstr ""
+msgstr "Start med ein gong"
 
 #: data/feedback.metainfo.xml.in:64
 msgid "Improved keyboard navigation and add double-click launch"
@@ -68,12 +70,12 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
-msgstr "Oppdaterte oversettingar"
+msgstr "Oppdatert oversetning"
 
 #: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
 #: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre oppdateringar:"
 
 #: data/feedback.metainfo.xml.in:79
 msgid "Make sure we fetch all addons for System Settings and the Panel"
