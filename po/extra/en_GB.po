@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2021-07-28 22:59+0000\n"
-"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
+"PO-Revision-Date: 2023-02-17 14:25+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Feedback"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "issue;report;bug;"
+msgstr "File issue reports"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Browse installed components by category and quickly find their online issue "
+"trackers."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Filter components by category"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Select from a list with icons"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
@@ -54,15 +54,15 @@ msgstr "Improvements:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
-msgstr ""
+msgstr "Launch instantly"
 
 #: data/feedback.metainfo.xml.in:64
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Improved keyboard navigation and add double-click launch"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Improve responsiveness for small displays"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
@@ -77,15 +77,15 @@ msgstr "Minor updates:"
 
 #: data/feedback.metainfo.xml.in:79
 msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr ""
+msgstr "Make sure we fetch all addons for System Settings and the Panel"
 
 #: data/feedback.metainfo.xml.in:89
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Avoid focus stealing prevention when opening a web browser"
 
 #: data/feedback.metainfo.xml.in:90
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Show more entries under Desktop Components"
 
 #: data/feedback.metainfo.xml.in:103
 msgid "Add several missing components"
