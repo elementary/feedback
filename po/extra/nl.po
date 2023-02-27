@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2023-03-01 02:25+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/nl/>\n"
 "Language: nl\n"
@@ -32,14 +32,16 @@ msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Blader door geïnstalleerde componenten per categorie en vind snel hun online "
+"issue trackers."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Componenten filteren op categorie"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Kiezen uit een lijst met pictogrammen"
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
