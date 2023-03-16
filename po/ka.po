@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2023-03-12 22:25+0000\n"
+"PO-Revision-Date: 2023-03-17 05:25+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/"
 "feedback/ka/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "უკუკავშირი"
 
 #: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "უკუკავშირის გაგზავნა რომელი კომპონენტისთვის?"
 
 #: src/MainWindow.vala:56
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: src/MainWindow.vala:76
 msgid "Categories"
-msgstr ""
+msgstr "კატეგორიები"
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:153
@@ -44,24 +44,24 @@ msgstr "დოკი"
 
 #: src/MainWindow.vala:229
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 #: src/MainWindow.vala:233
 msgid "Send Feedback…"
-msgstr ""
+msgstr "უკუკავშირის გაგზავნა…"
 
 #: src/MainWindow.vala:415
 msgid "Panel Indicators"
-msgstr ""
+msgstr "პანელის ინდიკატორები"
 
 #: src/MainWindow.vala:417
 msgid "System Settings"
-msgstr ""
+msgstr "სისტემის მორგება"
 
 #: src/MainWindow.vala:419
 msgid "Desktop Components"
-msgstr ""
+msgstr "სამუშაო მაგიდის კომპონენტები"
 
 #: src/MainWindow.vala:421
 msgid "Default Apps"
-msgstr ""
+msgstr "ნაგულისხმები აპები"
