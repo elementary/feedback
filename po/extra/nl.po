@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2023-04-15 09:59+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
+"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/nl/>\n"
 "Language: nl\n"
@@ -78,6 +78,7 @@ msgstr "Kleine updates:"
 #: data/feedback.metainfo.xml.in:79
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
+"Zorg ervoor dat we alle addons ophalen voor systeeminstellingen en het paneel"
 
 #: data/feedback.metainfo.xml.in:89
 msgid "Avoid focus stealing prevention when opening a web browser"
