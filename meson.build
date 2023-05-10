@@ -1,7 +1,8 @@
 project(
     'io.elementary.feedback',
     'vala', 'c',
-    version: '7.0.0'
+    version: '7.0.0',
+    meson_version: '>=0.56.0'
 )
 
 gnome = import('gnome')
