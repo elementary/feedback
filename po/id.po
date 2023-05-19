@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2023-05-19 16:39+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
-"io>\n"
+"Last-Translator: Muhammad Dholifun Nafsi <muhammad_dholifun@protonmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
 "feedback/id/>\n"
 "Language: id\n"
@@ -33,6 +32,8 @@ msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"Pilih item dari daftar untuk mengirim umpan balik atau melaporkan masalah "
+"dari peramban web anda."
 
 #: src/MainWindow.vala:76
 msgid "Categories"
@@ -45,11 +46,11 @@ msgstr "Dok"
 
 #: src/MainWindow.vala:229
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: src/MainWindow.vala:233
 msgid "Send Feedback…"
-msgstr ""
+msgstr "Kirim umpan balik. . ."
 
 #: src/MainWindow.vala:415
 msgid "Panel Indicators"
