@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
 "PO-Revision-Date: 2023-05-19 16:38+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
-"io>\n"
+"Last-Translator: Muhammad Dholifun Nafsi <muhammad_dholifun@protonmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
 "feedback/id/>\n"
 "Language: id\n"
@@ -26,7 +25,7 @@ msgstr "Umpan Balik"
 
 #: src/MainWindow.vala:47
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Kirim umpan balik untuk komponen mana?"
 
 #: src/MainWindow.vala:56
 msgid ""
