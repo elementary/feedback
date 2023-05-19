@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 20:25+0000\n"
-"PO-Revision-Date: 2023-05-19 16:38+0000\n"
+"PO-Revision-Date: 2023-05-20 17:06+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
@@ -44,12 +44,12 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:54
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
 #: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
 msgid "Improvements:"
-msgstr ""
+msgstr "Peningkatan:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Launch instantly"
@@ -67,7 +67,7 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
-msgstr ""
+msgstr "Terjemahan yang diperbarui"
 
 #: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
 #: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
