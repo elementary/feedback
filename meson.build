@@ -2,7 +2,7 @@ project(
     'io.elementary.feedback',
     'vala', 'c',
     version: '7.0.0',
-    meson_version: '>=0.56.0'
+    meson_version: '>=0.58.0'
 )
 
 gnome = import('gnome')
@@ -46,5 +46,4 @@ executable(
 subdir('data')
 subdir('po')
 
-meson.add_install_script('meson/post_install.py')
-
+gnome.post_install(glib_compile_schemas: true)
