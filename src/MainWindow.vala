@@ -64,7 +64,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var system_category = new CategoryRow (Category.SYSTEM);
 
         var category_list = new Gtk.ListBox () {
-            selection_mode = Gtk.SelectionMode.NONE
+            selection_mode = SINGLE
         };
         category_list.append (apps_category);
         category_list.append (panel_category);
@@ -303,7 +303,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         });
 
         back_button.clicked.connect (() => {
-            leaflet.navigate (Adw.NavigationDirection.BACK);
+            category_list.select_row (null);
+            leaflet.navigate (BACK);
             report_button.sensitive = false;
             search_entry.text = "";
         });
@@ -333,7 +334,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             if (search_entry.text != "") {
                 placeholder.title = _("No results found for “%s”").printf (search_entry.text);
                 leaflet.visible_child = repo_list_box;
-            } else {
+            } else if (category_list.get_selected_row () == null) {
                 leaflet.visible_child = category_list;
             }
 
