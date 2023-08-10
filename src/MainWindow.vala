@@ -305,7 +305,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         back_button.clicked.connect (() => {
             category_list.select_row (null);
             leaflet.navigate (BACK);
-            report_button.sensitive = false;
             search_entry.text = "";
         });
 
@@ -319,7 +318,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 row = row.get_next_sibling ();
             }
 
-            report_button.sensitive = true;
+            report_button.sensitive = listbox.get_selected_row () != null;
         });
 
         listbox.row_activated.connect ((row) => {
@@ -339,6 +338,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             }
 
             listbox.invalidate_filter ();
+        });
+
+        leaflet.notify["child-transition-running"].connect (() => {
+            if (!leaflet.child_transition_running && leaflet.visible_child == category_list) {
+                listbox.select_row (null);
+            }
         });
     }
 
