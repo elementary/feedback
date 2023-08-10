@@ -296,7 +296,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         category_list.row_activated.connect ((row) => {
             leaflet.visible_child = repo_list_box;
             category_filter = ((CategoryRow) row).category;
-            category_title.label = ((CategoryRow) row).category.to_string ();
+            category_title.label = category_filter.to_string ();
             listbox.invalidate_filter ();
             var adjustment = scrolled.get_vadjustment ();
             adjustment.set_value (adjustment.lower);
@@ -333,8 +333,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             if (search_entry.text != "") {
                 placeholder.title = _("No results found for “%s”").printf (search_entry.text);
                 leaflet.visible_child = repo_list_box;
+                category_title.label = "";
             } else if (category_list.get_selected_row () == null) {
                 leaflet.visible_child = category_list;
+            } else {
+                category_title.label = category_filter.to_string ();
             }
 
             listbox.invalidate_filter ();
