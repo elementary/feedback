@@ -153,6 +153,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
                     components.foreach ((component) => {
+                        // FIXME: This should use kind != DESKTOP_APP but some metainfo is currently inaccurate
                         if (component.kind != ADDON && !(component.id in app_entries)) {
                             var repo_row = new RepoRow (
                                 component.name,
