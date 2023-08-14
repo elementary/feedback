@@ -153,7 +153,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
                     components.foreach ((component) => {
-                        if (component.kind != ADDON) {
+                        if (component.kind != ADDON && !(component.id in app_entries)) {
                             var repo_row = new RepoRow (
                                 component.name,
                                 icon_from_appstream_component (component),
@@ -405,6 +405,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.shortcut-overlay",
+         "io.elementary.switchboard",
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
