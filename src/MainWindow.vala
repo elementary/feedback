@@ -153,14 +153,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
                     components.foreach ((component) => {
-                        var repo_row = new RepoRow (
-                            component.name,
-                            icon_from_appstream_component (component),
-                            Category.SYSTEM,
-                            component.get_url (AppStream.UrlKind.BUGTRACKER)
-                        );
+                        // FIXME: This should use kind != DESKTOP_APP but some metainfo is currently inaccurate
+                        if (component.kind != ADDON && !(component.id in app_entries)) {
+                            var repo_row = new RepoRow (
+                                component.name,
+                                icon_from_appstream_component (component),
+                                Category.SYSTEM,
+                                component.get_url (AppStream.UrlKind.BUGTRACKER)
+                            );
 
-                        listbox.append (repo_row);
+                            listbox.append (repo_row);
+                        }
                     });
                 });
 
@@ -403,6 +406,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.shortcut-overlay",
+         "io.elementary.switchboard",
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
