@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2021-11-01 02:39+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,50 +19,50 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:29
 msgid "Feedback"
 msgstr "反馈"
 
-#: src/MainWindow.vala:47
+#: src/MainWindow.vala:39
 msgid "Send feedback for which component?"
 msgstr "您要发送的反馈与哪个组件有关？"
 
-#: src/MainWindow.vala:56
+#: src/MainWindow.vala:48
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr "从列表中选择一个项目来发送反馈，或者通过网页浏览器报告问题。"
 
-#: src/MainWindow.vala:76
+#: src/MainWindow.vala:68
 msgid "Categories"
 msgstr "分类"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:153
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr "程序坞"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:225
 msgid "Cancel"
 msgstr "取消"
 
-#: src/MainWindow.vala:233
+#: src/MainWindow.vala:229
 msgid "Send Feedback…"
 msgstr "发送反馈…"
 
-#: src/MainWindow.vala:415
+#: src/MainWindow.vala:424
 msgid "Panel Indicators"
 msgstr "面板指示器"
 
-#: src/MainWindow.vala:417
+#: src/MainWindow.vala:426
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/MainWindow.vala:419
+#: src/MainWindow.vala:428
 msgid "Desktop Components"
 msgstr "桌面组件"
 
-#: src/MainWindow.vala:421
+#: src/MainWindow.vala:430
 msgid "Default Apps"
 msgstr "默认应用"
 

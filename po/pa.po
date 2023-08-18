@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2021-08-16 03:00+0000\n"
 "Last-Translator: elSolus <tumbleweed@tuta.io>\n"
 "Language-Team: Punjabi <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -19,50 +19,50 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:29
 msgid "Feedback"
 msgstr "ਹੁੰਗਾਰਾ"
 
-#: src/MainWindow.vala:47
+#: src/MainWindow.vala:39
 msgid "Send feedback for which component?"
 msgstr "ਕਿਸ ਚੀਜ਼ ਲਈ ਹੁੰਗਾਰਾ ਦੇਣਾ ਹੈ?"
 
-#: src/MainWindow.vala:56
+#: src/MainWindow.vala:48
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr "ਹੁੰਗਾਰਾ ਭੇਜਣ ਲਈ ਸੂਚੀ ਵਿੱਚੋਂ ਨਗ ਚੁਣੋ ਜਾਂ ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ’ਚੋਂ ਰਿਪੋਰਟ ਕਰੋ।"
 
-#: src/MainWindow.vala:76
+#: src/MainWindow.vala:68
 msgid "Categories"
 msgstr "ਵਰਗ"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:153
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr "ਡੌਕ"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:225
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: src/MainWindow.vala:233
+#: src/MainWindow.vala:229
 msgid "Send Feedback…"
 msgstr "ਹੁੰਗਾਰਾ ਭੇਜੋ…"
 
-#: src/MainWindow.vala:415
+#: src/MainWindow.vala:424
 msgid "Panel Indicators"
 msgstr "ਪੈਨਲ ਇਸ਼ਾਰੇ"
 
-#: src/MainWindow.vala:417
+#: src/MainWindow.vala:426
 msgid "System Settings"
 msgstr "ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ"
 
-#: src/MainWindow.vala:419
+#: src/MainWindow.vala:428
 msgid "Desktop Components"
 msgstr "ਡੈਸਕਾਪ ਕੰਪੋਨੈਂਟ"
 
-#: src/MainWindow.vala:421
+#: src/MainWindow.vala:430
 msgid "Default Apps"
 msgstr "ਡਿਫ਼ਾਲਟ ਐਪਾਂ"
 

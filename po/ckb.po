@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:29
 msgid "Feedback"
 msgstr "فیدباک"
 
-#: src/MainWindow.vala:47
+#: src/MainWindow.vala:39
 msgid "Send feedback for which component?"
 msgstr "ناردنی فیدباک بۆ کام پێکهێنەر؟"
 
-#: src/MainWindow.vala:56
+#: src/MainWindow.vala:48
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,36 @@ msgstr ""
 "دانەیەک لە لیستەکە دیاریبکە بۆ ناردنی فیدباک دەربارەی یان کێشەیەک بنێرە لە "
 "وێبگەڕەکەتەوە."
 
-#: src/MainWindow.vala:76
+#: src/MainWindow.vala:68
 msgid "Categories"
 msgstr "هاوپۆلەکان"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:153
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr "دۆک"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:225
 msgid "Cancel"
 msgstr "هەڵوەشاندنەوە"
 
-#: src/MainWindow.vala:233
+#: src/MainWindow.vala:229
 msgid "Send Feedback…"
 msgstr "ناردنی فیدباک…"
 
-#: src/MainWindow.vala:415
+#: src/MainWindow.vala:424
 msgid "Panel Indicators"
 msgstr "دەرخەرەکانی پانێڵ"
 
-#: src/MainWindow.vala:417
+#: src/MainWindow.vala:426
 msgid "System Settings"
 msgstr "ڕێکخستنەکانی سیستەم"
 
-#: src/MainWindow.vala:419
+#: src/MainWindow.vala:428
 msgid "Desktop Components"
 msgstr "پێکهێنەرەکانی ڕوومێز"
 
-#: src/MainWindow.vala:421
+#: src/MainWindow.vala:430
 msgid "Default Apps"
 msgstr "ئەپە بنەڕەتییەکان"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2022-06-11 23:34+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
@@ -47,65 +47,53 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
-#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
+#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
 msgid "Improvements:"
 msgstr "Melhorias:"
 
 #: data/feedback.metainfo.xml.in:63
-msgid "Launch instantly"
+msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:64
-msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
-
-#: data/feedback.metainfo.xml.in:65
-msgid "Improve responsiveness for small displays"
-msgstr ""
-
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
-#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
-#: data/feedback.metainfo.xml.in:123
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:117
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
-#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+#: data/feedback.metainfo.xml.in:73
+msgid "Launch instantly"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:74
+msgid "Improved keyboard navigation and add double-click launch"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:75
+msgid "Improve responsiveness for small displays"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:115
 msgid "Minor updates:"
 msgstr "Pequenas atualizações:"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:89
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:99
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Evita a prevenção do roubo de foco ao abrir um navegador web"
 
-#: data/feedback.metainfo.xml.in:90
+#: data/feedback.metainfo.xml.in:100
 msgid "Show more entries under Desktop Components"
 msgstr "Mostrar mais entradas em Componentes do ambiente de trabalho"
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:113
 msgid "Add several missing components"
 msgstr "Adiciona vários componentes em falta"
-
-#: data/feedback.metainfo.xml.in:116
-msgid "Show Flatpak Apps"
-msgstr "Mostra aplicações Flatpak"
-
-#: data/feedback.metainfo.xml.in:117
-msgid "Support dark style"
-msgstr "Suporte ao estilo escuro"
-
-#: data/feedback.metainfo.xml.in:118
-msgid "Add multitouch navigation gestures"
-msgstr "Adiciona gestos de navegação multi-toque"
-
-#: data/feedback.metainfo.xml.in:122
-msgid "Ensure links are up-to-date"
-msgstr "Assegura que as ligações estão atualizadas"
 
 #: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
@@ -114,6 +102,18 @@ msgstr "Envie e acompanhe relatórios de problemas"
 #: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "problema;reportar;erro;"
+
+#~ msgid "Show Flatpak Apps"
+#~ msgstr "Mostra aplicações Flatpak"
+
+#~ msgid "Support dark style"
+#~ msgstr "Suporte ao estilo escuro"
+
+#~ msgid "Add multitouch navigation gestures"
+#~ msgstr "Adiciona gestos de navegação multi-toque"
+
+#~ msgid "Ensure links are up-to-date"
+#~ msgstr "Assegura que as ligações estão atualizadas"
 
 #~ msgid "Issue Reporter"
 #~ msgstr "Relatório de problema"
