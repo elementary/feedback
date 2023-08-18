@@ -308,7 +308,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         back_button.clicked.connect (() => {
             category_list.select_row (null);
             leaflet.navigate (BACK);
-            search_entry.text = "";
         });
 
         listbox.selected_rows_changed.connect (() => {
@@ -349,6 +348,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         leaflet.notify["child-transition-running"].connect (() => {
             if (!leaflet.child_transition_running && leaflet.visible_child == category_list) {
                 listbox.select_row (null);
+                search_entry.text = "";
             }
         });
     }
