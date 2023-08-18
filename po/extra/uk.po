@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2023-01-04 08:07+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -48,68 +48,56 @@ msgstr "Вибирайте зі списку з піктограмами"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
-#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
+#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
 msgid "Improvements:"
 msgstr "Удосконалення:"
 
 #: data/feedback.metainfo.xml.in:63
+msgid "Don't include apps or addons in Desktop category"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:117
+msgid "Updated translations"
+msgstr "Оновлені переклади"
+
+#: data/feedback.metainfo.xml.in:73
 msgid "Launch instantly"
 msgstr "Миттєвий запуск"
 
-#: data/feedback.metainfo.xml.in:64
+#: data/feedback.metainfo.xml.in:74
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "Поліпшено навігацію за допомогою клавіатури та додано запуск подвійним "
 "клацанням миші"
 
-#: data/feedback.metainfo.xml.in:65
+#: data/feedback.metainfo.xml.in:75
 msgid "Improve responsiveness for small displays"
 msgstr "Поліпшення адаптивності для невеликих дисплеїв"
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
-#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
-#: data/feedback.metainfo.xml.in:123
-msgid "Updated translations"
-msgstr "Оновлені переклади"
-
-#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
-#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:115
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:89
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "Перевірка того, що ми витягли всі додатки для Системних налаштувань і Панелі"
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:99
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Уникання запобіганню перенесення фокусу під час відкриття переглядача"
 
-#: data/feedback.metainfo.xml.in:90
+#: data/feedback.metainfo.xml.in:100
 msgid "Show more entries under Desktop Components"
 msgstr "Показ більшої кількості записів під компонентами настільних ПК"
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:113
 msgid "Add several missing components"
 msgstr "Додано кілька компонентів"
-
-#: data/feedback.metainfo.xml.in:116
-msgid "Show Flatpak Apps"
-msgstr "Показ застосунків Flatpak"
-
-#: data/feedback.metainfo.xml.in:117
-msgid "Support dark style"
-msgstr "Підтримка темного стилю"
-
-#: data/feedback.metainfo.xml.in:118
-msgid "Add multitouch navigation gestures"
-msgstr "Додано жести навігації"
-
-#: data/feedback.metainfo.xml.in:122
-msgid "Ensure links are up-to-date"
-msgstr "Оновлювані посилання"
 
 #: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
@@ -118,6 +106,18 @@ msgstr "Надсилайте та відстежуйте звіти про пр�
 #: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "звіт;вада;баг;issue;report;bug;"
+
+#~ msgid "Show Flatpak Apps"
+#~ msgstr "Показ застосунків Flatpak"
+
+#~ msgid "Support dark style"
+#~ msgstr "Підтримка темного стилю"
+
+#~ msgid "Add multitouch navigation gestures"
+#~ msgstr "Додано жести навігації"
+
+#~ msgid "Ensure links are up-to-date"
+#~ msgstr "Оновлювані посилання"
 
 #~ msgid "Issue Reporter"
 #~ msgstr "Засіб надсилання звітів"

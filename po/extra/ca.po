@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2023-06-15 00:07+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,70 +47,58 @@ msgstr "Seleccioneu d'una llista amb icones"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:87
-#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:114
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
+#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
 msgid "Improvements:"
 msgstr "Millores:"
 
 #: data/feedback.metainfo.xml.in:63
+msgid "Don't include apps or addons in Desktop category"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:117
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/feedback.metainfo.xml.in:73
 msgid "Launch instantly"
 msgstr "Obre-ho immediatament"
 
-#: data/feedback.metainfo.xml.in:64
+#: data/feedback.metainfo.xml.in:74
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "S'ha millorat la navegació amb el teclat i s'afegeix un llançament amb doble "
 "clic."
 
-#: data/feedback.metainfo.xml.in:65
+#: data/feedback.metainfo.xml.in:75
 msgid "Improve responsiveness for small displays"
 msgstr "Millora de la capacitat de resposta per a pantalles petites"
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:80
-#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:107
-#: data/feedback.metainfo.xml.in:123
-msgid "Updated translations"
-msgstr "Traduccions actualitzades"
-
-#: data/feedback.metainfo.xml.in:77 data/feedback.metainfo.xml.in:92
-#: data/feedback.metainfo.xml.in:105 data/feedback.metainfo.xml.in:120
+#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:115
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:89
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "S'assegura que obtinguem tots els complements per a la configuració del "
 "sistema i el plafó."
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:99
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "S'evita la prevenció del robatori de focus quan s'obre un navegador web."
 
-#: data/feedback.metainfo.xml.in:90
+#: data/feedback.metainfo.xml.in:100
 msgid "Show more entries under Desktop Components"
 msgstr "Mostra més entrades a Components d'escriptori."
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:113
 msgid "Add several missing components"
 msgstr "Addició de diversos components que mancaven"
-
-#: data/feedback.metainfo.xml.in:116
-msgid "Show Flatpak Apps"
-msgstr "Es mostren les aplicacions de Flatpak."
-
-#: data/feedback.metainfo.xml.in:117
-msgid "Support dark style"
-msgstr "Admissió del tema fosc"
-
-#: data/feedback.metainfo.xml.in:118
-msgid "Add multitouch navigation gestures"
-msgstr "Addició gests de navegació multitàctils"
-
-#: data/feedback.metainfo.xml.in:122
-msgid "Ensure links are up-to-date"
-msgstr "S'assegura que els enllaços estiguin actualitzats."
 
 #: data/feedback.desktop.in:7
 msgid "Submit and track issue reports"
@@ -119,6 +107,18 @@ msgstr "Envieu i feu un seguiment dels informes dels problemes"
 #: data/feedback.desktop.in:9
 msgid "issue;report;bug;"
 msgstr "problema;informació;error;"
+
+#~ msgid "Show Flatpak Apps"
+#~ msgstr "Es mostren les aplicacions de Flatpak."
+
+#~ msgid "Support dark style"
+#~ msgstr "Admissió del tema fosc"
+
+#~ msgid "Add multitouch navigation gestures"
+#~ msgstr "Addició gests de navegació multitàctils"
+
+#~ msgid "Ensure links are up-to-date"
+#~ msgstr "S'assegura que els enllaços estiguin actualitzats."
 
 #~ msgid "Issue Reporter"
 #~ msgstr "Informador de problemes"
