@@ -339,7 +339,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 category_title.label = "";
             } else if (category_list.get_selected_row () == null) {
                 leaflet.visible_child = category_list;
-            } else {
+            } else if (category_filter != null) {
                 category_title.label = category_filter.to_string ();
             }
 
