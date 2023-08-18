@@ -20,6 +20,7 @@
 
 public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private Gtk.ListBox listbox;
+    private Gtk.SearchEntry search_entry;
     private Category? category_filter;
 
     public MainWindow (Gtk.Application application) {
@@ -52,13 +53,18 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             xalign = 0
         };
 
+        search_entry = new Gtk.SearchEntry () {
+            margin_top = 24,
+            placeholder_text = _("Search")
+        };
+
         var apps_category = new CategoryRow (Category.DEFAULT_APPS);
         var panel_category = new CategoryRow (Category.PANEL);
         var settings_category = new CategoryRow (Category.SETTINGS);
         var system_category = new CategoryRow (Category.SYSTEM);
 
         var category_list = new Gtk.ListBox () {
-            selection_mode = Gtk.SelectionMode.NONE
+            selection_mode = SINGLE
         };
         category_list.append (apps_category);
         category_list.append (panel_category);
@@ -91,6 +97,17 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
         spinner.start ();
 
+        var placeholder = new Granite.Placeholder (
+            _("Change search terms to the name of an installed app, panel indicator, system settings page, or desktop component.")
+        ) {
+            icon = new ThemedIcon ("edit-find-symbolic")
+        };
+
+        var placeholder_stack = new Gtk.Stack ();
+        placeholder_stack.add_child (placeholder);
+        placeholder_stack.add_child (spinner);
+        placeholder_stack.visible_child = spinner;
+
         listbox = new Gtk.ListBox () {
             activate_on_single_click = false,
             hexpand = true,
@@ -99,7 +116,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.add_css_class ("rich-list");
         listbox.set_filter_func (filter_function);
         listbox.set_sort_func (sort_function);
-        listbox.set_placeholder (spinner);
+        listbox.set_placeholder (placeholder_stack);
 
         var appstream_pool = new AppStream.Pool ();
 #if HAS_APPSTREAM_0_15
@@ -165,6 +182,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                             listbox.append (repo_row);
                         }
                     });
+
+                    placeholder_stack.visible_child = placeholder;
                 });
 
                 appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
@@ -219,7 +238,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var frame = new Gtk.Frame (null) {
             child = leaflet,
-            margin_top = 24
+            margin_top = 12
         };
 
         var cancel_button = new Gtk.Button.with_label (_("Cancel")) {
@@ -246,7 +265,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         grid.attach (image_icon, 0, 0, 1, 2);
         grid.attach (primary_label, 1, 0);
         grid.attach (secondary_label, 1, 1);
-        grid.attach (frame, 0, 2, 2);
+        grid.attach (search_entry, 0, 2, 2);
+        grid.attach (frame, 0, 3, 2);
 
         var dialog_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         dialog_vbox.add_css_class ("dialog-vbox");
@@ -265,6 +285,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         set_default_widget (report_button);
         add_css_class ("dialog");
 
+        search_entry.grab_focus ();
+
         var granite_settings = Granite.Settings.get_default ();
         var gtk_settings = Gtk.Settings.get_default ();
 
@@ -277,15 +299,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         category_list.row_activated.connect ((row) => {
             leaflet.visible_child = repo_list_box;
             category_filter = ((CategoryRow) row).category;
-            category_title.label = ((CategoryRow) row).category.to_string ();
+            category_title.label = category_filter.to_string ();
             listbox.invalidate_filter ();
             var adjustment = scrolled.get_vadjustment ();
             adjustment.set_value (adjustment.lower);
         });
 
         back_button.clicked.connect (() => {
-            leaflet.navigate (Adw.NavigationDirection.BACK);
-            report_button.sensitive = false;
+            category_list.select_row (null);
+            leaflet.navigate (BACK);
         });
 
         listbox.selected_rows_changed.connect (() => {
@@ -298,7 +320,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 row = row.get_next_sibling ();
             }
 
-            report_button.sensitive = true;
+            report_button.sensitive = listbox.get_selected_row () != null;
         });
 
         listbox.row_activated.connect ((row) => {
@@ -307,6 +329,27 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         report_button.clicked.connect (() => {
             launch_from_row ((RepoRow) listbox.get_selected_row ());
+        });
+
+        search_entry.search_changed.connect (() => {
+            if (search_entry.text != "") {
+                placeholder.title = _("No results found for “%s”").printf (search_entry.text);
+                leaflet.visible_child = repo_list_box;
+                category_title.label = "";
+            } else if (category_list.get_selected_row () == null) {
+                leaflet.visible_child = category_list;
+            } else if (category_filter != null) {
+                category_title.label = category_filter.to_string ();
+            }
+
+            listbox.invalidate_filter ();
+        });
+
+        leaflet.notify["child-transition-running"].connect (() => {
+            if (!leaflet.child_transition_running && leaflet.visible_child == category_list) {
+                listbox.select_row (null);
+                search_entry.text = "";
+            }
         });
     }
 
@@ -379,7 +422,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
     [CCode (instance_pos = -1)]
     private bool filter_function (Gtk.ListBoxRow row) {
-        if (((RepoRow) row).category == category_filter) {
+        if (search_entry.text != "") {
+            return search_entry.text.down () in ((RepoRow) row).title.down ();
+        } else if (((RepoRow) row).category == category_filter) {
             return true;
         }
         return false;
