@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 20:25+0000\n"
+"POT-Creation-Date: 2023-08-18 17:42+0000\n"
 "PO-Revision-Date: 2019-07-11 21:46+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:29
 msgid "Feedback"
 msgstr "Prijuĝaĵoj"
 
-#: src/MainWindow.vala:47
+#: src/MainWindow.vala:39
 msgid "Send feedback for which component?"
 msgstr ""
 
-#: src/MainWindow.vala:56
+#: src/MainWindow.vala:48
 #, fuzzy
 #| msgid ""
 #| "Select a component from the list to report a problem from your web "
@@ -37,38 +37,38 @@ msgid ""
 "web browser."
 msgstr "Elektu elementon en la listo por raporti problemon per via foliumilo."
 
-#: src/MainWindow.vala:76
+#: src/MainWindow.vala:68
 msgid "Categories"
 msgstr "Kategorioj"
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:153
+#: src/MainWindow.vala:146
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:225
 msgid "Cancel"
 msgstr "Rezigni"
 
-#: src/MainWindow.vala:233
+#: src/MainWindow.vala:229
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Prijuĝaĵoj"
 
-#: src/MainWindow.vala:415
+#: src/MainWindow.vala:424
 msgid "Panel Indicators"
 msgstr "Panelaj indikiloj"
 
-#: src/MainWindow.vala:417
+#: src/MainWindow.vala:426
 msgid "System Settings"
 msgstr "Sistemaj agordoj"
 
-#: src/MainWindow.vala:419
+#: src/MainWindow.vala:428
 msgid "Desktop Components"
 msgstr "Labortablaj elementoj"
 
-#: src/MainWindow.vala:421
+#: src/MainWindow.vala:430
 msgid "Default Apps"
 msgstr "Aprioraj aplikaĵoj"
 
