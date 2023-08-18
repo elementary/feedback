@@ -66,6 +66,7 @@
       </description>
       <issues>
         <issue url="https://github.com/elementary/feedback/issues/67">Search</issue>
+        <issue url="https://github.com/elementary/feedback/issues/89">Remove highlighting over the title</issue>
       </issues>
     </release>
 
