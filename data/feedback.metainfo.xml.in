@@ -56,6 +56,16 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="7.0.1" date="2023-08-17" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Don't include apps or addons in Desktop category</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="7.0.0" date="2023-01-04" urgency="medium">
       <description>
         <p>Improvements:</p>
@@ -109,20 +119,6 @@
       </description>
     </release>
 
-    <release version="6.0.0" date="2020-07-15" urgency="medium">
-      <description>
-        <p>Improvements:</p>
-        <ul>
-          <li>Show Flatpak Apps</li>
-          <li>Support dark style</li>
-          <li>Add multitouch navigation gestures</li>
-        </ul>
-        <p>Minor updates:</p>
-        <ul>
-          <li>Ensure links are up-to-date</li>
-          <li>Updated translations</li>
-        </ul>
-      </description>
-    </release>
+    <release version="6.0.0" date="2020-07-15" urgency="medium" />
   </releases>
 </component>
