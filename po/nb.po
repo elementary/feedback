@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2023-02-14 13:25+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -19,16 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Tilbakemelding"
 
-#: src/MainWindow.vala:39
+#: src/MainWindow.vala:40
 #, fuzzy
 msgid "Send feedback for which component?"
 msgstr "Hvilken komponent ønsker du å sende tilbakemelding om?"
 
-#: src/MainWindow.vala:48
+#: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -36,37 +36,52 @@ msgstr ""
 "Velg et element fra listen for å sende tilbakemelding eller innrapportere et "
 "problem fra din nettleser."
 
-#: src/MainWindow.vala:68
+#: src/MainWindow.vala:58
+msgid "Search"
+msgstr ""
+
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "Kategorier"
 
+#: src/MainWindow.vala:101
+msgid ""
+"Change search terms to the name of an installed app, panel indicator, system "
+"settings page, or desktop component."
+msgstr ""
+
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:163
 #, fuzzy
 msgid "Dock"
 msgstr "Dokken"
 
-#: src/MainWindow.vala:225
+#: src/MainWindow.vala:244
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:248
 msgid "Send Feedback…"
 msgstr "Send tilbakemelding…"
 
-#: src/MainWindow.vala:424
+#: src/MainWindow.vala:336
+#, c-format
+msgid "No results found for “%s”"
+msgstr ""
+
+#: src/MainWindow.vala:469
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:426
+#: src/MainWindow.vala:471
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:428
+#: src/MainWindow.vala:473
 msgid "Desktop Components"
 msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:430
+#: src/MainWindow.vala:475
 msgid "Default Apps"
 msgstr "Forvalgte programmer"
 

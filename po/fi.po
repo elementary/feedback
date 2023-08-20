@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2021-08-06 17:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Palaute"
 
-#: src/MainWindow.vala:39
+#: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
 msgstr "Mihin osaan liittyen haluat lähettää palautetta?"
 
-#: src/MainWindow.vala:48
+#: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,51 @@ msgstr ""
 "Valitse luettelosta se osa, josta haluat antaa palautetta. Voit myös tehdä "
 "vikailmoituksen selaimessa."
 
-#: src/MainWindow.vala:68
+#: src/MainWindow.vala:58
+msgid "Search"
+msgstr ""
+
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "Luokat"
 
+#: src/MainWindow.vala:101
+msgid ""
+"Change search terms to the name of an installed app, panel indicator, system "
+"settings page, or desktop component."
+msgstr ""
+
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:163
 msgid "Dock"
 msgstr "Telakka"
 
-#: src/MainWindow.vala:225
+#: src/MainWindow.vala:244
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:248
 msgid "Send Feedback…"
 msgstr "Lähetä palautetta…"
 
-#: src/MainWindow.vala:424
+#: src/MainWindow.vala:336
+#, c-format
+msgid "No results found for “%s”"
+msgstr ""
+
+#: src/MainWindow.vala:469
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:426
+#: src/MainWindow.vala:471
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:428
+#: src/MainWindow.vala:473
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:430
+#: src/MainWindow.vala:475
 msgid "Default Apps"
 msgstr "Oletussovellukset"
 

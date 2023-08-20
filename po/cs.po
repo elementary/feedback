@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:30
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
-#: src/MainWindow.vala:39
+#: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
 msgstr "Pro kterou součást odeslat zpětnou vazbu?"
 
-#: src/MainWindow.vala:48
+#: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,36 +35,51 @@ msgstr ""
 "Vyberte položku ze seznamu a odešlete zpětnou vazbu či hlášení problému "
 "prostřednictvím webového prohlížeče."
 
-#: src/MainWindow.vala:68
+#: src/MainWindow.vala:58
+msgid "Search"
+msgstr ""
+
+#: src/MainWindow.vala:74
 msgid "Categories"
 msgstr "Kategorie"
 
+#: src/MainWindow.vala:101
+msgid ""
+"Change search terms to the name of an installed app, panel indicator, system "
+"settings page, or desktop component."
+msgstr ""
+
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:163
 msgid "Dock"
 msgstr "Dok"
 
-#: src/MainWindow.vala:225
+#: src/MainWindow.vala:244
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: src/MainWindow.vala:229
+#: src/MainWindow.vala:248
 msgid "Send Feedback…"
 msgstr "Odeslat zpětnou vazbu…"
 
-#: src/MainWindow.vala:424
+#: src/MainWindow.vala:336
+#, c-format
+msgid "No results found for “%s”"
+msgstr ""
+
+#: src/MainWindow.vala:469
 msgid "Panel Indicators"
 msgstr "Indikátory na hlavním panelu"
 
-#: src/MainWindow.vala:426
+#: src/MainWindow.vala:471
 msgid "System Settings"
 msgstr "Nastavení systému"
 
-#: src/MainWindow.vala:428
+#: src/MainWindow.vala:473
 msgid "Desktop Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:430
+#: src/MainWindow.vala:475
 msgid "Default Apps"
 msgstr "Výchozí aplikace"
 
