@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2021-07-28 02:20+0000\n"
+"PO-Revision-Date: 2023-08-21 22:44+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "feedback/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -49,6 +49,8 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Змініть термін пошуку на назву встановленого застосунку, індикатора панелі, "
+"сторінки налаштувань системи або компонента робочого столу."
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
@@ -66,7 +68,7 @@ msgstr "Надіслати відгук…"
 #: src/MainWindow.vala:336
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "За запитом “%s” нічого не знайдено"
 
 #: src/MainWindow.vala:469
 msgid "Panel Indicators"
