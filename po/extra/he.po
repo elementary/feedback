@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-18 17:42+0000\n"
-"PO-Revision-Date: 2023-01-05 08:25+0000\n"
+"PO-Revision-Date: 2023-08-20 17:51+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -53,7 +53,7 @@ msgstr "שיפורים:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "לא ייכללו יישומים או תוספים בקטגוריית שולחן העבודה"
 
 #: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
