@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2023-08-20 07:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -47,8 +47,8 @@ msgstr "アイコン付きのリストから選択します"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
-#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:115
 msgid "Improvements:"
 msgstr "改善点:"
 
@@ -56,44 +56,44 @@ msgstr "改善点:"
 msgid "Don't include apps or addons in Desktop category"
 msgstr "“デスクトップ”のカテゴリーにアプリや拡張機能を含めないように修正"
 
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:121
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:77
 msgid "Launch instantly"
 msgstr "起動速度を改善"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:78
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "キーボードでの操作を改善し、ダブルクリックで起動できる機能を追加"
 
-#: data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:79
 msgid "Improve responsiveness for small displays"
 msgstr "画面が小さい環境での表示を最適化"
 
-#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
-#: data/feedback.metainfo.xml.in:115
+#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Minor updates:"
 msgstr "そのほかのアップデート:"
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:93
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr "システム設定およびパネルの全拡張機能を確実に取得するように修正"
 
-#: data/feedback.metainfo.xml.in:99
+#: data/feedback.metainfo.xml.in:103
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "Web ブラウザーを開くと、フォーカスが“フィードバック”から遷移してしまう不具合"
 "を修正"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:104
 msgid "Show more entries under Desktop Components"
 msgstr "“デスクトップコンポーネント”の項目にエントリーを追加"
 
-#: data/feedback.metainfo.xml.in:113
+#: data/feedback.metainfo.xml.in:117
 msgid "Add several missing components"
 msgstr "一覧になかったコンポーネントを追加"
 
