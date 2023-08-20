@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-18 17:42+0000\n"
-"PO-Revision-Date: 2023-01-08 03:25+0000\n"
+"PO-Revision-Date: 2023-08-20 07:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -54,7 +54,7 @@ msgstr "改善点:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "“デスクトップ”のカテゴリーにアプリや拡張機能を含めないように修正"
 
 #: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
