@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2022-06-11 23:34+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
@@ -47,8 +47,8 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
-#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:115
 msgid "Improvements:"
 msgstr "Melhorias:"
 
@@ -56,42 +56,42 @@ msgstr "Melhorias:"
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:121
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:77
 msgid "Launch instantly"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:78
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:79
 msgid "Improve responsiveness for small displays"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
-#: data/feedback.metainfo.xml.in:115
+#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Minor updates:"
 msgstr "Pequenas atualizações:"
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:93
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:99
+#: data/feedback.metainfo.xml.in:103
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Evita a prevenção do roubo de foco ao abrir um navegador web"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:104
 msgid "Show more entries under Desktop Components"
 msgstr "Mostrar mais entradas em Componentes do ambiente de trabalho"
 
-#: data/feedback.metainfo.xml.in:113
+#: data/feedback.metainfo.xml.in:117
 msgid "Add several missing components"
 msgstr "Adiciona vários componentes em falta"
 

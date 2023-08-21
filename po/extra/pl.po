@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 17:42+0000\n"
+"POT-Creation-Date: 2023-08-20 17:51+0000\n"
 "PO-Revision-Date: 2023-01-05 08:25+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -48,8 +48,8 @@ msgstr "Wybieranie z listy z ikonami"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:71
-#: data/feedback.metainfo.xml.in:97 data/feedback.metainfo.xml.in:111
+#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:115
 msgid "Improvements:"
 msgstr "Ulepszenia:"
 
@@ -57,46 +57,46 @@ msgstr "Ulepszenia:"
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:104
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:121
 msgid "Updated translations"
 msgstr "Zaktualizowano tłumaczenia"
 
-#: data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:77
 msgid "Launch instantly"
 msgstr "Natychmiastowe włączenie"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:78
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "Poprawiono nawigację klawiaturą i dodano włączenie podwójnym kliknięciem"
 
-#: data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:79
 msgid "Improve responsiveness for small displays"
 msgstr "Poprawiono responsywność na małych ekranach"
 
-#: data/feedback.metainfo.xml.in:87 data/feedback.metainfo.xml.in:102
-#: data/feedback.metainfo.xml.in:115
+#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Minor updates:"
 msgstr "Mniejsze aktualizacje:"
 
-#: data/feedback.metainfo.xml.in:89
+#: data/feedback.metainfo.xml.in:93
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "Upewniono się, że wszystkie rozszerzenia Ustawień systemowych i Panelu są "
 "pobrane"
 
-#: data/feedback.metainfo.xml.in:99
+#: data/feedback.metainfo.xml.in:103
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "Uniknięto zapobieganiu kradzieży skupienia podczas otwierania przeglądarki"
 
-#: data/feedback.metainfo.xml.in:100
+#: data/feedback.metainfo.xml.in:104
 msgid "Show more entries under Desktop Components"
 msgstr "Pokazano więcej wpisów w Komponentach pulpitu"
 
-#: data/feedback.metainfo.xml.in:113
+#: data/feedback.metainfo.xml.in:117
 msgid "Add several missing components"
 msgstr "Dodano kilka brakujących komponentów"
 
