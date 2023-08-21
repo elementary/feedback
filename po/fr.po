@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2021-07-30 17:54+0000\n"
+"PO-Revision-Date: 2023-08-21 22:44+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
 "fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Rechercher"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -48,6 +48,9 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Modifiez votre recherche en indiquant le nom d'une application installée, "
+"d'un indicateur de panneau, d'une page de configuration du système ou d'un "
+"composant du bureau."
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
@@ -65,7 +68,7 @@ msgstr "Envoyer des commentaires…"
 #: src/MainWindow.vala:336
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Aucun résultat trouvé pour « %s »"
 
 #: src/MainWindow.vala:469
 msgid "Panel Indicators"
