@@ -97,9 +97,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         };
         spinner.start ();
 
-        var placeholder = new Granite.Placeholder (
-            _("Change search terms to the name of an installed app, panel indicator, system settings page, or desktop component.")
-        ) {
+        var placeholder = new Granite.Placeholder ("") {
+            description = _("Change search terms to the name of an installed app, panel indicator, system settings page, or desktop component."),
             icon = new ThemedIcon ("edit-find-symbolic")
         };
 
