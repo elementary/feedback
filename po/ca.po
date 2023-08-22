@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2021-07-28 10:25+0000\n"
+"PO-Revision-Date: 2023-08-23 18:08+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback/"
 "ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -48,6 +48,9 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Canvieu els termes de cerca pel nom d'una aplicació instal·lada, un "
+"indicador del plafó, una pàgina de configuració del sistema o un component "
+"d'escriptori."
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
@@ -65,7 +68,7 @@ msgstr "Envieu informació de retorn…"
 #: src/MainWindow.vala:336
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "No s'ha trobat cap resultat per a \"%s\""
 
 #: src/MainWindow.vala:469
 msgid "Panel Indicators"
