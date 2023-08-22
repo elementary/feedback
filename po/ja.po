@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2021-07-28 02:20+0000\n"
+"PO-Revision-Date: 2023-08-23 18:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -47,7 +47,8 @@ msgstr "カテゴリー"
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
-msgstr ""
+msgstr "検索用語を、インストール済みアプリ・パネルインジケーター・システム設定ページ"
+"・デスクトップコンポーネントのいずれかの名前に変更してください。"
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
@@ -65,7 +66,7 @@ msgstr "フィードバックを送る…"
 #: src/MainWindow.vala:336
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "“%s” の検索結果はありません"
 
 #: src/MainWindow.vala:469
 msgid "Panel Indicators"
