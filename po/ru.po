@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2023-08-21 22:44+0000\n"
+"PO-Revision-Date: 2024-02-03 09:11+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
 "ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -33,7 +33,7 @@ msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Выберите элемент в списке, чтобы отправить отзыв или отчёт о проблеме с "
+"Выберите элемент из списка, чтобы отправить отзыв или отчёт о проблеме с "
 "помощью вашего браузера."
 
 #: src/MainWindow.vala:58
@@ -50,7 +50,7 @@ msgid ""
 "settings page, or desktop component."
 msgstr ""
 "Измените поисковой запрос, чтобы найти установленное приложение, индикатор "
-"панели, системную настройку или компонент рабочего стола."
+"панели, панель параметров системы или компонент рабочего стола."
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
