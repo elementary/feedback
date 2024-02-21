@@ -39,6 +39,8 @@ public class Feedback.Application : Gtk.Application {
     protected override void startup () {
         base.startup ();
 
+        Granite.init ();
+
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
