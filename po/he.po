@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2023-08-21 22:44+0000\n"
+"PO-Revision-Date: 2024-03-21 16:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback/"
 "he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -73,7 +73,7 @@ msgstr "מחוונים בלוחות"
 
 #: src/MainWindow.vala:471
 msgid "System Settings"
-msgstr "הגדרות המערכת"
+msgstr "הגדרות מערכת"
 
 #: src/MainWindow.vala:473
 msgid "Desktop Components"
