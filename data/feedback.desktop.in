@@ -3,9 +3,9 @@ Version=1.0
 Type=Application
 
 Name=Feedback
-Comment=Submit and track issue reports
+Comment=Report a problem
 Categories=Development;Utility;
-Keywords=issue;report;bug;
+Keywords=bug;issue;report;
 
 Icon=io.elementary.feedback
 Exec=io.elementary.feedback
