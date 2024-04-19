@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2024-02-14 00:12+0000\n"
+"PO-Revision-Date: 2024-04-20 15:13+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "feedback/pt/>\n"
@@ -48,6 +48,9 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Altere os termos de pesquisa para o nome de uma aplicação instalada, "
+"indicador de painel, página de definições do sistema ou componente do "
+"ambiente de trabalho."
 
 #. FIXME: Dock should ship appdata
 #: src/MainWindow.vala:163
@@ -65,7 +68,7 @@ msgstr "Enviar Feedback…"
 #: src/MainWindow.vala:336
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Não foram encontrados resultados para \"%s\""
 
 #: src/MainWindow.vala:469
 msgid "Panel Indicators"
