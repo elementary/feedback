@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 17:51+0000\n"
-"PO-Revision-Date: 2023-09-10 20:08+0000\n"
+"PO-Revision-Date: 2024-04-24 12:13+0000\n"
 "Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -50,7 +50,7 @@ msgstr "elementary, Inc."
 #: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:115
 msgid "Improvements:"
-msgstr ""
+msgstr "Melhorias:"
 
 #: data/feedback.metainfo.xml.in:63
 msgid "Don't include apps or addons in Desktop category"
