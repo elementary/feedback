@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 17:51+0000\n"
+"POT-Creation-Date: 2024-05-04 04:53+0000\n"
 "PO-Revision-Date: 2023-11-09 13:10+0000\n"
 "Last-Translator: aalhaif <aalhaif@hotmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -51,36 +51,36 @@ msgid ""
 msgstr ""
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:163
+#: src/MainWindow.vala:166
 msgid "Dock"
 msgstr "شريط التطبيقات"
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:255
 msgid "Cancel"
 msgstr "ألغ"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:259
 msgid "Send Feedback…"
 msgstr "أرسل ملاحظتك…"
 
-#: src/MainWindow.vala:336
+#: src/MainWindow.vala:347
 #, c-format
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:469
+#: src/MainWindow.vala:484
 msgid "Panel Indicators"
 msgstr "مؤشرات اللوحة"
 
-#: src/MainWindow.vala:471
+#: src/MainWindow.vala:486
 msgid "System Settings"
 msgstr "إعدادات النظام"
 
-#: src/MainWindow.vala:473
+#: src/MainWindow.vala:488
 msgid "Desktop Components"
 msgstr "مكونات سطح المكتب"
 
-#: src/MainWindow.vala:475
+#: src/MainWindow.vala:490
 msgid "Default Apps"
 msgstr "التطبيقات الافتراضية"
 

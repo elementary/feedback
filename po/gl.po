@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 17:51+0000\n"
+"POT-Creation-Date: 2024-05-04 04:53+0000\n"
 "PO-Revision-Date: 2019-09-19 18:26+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
@@ -54,38 +54,38 @@ msgid ""
 msgstr ""
 
 #. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:163
+#: src/MainWindow.vala:166
 msgid "Dock"
 msgstr ""
 
-#: src/MainWindow.vala:244
+#: src/MainWindow.vala:255
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/MainWindow.vala:248
+#: src/MainWindow.vala:259
 #, fuzzy
 #| msgid "Feedback"
 msgid "Send Feedback…"
 msgstr "Observacións"
 
-#: src/MainWindow.vala:336
+#: src/MainWindow.vala:347
 #, c-format
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:469
+#: src/MainWindow.vala:484
 msgid "Panel Indicators"
 msgstr "Indicadores do panel"
 
-#: src/MainWindow.vala:471
+#: src/MainWindow.vala:486
 msgid "System Settings"
 msgstr "Configuración do sistema"
 
-#: src/MainWindow.vala:473
+#: src/MainWindow.vala:488
 msgid "Desktop Components"
 msgstr "Compoñentes do escritorio"
 
-#: src/MainWindow.vala:475
+#: src/MainWindow.vala:490
 msgid "Default Apps"
 msgstr "Aplicacións predeterminadas"
 
