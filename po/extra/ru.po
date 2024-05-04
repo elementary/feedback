@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 17:51+0000\n"
+"POT-Creation-Date: 2024-05-04 04:53+0000\n"
 "PO-Revision-Date: 2023-08-20 07:07+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
@@ -44,65 +44,69 @@ msgstr "Фильтр компонентов по категориям"
 msgid "Select from a list with icons"
 msgstr "Выбор из списка с иконками"
 
-#: data/feedback.metainfo.xml.in:54
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/feedback.metainfo.xml.in:61 data/feedback.metainfo.xml.in:75
-#: data/feedback.metainfo.xml.in:101 data/feedback.metainfo.xml.in:115
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:77
+#: data/feedback.metainfo.xml.in:103 data/feedback.metainfo.xml.in:117
 msgid "Improvements:"
 msgstr "Улучшения:"
 
-#: data/feedback.metainfo.xml.in:63
+#: data/feedback.metainfo.xml.in:65
 msgid "Don't include apps or addons in Desktop category"
 msgstr "Из категории «Рабочий стол» были удалены приложения и надстройки"
 
-#: data/feedback.metainfo.xml.in:64 data/feedback.metainfo.xml.in:80
-#: data/feedback.metainfo.xml.in:94 data/feedback.metainfo.xml.in:108
-#: data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:82
+#: data/feedback.metainfo.xml.in:96 data/feedback.metainfo.xml.in:110
+#: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/feedback.metainfo.xml.in:77
+#: data/feedback.metainfo.xml.in:79
 msgid "Launch instantly"
 msgstr "Мгновенный запуск"
 
-#: data/feedback.metainfo.xml.in:78
+#: data/feedback.metainfo.xml.in:80
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "Улучшена навигация с клавиатуры, добавлен запуск двойным щелчком мыши"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:81
 msgid "Improve responsiveness for small displays"
 msgstr "Улучшена адаптивность для маленьких экранов"
 
-#: data/feedback.metainfo.xml.in:91 data/feedback.metainfo.xml.in:106
-#: data/feedback.metainfo.xml.in:119
+#: data/feedback.metainfo.xml.in:93 data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
 msgstr "Незначительные обновления:"
 
-#: data/feedback.metainfo.xml.in:93
+#: data/feedback.metainfo.xml.in:95
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr "Улучшено получение дополнений для Параметров системы и Панели"
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:105
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Исправлено предотвращение потери фокуса при открытии веб-браузера"
 
-#: data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:106
 msgid "Show more entries under Desktop Components"
 msgstr "Отображение большего количества записей под элементами рабочего стола"
 
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:119
 msgid "Add several missing components"
 msgstr "Добавлено несколько недостающих компонентов"
 
 #: data/feedback.desktop.in:7
-msgid "Submit and track issue reports"
-msgstr "Отправить и отслеживать состояние жалобы"
+msgid "Report a problem"
+msgstr ""
 
 #: data/feedback.desktop.in:9
-msgid "issue;report;bug;"
+#, fuzzy
+#| msgid "issue;report;bug;"
+msgid "bug;issue;report;"
 msgstr "issue;report;bug;отчет;проблема;баг;"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
+
+#~ msgid "Submit and track issue reports"
+#~ msgstr "Отправить и отслеживать состояние жалобы"
 
 #~ msgid "Show Flatpak Apps"
 #~ msgstr "Отображение приложений Flatpak"
