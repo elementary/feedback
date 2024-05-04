@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-04 04:53+0000\n"
-"PO-Revision-Date: 2023-08-20 07:07+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"PO-Revision-Date: 2024-05-05 07:13+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.5\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -94,13 +94,11 @@ msgstr "Добавлено несколько недостающих компо�
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Сообщить о проблеме"
 
 #: data/feedback.desktop.in:9
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
-msgstr "issue;report;bug;отчет;проблема;баг;"
+msgstr "bug;issue;report;баг;ошибка;отчёт;проблема;"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."
