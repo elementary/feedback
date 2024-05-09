@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:53+0000\n"
+"POT-Creation-Date: 2024-05-09 21:02+0000\n"
 "PO-Revision-Date: 2024-05-07 09:13+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
-"feedback-extra/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/feedback-"
+"extra/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,58 +43,57 @@ msgstr "Filtra els components per categoria"
 msgid "Select from a list with icons"
 msgstr "Seleccioneu d'una llista amb icones"
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:77
-#: data/feedback.metainfo.xml.in:103 data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
 msgid "Improvements:"
 msgstr "Millores:"
 
 #: data/feedback.metainfo.xml.in:65
-msgid "Don't include apps or addons in Desktop category"
-msgstr "No s'inclouen aplicacions ni complements a la categoria d'escriptori"
+msgid "Fix missing help when a search has no results"
+msgstr ""
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:82
-#: data/feedback.metainfo.xml.in:96 data/feedback.metainfo.xml.in:110
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:78
+msgid "Don't include apps or addons in Desktop category"
+msgstr "No s'inclouen aplicacions ni complements a la categoria d'escriptori"
+
+#: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
 msgstr "Obre-ho immediatament"
 
-#: data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "S'ha millorat la navegació amb el teclat i s'afegeix un llançament amb doble "
 "clic."
 
-#: data/feedback.metainfo.xml.in:81
+#: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
 msgstr "Millora de la capacitat de resposta per a pantalles petites"
 
-#: data/feedback.metainfo.xml.in:93 data/feedback.metainfo.xml.in:108
-#: data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "S'assegura que obtinguem tots els complements per a la configuració del "
 "sistema i el plafó."
 
-#: data/feedback.metainfo.xml.in:105
+#: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "S'evita la prevenció del robatori de focus quan s'obre un navegador web."
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
 msgstr "Mostra més entrades a Components d'escriptori."
-
-#: data/feedback.metainfo.xml.in:119
-msgid "Add several missing components"
-msgstr "Addició de diversos components que mancaven"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
@@ -103,6 +102,9 @@ msgstr "Informeu d'un problema"
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
 msgstr "error;problema;informe;"
+
+#~ msgid "Add several missing components"
+#~ msgstr "Addició de diversos components que mancaven"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:53+0000\n"
+"POT-Creation-Date: 2024-05-09 21:02+0000\n"
 "PO-Revision-Date: 2023-08-02 17:08+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -43,55 +43,54 @@ msgstr "Componenten filteren op categorie"
 msgid "Select from a list with icons"
 msgstr "Kiezen uit een lijst met pictogrammen"
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:77
-#: data/feedback.metainfo.xml.in:103 data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
 msgid "Improvements:"
 msgstr "Verbeteringen:"
 
 #: data/feedback.metainfo.xml.in:65
-msgid "Don't include apps or addons in Desktop category"
+msgid "Fix missing help when a search has no results"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:82
-#: data/feedback.metainfo.xml.in:96 data/feedback.metainfo.xml.in:110
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
 msgstr "Geüpdatete vertalingen"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:78
+msgid "Don't include apps or addons in Desktop category"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
 msgstr "Onmiddellijk starten"
 
-#: data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "Verbeterde toetsenbordnavigatie en voeg dubbelklik om te starten toe"
 
-#: data/feedback.metainfo.xml.in:81
+#: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
 msgstr "Verbeter de prestaties voor kleine schermen"
 
-#: data/feedback.metainfo.xml.in:93 data/feedback.metainfo.xml.in:108
-#: data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
 msgstr "Kleine updates:"
 
-#: data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "Zorg ervoor dat we alle addons ophalen voor systeeminstellingen en het paneel"
 
-#: data/feedback.metainfo.xml.in:105
+#: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 "Voorkom focus overneming preventie wanneer er een webbrowser wordt geopend"
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
 msgstr "Laat meer vermeldingen zien onder desktopcomponenten"
-
-#: data/feedback.metainfo.xml.in:119
-msgid "Add several missing components"
-msgstr "Meerdere missende componenten zijn toegevoegd"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
@@ -102,6 +101,9 @@ msgstr ""
 #| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
 msgstr "probleem;rapporteren;bug;"
+
+#~ msgid "Add several missing components"
+#~ msgstr "Meerdere missende componenten zijn toegevoegd"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."
