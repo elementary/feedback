@@ -58,6 +58,19 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.0.0" date="2024-05-08" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Fix missing help when a search has no results</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/feedback/issues/103">"System -> Report a Problem" could do with a minor rework</issue>
+      </issues>
+    </release>
+
     <release version="7.1.0" date="2023-08-18" urgency="medium">
       <description>
         <p>Improvements:</p>
@@ -112,19 +125,7 @@
       </description>
     </release>
 
-    <release version="6.1.0" date="2021-07-26" urgency="medium">
-      <description>
-        <p>Improvements:</p>
-        <ul>
-          <li>Add several missing components</li>
-        </ul>
-        <p>Minor updates:</p>
-        <ul>
-          <li>Updated translations</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="6.1.0" date="2021-07-26" urgency="medium" />
     <release version="6.0.0" date="2020-07-15" urgency="medium" />
   </releases>
 </component>
