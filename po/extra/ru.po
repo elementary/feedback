@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-09 21:02+0000\n"
-"PO-Revision-Date: 2024-05-05 07:13+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/ru/>\n"
+"PO-Revision-Date: 2024-05-10 12:37+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +51,7 @@ msgstr "Улучшения:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Исправлена отсутствующая справка, когда поиск не даёт результатов"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
