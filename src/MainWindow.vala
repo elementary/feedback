@@ -161,15 +161,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     });
                 }
 
-                // FIXME: Dock should ship appdata
-                var dock_row = new RepoRow (
-                    _("Dock"),
-                    new ThemedIcon ("application-default-icon"),
-                    Category.SYSTEM,
-                    "https://github.com/elementary/dock/issues/new/choose"
-                );
-                listbox.append (dock_row);
-
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
                     components.foreach ((component) => {
