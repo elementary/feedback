@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:53+0000\n"
+"POT-Creation-Date: 2024-05-09 21:02+0000\n"
 "PO-Revision-Date: 2024-05-08 15:13+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -44,56 +44,55 @@ msgstr "Фільтруйте компоненти за категоріями"
 msgid "Select from a list with icons"
 msgstr "Вибирайте зі списку з піктограмами"
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:77
-#: data/feedback.metainfo.xml.in:103 data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
 msgid "Improvements:"
 msgstr "Удосконалення:"
 
 #: data/feedback.metainfo.xml.in:65
-msgid "Don't include apps or addons in Desktop category"
-msgstr "Застосунки та додатки не включаються до категорії Стільниця"
+msgid "Fix missing help when a search has no results"
+msgstr ""
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:82
-#: data/feedback.metainfo.xml.in:96 data/feedback.metainfo.xml.in:110
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
 msgstr "Оновлені переклади"
 
-#: data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:78
+msgid "Don't include apps or addons in Desktop category"
+msgstr "Застосунки та додатки не включаються до категорії Стільниця"
+
+#: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
 msgstr "Миттєвий запуск"
 
-#: data/feedback.metainfo.xml.in:80
+#: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "Поліпшено навігацію за допомогою клавіатури та додано запуск подвійним "
 "клацанням миші"
 
-#: data/feedback.metainfo.xml.in:81
+#: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
 msgstr "Поліпшення адаптивності для невеликих дисплеїв"
 
-#: data/feedback.metainfo.xml.in:93 data/feedback.metainfo.xml.in:108
-#: data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
-#: data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "Перевірка того, що ми витягли всі додатки для Системних налаштувань і Панелі"
 
-#: data/feedback.metainfo.xml.in:105
+#: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Уникання запобіганню перенесення фокусу під час відкриття переглядача"
 
-#: data/feedback.metainfo.xml.in:106
+#: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
 msgstr "Показ більшої кількості записів під компонентами настільних ПК"
-
-#: data/feedback.metainfo.xml.in:119
-msgid "Add several missing components"
-msgstr "Додано кілька компонентів"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
@@ -102,6 +101,9 @@ msgstr "Повідомити про проблему"
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
 msgstr "вада;баг;звіт;bug;issue;report;"
+
+#~ msgid "Add several missing components"
+#~ msgstr "Додано кілька компонентів"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."
