@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-09 21:02+0000\n"
-"PO-Revision-Date: 2024-05-05 07:13+0000\n"
+"PO-Revision-Date: 2024-05-10 12:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -50,7 +50,7 @@ msgstr "改善点:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "検索結果がない場合のヘルプメッセージが表示されていなかった不具合を修正"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
