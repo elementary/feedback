@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-05-10 12:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -42,6 +42,10 @@ msgstr "コンポーネントはカテゴリーごとに表示できます"
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
 msgstr "アイコン付きのリストから選択します"
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
@@ -102,9 +106,6 @@ msgstr "bug;issue;report;バグ;問題;不具合;イシュー;報告;レポー�
 
 #~ msgid "Add several missing components"
 #~ msgstr "一覧になかったコンポーネントを追加"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "不具合レポートを作成し追跡します"

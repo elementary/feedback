@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2020-05-27 16:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -42,6 +42,10 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
 msgstr ""
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "elementary, Incorporated."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
@@ -99,9 +103,6 @@ msgstr ""
 #| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
 msgstr "problem;rapport;bug;"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Incorporated."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "Indsend og spor problemrapporter"

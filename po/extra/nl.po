@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2023-08-02 17:08+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -42,6 +42,10 @@ msgstr "Componenten filteren op categorie"
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
 msgstr "Kiezen uit een lijst met pictogrammen"
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
@@ -104,9 +108,6 @@ msgstr "probleem;rapporteren;bug;"
 
 #~ msgid "Add several missing components"
 #~ msgstr "Meerdere missende componenten zijn toegevoegd"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "Rapporteer en volg problemen"

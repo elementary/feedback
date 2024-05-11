@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2022-04-04 21:19+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -42,6 +42,10 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
 msgstr ""
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "کۆمپانیای ئێلەمێنتەری هاوپشک."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
@@ -102,9 +106,6 @@ msgstr "کێشە؛ڕاپۆرت؛بەگ;"
 
 #~ msgid "Add several missing components"
 #~ msgstr "زیادکردنی چەند پێکهێنەرێکی پێویست"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "کۆمپانیای ئێلەمێنتەری هاوپشک."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "ناردن و چاودێریکردنی ڕاپۆرتەکانی کێشە"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2022-04-14 22:02+0000\n"
 "Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -39,6 +39,10 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
 msgstr ""
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
