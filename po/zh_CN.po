@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2021-11-01 02:39+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -60,19 +60,19 @@ msgstr "发送反馈…"
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:475
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
 msgstr "面板指示器"
 
-#: src/MainWindow.vala:477
+#: src/MainWindow.vala:485
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/MainWindow.vala:479
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "桌面组件"
 
-#: src/MainWindow.vala:481
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "默认应用"
 

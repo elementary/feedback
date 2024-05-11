@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 01:51+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-02-23 03:12+0000\n"
 "Last-Translator: \"baguskusumaloka@gmail.com\" <baguskusumaloka@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
@@ -62,19 +62,19 @@ msgstr "Kirim Umpan Balik…"
 msgid "No results found for “%s”"
 msgstr "Tidak ada hasil untuk \"%s\""
 
-#: src/MainWindow.vala:475
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
 msgstr "Indikator Panel"
 
-#: src/MainWindow.vala:477
+#: src/MainWindow.vala:485
 msgid "System Settings"
 msgstr "Pengaturan Sistem"
 
-#: src/MainWindow.vala:479
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "Komponen Desktop"
 
-#: src/MainWindow.vala:481
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "Aplikasi Standar"
 
