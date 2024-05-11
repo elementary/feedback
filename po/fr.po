@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 01:51+0000\n"
 "PO-Revision-Date: 2023-08-21 22:44+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -52,39 +52,37 @@ msgstr ""
 "d'un indicateur de panneau, d'une page de configuration du système ou d'un "
 "composant du bureau."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr "Dock"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Envoyer des commentaires…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Aucun résultat trouvé pour « %s »"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:475
 msgid "Panel Indicators"
 msgstr "Indicateurs du panneau"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:477
 msgid "System Settings"
 msgstr "Paramètres du système"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:479
 msgid "Desktop Components"
 msgstr "Composants du bureau"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:481
 msgid "Default Apps"
 msgstr "Applications par défaut"
+
+#~ msgid "Dock"
+#~ msgstr "Dock"
 
 #~ msgid "Applications Menu"
 #~ msgstr "Menu des applications"

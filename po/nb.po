@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 01:51+0000\n"
 "PO-Revision-Date: 2023-08-21 22:44+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -52,40 +52,38 @@ msgstr ""
 "Endre søket til navnet på et installert program, panelindikator, "
 "systeminnstillingsside, eller skrivebordskomponent."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-#, fuzzy
-msgid "Dock"
-msgstr "Dokken"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Send tilbakemelding…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Fant ikke «%s»"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:475
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:477
 msgid "System Settings"
 msgstr "Systeminnstillinger"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:479
 msgid "Desktop Components"
 msgstr "Skrivebordskomponenter"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:481
 msgid "Default Apps"
 msgstr "Forvalgte programmer"
+
+#, fuzzy
+#~ msgid "Dock"
+#~ msgstr "Dokken"
 
 #, fuzzy
 #~ msgid "Applications Menu"
