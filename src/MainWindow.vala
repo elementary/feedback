@@ -356,8 +356,16 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     }
 
     private void launch_from_row (RepoRow row) {
-        Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
-        close ();
+        var uri_launcher = new Gtk.UriLauncher (row.url);
+        uri_launcher.launch.begin (null, null, (obj, res) => {
+            try {
+                uri_launcher.launch.end (res);
+            } catch (Error err) {
+                warning ("Failed to launch \"%s\": %s", row.url, err.message);
+            }
+
+            close ();
+        });
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {

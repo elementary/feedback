@@ -8,10 +8,10 @@ GitHub Issue Reporter
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
-* libappstream-dev
-* libgranite-7-dev
-* libgtk-4-dev
-* libadwaita-1-dev
+* libappstream-dev (>=0.12.10)
+* libgranite-7-dev (>=7.0.0)
+* libgtk-4-dev (>=4.10)
+* libadwaita-1-dev (>=1.0.0)
 * meson
 * valac
 
