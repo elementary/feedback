@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 01:51+0000\n"
 "PO-Revision-Date: 2024-02-03 09:11+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -52,39 +52,37 @@ msgstr ""
 "Измените поисковой запрос, чтобы найти установленное приложение, индикатор "
 "панели, панель параметров системы или компонент рабочего стола."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr "Док"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Отправить отзыв…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "По запросу «%s» ничего не найдено"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:475
 msgid "Panel Indicators"
 msgstr "Индикаторы панели"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:477
 msgid "System Settings"
 msgstr "Параметры системы"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:479
 msgid "Desktop Components"
 msgstr "Компоненты рабочего стола"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:481
 msgid "Default Apps"
 msgstr "Приложения по умолчанию"
+
+#~ msgid "Dock"
+#~ msgstr "Док"
 
 #~ msgid "Applications Menu"
 #~ msgstr "Меню приложений"
