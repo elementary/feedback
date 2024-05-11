@@ -181,9 +181,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
 
 #if HAS_APPSTREAM_1_0
-                appstream_pool.get_components_by_id ("io.elementary.switchboard").as_array ().foreach ((component) => {
+                appstream_pool.get_components_by_id ("io.elementary.settings").as_array ().foreach ((component) => {
 #else
-                appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                appstream_pool.get_components_by_id ("io.elementary.settings").foreach ((component) => {
 #endif
                     component.get_addons ().foreach ((addon) => {
                         var repo_row = new RepoRow (
@@ -457,7 +457,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.shortcut-overlay",
-         "io.elementary.switchboard",
+         "io.elementary.settings",
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"
