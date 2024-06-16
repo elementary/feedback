@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-06-17 11:16+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
+"Last-Translator: Andrés Felipe Esguerra Restrepo <afesguerra@outlook.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback/"
 "es/>\n"
 "Language: es\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
