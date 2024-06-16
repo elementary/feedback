@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2024-06-15 02:56+0000\n"
+"PO-Revision-Date: 2024-06-17 11:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback/"
 "es/>\n"
@@ -48,6 +48,9 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Cambie los términos de búsqueda al nombre de una aplicación instalada, "
+"indicador del Panel, sección de configuración del Sistema o componente del "
+"escritorio."
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
@@ -60,11 +63,11 @@ msgstr "Enviar comentarios…"
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "No se encontraron resultados para «%s»"
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
-msgstr "Indicadores del panel"
+msgstr "Indicadores del Panel"
 
 #: src/MainWindow.vala:485
 msgid "System Settings"
