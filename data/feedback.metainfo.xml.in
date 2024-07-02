@@ -16,11 +16,11 @@
   <screenshots>
     <screenshot type="default">
       <caption>Filter components by category</caption>
-      <image>https://raw.githubusercontent.com/elementary/feedback/7.1.0/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/feedback/8.0.0/data/screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Select from a list with icons</caption>
-      <image>https://raw.githubusercontent.com/elementary/feedback/7.1.0/data/screenshot-settings.png</image>
+      <image>https://raw.githubusercontent.com/elementary/feedback/8.0.0/data/screenshot-settings.png</image>
     </screenshot>
   </screenshots>
 
@@ -58,7 +58,7 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.0.0" date="2024-05-08" urgency="medium">
+    <release version="8.0.0" date="2024-07-02" urgency="medium">
       <description>
         <p>Improvements:</p>
         <ul>
