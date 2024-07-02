@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2023-08-21 22:44+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -51,39 +51,37 @@ msgstr ""
 "Változtassa meg a keresési kifejezéseket egy telepített alkalmazás nevére, "
 "rendszerbeállítások-oldalra vagy asztali komponensre."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr "Dokk"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Mégse"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Visszajelzés küldése…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Nincsenek találatok \"%s\"-re"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
 msgstr "Állapotsori indikátorok"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:485
 msgid "System Settings"
 msgstr "Rendszerbeállítások"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "Asztali elemek"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "Alapértelmezett alkalmazások"
+
+#~ msgid "Dock"
+#~ msgstr "Dokk"
 
 #~ msgid "Applications Menu"
 #~ msgstr "Alkalmazásmenü"

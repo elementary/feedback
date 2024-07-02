@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-02-23 03:12+0000\n"
 "Last-Translator: \"baguskusumaloka@gmail.com\" <baguskusumaloka@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
@@ -49,36 +49,34 @@ msgid ""
 "settings page, or desktop component."
 msgstr ""
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr "Dok"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Batal"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Kirim Umpan Balik…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Tidak ada hasil untuk \"%s\""
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
 msgstr "Indikator Panel"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:485
 msgid "System Settings"
 msgstr "Pengaturan Sistem"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "Komponen Desktop"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "Aplikasi Standar"
+
+#~ msgid "Dock"
+#~ msgstr "Dok"

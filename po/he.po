@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-03-21 16:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -49,39 +49,37 @@ msgstr ""
 "החלפת ביטויי החיפוש לשם של יישום מותקן, מחוון לוח, עמוד בהגדרות או רכיב "
 "שולחן עבודה."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr "מעגן"
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "ביטול"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "שליחת משוב…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
 msgstr "לא נמצאו תוצאות לחיפוש אחר „%s”"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
 msgstr "מחוונים בלוחות"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:485
 msgid "System Settings"
 msgstr "הגדרות מערכת"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "רכיבי שולחן העבודה"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "יישומי בררת המחדל"
+
+#~ msgid "Dock"
+#~ msgstr "מעגן"
 
 #~ msgid "Applications Menu"
 #~ msgstr "תפריט יישומים"

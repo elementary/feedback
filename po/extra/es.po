@@ -7,41 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
-"PO-Revision-Date: 2021-09-29 20:42+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/es/>\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
+"PO-Revision-Date: 2024-06-17 11:16+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
-msgstr "Observaciones"
+msgstr "Comentarios"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "problema;informe;error;defecto;incidencia;bug;"
+msgstr "Envíe reportes sobre problemas o errores"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Explore los componentes instalados por categoría y encuentre los respectivos "
+"informes de incidencias en línea."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Filtrar componentes por categoría"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Seleccione de una lista de iconos"
+
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
@@ -51,6 +55,7 @@ msgstr "Mejoras:"
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
 msgstr ""
+"Se corrigió la ayuda inexistente cuando una búsqueda no tiene resultados"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
@@ -61,18 +66,19 @@ msgstr "Traducciones actualizadas"
 #: data/feedback.metainfo.xml.in:78
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
+"Ya no se incluyen aplicaciones o complementos en la categoría de escritorio"
 
 #: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
-msgstr ""
+msgstr "La aplicación se ejecuta instantáneamente"
 
 #: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Se mejoró la navegación del teclado y al hacer doble clic para ejecutar"
 
 #: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Se mejoró la velocidad de respuesta para pantallas pequeñas"
 
 #: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
@@ -81,30 +87,27 @@ msgstr "Actualizaciones menores:"
 #: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
+"Ahora se asegura de buscar todos los complementos para la Configuración del "
+"Sistema y el Panel"
 
 #: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Se evita robar el enfoque cuando se abre un navegador web"
 
 #: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Se muestran más entradas en Componentes de Escritorio"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Reportar un problema"
 
 #: data/feedback.desktop.in:9
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
-msgstr "problema;informe;error;defecto;incidencia;bug;"
+msgstr "problema;informe;error;defecto;incidencia;bug;comentario;"
 
 #~ msgid "Add several missing components"
 #~ msgstr "Agregar varios componentes que faltan"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "Envíe informes de problemas y realice un seguimiento de estos"

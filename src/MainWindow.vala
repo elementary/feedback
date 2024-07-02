@@ -161,15 +161,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     });
                 }
 
-                // FIXME: Dock should ship appdata
-                var dock_row = new RepoRow (
-                    _("Dock"),
-                    new ThemedIcon ("application-default-icon"),
-                    Category.SYSTEM,
-                    "https://github.com/elementary/dock/issues/new/choose"
-                );
-                listbox.append (dock_row);
-
                 get_compulsory_for_desktop.begin (appstream_pool, (obj, res) => {
                     var components = get_compulsory_for_desktop.end (res);
                     components.foreach ((component) => {
@@ -190,9 +181,9 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
 
 #if HAS_APPSTREAM_1_0
-                appstream_pool.get_components_by_id ("io.elementary.switchboard").as_array ().foreach ((component) => {
+                appstream_pool.get_components_by_id ("io.elementary.settings").as_array ().foreach ((component) => {
 #else
-                appstream_pool.get_components_by_id ("io.elementary.switchboard").foreach ((component) => {
+                appstream_pool.get_components_by_id ("io.elementary.settings").foreach ((component) => {
 #endif
                     component.get_addons ().foreach ((addon) => {
                         var repo_row = new RepoRow (
@@ -365,8 +356,16 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
     }
 
     private void launch_from_row (RepoRow row) {
-        Gtk.show_uri (null, row.url, Gdk.CURRENT_TIME);
-        close ();
+        var uri_launcher = new Gtk.UriLauncher (row.url);
+        uri_launcher.launch.begin (null, null, (obj, res) => {
+            try {
+                uri_launcher.launch.end (res);
+            } catch (Error err) {
+                warning ("Failed to launch \"%s\": %s", row.url, err.message);
+            }
+
+            close ();
+        });
     }
 
     private async GenericArray<AppStream.Component> get_compulsory_for_desktop (AppStream.Pool appstream_pool) {
@@ -466,7 +465,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.photos",
          "io.elementary.screenshot",
          "io.elementary.shortcut-overlay",
-         "io.elementary.switchboard",
+         "io.elementary.settings",
          "io.elementary.tasks",
          "io.elementary.terminal",
          "io.elementary.videos"

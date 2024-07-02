@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
-"PO-Revision-Date: 2021-04-29 01:19+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
+"PO-Revision-Date: 2024-06-17 11:16+0000\n"
+"Last-Translator: Andrés Felipe Esguerra Restrepo <afesguerra@outlook.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback/"
 "es/>\n"
 "Language: es\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr "Observaciones"
+msgstr "Comentarios"
 
 #: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
-msgstr "¿A qué componente quiere enviar sus observaciones?"
+msgstr "¿Sobre qué componente quiere enviar sus comentarios?"
 
 #: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
-"Seleccione un elemento de la lista para enviar observaciones o informar de "
-"un problema desde el navegador web."
+"Seleccione un elemento de la lista para enviar comentarios o informar de un "
+"problema desde el navegador web."
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -48,38 +48,36 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Cambie los términos de búsqueda al nombre de una aplicación instalada, "
+"indicador del Panel, sección de configuración del Sistema o componente del "
+"escritorio."
 
-#. FIXME: Dock should ship appdata
-#: src/MainWindow.vala:166
-msgid "Dock"
-msgstr ""
-
-#: src/MainWindow.vala:255
+#: src/MainWindow.vala:246
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/MainWindow.vala:259
+#: src/MainWindow.vala:250
 msgid "Send Feedback…"
 msgstr "Enviar comentarios…"
 
-#: src/MainWindow.vala:347
+#: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "No se encontraron resultados para «%s»"
 
-#: src/MainWindow.vala:484
+#: src/MainWindow.vala:483
 msgid "Panel Indicators"
-msgstr "Indicadores del panel"
+msgstr "Indicadores del Panel"
 
-#: src/MainWindow.vala:486
+#: src/MainWindow.vala:485
 msgid "System Settings"
-msgstr "Configuración del sistema"
+msgstr "Configuración del Sistema"
 
-#: src/MainWindow.vala:488
+#: src/MainWindow.vala:487
 msgid "Desktop Components"
 msgstr "Componentes del escritorio"
 
-#: src/MainWindow.vala:490
+#: src/MainWindow.vala:489
 msgid "Default Apps"
 msgstr "Aplicaciones predeterminadas"
 

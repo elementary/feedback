@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 21:02+0000\n"
-"PO-Revision-Date: 2024-05-05 07:13+0000\n"
+"POT-Creation-Date: 2024-05-11 02:33+0000\n"
+"PO-Revision-Date: 2024-05-10 12:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -43,6 +43,10 @@ msgstr "コンポーネントはカテゴリーごとに表示できます"
 msgid "Select from a list with icons"
 msgstr "アイコン付きのリストから選択します"
 
+#: data/feedback.metainfo.xml.in:55
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
 msgid "Improvements:"
@@ -50,7 +54,7 @@ msgstr "改善点:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "検索結果がない場合のヘルプメッセージが表示されていなかった不具合を修正"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
@@ -102,9 +106,6 @@ msgstr "bug;issue;report;バグ;問題;不具合;イシュー;報告;レポー�
 
 #~ msgid "Add several missing components"
 #~ msgstr "一覧になかったコンポーネントを追加"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "不具合レポートを作成し追跡します"
