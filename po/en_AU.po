@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2020-01-18 01:07+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2024-08-07 17:16+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: English (Australia) <https://l10n.elementary.io/projects/"
 "desktop/feedback/en_AU/>\n"
 "Language: en_AU\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: src/MainWindow.vala:250
 #, fuzzy
