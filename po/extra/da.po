@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2020-05-27 16:11+0000\n"
-"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
-"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/da/>\n"
+"PO-Revision-Date: 2024-08-07 17:16+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -50,7 +50,7 @@ msgstr "elementary, Incorporated."
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
 msgid "Improvements:"
-msgstr ""
+msgstr "Forbedringer:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
