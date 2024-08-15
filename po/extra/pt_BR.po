@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2024-04-24 12:13+0000\n"
-"Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
+"PO-Revision-Date: 2024-08-16 14:16+0000\n"
+"Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/feedback-extra/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Opinião"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "issue;report;bug;"
+msgstr "Envie relatórios sobre problemas ou erros"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Explore os componentes instalados por categoria e encontre rapidamente os "
+"relatórios de incidentes."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Selecione em uma lista com ícones"
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
@@ -54,7 +54,7 @@ msgstr "Melhorias:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Correção da falta de ajuda quando uma pesquisa não tem resultados"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
@@ -64,19 +64,21 @@ msgstr "Traduções atualizadas"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "Não incluir aplicações ou complementos na categoria Área de Trabalho"
 
 #: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
-msgstr ""
+msgstr "Inicie instantaneamente"
 
 #: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
+"Melhoria na navegação por teclado e adicionado duplo clique para ser "
+"executado"
 
 #: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Melhoria na responsividade para telas pequenas"
 
 #: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
@@ -85,24 +87,24 @@ msgstr "Atualizações menores:"
 #: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
+"Garante buscar todos os complementos para as configurações do sistema e do "
+"painel"
 
 #: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Evita a prevenção do roubo de foco ao abrir o navegador web"
 
 #: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Mostrar mais entradas em componentes da área de trabalho"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Enviar um problema"
 
 #: data/feedback.desktop.in:9
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
-msgstr "issue;report;bug;"
+msgstr "erro;problema;reportar;"
 
 #~ msgid "Submit and track issue reports"
 #~ msgstr "Envie e acompanhe relatórios de problemas"
