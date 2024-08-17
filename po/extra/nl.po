@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2024-05-31 19:13+0000\n"
+"PO-Revision-Date: 2024-08-17 17:19+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -60,7 +60,7 @@ msgstr "Repareer missende hulp wanneer een zoekopdracht geen resultaten heeft"
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
 #: data/feedback.metainfo.xml.in:123
 msgid "Updated translations"
-msgstr "Geüpdatete vertalingen"
+msgstr "Bijgewerkte vertalingen"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Don't include apps or addons in Desktop category"
