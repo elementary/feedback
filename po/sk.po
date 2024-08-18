@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2022-05-07 15:04+0000\n"
+"PO-Revision-Date: 2024-08-19 18:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/feedback/"
 "sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Vyhľadávanie"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
@@ -48,6 +48,8 @@ msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Upravte hľadaný výraz na názov nainštalovanej aplikácie, panelu indikátorov, "
+"stránky nastavení systému alebo súčasti pracovného prostredia."
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
@@ -60,7 +62,7 @@ msgstr "Odoslať spätnú väzbu…"
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Žiadne výsledky pre „%s“"
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
@@ -76,7 +78,7 @@ msgstr "Súčasti pracovného prostredia"
 
 #: src/MainWindow.vala:489
 msgid "Default Apps"
-msgstr "Predinštalované aplikácie"
+msgstr "Predvolené aplikácie"
 
 #~ msgid "Dock"
 #~ msgstr "Dok"
