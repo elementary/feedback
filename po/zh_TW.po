@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2024-08-07 17:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-09-02 22:33+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "desktop/feedback/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -21,31 +21,31 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "回饋"
 
 #: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "要傳送哪個部件的回饋？"
 
 #: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
-msgstr ""
+msgstr "從列表中選擇要傳送回饋的項目，或是從您的網頁瀏覽器中回報問題。"
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
-msgstr ""
+msgstr "分類"
 
 #: src/MainWindow.vala:101
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
-msgstr ""
+msgstr "將搜尋字串改為已安裝的應用程式、面板指示器、系統設定頁面或桌面部件的名稱。"
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
@@ -53,28 +53,28 @@ msgstr "取消"
 
 #: src/MainWindow.vala:250
 msgid "Send Feedback…"
-msgstr ""
+msgstr "傳送回饋…"
 
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "找不到「%s」的結果"
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
-msgstr ""
+msgstr "面板指示器"
 
 #: src/MainWindow.vala:485
 msgid "System Settings"
-msgstr ""
+msgstr "系統設定值"
 
 #: src/MainWindow.vala:487
 msgid "Desktop Components"
-msgstr ""
+msgstr "桌面部件"
 
 #: src/MainWindow.vala:489
 msgid "Default Apps"
-msgstr ""
+msgstr "預設應用程式"
 
 #~ msgid "Notifications"
 #~ msgstr "通知"
