@@ -8,26 +8,24 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2021-12-14 21:26+0000\n"
-"Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
-"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/tr/>\n"
+"PO-Revision-Date: 2024-09-20 09:43+0000\n"
+"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
+"feedback-extra/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
 msgstr "Geri Bildirim"
 
 #: data/feedback.metainfo.xml.in:11
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "File issue reports"
-msgstr "sorun;bildir;hata;issue;report;bug;"
+msgstr "Dosya sorun raporları"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
@@ -41,7 +39,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Simgeli bir listeden seçim yapın"
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
@@ -54,7 +52,7 @@ msgstr "İyileştirmeler:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Bir aramanın sonucu olmadığında eksik yardımı düzeltin"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
@@ -64,19 +62,19 @@ msgstr "Çeviriler güncellendi"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "Masaüstü kategorisine uygulama veya eklentileri dahil etme"
 
 #: data/feedback.metainfo.xml.in:92
 msgid "Launch instantly"
-msgstr ""
+msgstr "Hemen başlat"
 
 #: data/feedback.metainfo.xml.in:93
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Klavye gezintisi iyileştirildi ve çift tıklamayla başlatma eklendi"
 
 #: data/feedback.metainfo.xml.in:94
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Küçük ekranlar için yanıt hızı iyileştirildi"
 
 #: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
 msgid "Minor updates:"
@@ -84,25 +82,23 @@ msgstr "Küçük güncellemeler:"
 
 #: data/feedback.metainfo.xml.in:108
 msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr ""
+msgstr "Sistem Ayarları ve Panel için tüm eklentileri getirdiğimizden emin olun"
 
 #: data/feedback.metainfo.xml.in:118
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Bir web tarayıcısı açarken odak çalma önlemesinden kaçın"
 
 #: data/feedback.metainfo.xml.in:119
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Masaüstü Bileşenleri altında daha fazla girdi göster"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Bir sorun bildirin"
 
 #: data/feedback.desktop.in:9
-#, fuzzy
-#| msgid "issue;report;bug;"
 msgid "bug;issue;report;"
-msgstr "sorun;bildir;hata;issue;report;bug;"
+msgstr "hata;sorun;rapor;"
 
 #~ msgid "Add several missing components"
 #~ msgstr "Birkaç eksik bileşen eklendi"
