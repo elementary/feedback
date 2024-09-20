@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
 "PO-Revision-Date: 2024-09-20 09:43+0000\n"
-"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
+"Last-Translator: Sabri Sür <sabrisur97@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
 "feedback-extra/tr/>\n"
 "Language: tr\n"
@@ -32,10 +32,12 @@ msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Yüklü bileşenlere kategoriye göre göz atın ve çevrimiçi sorun izleyicilerini "
+"hızla bulun."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Bileşenleri kategoriye göre filtrele"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
