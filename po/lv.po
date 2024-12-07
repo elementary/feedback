@@ -8,23 +8,24 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:33+0000\n"
-"PO-Revision-Date: 2019-05-08 19:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-08 12:16+0000\n"
+"Last-Translator: Jānis Greiškāns <greiskans.janis9@gmail.com>\n"
+"Language-Team: Latvian <https://l10n.elementary.io/projects/desktop/feedback/"
+"lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Atsauksmes"
 
 #: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Sūtīt atsauksmi par kuru komponentu?"
 
 #: src/MainWindow.vala:49
 msgid ""
@@ -34,11 +35,11 @@ msgstr ""
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Meklēšana"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
-msgstr ""
+msgstr "Kategorijas"
 
 #: src/MainWindow.vala:101
 msgid ""
