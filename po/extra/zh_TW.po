@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:33+0000\n"
+"POT-Creation-Date: 2024-12-11 11:22+0000\n"
 "PO-Revision-Date: 2024-09-02 22:33+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -45,50 +45,51 @@ msgstr "從有圖示的列表中做選擇"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:72
+#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
+#: data/feedback.metainfo.xml.in:125
 msgid "Improvements:"
 msgstr "改善項目："
 
-#: data/feedback.metainfo.xml.in:65
-msgid "Fix missing help when a search has no results"
-msgstr "修正搜尋沒有結果時缺乏說明的問題"
-
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
-#: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
-#: data/feedback.metainfo.xml.in:123
+#: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
 msgid "Updated translations"
 msgstr "更新翻譯"
 
-#: data/feedback.metainfo.xml.in:78
+#: data/feedback.metainfo.xml.in:74
+msgid "Fix missing help when a search has no results"
+msgstr "修正搜尋沒有結果時缺乏說明的問題"
+
+#: data/feedback.metainfo.xml.in:87
 msgid "Don't include apps or addons in Desktop category"
 msgstr "不要在桌面分類中包含應用程式或附加元件"
 
-#: data/feedback.metainfo.xml.in:92
+#: data/feedback.metainfo.xml.in:101
 msgid "Launch instantly"
 msgstr "改善啟動速度"
 
-#: data/feedback.metainfo.xml.in:93
+#: data/feedback.metainfo.xml.in:102
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "改善鍵盤瀏覽，並加入雙擊啟動的功能"
 
-#: data/feedback.metainfo.xml.in:94
+#: data/feedback.metainfo.xml.in:103
 msgid "Improve responsiveness for small displays"
 msgstr "改善在小螢幕的環境下的顯示"
 
-#: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
 msgid "Minor updates:"
 msgstr "小型更新："
 
-#: data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:117
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr "確保我們取得系統設定值和面板的所有附加元件"
 
-#: data/feedback.metainfo.xml.in:118
+#: data/feedback.metainfo.xml.in:127
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "開啟網頁瀏覽器時避免防止焦點奪取，讓瀏覽器能取得焦點"
 
-#: data/feedback.metainfo.xml.in:119
+#: data/feedback.metainfo.xml.in:128
 msgid "Show more entries under Desktop Components"
 msgstr "在桌面部件下顯示更多項目"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:33+0000\n"
+"POT-Creation-Date: 2024-12-11 11:22+0000\n"
 "PO-Revision-Date: 2022-06-11 23:34+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
@@ -47,50 +47,51 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
-#: data/feedback.metainfo.xml.in:90 data/feedback.metainfo.xml.in:116
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:72
+#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
+#: data/feedback.metainfo.xml.in:125
 msgid "Improvements:"
 msgstr "Melhorias:"
 
-#: data/feedback.metainfo.xml.in:65
-msgid "Fix missing help when a search has no results"
-msgstr ""
-
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
-#: data/feedback.metainfo.xml.in:95 data/feedback.metainfo.xml.in:109
-#: data/feedback.metainfo.xml.in:123
+#: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
+#: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/feedback.metainfo.xml.in:78
+#: data/feedback.metainfo.xml.in:74
+msgid "Fix missing help when a search has no results"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:87
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:92
+#: data/feedback.metainfo.xml.in:101
 msgid "Launch instantly"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:93
+#: data/feedback.metainfo.xml.in:102
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:94
+#: data/feedback.metainfo.xml.in:103
 msgid "Improve responsiveness for small displays"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:106 data/feedback.metainfo.xml.in:121
+#: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
 msgid "Minor updates:"
 msgstr "Pequenas atualizações:"
 
-#: data/feedback.metainfo.xml.in:108
+#: data/feedback.metainfo.xml.in:117
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:118
+#: data/feedback.metainfo.xml.in:127
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Evita a prevenção do roubo de foco ao abrir um navegador web"
 
-#: data/feedback.metainfo.xml.in:119
+#: data/feedback.metainfo.xml.in:128
 msgid "Show more entries under Desktop Components"
 msgstr "Mostrar mais entradas em Componentes do ambiente de trabalho"
 
