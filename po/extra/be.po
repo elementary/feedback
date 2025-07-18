@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2019-05-08 19:19-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-19 10:55+0000\n"
+"Last-Translator: lenify <lenify@tutanota.com>\n"
+"Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
+"feedback-extra/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
-msgstr ""
+msgstr "Зваротная сувязь"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
@@ -42,7 +44,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:72
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
@@ -54,7 +56,7 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
 #: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
 msgid "Updated translations"
-msgstr ""
+msgstr "Абноўлены пераклады"
 
 #: data/feedback.metainfo.xml.in:74
 msgid "Fix missing help when a search has no results"
