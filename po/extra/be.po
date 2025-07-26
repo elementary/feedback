@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2025-07-19 10:55+0000\n"
+"PO-Revision-Date: 2025-07-26 19:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/be/>\n"
@@ -26,21 +26,23 @@ msgstr "Зваротная сувязь"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
-msgstr ""
+msgstr "Падавайце справаздачы аб памылках"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Праглядвайце ўсталяваныя кампаненты па катэгорыям і хутка знаходзьце іх "
+"сістэмы па сачэнню за праблемамі."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Фільтраванне кампанентаў па катэгорыям"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Выбар са спіса са значкамі"
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
@@ -50,7 +52,7 @@ msgstr "elementary, Inc."
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
 #: data/feedback.metainfo.xml.in:125
 msgid "Improvements:"
-msgstr ""
+msgstr "Паляпшэнні:"
 
 #: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
@@ -60,19 +62,19 @@ msgstr "Абноўлены пераклады"
 
 #: data/feedback.metainfo.xml.in:74
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Выпраўлена даведка, калі рэзультатаў не выяўляецца"
 
 #: data/feedback.metainfo.xml.in:87
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "Катэгорыя \"Працоўны стол\" цяпер не ўключае праграмы і дапаўненні"
 
 #: data/feedback.metainfo.xml.in:101
 msgid "Launch instantly"
-msgstr ""
+msgstr "Імгненны запуск"
 
 #: data/feedback.metainfo.xml.in:102
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Паляпшэнні да навігацыі з клавіятуры і запуску падвойным націскам"
 
 #: data/feedback.metainfo.xml.in:103
 msgid "Improve responsiveness for small displays"
