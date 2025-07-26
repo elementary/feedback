@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2025-07-19 10:55+0000\n"
+"PO-Revision-Date: 2025-07-26 19:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/be/>\n"
@@ -26,53 +26,57 @@ msgstr "Зваротная сувязь"
 
 #: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Аб якім кампаненце пакінуць водгук?"
 
 #: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"Выберыце элемент са спіса, каб пакінуць водгук або справаздачу аб памылцы "
+"праз ваш браўзер."
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
-msgstr ""
+msgstr "Катэгорыі"
 
 #: src/MainWindow.vala:101
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Змяніце пошукавы запыт, каб знайсці ўсталяваную праграму, індыкатар панэлі, "
+"старонку ў наладах або кампанент асяроддзя."
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
-msgstr ""
+msgstr "Скасаваць"
 
 #: src/MainWindow.vala:250
 msgid "Send Feedback…"
-msgstr ""
+msgstr "Адправіць водгук…"
 
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Па запыту “%s” нічога не знойдзена"
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Індыкатары панэлі"
 
 #: src/MainWindow.vala:485
 msgid "System Settings"
-msgstr ""
+msgstr "Налады сістэмы"
 
 #: src/MainWindow.vala:487
 msgid "Desktop Components"
-msgstr ""
+msgstr "Кампаненты працоўнага стала"
 
 #: src/MainWindow.vala:489
 msgid "Default Apps"
-msgstr ""
+msgstr "Стандартныя праграмы"
