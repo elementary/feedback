@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2025-07-26 19:55+0000\n"
+"PO-Revision-Date: 2025-07-28 13:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/be/>\n"
@@ -78,11 +78,11 @@ msgstr "Паляпшэнні да навігацыі з клавіятуры і 
 
 #: data/feedback.metainfo.xml.in:103
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Паляпшэнні адаптыўнасці для невялікіх экранаў"
 
 #: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
 msgid "Minor updates:"
-msgstr ""
+msgstr "Нязначныя абнаўленні:"
 
 #: data/feedback.metainfo.xml.in:117
 msgid "Make sure we fetch all addons for System Settings and the Panel"
