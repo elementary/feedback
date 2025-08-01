@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2025-07-28 13:55+0000\n"
+"PO-Revision-Date: 2025-08-02 18:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/be/>\n"
@@ -87,19 +87,21 @@ msgstr "Нязначныя абнаўленні:"
 #: data/feedback.metainfo.xml.in:117
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
+"Паляпшэнне праверкі і атрымання ўсіх дапаўненняў для панэлі і налад сістэмы"
 
 #: data/feedback.metainfo.xml.in:127
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Выпраўленне папярэджання страты фокуса пры адкрыцці браўзера"
 
 #: data/feedback.metainfo.xml.in:128
 msgid "Show more entries under Desktop Components"
 msgstr ""
+"Паказ большай колькасці элементаў катэгорыі \"Кампаненты працоўнага стала\""
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Паведаміць аб праблеме"
 
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
-msgstr ""
+msgstr "хіба;памылка;баг;справаздача;bug;issue;report;"
