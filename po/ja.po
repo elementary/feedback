@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2024-06-19 13:09+0000\n"
+"PO-Revision-Date: 2025-09-02 12:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -62,7 +62,7 @@ msgstr "フィードバックを送る…"
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr "“%s”の検索結果なし"
+msgstr "“%s”の結果なし"
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
