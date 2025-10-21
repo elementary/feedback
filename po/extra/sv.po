@@ -8,38 +8,40 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2019-06-29 17:51+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/sv/>\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
+"feedback-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
-msgstr ""
+msgstr "Återkoppling"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
-msgstr ""
+msgstr "Lämna in problemrapporter"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Bläddra bland installerade komponenter efter kategori och hitta snabbt deras "
+"onlineproblemspårare."
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Filtrera komponenter efter kategori"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Välj från en lista med ikoner"
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
@@ -49,54 +51,54 @@ msgstr "elementary, Inc."
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
 #: data/feedback.metainfo.xml.in:125
 msgid "Improvements:"
-msgstr ""
+msgstr "Förbättringar:"
 
 #: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
 #: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
 msgid "Updated translations"
-msgstr ""
+msgstr "Uppdaterade översättningar"
 
 #: data/feedback.metainfo.xml.in:74
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Fixa hjälp som saknas när en sökning inte ger några resultat"
 
 #: data/feedback.metainfo.xml.in:87
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "Inkludera inte appar eller tillägg i skrivbordskategorin"
 
 #: data/feedback.metainfo.xml.in:101
 msgid "Launch instantly"
-msgstr ""
+msgstr "Starta omedelbart"
 
 #: data/feedback.metainfo.xml.in:102
 msgid "Improved keyboard navigation and add double-click launch"
-msgstr ""
+msgstr "Förbättrad tangentbordsnavigering och tillägg av start med dubbelklick"
 
 #: data/feedback.metainfo.xml.in:103
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Förbättra responsen för små skärmar"
 
 #: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre uppdateringar:"
 
 #: data/feedback.metainfo.xml.in:117
 msgid "Make sure we fetch all addons for System Settings and the Panel"
-msgstr ""
+msgstr "Se till att vi hämtar alla tillägg för Systeminställningar och Panelen"
 
 #: data/feedback.metainfo.xml.in:127
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Undvik att stjäla fokus när du öppnar en webbläsare"
 
 #: data/feedback.metainfo.xml.in:128
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Visa fler poster under skrivbordskomponenter"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Rapportera ett problem"
 
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
-msgstr ""
+msgstr "bugg;fråga;rapport;"
