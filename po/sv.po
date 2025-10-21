@@ -8,44 +8,48 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2024-08-07 17:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/desktop/feedback/"
-"sv/>\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
+"feedback/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
-msgstr ""
+msgstr "Återkoppling"
 
 #: src/MainWindow.vala:40
 msgid "Send feedback for which component?"
-msgstr ""
+msgstr "Skicka återkoppling för vilken komponent?"
 
 #: src/MainWindow.vala:49
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"Välj ett objekt från listan för att skicka återkoppling eller rapportera ett "
+"problem från din webbläsare."
 
 #: src/MainWindow.vala:58
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: src/MainWindow.vala:74
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
 #: src/MainWindow.vala:101
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Ändra söktermerna till namnet på en installerad app, panelindikator, "
+"systeminställningssida eller skrivbordskomponent."
 
 #: src/MainWindow.vala:246
 msgid "Cancel"
@@ -53,25 +57,25 @@ msgstr "Avbryt"
 
 #: src/MainWindow.vala:250
 msgid "Send Feedback…"
-msgstr ""
+msgstr "Skicka återkoppling…"
 
 #: src/MainWindow.vala:338
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Inga resultat hittades för \"%s\""
 
 #: src/MainWindow.vala:483
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Panelindikatorer"
 
 #: src/MainWindow.vala:485
 msgid "System Settings"
-msgstr ""
+msgstr "Systeminställningar"
 
 #: src/MainWindow.vala:487
 msgid "Desktop Components"
-msgstr ""
+msgstr "Skrivbordskomponenter"
 
 #: src/MainWindow.vala:489
 msgid "Default Apps"
-msgstr ""
+msgstr "Standardappar"
