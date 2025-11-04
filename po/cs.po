@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -62,19 +62,19 @@ msgstr "Odeslat zpětnou vazbu…"
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:483
+#: src/MainWindow.vala:485
 msgid "Panel Indicators"
 msgstr "Indikátory na hlavním panelu"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:487
 msgid "System Settings"
 msgstr "Nastavení systému"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:489
 msgid "Desktop Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:491
 msgid "Default Apps"
 msgstr "Výchozí aplikace"
 

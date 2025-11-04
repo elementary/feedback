@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2022-08-06 23:36+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -61,19 +61,19 @@ msgstr "피드백 보내기…"
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:483
+#: src/MainWindow.vala:485
 msgid "Panel Indicators"
 msgstr "패널 인디케이터"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:487
 msgid "System Settings"
 msgstr "시스템 설정"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:489
 msgid "Desktop Components"
 msgstr "바탕화면 구성 요소"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:491
 msgid "Default Apps"
 msgstr "기본 앱"
 

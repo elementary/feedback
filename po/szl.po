@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -63,19 +63,19 @@ msgstr "Ôpinijo zwrotno"
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:483
+#: src/MainWindow.vala:485
 msgid "Panel Indicators"
 msgstr "Skaźniki ôkyn"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:487
 msgid "System Settings"
 msgstr "Sztelōnki systymu"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:489
 msgid "Desktop Components"
 msgstr "Kōmpōnynta biōrka"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:491
 msgid "Default Apps"
 msgstr "Wychodne programy"
 

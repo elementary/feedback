@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2022-04-14 22:02+0000\n"
 "Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -61,19 +61,19 @@ msgstr "ارسال بازخورد…"
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:483
+#: src/MainWindow.vala:485
 msgid "Panel Indicators"
 msgstr "نشانگر های پنل"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:487
 msgid "System Settings"
 msgstr "تنظیمات سیستمی"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:489
 msgid "Desktop Components"
 msgstr "مولفه های دسکتاپ"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:491
 msgid "Default Apps"
 msgstr "برنامه های پیشفرض"
 
