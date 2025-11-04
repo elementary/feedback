@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2024-05-10 12:37+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/feedback-"
@@ -48,51 +48,56 @@ msgstr "Выбор из списка с иконками"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:72
-#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
-#: data/feedback.metainfo.xml.in:125
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:82 data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:109 data/feedback.metainfo.xml.in:135
 msgid "Improvements:"
 msgstr "Улучшения:"
 
-#: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
-#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
-#: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
+#: data/feedback.metainfo.xml.in:65
+msgid "Add Maps and Monitor"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:114 data/feedback.metainfo.xml.in:128
+#: data/feedback.metainfo.xml.in:142
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:84
 msgid "Fix missing help when a search has no results"
 msgstr "Исправлена отсутствующая справка, когда поиск не даёт результатов"
 
-#: data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:97
 msgid "Don't include apps or addons in Desktop category"
 msgstr "Из категории «Рабочий стол» были удалены приложения и надстройки"
 
-#: data/feedback.metainfo.xml.in:101
+#: data/feedback.metainfo.xml.in:111
 msgid "Launch instantly"
 msgstr "Мгновенный запуск"
 
-#: data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:112
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "Улучшена навигация с клавиатуры, добавлен запуск двойным щелчком мыши"
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:113
 msgid "Improve responsiveness for small displays"
 msgstr "Улучшена адаптивность для маленьких экранов"
 
-#: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
+#: data/feedback.metainfo.xml.in:125 data/feedback.metainfo.xml.in:140
 msgid "Minor updates:"
 msgstr "Незначительные обновления:"
 
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:127
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr "Улучшено получение дополнений для Параметров системы и Панели"
 
-#: data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:137
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Исправлено предотвращение потери фокуса при открытии веб-браузера"
 
-#: data/feedback.metainfo.xml.in:128
+#: data/feedback.metainfo.xml.in:138
 msgid "Show more entries under Desktop Components"
 msgstr "Отображение большего количества записей под элементами рабочего стола"
 
