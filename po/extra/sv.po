@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 18:12+0000\n"
-"PO-Revision-Date: 2025-10-23 13:55+0000\n"
+"PO-Revision-Date: 2025-11-06 01:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/sv/>\n"
@@ -55,7 +55,7 @@ msgstr "Förbättringar:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Add Maps and Monitor"
-msgstr ""
+msgstr "Lägg till Kartor och Övervaka"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
