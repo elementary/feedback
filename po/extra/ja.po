@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 18:12+0000\n"
-"PO-Revision-Date: 2024-12-12 05:36+0000\n"
+"PO-Revision-Date: 2025-11-13 07:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -55,7 +55,7 @@ msgstr "改善点:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Add Maps and Monitor"
-msgstr ""
+msgstr "“マップ”と“モニター”を追加"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
