@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
 "PO-Revision-Date: 2025-08-02 18:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -45,7 +45,8 @@ msgstr "分类"
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
-msgstr "请将您的搜索内容修改为已安装的应用程序、面板指示器、系统设置页面或桌面组件的"
+msgstr ""
+"请将您的搜索内容修改为已安装的应用程序、面板指示器、系统设置页面或桌面组件的"
 "名称。"
 
 #: src/MainWindow.vala:246
@@ -61,19 +62,19 @@ msgstr "发送反馈…"
 msgid "No results found for “%s”"
 msgstr "找不到有关「%s」的结果"
 
-#: src/MainWindow.vala:483
+#: src/MainWindow.vala:485
 msgid "Panel Indicators"
 msgstr "面板指示器"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:487
 msgid "System Settings"
 msgstr "系统设置"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:489
 msgid "Desktop Components"
 msgstr "桌面组件"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:491
 msgid "Default Apps"
 msgstr "默认应用"
 

@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:22+0000\n"
-"PO-Revision-Date: 2024-06-17 11:16+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback-"
-"extra/es/>\n"
+"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"PO-Revision-Date: 2025-11-06 01:55+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
+"Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/"
+"feedback-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -47,56 +47,61 @@ msgstr "Seleccione de una lista de iconos"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:72
-#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:99
-#: data/feedback.metainfo.xml.in:125
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:73
+#: data/feedback.metainfo.xml.in:82 data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:109 data/feedback.metainfo.xml.in:135
 msgid "Improvements:"
 msgstr "Mejoras:"
 
-#: data/feedback.metainfo.xml.in:65 data/feedback.metainfo.xml.in:75
-#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:104
-#: data/feedback.metainfo.xml.in:118 data/feedback.metainfo.xml.in:132
+#: data/feedback.metainfo.xml.in:65
+msgid "Add Maps and Monitor"
+msgstr "Se agregaron Mapas y Monitor"
+
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
+#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:114 data/feedback.metainfo.xml.in:128
+#: data/feedback.metainfo.xml.in:142
 msgid "Updated translations"
 msgstr "Traducciones actualizadas"
 
-#: data/feedback.metainfo.xml.in:74
+#: data/feedback.metainfo.xml.in:84
 msgid "Fix missing help when a search has no results"
 msgstr ""
 "Se corrigió la ayuda inexistente cuando una búsqueda no tiene resultados"
 
-#: data/feedback.metainfo.xml.in:87
+#: data/feedback.metainfo.xml.in:97
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 "Ya no se incluyen aplicaciones o complementos en la categoría de escritorio"
 
-#: data/feedback.metainfo.xml.in:101
+#: data/feedback.metainfo.xml.in:111
 msgid "Launch instantly"
 msgstr "La aplicación se ejecuta instantáneamente"
 
-#: data/feedback.metainfo.xml.in:102
+#: data/feedback.metainfo.xml.in:112
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 "Se mejoró la navegación del teclado y al hacer doble clic para ejecutar"
 
-#: data/feedback.metainfo.xml.in:103
+#: data/feedback.metainfo.xml.in:113
 msgid "Improve responsiveness for small displays"
 msgstr "Se mejoró la velocidad de respuesta para pantallas pequeñas"
 
-#: data/feedback.metainfo.xml.in:115 data/feedback.metainfo.xml.in:130
+#: data/feedback.metainfo.xml.in:125 data/feedback.metainfo.xml.in:140
 msgid "Minor updates:"
 msgstr "Actualizaciones menores:"
 
-#: data/feedback.metainfo.xml.in:117
+#: data/feedback.metainfo.xml.in:127
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 "Ahora se asegura de buscar todos los complementos para la Configuración del "
 "Sistema y el Panel"
 
-#: data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:137
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "Se evita robar el enfoque cuando se abre un navegador web"
 
-#: data/feedback.metainfo.xml.in:128
+#: data/feedback.metainfo.xml.in:138
 msgid "Show more entries under Desktop Components"
 msgstr "Se muestran más entradas en Componentes de Escritorio"
 
