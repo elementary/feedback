@@ -167,30 +167,26 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     placeholder_stack.visible_child = placeholder;
                 });
 
-                appstream_pool.get_components_by_id ("io.elementary.settings").as_array ().foreach ((component) => {
-                    component.get_addons ().foreach ((addon) => {
-                        var repo_row = new RepoRow (
-                            addon.name,
-                            get_extension_icon_from_appstream (addon.get_icons ()),
-                            Category.SETTINGS,
-                            addon.get_url (AppStream.UrlKind.BUGTRACKER)
-                        );
+                appstream_pool.get_components_by_extends ("io.elementary.settings").as_array ().foreach ((component) => {
+                    var repo_row = new RepoRow (
+                        component.name,
+                        icon_from_appstream_component (component),
+                        Category.SETTINGS,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
 
-                        listbox.append (repo_row);
-                    });
+                    listbox.append (repo_row);
                 });
 
-                appstream_pool.get_components_by_id ("io.elementary.wingpanel").as_array ().foreach ((component) => {
-                    component.get_addons ().foreach ((addon) => {
-                        var repo_row = new RepoRow (
-                            addon.name,
-                            get_extension_icon_from_appstream (addon.get_icons ()),
-                            Category.PANEL,
-                            addon.get_url (AppStream.UrlKind.BUGTRACKER)
-                        );
+                appstream_pool.get_components_by_extends ("io.elementary.wingpanel").as_array ().foreach ((component) => {
+                    var repo_row = new RepoRow (
+                        component.name,
+                        icon_from_appstream_component (component),
+                        Category.PANEL,
+                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                    );
 
-                        listbox.append (repo_row);
-                    });
+                    listbox.append (repo_row);
                 });
             } catch (Error e) {
                 critical (e.message);
