@@ -71,13 +71,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         category_list.append (settings_category);
         category_list.append (system_category);
 
-        var back_button = new Gtk.Button.with_label (_("Categories")) {
+        var category_page = new Adw.NavigationPage (category_list, _("Categories"));
+
+        var back_button = new Granite.BackButton (_("Categories")) {
             halign = Gtk.Align.START,
             margin_top = 6,
             margin_bottom = 6,
             margin_start = 6
         };
-        back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         var category_title = new Gtk.Label ("") {
             hexpand = true,
@@ -229,17 +230,15 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         repo_list_box.append (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
         repo_list_box.append (scrolled);
 
-        var leaflet = new Adw.Leaflet () {
-            can_navigate_back = true,
-            can_unfold = false,
-            hexpand = true,
+        var components_page = new Adw.NavigationPage (repo_list_box , _("Components"));
+
+        var navigation_view = new Adw.NavigationView () {
             vexpand = true
         };
-        leaflet.append (category_list);
-        leaflet.append (repo_list_box);
+        navigation_view.add (category_page);
 
         var frame = new Gtk.Frame (null) {
-            child = leaflet,
+            child = navigation_view,
             margin_top = 12
         };
 
@@ -298,10 +297,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
         });
 
+        components_page.bind_property ("title", category_title, "label", SYNC_CREATE);
+
         category_list.row_activated.connect ((row) => {
-            leaflet.visible_child = repo_list_box;
+            navigation_view.push (components_page);
+
             category_filter = ((CategoryRow) row).category;
-            category_title.label = category_filter.to_string ();
+            components_page.title = category_filter.to_string ();
+
             listbox.invalidate_filter ();
             var adjustment = scrolled.get_vadjustment ();
             adjustment.set_value (adjustment.lower);
@@ -309,7 +312,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         back_button.clicked.connect (() => {
             category_list.select_row (null);
-            leaflet.navigate (BACK);
         });
 
         listbox.selected_rows_changed.connect (() => {
@@ -336,22 +338,20 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         search_entry.search_changed.connect (() => {
             if (search_entry.text != "") {
                 placeholder.title = _("No results found for “%s”").printf (search_entry.text);
-                leaflet.visible_child = repo_list_box;
-                category_title.label = "";
+                navigation_view.push (components_page);
+                components_page.title = "";
             } else if (category_list.get_selected_row () == null) {
-                leaflet.visible_child = category_list;
+                navigation_view.pop ();
             } else if (category_filter != null) {
-                category_title.label = category_filter.to_string ();
+                components_page.title = category_filter.to_string ();
             }
 
             listbox.invalidate_filter ();
         });
 
-        leaflet.notify["child-transition-running"].connect (() => {
-            if (!leaflet.child_transition_running && leaflet.visible_child == category_list) {
-                listbox.select_row (null);
-                search_entry.text = "";
-            }
+        navigation_view.popped.connect (() => {
+            listbox.select_row (null);
+            search_entry.text = "";
         });
     }
 
