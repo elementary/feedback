@@ -118,21 +118,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         listbox.set_placeholder (placeholder_stack);
 
         var appstream_pool = new AppStream.Pool ();
-#if HAS_APPSTREAM_0_15
         appstream_pool.reset_extra_data_locations ();
         appstream_pool.set_flags (
             appstream_pool.get_flags () |
             AppStream.PoolFlags.LOAD_FLATPAK |
             AppStream.PoolFlags.RESOLVE_ADDONS
         );
-#else
-        appstream_pool.clear_metadata_locations ();
-        // flatpak's appstream files exists only inside they sandbox
-        unowned var appdata_dir = "/var/lib/flatpak/app/%s/current/active/files/share/appdata";
-        foreach (var app in app_entries) {
-            appstream_pool.add_metadata_location (appdata_dir.printf (app));
-        }
-#endif
 
         appstream_pool.load_async.begin (null, (obj, res) => {
             try {
@@ -141,11 +132,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 foreach (var app in app_entries) {
                     var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
-#if HAS_APPSTREAM_1_0
                     appstream_pool.get_components_by_id (app).as_array ().foreach ((component) => {
-#else
-                    appstream_pool.get_components_by_id (app).foreach ((component) => {
-#endif
                         if (component_table[component.id] == null) {
                             component_table[component.id] = component;
 
@@ -180,11 +167,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     placeholder_stack.visible_child = placeholder;
                 });
 
-#if HAS_APPSTREAM_1_0
                 appstream_pool.get_components_by_id ("io.elementary.settings").as_array ().foreach ((component) => {
-#else
-                appstream_pool.get_components_by_id ("io.elementary.settings").foreach ((component) => {
-#endif
                     component.get_addons ().foreach ((addon) => {
                         var repo_row = new RepoRow (
                             addon.name,
@@ -197,11 +180,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     });
                 });
 
-#if HAS_APPSTREAM_1_0
                 appstream_pool.get_components_by_id ("io.elementary.wingpanel").as_array ().foreach ((component) => {
-#else
-                appstream_pool.get_components_by_id ("io.elementary.wingpanel").foreach ((component) => {
-#endif
                     component.get_addons ().foreach ((addon) => {
                         var repo_row = new RepoRow (
                             addon.name,
@@ -373,11 +352,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         var components = new GenericArray<AppStream.Component> ();
         new Thread<void> ("get_compulsory_for_desktop", () => {
-#if HAS_APPSTREAM_1_0
             appstream_pool.get_components ().as_array ().foreach ((component) => {
-#else
-            appstream_pool.get_components ().foreach ((component) => {
-#endif
                 component.get_compulsory_for_desktops ().foreach ((desktop) => {
                     if (desktop == Environment.get_variable ("XDG_CURRENT_DESKTOP")) {
                         components.add (component);
