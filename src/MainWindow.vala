@@ -363,16 +363,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         return components;
     }
 
-    private Icon get_extension_icon_from_appstream (GLib.GenericArray<AppStream.Icon> appstream_icons) {
-        foreach (unowned AppStream.Icon appstream_icon in appstream_icons) {
-            if (appstream_icon.get_kind () == AppStream.IconKind.STOCK) {
-                return new ThemedIcon (appstream_icon.get_name ());
-            }
-        }
-
-        return new ThemedIcon ("extension");
-    }
-
     private Icon icon_from_appstream_component (AppStream.Component component) {
         var as_icons = component.get_icons ();
         Icon icon;
