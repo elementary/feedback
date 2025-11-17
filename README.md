@@ -8,7 +8,7 @@ GitHub Issue Reporter
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
-* libappstream-dev (>=0.12.10)
+* libappstream-dev (>=1.0.0)
 * libgranite-7-dev (>=7.0.0)
 * libgtk-4-dev (>=4.10)
 * libadwaita-1-dev (>=1.0.0)
