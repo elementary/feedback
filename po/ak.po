@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2024-08-07 17:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Akan <https://l10n.elementary.io/projects/desktop/feedback/ak/"
@@ -37,41 +37,49 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr ""
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+msgid "Components"
+msgstr ""
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "Gyae"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr ""
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+msgid "Search Results"
+msgstr ""
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr ""
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr ""
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr ""
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr ""

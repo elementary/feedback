@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2024-06-17 11:16+0000\n"
 "Last-Translator: Andrés Felipe Esguerra Restrepo <afesguerra@outlook.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,11 +39,11 @@ msgstr ""
 msgid "Search"
 msgstr "Buscar"
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr "Categorías"
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -52,32 +52,44 @@ msgstr ""
 "indicador del Panel, sección de configuración del Sistema o componente del "
 "escritorio."
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+#, fuzzy
+#| msgid "Desktop Components"
+msgid "Components"
+msgstr "Componentes del escritorio"
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "Enviar comentarios…"
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr "No se encontraron resultados para «%s»"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "Buscar"
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr "Indicadores del Panel"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr "Configuración del Sistema"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr "Componentes del escritorio"
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr "Aplicaciones predeterminadas"
 

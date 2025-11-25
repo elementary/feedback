@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2024-09-02 22:33+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -37,43 +37,55 @@ msgstr "從列表中選擇要傳送回饋的項目，或是從您的網頁瀏覽
 msgid "Search"
 msgstr "搜尋"
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr "分類"
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
 "將搜尋字串改為已安裝的應用程式、面板指示器、系統設定頁面或桌面部件的名稱。"
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+#, fuzzy
+#| msgid "Desktop Components"
+msgid "Components"
+msgstr "桌面部件"
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "取消"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "傳送回饋…"
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr "找不到「%s」的結果"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "搜尋"
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr "面板指示器"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr "系統設定值"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr "桌面部件"
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr "預設應用程式"
 

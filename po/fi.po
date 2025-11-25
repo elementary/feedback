@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2023-08-27 08:08+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -39,11 +39,11 @@ msgstr ""
 msgid "Search"
 msgstr "Haku"
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr "Luokat"
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -51,32 +51,44 @@ msgstr ""
 "Vaihda hakuehdot asennetun sovelluksen, paneeli-ilmaisimen, "
 "järjestelmäasetussivun tai työpöytäkomponentin nimeen."
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+#, fuzzy
+#| msgid "Desktop Components"
+msgid "Components"
+msgstr "Työpöytäkomponentit"
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "Lähetä palautetta…"
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Ei tuloksia hakuehdoilla “%s”"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "Haku"
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr "Paneelin ilmaisimet"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr "Järjestelmän asetukset"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr "Työpöytäkomponentit"
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr "Oletussovellukset"
 

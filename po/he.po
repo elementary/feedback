@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2024-03-21 16:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -37,11 +37,11 @@ msgstr "נא לבחור פריט מהרשימה כדי לשלוח משוב או 
 msgid "Search"
 msgstr "חיפוש"
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr "קטגוריות"
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -49,32 +49,44 @@ msgstr ""
 "החלפת ביטויי החיפוש לשם של יישום מותקן, מחוון לוח, עמוד בהגדרות או רכיב "
 "שולחן עבודה."
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+#, fuzzy
+#| msgid "Desktop Components"
+msgid "Components"
+msgstr "רכיבי שולחן העבודה"
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "ביטול"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "שליחת משוב…"
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr "לא נמצאו תוצאות לחיפוש אחר „%s”"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "חיפוש"
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr "מחוונים בלוחות"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr "הגדרות מערכת"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr "רכיבי שולחן העבודה"
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr "יישומי בררת המחדל"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:12+0000\n"
+"POT-Creation-Date: 2025-11-25 21:56+0000\n"
 "PO-Revision-Date: 2025-09-02 12:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
@@ -39,11 +39,11 @@ msgstr ""
 msgid "Search"
 msgstr "検索"
 
-#: src/MainWindow.vala:74
+#: src/MainWindow.vala:74 src/MainWindow.vala:76
 msgid "Categories"
 msgstr "カテゴリー"
 
-#: src/MainWindow.vala:101
+#: src/MainWindow.vala:102
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -51,32 +51,44 @@ msgstr ""
 "検索語句を、インストール済みアプリ・パネルインジケーター・システム設定ペー"
 "ジ・デスクトップコンポーネントのいずれかの名前に変更してください。"
 
-#: src/MainWindow.vala:246
+#: src/MainWindow.vala:208
+#, fuzzy
+#| msgid "Desktop Components"
+msgid "Components"
+msgstr "デスクトップコンポーネント"
+
+#: src/MainWindow.vala:220
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: src/MainWindow.vala:250
+#: src/MainWindow.vala:224
 msgid "Send Feedback…"
 msgstr "フィードバックを送る…"
 
-#: src/MainWindow.vala:338
+#: src/MainWindow.vala:315
 #, c-format
 msgid "No results found for “%s”"
 msgstr "“%s”の結果なし"
 
-#: src/MainWindow.vala:485
+#: src/MainWindow.vala:316
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "検索"
+
+#: src/MainWindow.vala:449
 msgid "Panel Indicators"
 msgstr "パネルインジケーター"
 
-#: src/MainWindow.vala:487
+#: src/MainWindow.vala:451
 msgid "System Settings"
 msgstr "システム設定"
 
-#: src/MainWindow.vala:489
+#: src/MainWindow.vala:453
 msgid "Desktop Components"
 msgstr "デスクトップコンポーネント"
 
-#: src/MainWindow.vala:491
+#: src/MainWindow.vala:455
 msgid "Default Apps"
 msgstr "デフォルトのアプリ"
 
