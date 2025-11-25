@@ -313,8 +313,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         search_entry.search_changed.connect (() => {
             if (search_entry.text != "") {
                 placeholder.title = _("No results found for “%s”").printf (search_entry.text);
-                navigation_view.push (components_page);
-                components_page.title = "";
+                components_page.title = _("Search Results");
+
+                if (navigation_view.visible_page != components_page) {
+                    navigation_view.push (components_page);
+                }
             } else if (category_list.get_selected_row () == null) {
                 navigation_view.pop ();
             } else if (category_filter != null) {
