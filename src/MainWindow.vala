@@ -154,11 +154,20 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     components.foreach ((component) => {
                         // FIXME: This should use kind != DESKTOP_APP but some metainfo is currently inaccurate
                         if (component.kind != ADDON && !(component.id in app_entries)) {
+                            var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
+                            if (url == null) {
+                                // Ignore components without a bugtracker URL
+                                // because rows that just show a component name
+                                // and can't take users to report issues are
+                                // useless
+                                return;
+                            }
+
                             var repo_row = new RepoRow (
                                 component.name,
                                 icon_from_appstream_component (component),
                                 Category.SYSTEM,
-                                component.get_url (AppStream.UrlKind.BUGTRACKER)
+                                url
                             );
 
                             listbox.append (repo_row);
