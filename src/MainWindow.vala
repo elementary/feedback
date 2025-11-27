@@ -134,6 +134,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
                     appstream_pool.get_components_by_id (app).as_array ().foreach ((component) => {
+                        var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
+                        if (url == null) {
+                            // Ignore components without a bugtracker URL because rows that just show
+                            // a component name and can't take users to report issues are useless
+                            warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
+                            return;
+                        }
+
                         if (component_table[component.id] == null) {
                             component_table[component.id] = component;
 
@@ -141,7 +149,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                                 component.name,
                                 icon_from_appstream_component (component),
                                 Category.DEFAULT_APPS,
-                                component.get_url (AppStream.UrlKind.BUGTRACKER)
+                                url
                             );
 
                             listbox.append (repo_row);
@@ -177,22 +185,38 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
 
                 appstream_pool.get_components_by_extends ("io.elementary.settings").as_array ().foreach ((component) => {
+                    var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
+                    if (url == null) {
+                        // Ignore components without a bugtracker URL because rows that just show
+                        // a component name and can't take users to report issues are useless
+                        warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
+                        return;
+                    }
+
                     var repo_row = new RepoRow (
                         component.name,
                         icon_from_appstream_component (component),
                         Category.SETTINGS,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        url
                     );
 
                     listbox.append (repo_row);
                 });
 
                 appstream_pool.get_components_by_extends ("io.elementary.wingpanel").as_array ().foreach ((component) => {
+                    var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
+                    if (url == null) {
+                        // Ignore components without a bugtracker URL because rows that just show
+                        // a component name and can't take users to report issues are useless
+                        warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
+                        return;
+                    }
+
                     var repo_row = new RepoRow (
                         component.name,
                         icon_from_appstream_component (component),
                         Category.PANEL,
-                        component.get_url (AppStream.UrlKind.BUGTRACKER)
+                        url
                     );
 
                     listbox.append (repo_row);
