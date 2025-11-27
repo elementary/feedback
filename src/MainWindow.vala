@@ -156,10 +156,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                         if (component.kind != ADDON && !(component.id in app_entries)) {
                             var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
                             if (url == null) {
-                                // Ignore components without a bugtracker URL
-                                // because rows that just show a component name
-                                // and can't take users to report issues are
-                                // useless
+                                // Ignore components without a bugtracker URL because rows that just show
+                                // a component name and can't take users to report issues are useless
                                 warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
                                 return;
                             }
