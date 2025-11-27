@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2023-08-21 22:44+0000\n"
+"PO-Revision-Date: 2025-11-27 08:55+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/desktop/feedback/"
-"fr/>\n"
+"Language-Team: French <https://l10n.elementaryos.org/projects/desktop/"
+"feedback/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -53,10 +53,8 @@ msgstr ""
 "composant du bureau."
 
 #: src/MainWindow.vala:208
-#, fuzzy
-#| msgid "Desktop Components"
 msgid "Components"
-msgstr "Composants du bureau"
+msgstr "Composants"
 
 #: src/MainWindow.vala:220
 msgid "Cancel"
@@ -72,10 +70,8 @@ msgid "No results found for “%s”"
 msgstr "Aucun résultat trouvé pour « %s »"
 
 #: src/MainWindow.vala:316
-#, fuzzy
-#| msgid "Search"
 msgid "Search Results"
-msgstr "Rechercher"
+msgstr "Résultats de recherche"
 
 #: src/MainWindow.vala:449
 msgid "Panel Indicators"
