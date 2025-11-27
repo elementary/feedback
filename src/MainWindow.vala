@@ -160,6 +160,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                                 // because rows that just show a component name
                                 // and can't take users to report issues are
                                 // useless
+                                warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
                                 return;
                             }
 
