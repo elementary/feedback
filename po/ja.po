@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2025-09-02 12:55+0000\n"
+"PO-Revision-Date: 2025-11-28 20:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/ja/>\n"
@@ -52,10 +52,8 @@ msgstr ""
 "ジ・デスクトップコンポーネントのいずれかの名前に変更してください。"
 
 #: src/MainWindow.vala:208
-#, fuzzy
-#| msgid "Desktop Components"
 msgid "Components"
-msgstr "デスクトップコンポーネント"
+msgstr "コンポーネント"
 
 #: src/MainWindow.vala:220
 msgid "Cancel"
@@ -71,10 +69,8 @@ msgid "No results found for “%s”"
 msgstr "“%s”の結果なし"
 
 #: src/MainWindow.vala:316
-#, fuzzy
-#| msgid "Search"
 msgid "Search Results"
-msgstr "検索"
+msgstr "検索結果"
 
 #: src/MainWindow.vala:449
 msgid "Panel Indicators"
