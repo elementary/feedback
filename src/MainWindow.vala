@@ -134,26 +134,12 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     var component_table = new HashTable<string, AppStream.Component> (str_hash, str_equal);
 
                     appstream_pool.get_components_by_id (app).as_array ().foreach ((component) => {
-                        var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
-                        if (url == null) {
-                            // Ignore components without a bugtracker URL because rows that just show
-                            // a component name and can't take users to report issues are useless
-                            warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
+                        if (component_table[component.id] != null) {
                             return;
                         }
 
-                        if (component_table[component.id] == null) {
-                            component_table[component.id] = component;
-
-                            var repo_row = new RepoRow (
-                                component.name,
-                                icon_from_appstream_component (component),
-                                Category.DEFAULT_APPS,
-                                url
-                            );
-
-                            listbox.append (repo_row);
-                        }
+                        component_table[component.id] = component;
+                        append_row_from_component (component, DEFAULT_APPS);
                     });
                 }
 
@@ -162,22 +148,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                     components.foreach ((component) => {
                         // FIXME: This should use kind != DESKTOP_APP but some metainfo is currently inaccurate
                         if (component.kind != ADDON && !(component.id in app_entries)) {
-                            var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
-                            if (url == null) {
-                                // Ignore components without a bugtracker URL because rows that just show
-                                // a component name and can't take users to report issues are useless
-                                warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
-                                return;
-                            }
-
-                            var repo_row = new RepoRow (
-                                component.name,
-                                icon_from_appstream_component (component),
-                                Category.SYSTEM,
-                                url
-                            );
-
-                            listbox.append (repo_row);
+                            append_row_from_component (component, SYSTEM);
                         }
                     });
 
@@ -185,41 +156,11 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
                 });
 
                 appstream_pool.get_components_by_extends ("io.elementary.settings").as_array ().foreach ((component) => {
-                    var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
-                    if (url == null) {
-                        // Ignore components without a bugtracker URL because rows that just show
-                        // a component name and can't take users to report issues are useless
-                        warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
-                        return;
-                    }
-
-                    var repo_row = new RepoRow (
-                        component.name,
-                        icon_from_appstream_component (component),
-                        Category.SETTINGS,
-                        url
-                    );
-
-                    listbox.append (repo_row);
+                    append_row_from_component (component, SETTINGS);
                 });
 
                 appstream_pool.get_components_by_extends ("io.elementary.wingpanel").as_array ().foreach ((component) => {
-                    var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
-                    if (url == null) {
-                        // Ignore components without a bugtracker URL because rows that just show
-                        // a component name and can't take users to report issues are useless
-                        warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
-                        return;
-                    }
-
-                    var repo_row = new RepoRow (
-                        component.name,
-                        icon_from_appstream_component (component),
-                        Category.PANEL,
-                        url
-                    );
-
-                    listbox.append (repo_row);
+                    append_row_from_component (component, PANEL);
                 });
             } catch (Error e) {
                 critical (e.message);
@@ -363,6 +304,25 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             listbox.select_row (null);
             search_entry.text = "";
         });
+    }
+
+    private void append_row_from_component (AppStream.Component component, Feedback.MainWindow.Category category) {
+        var url = component.get_url (AppStream.UrlKind.BUGTRACKER);
+        if (url == null) {
+            // Ignore components without a bugtracker URL because rows that just show
+            // a component name and can't take users to report issues are useless
+            warning ("BUGTRACKER URL is not set in the component '%s'", component.name);
+            return;
+        }
+
+        var repo_row = new RepoRow (
+            component.name,
+            icon_from_appstream_component (component),
+            category,
+            url
+        );
+
+        listbox.append (repo_row);
     }
 
     private void launch_from_row (RepoRow row) {
