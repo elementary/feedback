@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-11-28 20:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/sv/>\n"
@@ -52,10 +52,8 @@ msgstr ""
 "systeminställningssida eller skrivbordskomponent."
 
 #: src/MainWindow.vala:208
-#, fuzzy
-#| msgid "Desktop Components"
 msgid "Components"
-msgstr "Skrivbordskomponenter"
+msgstr "Komponenter"
 
 #: src/MainWindow.vala:220
 msgid "Cancel"
@@ -71,10 +69,8 @@ msgid "No results found for “%s”"
 msgstr "Inga resultat hittades för \"%s\""
 
 #: src/MainWindow.vala:316
-#, fuzzy
-#| msgid "Search"
 msgid "Search Results"
-msgstr "Sök"
+msgstr "Sökresultat"
 
 #: src/MainWindow.vala:449
 msgid "Panel Indicators"
