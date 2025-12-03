@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2025-08-02 18:55+0000\n"
+"PO-Revision-Date: 2025-12-04 09:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/be/>\n"
@@ -56,7 +56,7 @@ msgstr "Паляпшэнні:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Add Maps and Monitor"
-msgstr ""
+msgstr "Даданыя Карты і Манітор"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
