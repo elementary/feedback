@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2025-07-26 19:55+0000\n"
+"PO-Revision-Date: 2025-12-04 09:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/be/>\n"
@@ -53,10 +53,8 @@ msgstr ""
 "старонку ў наладах або кампанент асяроддзя."
 
 #: src/MainWindow.vala:208
-#, fuzzy
-#| msgid "Desktop Components"
 msgid "Components"
-msgstr "Кампаненты працоўнага стала"
+msgstr "Кампаненты"
 
 #: src/MainWindow.vala:220
 msgid "Cancel"
@@ -72,10 +70,8 @@ msgid "No results found for “%s”"
 msgstr "Па запыту “%s” нічога не знойдзена"
 
 #: src/MainWindow.vala:316
-#, fuzzy
-#| msgid "Search"
 msgid "Search Results"
-msgstr "Пошук"
+msgstr "Рэзультаты пошуку"
 
 #: src/MainWindow.vala:449
 msgid "Panel Indicators"
