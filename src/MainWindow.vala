@@ -236,15 +236,6 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
 
         search_entry.grab_focus ();
 
-        var granite_settings = Granite.Settings.get_default ();
-        var gtk_settings = Gtk.Settings.get_default ();
-
-        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
-
-        granite_settings.notify["prefers-color-scheme"].connect (() => {
-            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
-        });
-
         components_page.bind_property ("title", category_title, "label", SYNC_CREATE);
 
         category_list.row_activated.connect ((row) => {
