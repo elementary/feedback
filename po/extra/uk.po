@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2024-05-14 09:13+0000\n"
+"PO-Revision-Date: 2025-12-18 23:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
-"Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -56,7 +56,7 @@ msgstr "Удосконалення:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Add Maps and Monitor"
-msgstr ""
+msgstr "Додано Мапи й Монітор"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
 #: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
