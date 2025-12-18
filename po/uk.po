@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 21:56+0000\n"
-"PO-Revision-Date: 2023-08-21 22:44+0000\n"
+"PO-Revision-Date: 2025-12-18 23:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
-"Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:30
 msgid "Feedback"
@@ -53,10 +53,8 @@ msgstr ""
 "сторінки налаштувань системи або компонента робочого столу."
 
 #: src/MainWindow.vala:208
-#, fuzzy
-#| msgid "Desktop Components"
 msgid "Components"
-msgstr "Компоненти стільниці"
+msgstr "Компоненти"
 
 #: src/MainWindow.vala:220
 msgid "Cancel"
@@ -72,10 +70,8 @@ msgid "No results found for “%s”"
 msgstr "За запитом “%s” нічого не знайдено"
 
 #: src/MainWindow.vala:316
-#, fuzzy
-#| msgid "Search"
 msgid "Search Results"
-msgstr "Пошук"
+msgstr "Результати пошуку"
 
 #: src/MainWindow.vala:449
 msgid "Panel Indicators"
