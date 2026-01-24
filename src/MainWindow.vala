@@ -1,22 +1,7 @@
 /*
-* Copyright 2019-2020 elementary, Inc. (https://elementary.io)
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public
-* License as published by the Free Software Foundation; either
-* version 3 of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* General Public License for more details.
-*
-* You should have received a copy of the GNU General Public
-* License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA
-*
-*/
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2019-2026 elementary, Inc. (https://elementary.io)
+ */
 
 public class Feedback.MainWindow : Gtk.ApplicationWindow {
     private Gtk.ListBox listbox;
@@ -74,23 +59,21 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var category_page = new Adw.NavigationPage (category_list, _("Categories"));
 
         var back_button = new Granite.BackButton (_("Categories")) {
-            halign = Gtk.Align.START,
-            margin_top = 6,
-            margin_bottom = 6,
-            margin_start = 6
+            halign = START
         };
 
         var category_title = new Gtk.Label ("") {
             hexpand = true,
-            justify = Gtk.Justification.CENTER,
-            margin_start = 6,
-            margin_end = 6,
+            justify = CENTER,
             wrap = true
         };
 
-        var category_header = new Gtk.CenterBox ();
-        category_header.set_start_widget (back_button);
-        category_header.set_center_widget (category_title);
+        var category_header = new Gtk.HeaderBar () {
+            hexpand = true,
+            show_title_buttons = false,
+            title_widget = category_title
+        };
+        category_header.pack_start (back_button);
 
         var spinner = new Gtk.Spinner () {
             halign = Gtk.Align.CENTER,
@@ -172,13 +155,14 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             hscrollbar_policy = Gtk.PolicyType.NEVER
         };
 
-        var repo_list_box = new Gtk.Box (Gtk.Orientation.VERTICAL ,0);
-        repo_list_box.add_css_class (Granite.STYLE_CLASS_VIEW);
-        repo_list_box.append (category_header);
-        repo_list_box.append (new Gtk.Separator (Gtk.Orientation.HORIZONTAL));
-        repo_list_box.append (scrolled);
+        var toolbarview = new Adw.ToolbarView () {
+            content = scrolled,
+            top_bar_style = RAISED_BORDER
+        };
+        toolbarview.add_top_bar (category_header);
+        toolbarview.add_css_class (Granite.STYLE_CLASS_VIEW);
 
-        var components_page = new Adw.NavigationPage (repo_list_box , _("Components"));
+        var components_page = new Adw.NavigationPage (toolbarview, _("Components"));
 
         var navigation_view = new Adw.NavigationView () {
             vexpand = true
