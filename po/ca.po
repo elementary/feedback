@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2025-11-27 08:55+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementaryos.org/projects/desktop/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:15
 msgid "Feedback"
 msgstr "Informació de retorn"
 
-#: src/MainWindow.vala:40
+#: src/MainWindow.vala:25
 msgid "Send feedback for which component?"
 msgstr "De quin component voleu enviar una retroacció?"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:34
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,15 +35,15 @@ msgstr ""
 "Seleccioneu un element de la llista per enviar-ne una retroacció o avisar "
 "d'un problema des del navegador web."
 
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:43
 msgid "Search"
 msgstr "Cerca"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:76
+#: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Categories"
 
-#: src/MainWindow.vala:102
+#: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -52,40 +52,40 @@ msgstr ""
 "indicador del plafó, una pàgina de configuració del sistema o un component "
 "d'escriptori."
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:165
 msgid "Components"
 msgstr "Components"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:181
 msgid "Send Feedback…"
 msgstr "Envieu informació de retorn…"
 
-#: src/MainWindow.vala:315
+#: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
 msgstr "No s'ha trobat cap resultat per a \"%s\""
 
-#: src/MainWindow.vala:316
+#: src/MainWindow.vala:264
 msgid "Search Results"
 msgstr "Resultats de la cerca"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Indicadors del plafó"
 
-#: src/MainWindow.vala:451
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Configuració del sistema"
 
-#: src/MainWindow.vala:453
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Components de l'escriptori"
 
-#: src/MainWindow.vala:455
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Aplicacions per defecte"
 

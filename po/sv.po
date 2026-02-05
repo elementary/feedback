@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2025-11-28 20:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:15
 msgid "Feedback"
 msgstr "Återkoppling"
 
-#: src/MainWindow.vala:40
+#: src/MainWindow.vala:25
 msgid "Send feedback for which component?"
 msgstr "Skicka återkoppling för vilken komponent?"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:34
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,15 +35,15 @@ msgstr ""
 "Välj ett objekt från listan för att skicka återkoppling eller rapportera ett "
 "problem från din webbläsare."
 
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:43
 msgid "Search"
 msgstr "Sök"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:76
+#: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Kategorier"
 
-#: src/MainWindow.vala:102
+#: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -51,39 +51,39 @@ msgstr ""
 "Ändra söktermerna till namnet på en installerad app, panelindikator, "
 "systeminställningssida eller skrivbordskomponent."
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:165
 msgid "Components"
 msgstr "Komponenter"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:181
 msgid "Send Feedback…"
 msgstr "Skicka återkoppling…"
 
-#: src/MainWindow.vala:315
+#: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Inga resultat hittades för \"%s\""
 
-#: src/MainWindow.vala:316
+#: src/MainWindow.vala:264
 msgid "Search Results"
 msgstr "Sökresultat"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Panelindikatorer"
 
-#: src/MainWindow.vala:451
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Systeminställningar"
 
-#: src/MainWindow.vala:453
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Skrivbordskomponenter"
 
-#: src/MainWindow.vala:455
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Standardappar"

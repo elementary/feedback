@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/feedback/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:15
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
-#: src/MainWindow.vala:40
+#: src/MainWindow.vala:25
 msgid "Send feedback for which component?"
 msgstr "Pro kterou součást odeslat zpětnou vazbu?"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:34
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,56 +35,56 @@ msgstr ""
 "Vyberte položku ze seznamu a odešlete zpětnou vazbu či hlášení problému "
 "prostřednictvím webového prohlížeče."
 
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:43
 msgid "Search"
 msgstr ""
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:76
+#: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Kategorie"
 
-#: src/MainWindow.vala:102
+#: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:165
 #, fuzzy
 #| msgid "Desktop Components"
 msgid "Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:181
 msgid "Send Feedback…"
 msgstr "Odeslat zpětnou vazbu…"
 
-#: src/MainWindow.vala:315
+#: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
 msgstr ""
 
-#: src/MainWindow.vala:316
+#: src/MainWindow.vala:264
 msgid "Search Results"
 msgstr ""
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Indikátory na hlavním panelu"
 
-#: src/MainWindow.vala:451
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Nastavení systému"
 
-#: src/MainWindow.vala:453
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Součásti desktopového prostředí"
 
-#: src/MainWindow.vala:455
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Výchozí aplikace"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2025-11-13 07:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/desktop/"
@@ -46,56 +46,61 @@ msgstr "בחירה מרשימה עם סמלים"
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:73
-#: data/feedback.metainfo.xml.in:82 data/feedback.metainfo.xml.in:95
-#: data/feedback.metainfo.xml.in:109 data/feedback.metainfo.xml.in:135
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:86 data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:108 data/feedback.metainfo.xml.in:122
+#: data/feedback.metainfo.xml.in:148
 msgid "Improvements:"
 msgstr "שיפורים:"
 
 #: data/feedback.metainfo.xml.in:65
-msgid "Add Maps and Monitor"
-msgstr "הוספת מפות וצג"
+msgid "Improved screen reader accessibility"
+msgstr ""
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
-#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
-#: data/feedback.metainfo.xml.in:114 data/feedback.metainfo.xml.in:128
-#: data/feedback.metainfo.xml.in:142
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:111 data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:141 data/feedback.metainfo.xml.in:155
 msgid "Updated translations"
 msgstr "התרגומים עודכנו"
 
-#: data/feedback.metainfo.xml.in:84
+#: data/feedback.metainfo.xml.in:78
+msgid "Add Maps and Monitor"
+msgstr "הוספת מפות וצג"
+
+#: data/feedback.metainfo.xml.in:97
 msgid "Fix missing help when a search has no results"
 msgstr "תוקנה עזרה חסרה כשלחיפוש לא חזרו תוצאות"
 
-#: data/feedback.metainfo.xml.in:97
+#: data/feedback.metainfo.xml.in:110
 msgid "Don't include apps or addons in Desktop category"
 msgstr "לא ייכללו יישומים או תוספים בקטגוריית שולחן העבודה"
 
-#: data/feedback.metainfo.xml.in:111
+#: data/feedback.metainfo.xml.in:124
 msgid "Launch instantly"
 msgstr "טעינה מיידית"
 
-#: data/feedback.metainfo.xml.in:112
+#: data/feedback.metainfo.xml.in:125
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr "ניווט בעזרת המקלדת השתפרה והפעלה בלחיצה כפולה"
 
-#: data/feedback.metainfo.xml.in:113
+#: data/feedback.metainfo.xml.in:126
 msgid "Improve responsiveness for small displays"
 msgstr "השתפרה התגובתיות למסכים קטנים"
 
-#: data/feedback.metainfo.xml.in:125 data/feedback.metainfo.xml.in:140
+#: data/feedback.metainfo.xml.in:138 data/feedback.metainfo.xml.in:153
 msgid "Minor updates:"
 msgstr "עדכונים משניים:"
 
-#: data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:140
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr "מתבצע וידוא שאנחנו מושכים את כל התוספים להגדרות המערכת והלוח"
 
-#: data/feedback.metainfo.xml.in:137
+#: data/feedback.metainfo.xml.in:150
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr "נמנעה גניבת מיקוד בפתיחת דפדפן"
 
-#: data/feedback.metainfo.xml.in:138
+#: data/feedback.metainfo.xml.in:151
 msgid "Show more entries under Desktop Components"
 msgstr "הצגת רשומות נוספות תחת רכיבי שולחן העבודה"
 
