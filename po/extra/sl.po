@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2024-08-07 17:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
@@ -48,56 +48,61 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:73
-#: data/feedback.metainfo.xml.in:82 data/feedback.metainfo.xml.in:95
-#: data/feedback.metainfo.xml.in:109 data/feedback.metainfo.xml.in:135
+#: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
+#: data/feedback.metainfo.xml.in:86 data/feedback.metainfo.xml.in:95
+#: data/feedback.metainfo.xml.in:108 data/feedback.metainfo.xml.in:122
+#: data/feedback.metainfo.xml.in:148
 msgid "Improvements:"
 msgstr "Izboljšave:"
 
 #: data/feedback.metainfo.xml.in:65
-msgid "Add Maps and Monitor"
+msgid "Improved screen reader accessibility"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:75
-#: data/feedback.metainfo.xml.in:85 data/feedback.metainfo.xml.in:98
-#: data/feedback.metainfo.xml.in:114 data/feedback.metainfo.xml.in:128
-#: data/feedback.metainfo.xml.in:142
+#: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
+#: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
+#: data/feedback.metainfo.xml.in:111 data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:141 data/feedback.metainfo.xml.in:155
 msgid "Updated translations"
 msgstr "Posodobljeni prevodi"
 
-#: data/feedback.metainfo.xml.in:84
-msgid "Fix missing help when a search has no results"
+#: data/feedback.metainfo.xml.in:78
+msgid "Add Maps and Monitor"
 msgstr ""
 
 #: data/feedback.metainfo.xml.in:97
+msgid "Fix missing help when a search has no results"
+msgstr ""
+
+#: data/feedback.metainfo.xml.in:110
 msgid "Don't include apps or addons in Desktop category"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:111
+#: data/feedback.metainfo.xml.in:124
 msgid "Launch instantly"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:112
+#: data/feedback.metainfo.xml.in:125
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:113
+#: data/feedback.metainfo.xml.in:126
 msgid "Improve responsiveness for small displays"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:125 data/feedback.metainfo.xml.in:140
+#: data/feedback.metainfo.xml.in:138 data/feedback.metainfo.xml.in:153
 msgid "Minor updates:"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:127
+#: data/feedback.metainfo.xml.in:140
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:137
+#: data/feedback.metainfo.xml.in:150
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
 
-#: data/feedback.metainfo.xml.in:138
+#: data/feedback.metainfo.xml.in:151
 msgid "Show more entries under Desktop Components"
 msgstr ""
 
