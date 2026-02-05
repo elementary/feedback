@@ -58,6 +58,19 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.1.1" date="2026-02-04" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Improved screen reader accessibility</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/feedback/issues/129">feedback_repo_row_construct: assertion 'url != NULL' failed</issue>
+      </issues>
+    </release>
+
     <release version="8.1.0" date="2025-11-18" urgency="medium">
       <description>
         <p>Improvements:</p>
