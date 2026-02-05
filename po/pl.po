@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2025-07-07 19:55+0000\n"
 "Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementaryos.org/projects/desktop/"
@@ -20,15 +20,15 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:15
 msgid "Feedback"
 msgstr "Wyraź opinię"
 
-#: src/MainWindow.vala:40
+#: src/MainWindow.vala:25
 msgid "Send feedback for which component?"
 msgstr "Dla którego komponentu chcesz wysłać opinię?"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:34
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -36,15 +36,15 @@ msgstr ""
 "Wybierz składnik z listy, aby wysłać opinię lub zgłosić problem w "
 "przeglądarce internetowej."
 
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:43
 msgid "Search"
 msgstr "Szukaj"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:76
+#: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Kategorie"
 
-#: src/MainWindow.vala:102
+#: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
@@ -52,44 +52,44 @@ msgstr ""
 "Zmień wyszukiwane wyrażenia na nazwę zainstalowanej aplikacji, indykatora "
 "panelu, strony ustawień systemu lub komponentu systemu."
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:165
 #, fuzzy
 #| msgid "Desktop Components"
 msgid "Components"
 msgstr "Komponenty pulpitu"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:181
 msgid "Send Feedback…"
 msgstr "Wyślij opinię…"
 
-#: src/MainWindow.vala:315
+#: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Nie znaleziono wyników dla „%s”"
 
-#: src/MainWindow.vala:316
+#: src/MainWindow.vala:264
 #, fuzzy
 #| msgid "Search"
 msgid "Search Results"
 msgstr "Szukaj"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Wskaźniki panelu"
 
-#: src/MainWindow.vala:451
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Ustawienia systemu"
 
-#: src/MainWindow.vala:453
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Komponenty pulpitu"
 
-#: src/MainWindow.vala:455
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Domyślne programy"
 

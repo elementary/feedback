@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-25 21:56+0000\n"
+"POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2024-02-23 03:12+0000\n"
 "Last-Translator: \"baguskusumaloka@gmail.com\" <baguskusumaloka@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.0.2\n"
 
-#: src/MainWindow.vala:30
+#: src/MainWindow.vala:15
 msgid "Feedback"
 msgstr "Umpan Balik"
 
-#: src/MainWindow.vala:40
+#: src/MainWindow.vala:25
 msgid "Send feedback for which component?"
 msgstr "Kirim umpan balik untuk komponen yang mana?"
 
-#: src/MainWindow.vala:49
+#: src/MainWindow.vala:34
 msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
@@ -35,58 +35,58 @@ msgstr ""
 "Pilih item dari daftar untuk mengirim umpan balik atau melaporkan masalah "
 "dari peramban web anda."
 
-#: src/MainWindow.vala:58
+#: src/MainWindow.vala:43
 msgid "Search"
 msgstr "Pencarian"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:76
+#: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
 msgstr "Kategori"
 
-#: src/MainWindow.vala:102
+#: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:165
 #, fuzzy
 #| msgid "Desktop Components"
 msgid "Components"
 msgstr "Komponen Desktop"
 
-#: src/MainWindow.vala:220
+#: src/MainWindow.vala:177
 msgid "Cancel"
 msgstr "Batal"
 
-#: src/MainWindow.vala:224
+#: src/MainWindow.vala:181
 msgid "Send Feedback…"
 msgstr "Kirim Umpan Balik…"
 
-#: src/MainWindow.vala:315
+#: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
 msgstr "Tidak ada hasil untuk \"%s\""
 
-#: src/MainWindow.vala:316
+#: src/MainWindow.vala:264
 #, fuzzy
 #| msgid "Search"
 msgid "Search Results"
 msgstr "Pencarian"
 
-#: src/MainWindow.vala:449
+#: src/MainWindow.vala:416
 msgid "Panel Indicators"
 msgstr "Indikator Panel"
 
-#: src/MainWindow.vala:451
+#: src/MainWindow.vala:418
 msgid "System Settings"
 msgstr "Pengaturan Sistem"
 
-#: src/MainWindow.vala:453
+#: src/MainWindow.vala:420
 msgid "Desktop Components"
 msgstr "Komponen Desktop"
 
-#: src/MainWindow.vala:455
+#: src/MainWindow.vala:422
 msgid "Default Apps"
 msgstr "Aplikasi Standar"
 
