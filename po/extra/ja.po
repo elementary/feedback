@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2025-11-13 07:55+0000\n"
+"PO-Revision-Date: 2026-02-06 22:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -56,7 +56,7 @@ msgstr "改善点:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "スクリーンリーダーのアクセシビリティを改善"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
