@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2025-11-09 16:55+0000\n"
+"PO-Revision-Date: 2026-02-08 07:55+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/ru/>\n"
@@ -57,7 +57,7 @@ msgstr "Улучшения:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "Улучшена доступность для экранного диктора"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
