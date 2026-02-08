@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2025-11-06 01:55+0000\n"
+"PO-Revision-Date: 2026-02-09 22:56+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
 "Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/es/>\n"
@@ -56,7 +56,7 @@ msgstr "Mejoras:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "Se mejoró la accesibilidad para los lectores de pantalla"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
