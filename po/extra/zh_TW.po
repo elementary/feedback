@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2025-11-30 19:55+0000\n"
+"PO-Revision-Date: 2026-03-02 01:51+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "l10n.elementaryos.org/projects/desktop/feedback-extra/zh_TW/>\n"
@@ -54,7 +54,7 @@ msgstr "改善項目："
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "改善螢幕閱讀器輔助"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
