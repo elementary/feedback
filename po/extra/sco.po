@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2025-05-22 13:55+0000\n"
+"PO-Revision-Date: 2026-04-04 02:32+0000\n"
 "Last-Translator: Buni <ben.gordon@posteo.de>\n"
 "Language-Team: Scots <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/sco/>\n"
@@ -50,7 +50,7 @@ msgstr "elementary, Inc."
 #: data/feedback.metainfo.xml.in:108 data/feedback.metainfo.xml.in:122
 #: data/feedback.metainfo.xml.in:148
 msgid "Improvements:"
-msgstr "Imbetterments:"
+msgstr "Impruivements:"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
@@ -61,7 +61,7 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:111 data/feedback.metainfo.xml.in:127
 #: data/feedback.metainfo.xml.in:141 data/feedback.metainfo.xml.in:155
 msgid "Updated translations"
-msgstr "Rewerkt translaitions"
+msgstr "Rewrocht translaitions"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Add Maps and Monitor"
