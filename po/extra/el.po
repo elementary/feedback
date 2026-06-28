@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
 "PO-Revision-Date: 2026-06-29 07:12+0000\n"
-"Last-Translator: kalligator <kalligator+github@gmail.com>\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/el/>\n"
 "Language: el\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
-msgstr ""
+msgstr "Ανατροφοδότηση"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
