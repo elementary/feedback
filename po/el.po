@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-06-29 07:12+0000\n"
+"PO-Revision-Date: 2026-06-30 08:15+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/el/>\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Δεν βρέθηκαν αποτελέσματα για «%s»"
 
 #: src/MainWindow.vala:264
 msgid "Search Results"
