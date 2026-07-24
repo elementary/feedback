@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-06-30 08:15+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/el/>\n"
@@ -57,7 +57,7 @@ msgstr "Ακύρωση"
 
 #: src/MainWindow.vala:181
 msgid "Send Feedback…"
-msgstr ""
+msgstr "Αποστολή σχολίων…"
 
 #: src/MainWindow.vala:263
 #, c-format
@@ -66,7 +66,7 @@ msgstr "Δεν βρέθηκαν αποτελέσματα για «%s»"
 
 #: src/MainWindow.vala:264
 msgid "Search Results"
-msgstr ""
+msgstr "Αποτελέσματα αναζήτησης"
 
 #: src/MainWindow.vala:416
 msgid "Panel Indicators"
@@ -74,12 +74,12 @@ msgstr ""
 
 #: src/MainWindow.vala:418
 msgid "System Settings"
-msgstr ""
+msgstr "Ρυθμίσεις συστήματος"
 
 #: src/MainWindow.vala:420
 msgid "Desktop Components"
-msgstr ""
+msgstr "Στοιχεία επιφάνειας εργασίας"
 
 #: src/MainWindow.vala:422
 msgid "Default Apps"
-msgstr ""
+msgstr "Προεπιλεγμένες εφαρμογές"
