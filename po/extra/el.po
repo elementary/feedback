@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-07-10 08:09+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/el/>\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:124
 msgid "Launch instantly"
-msgstr ""
+msgstr "Άμεση εκκίνηση"
 
 #: data/feedback.metainfo.xml.in:125
 msgid "Improved keyboard navigation and add double-click launch"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Αναφορά προβλήματος"
 
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
