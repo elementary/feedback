@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.feedback\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-09-15 13:03+0000\n"
+"PO-Revision-Date: 2026-10-03 18:03+0000\n"
 "Last-Translator: Flynn <flynn@users.noreply.l10n.elementaryos.org>\n"
 "Language-Team: Cornish <https://l10n.elementaryos.org/projects/desktop/"
 "feedback/kw/>\n"
@@ -38,54 +38,58 @@ msgid ""
 "Select an item from the list to send feedback or report a problem from your "
 "web browser."
 msgstr ""
+"Dewisewgh taklen a'n rol rag danvon dasliv po derivas kudyn dhyworth agas "
+"peurell wi."
 
 #: src/MainWindow.vala:43
 msgid "Search"
-msgstr ""
+msgstr "Hwilas"
 
 #: src/MainWindow.vala:59 src/MainWindow.vala:61
 msgid "Categories"
-msgstr ""
+msgstr "Klassys"
 
 #: src/MainWindow.vala:85
 msgid ""
 "Change search terms to the name of an installed app, panel indicator, system "
 "settings page, or desktop component."
 msgstr ""
+"Chanjya termys hwilas dhe hanow app, menek panel, folen settyansow kevreyth, "
+"po rann dhesktop leys."
 
 #: src/MainWindow.vala:165
 msgid "Components"
-msgstr ""
+msgstr "Rannow"
 
 #: src/MainWindow.vala:177
 msgid "Cancel"
-msgstr ""
+msgstr "Hedhi"
 
 #: src/MainWindow.vala:181
 msgid "Send Feedback…"
-msgstr ""
+msgstr "Danvon Dasliv…"
 
 #: src/MainWindow.vala:263
 #, c-format
 msgid "No results found for “%s”"
-msgstr ""
+msgstr "Nyns eus sewyansow kevys rag “%s”"
 
 #: src/MainWindow.vala:264
 msgid "Search Results"
-msgstr ""
+msgstr "Sewyansow Hwithrans"
 
 #: src/MainWindow.vala:416
 msgid "Panel Indicators"
-msgstr ""
+msgstr "Menegow Panel"
 
 #: src/MainWindow.vala:418
 msgid "System Settings"
-msgstr ""
+msgstr "Settyansow Kevreyth"
 
 #: src/MainWindow.vala:420
 msgid "Desktop Components"
-msgstr ""
+msgstr "Rannow Desktop"
 
 #: src/MainWindow.vala:422
 msgid "Default Apps"
-msgstr ""
+msgstr "Appys Defowt"
