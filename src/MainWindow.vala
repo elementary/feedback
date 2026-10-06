@@ -22,20 +22,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             valign = Gtk.Align.START
         };
 
-        var primary_label = new Gtk.Label (_("Send feedback for which component?")) {
+        var header_label = new Granite.HeaderLabel (_("Send feedback for which component?")) {
             hexpand = true,
-            selectable = true,
-            max_width_chars = 50,
-            wrap = true,
-            xalign = 0
-        };
-        primary_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
-
-        var secondary_label = new Gtk.Label (_("Select an item from the list to send feedback or report a problem from your web browser.")) {
-            selectable = true,
-            max_width_chars = 50,
-            wrap = true,
-            xalign = 0
+            secondary_text = _("Select an item from the list to send feedback or report a problem from your web browser."),
+            size = H3
         };
 
         search_entry = new Gtk.SearchEntry () {
@@ -181,7 +171,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
         var report_button = new Gtk.Button.with_label (_("Send Feedback…")) {
             sensitive = false
         };
-        report_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        report_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         var button_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             halign = Gtk.Align.END,
@@ -195,9 +185,8 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             column_spacing = 12
         };
         grid.add_css_class ("dialog-content-area");
-        grid.attach (image_icon, 0, 0, 1, 2);
-        grid.attach (primary_label, 1, 0);
-        grid.attach (secondary_label, 1, 1);
+        grid.attach (image_icon, 0, 0);
+        grid.attach (header_label, 1, 0);
         grid.attach (search_entry, 0, 2, 2);
         grid.attach (frame, 0, 3, 2);
 
