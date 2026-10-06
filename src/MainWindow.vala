@@ -389,7 +389,7 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
          "io.elementary.feedback",
          "org.gnome.Evince",
          "org.gnome.Epiphany",
-         "org.gnome.font-viewer.desktop",
+         "org.gnome.font-viewer",
          "io.elementary.files",
          "io.elementary.mail",
          "io.elementary.maps",
