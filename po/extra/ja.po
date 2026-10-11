@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-02-06 22:55+0000\n"
+"PO-Revision-Date: 2026-10-12 08:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: data/feedback.metainfo.xml.in:10 data/feedback.desktop.in:6
 msgid "Feedback"
@@ -100,8 +100,8 @@ msgstr "システム設定およびパネルの全拡張機能を確実に取得
 #: data/feedback.metainfo.xml.in:150
 msgid "Avoid focus stealing prevention when opening a web browser"
 msgstr ""
-"Web ブラウザーを開くと、フォーカスが“フィードバック”から遷移してしまう不具合"
-"を修正"
+"ウェブブラウザーを開くと、フォーカスが“フィードバック”から遷移してしまう不具"
+"合を修正"
 
 #: data/feedback.metainfo.xml.in:151
 msgid "Show more entries under Desktop Components"
