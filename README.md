@@ -9,7 +9,7 @@ GitHub Issue Reporter
 
 You'll need the following dependencies:
 * libappstream-dev (>=1.0.0)
-* libgranite-7-dev (>=7.7.0)
+* libgranite-9-dev
 * libgtk-4-dev (>=4.10)
 * libadwaita-1-dev (>=1.4.0)
 * meson
