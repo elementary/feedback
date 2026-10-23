@@ -145,12 +145,10 @@ public class Feedback.MainWindow : Gtk.ApplicationWindow {
             hscrollbar_policy = Gtk.PolicyType.NEVER
         };
 
-        var toolbarview = new Adw.ToolbarView () {
-            content = scrolled,
-            top_bar_style = RAISED_BORDER
+        var toolbarview = new Granite.ToolBox () {
+            content = scrolled
         };
         toolbarview.add_top_bar (category_header);
-        toolbarview.add_css_class (Granite.STYLE_CLASS_VIEW);
 
         var components_page = new Adw.NavigationPage (toolbarview, _("Components"));
 
