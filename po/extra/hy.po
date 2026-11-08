@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-11-06 14:04+0000\n"
+"PO-Revision-Date: 2026-11-09 21:04+0000\n"
 "Last-Translator: Davit Yedigaryan <davit.yedigaryan.1993@gmail.com>\n"
 "Language-Team: Armenian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/hy/>\n"
@@ -43,14 +43,14 @@ msgstr ""
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/feedback.metainfo.xml.in:63 data/feedback.metainfo.xml.in:76
 #: data/feedback.metainfo.xml.in:86 data/feedback.metainfo.xml.in:95
 #: data/feedback.metainfo.xml.in:108 data/feedback.metainfo.xml.in:122
 #: data/feedback.metainfo.xml.in:148
 msgid "Improvements:"
-msgstr ""
+msgstr "Բարելավումներ՝"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
@@ -61,7 +61,7 @@ msgstr ""
 #: data/feedback.metainfo.xml.in:111 data/feedback.metainfo.xml.in:127
 #: data/feedback.metainfo.xml.in:141 data/feedback.metainfo.xml.in:155
 msgid "Updated translations"
-msgstr ""
+msgstr "Թարմացված թարգմանություններ"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Add Maps and Monitor"
