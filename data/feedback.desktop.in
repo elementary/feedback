@@ -11,3 +11,4 @@ Icon=io.elementary.feedback
 Exec=io.elementary.feedback
 Terminal=false
 StartupNotify=true
+OnlyShowIn=Pantheon;
