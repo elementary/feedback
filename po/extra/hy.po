@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 18:31+0000\n"
-"PO-Revision-Date: 2026-11-09 21:04+0000\n"
+"PO-Revision-Date: 2026-11-15 21:04+0000\n"
 "Last-Translator: Davit Yedigaryan <davit.yedigaryan.1993@gmail.com>\n"
 "Language-Team: Armenian <https://l10n.elementaryos.org/projects/desktop/"
 "feedback-extra/hy/>\n"
@@ -25,21 +25,23 @@ msgstr "Հետադարձ կապ"
 
 #: data/feedback.metainfo.xml.in:11
 msgid "File issue reports"
-msgstr ""
+msgstr "Ուղարկել խնդրի հաշվետվությունները"
 
 #: data/feedback.metainfo.xml.in:13
 msgid ""
 "Browse installed components by category and quickly find their online issue "
 "trackers."
 msgstr ""
+"Դիտեք տեղադրված բաղադրիչները ըստ կատեգորիայի և արագ գտեք դրանց առցանց "
+"խնդիրների հետագծիչները։"
 
 #: data/feedback.metainfo.xml.in:18
 msgid "Filter components by category"
-msgstr ""
+msgstr "Զտել բաղադրիչները ըստ կատեգորիայի"
 
 #: data/feedback.metainfo.xml.in:22
 msgid "Select from a list with icons"
-msgstr ""
+msgstr "Ընտրություն պատկերակներով ցանկից"
 
 #: data/feedback.metainfo.xml.in:55
 msgid "elementary, Inc."
@@ -54,7 +56,7 @@ msgstr "Բարելավումներ՝"
 
 #: data/feedback.metainfo.xml.in:65
 msgid "Improved screen reader accessibility"
-msgstr ""
+msgstr "Բարելավվել է հասանելիությունը էկրանի ընթերցիչի համար"
 
 #: data/feedback.metainfo.xml.in:66 data/feedback.metainfo.xml.in:79
 #: data/feedback.metainfo.xml.in:88 data/feedback.metainfo.xml.in:98
@@ -65,48 +67,50 @@ msgstr "Թարմացված թարգմանություններ"
 
 #: data/feedback.metainfo.xml.in:78
 msgid "Add Maps and Monitor"
-msgstr ""
+msgstr "Ավելացվել են Maps-ը և Monitor-ը"
 
 #: data/feedback.metainfo.xml.in:97
 msgid "Fix missing help when a search has no results"
-msgstr ""
+msgstr "Շտկվել է բացակայող օգնությունը, երբ որոնումը արդյունք չի տալիս"
 
 #: data/feedback.metainfo.xml.in:110
 msgid "Don't include apps or addons in Desktop category"
-msgstr ""
+msgstr "Հավելվածները և հավելումները չեն ներառվում «Աշխատասեղան» կատեգորիայում"
 
 #: data/feedback.metainfo.xml.in:124
 msgid "Launch instantly"
-msgstr ""
+msgstr "Ակնթարթային գործարկում"
 
 #: data/feedback.metainfo.xml.in:125
 msgid "Improved keyboard navigation and add double-click launch"
 msgstr ""
+"Բարելավվել է ստեղնաշարով նավարկումը և ավելացվել է երկկտտոցով գործարկումը"
 
 #: data/feedback.metainfo.xml.in:126
 msgid "Improve responsiveness for small displays"
-msgstr ""
+msgstr "Բարելավվել է հարմարվողականությունը փոքր էկրանների համար"
 
 #: data/feedback.metainfo.xml.in:138 data/feedback.metainfo.xml.in:153
 msgid "Minor updates:"
-msgstr ""
+msgstr "Փոքր թարմացումներ՝"
 
 #: data/feedback.metainfo.xml.in:140
 msgid "Make sure we fetch all addons for System Settings and the Panel"
 msgstr ""
+"Ապահովվել է Համակարգի կարգավորումների և Վահանակի բոլոր հավելումների բեռնումը"
 
 #: data/feedback.metainfo.xml.in:150
 msgid "Avoid focus stealing prevention when opening a web browser"
-msgstr ""
+msgstr "Վեբ զննարկիչը բացելիս խուսափեք ֆոկուսի կորստի կանխարգելումից"
 
 #: data/feedback.metainfo.xml.in:151
 msgid "Show more entries under Desktop Components"
-msgstr ""
+msgstr "Ցուցադրվում են ավելի շատ գրառումներ «Աշխատասեղանի բաղադրիչներ» բաժնում"
 
 #: data/feedback.desktop.in:7
 msgid "Report a problem"
-msgstr ""
+msgstr "Հաղորդել խնդրի մասին"
 
 #: data/feedback.desktop.in:9
 msgid "bug;issue;report;"
-msgstr ""
+msgstr "bug;issue;report;"
